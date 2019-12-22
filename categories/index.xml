@@ -5,12 +5,20 @@
     <link>/categories/</link>
       <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Dec 2019 22:50:24 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Categories</title>
       <link>/categories/</link>
     </image>
+    
+    <item>
+      <title>Spectral Clustering</title>
+      <link>/categories/spectral-clustering/</link>
+      <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
+      <guid>/categories/spectral-clustering/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

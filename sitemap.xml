@@ -3,19 +3,162 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/class-imbalance/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ensemble-learning/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/hongmin-li/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/patient-heterogeneity/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pei-wei-shueng/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/risk-factors/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/secondary-cancer/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/spectral-clustering/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/tetsuya-sakurai/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/xiucai-ye/</loc>
+    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/akira-imakura/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dimensionality-reduction-and-manifold-learning/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/feature-selection/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/learning-sparse-models/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/unsupervised-learning/</loc>
+    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hubness/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/large-scale/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/lsch/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sparse-representation/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/spectral-clustering/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/zhi-liu/</loc>
+    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>
@@ -23,19 +166,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-  </url>
-  
-  <url>
     <loc>/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>

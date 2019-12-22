@@ -5,12 +5,116 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>class imbalance</title>
+      <link>/tags/class-imbalance/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/tags/class-imbalance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ensemble learning</title>
+      <link>/tags/ensemble-learning/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/tags/ensemble-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patient heterogeneity</title>
+      <link>/tags/patient-heterogeneity/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/tags/patient-heterogeneity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risk factors</title>
+      <link>/tags/risk-factors/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/tags/risk-factors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>secondary cancer</title>
+      <link>/tags/secondary-cancer/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/tags/secondary-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spectral clustering</title>
+      <link>/tags/spectral-clustering/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/tags/spectral-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dimensionality Reduction and Manifold Learning</title>
+      <link>/tags/dimensionality-reduction-and-manifold-learning/</link>
+      <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
+      <guid>/tags/dimensionality-reduction-and-manifold-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature Selection</title>
+      <link>/tags/feature-selection/</link>
+      <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
+      <guid>/tags/feature-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Sparse Models</title>
+      <link>/tags/learning-sparse-models/</link>
+      <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
+      <guid>/tags/learning-sparse-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Learning</title>
+      <link>/tags/unsupervised-learning/</link>
+      <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
+      <guid>/tags/unsupervised-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hubness</title>
+      <link>/tags/hubness/</link>
+      <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
+      <guid>/tags/hubness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Scale</title>
+      <link>/tags/large-scale/</link>
+      <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
+      <guid>/tags/large-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Representation</title>
+      <link>/tags/sparse-representation/</link>
+      <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
+      <guid>/tags/sparse-representation/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

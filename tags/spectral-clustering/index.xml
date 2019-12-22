@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spectral clustering | Academic</title>
+    <link>/tags/spectral-clustering/</link>
+      <atom:link href="/tags/spectral-clustering/index.xml" rel="self" type="application/rss+xml" />
+    <description>spectral clustering</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>spectral clustering</title>
+      <link>/tags/spectral-clustering/</link>
+    </image>
+    
+    <item>
+      <title>Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer</title>
+      <link>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
+      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
+      <guid>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Scale Spectral Clustering Using Sparse Representation Based on Hubness</title>
+      <link>/publication/lsch/</link>
+      <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
+      <guid>/publication/lsch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
