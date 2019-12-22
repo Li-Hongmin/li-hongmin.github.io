@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站，博客 | Li Hongmin</title>
+    <link>/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</link>
+      <atom:link href="/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <description>建站，博客</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 23:38:25 +0900</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>建站，博客</title>
+      <link>/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</link>
+    </image>
+    
+    <item>
+      <title>【学习笔记】用Hugo建站来写个人博客 Day1</title>
+      <link>/post/191217hugo/</link>
+      <pubDate>Sun, 22 Dec 2019 23:38:25 +0900</pubDate>
+      <guid>/post/191217hugo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heading&#34;&gt;缘起&lt;/h1&gt;
+&lt;p&gt;我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。
+我于是开始尝试使用个人博客来记录学习过程整理思路，之后还能做一些页面展示研究成果。&lt;/p&gt;
+&lt;p&gt;通过一番考察我选择先用&lt;a href=&#34;gohugo.io&#34;&gt;Hugo&lt;/a&gt;建立一个网站。
+详细Hugo是什么请读者自行了解，我理解就是go语言写的快捷建站工具，并且只要用markdown语言就可以写页面了。
+同时在过程中把自己的心得分享出来供后来者参考。&lt;/p&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;安装和一键建站&lt;/h1&gt;
+&lt;p&gt;这里我主要参考官网的&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Quick Start&lt;/a&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 Hugo
+我的环境时macOS，使用Homebrew安装：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;brew install hugo
+hugo version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后得到这样的信息：Hugo Static Site Generator v0.61.0/extended darwin/amd64 BuildDate: unknown。&lt;/p&gt;
+&lt;p&gt;另外说Homebrew是一个非常好的软件管理软件，一行代码就安装好了，如果还没有试过的人一定要尝试一下。&lt;/p&gt;
+&lt;p&gt;如果是Windows或linux用户的话参考&lt;a href=&#34;https://gohugo.io/getting-started/installing&#34;&gt;这里&lt;/a&gt;进行安装。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;一键建站&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在terminal或命令行里找个合适的文件路径，执行以下命令。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo new site yourFolderName
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时Hugo会生成一个网站模版。命令中_yourFolderName_就是文件夹名，可以随便起。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;添加主题&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;主题是Hugo的一大优势，海量主题任你选。这里是&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;主题库&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我们这里就用官方教程里的Ananke。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;cd quickstart
+
+# Download the theme
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+# Note for non-git users:
+#   - If you do not have git installed, you can download the archive of the latest
+#     version of this theme from:
+#       https://github.com/budparr/gohugo-theme-ananke/archive/master.zip
+#   - Extract that .zip file to get a &amp;quot;gohugo-theme-ananke-master&amp;quot; directory.
+#   - Rename that directory to &amp;quot;ananke&amp;quot;, and move it into the &amp;quot;themes/&amp;quot; directory.
+# End of note for non-git users.
+
+# Edit your config.toml configuration file
+# and add the Ananke theme.
+echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;添加页面&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;生成第一个页面。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo new posts/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第一个页面看起来像这样：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;My First Post&amp;quot;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以用你喜欢的IDE来写markdown文件，直接就可以生成网站了。&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;运行Hugo服务器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;终于到来一键生成网站的时候了，虽然这里的一键是一行命令。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后提示&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;浏览器打开&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;看看是不是成功了。&lt;/p&gt;
+&lt;p&gt;看上去就像是&lt;a href=&#34;https://li-hongmin.github.io/blog/&#34;&gt;这样子&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;总结&lt;/h1&gt;
+&lt;p&gt;简单易学，一行命令完事。&lt;/p&gt;
+&lt;p&gt;建站大坑，容我慢慢来填。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

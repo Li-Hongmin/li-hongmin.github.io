@@ -5,12 +5,197 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Li Hongmin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 23:53:20 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Li Hongmin</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>【学习笔记】用Hugo建站来写个人博客 Day2</title>
+      <link>/post/191222_hugo/</link>
+      <pubDate>Sun, 22 Dec 2019 23:53:20 +0900</pubDate>
+      <guid>/post/191222_hugo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;上次我们已经做个一个网站在本地了，这次要把它部署到Github pages上。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本文主要参考&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;hugo官方文档&lt;/a&gt;,需要github和本地两别操作。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heading&#34;&gt;部署前的准备&lt;/h1&gt;
+&lt;p&gt;首先要确认三点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确认本地有无&lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;git&lt;/a&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;git --version
+# git version 2.21.0 (Apple Git-122.2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;确认&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;账号有无，可以免费申请一个。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;已经有一个可以发布的Hugo网站&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;github-pages&#34;&gt;两种GitHub Pages&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;User/Organization Pages (https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/)&lt;/li&gt;
+&lt;li&gt;Project Pages (https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/&lt;PROJECT&gt;/)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;部署设置&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在github创建新的pages repository，如果是第一种就把&amp;lt;USERNAME|ORGANIZATION&amp;gt;换成你的用户名或者组织名，则输入如下图：
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;creatpages.png&#34; data-caption=&#34;我因为已经有同名的repository了，所以不可以创建。&#34;&gt;
+&lt;img src=&#34;creatpages.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    我因为已经有同名的repository了，所以不可以创建。
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;再用同样的方法在github创建新的repository用来放hugo的文件，以下用&lt;code&gt;&amp;lt;YOUR-PROJECT&amp;gt;&lt;/code&gt;代替这个repository的名字&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地git clone，把&lt;code&gt;&amp;lt;YOUR-PROJECT-URL&amp;gt;&lt;/code&gt;换成网页url地址，在合适的目录下执行命令:
+&lt;code&gt;git clone &amp;lt;YOUR-PROJECT-URL&amp;gt; &amp;amp;&amp;amp; cd &amp;lt;YOUR-PROJECT&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;复制粘贴之前hugo的文件到clone的目录下面。用&lt;code&gt;hugo server&lt;/code&gt;来检查下正不正常，浏览器打开&lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;测试过后，用&lt;code&gt;rm -rf public/&lt;/code&gt;来移除所有public下的文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建一个submodule：&lt;code&gt;git submodule add -b master git@github.com:&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这个submodule就会同步到&lt;code&gt;&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt;，而整个本地目录会同步到&lt;code&gt;&amp;lt;YOUR-PROJECT&amp;gt;&lt;/code&gt;这里。&lt;/p&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;部署网站&lt;/h1&gt;
+&lt;h2 id=&#34;heading-3&#34;&gt;生成网站并部署&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo
+cd public
+git add .
+git commit -m &amp;quot;Build website&amp;quot;
+git push origin master
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这样应就可以了，浏览器打开&lt;code&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt;就可以看到了。&lt;/p&gt;
+&lt;h2 id=&#34;heading-4&#34;&gt;自动部署脚本&lt;/h2&gt;
+&lt;p&gt;可以创建一个deploy.sh文件，好像&lt;a href=&#34;https://github.com/Li-Hongmin/academic-kickstart/blob/master/deploy.sh&#34;&gt;这样&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;然后记得&lt;code&gt;chmod +x deploy.sh&lt;/code&gt;赋予权限。&lt;/p&gt;
+&lt;p&gt;只要运行 &lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt;就可以提交更改了。&lt;/p&gt;
+&lt;h2 id=&#34;heading-5&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;流水线作业，总是不够详细。
+另外本网站的制作是根据academic模版，依照其&lt;a href=&#34;https://sourcethemes.com/academic/zh/docs/deployment/&#34;&gt;官网&lt;/a&gt;而部署，也很简单。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>【学习笔记】用Hugo建站来写个人博客 Day1</title>
+      <link>/post/191217hugo/</link>
+      <pubDate>Sun, 22 Dec 2019 23:38:25 +0900</pubDate>
+      <guid>/post/191217hugo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heading&#34;&gt;缘起&lt;/h1&gt;
+&lt;p&gt;我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。
+我于是开始尝试使用个人博客来记录学习过程整理思路，之后还能做一些页面展示研究成果。&lt;/p&gt;
+&lt;p&gt;通过一番考察我选择先用&lt;a href=&#34;gohugo.io&#34;&gt;Hugo&lt;/a&gt;建立一个网站。
+详细Hugo是什么请读者自行了解，我理解就是go语言写的快捷建站工具，并且只要用markdown语言就可以写页面了。
+同时在过程中把自己的心得分享出来供后来者参考。&lt;/p&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;安装和一键建站&lt;/h1&gt;
+&lt;p&gt;这里我主要参考官网的&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Quick Start&lt;/a&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 Hugo
+我的环境时macOS，使用Homebrew安装：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;brew install hugo
+hugo version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后得到这样的信息：Hugo Static Site Generator v0.61.0/extended darwin/amd64 BuildDate: unknown。&lt;/p&gt;
+&lt;p&gt;另外说Homebrew是一个非常好的软件管理软件，一行代码就安装好了，如果还没有试过的人一定要尝试一下。&lt;/p&gt;
+&lt;p&gt;如果是Windows或linux用户的话参考&lt;a href=&#34;https://gohugo.io/getting-started/installing&#34;&gt;这里&lt;/a&gt;进行安装。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;一键建站&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在terminal或命令行里找个合适的文件路径，执行以下命令。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo new site yourFolderName
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时Hugo会生成一个网站模版。命令中_yourFolderName_就是文件夹名，可以随便起。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;添加主题&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;主题是Hugo的一大优势，海量主题任你选。这里是&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;主题库&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我们这里就用官方教程里的Ananke。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;cd quickstart
+
+# Download the theme
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+# Note for non-git users:
+#   - If you do not have git installed, you can download the archive of the latest
+#     version of this theme from:
+#       https://github.com/budparr/gohugo-theme-ananke/archive/master.zip
+#   - Extract that .zip file to get a &amp;quot;gohugo-theme-ananke-master&amp;quot; directory.
+#   - Rename that directory to &amp;quot;ananke&amp;quot;, and move it into the &amp;quot;themes/&amp;quot; directory.
+# End of note for non-git users.
+
+# Edit your config.toml configuration file
+# and add the Ananke theme.
+echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;添加页面&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;生成第一个页面。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo new posts/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第一个页面看起来像这样：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;My First Post&amp;quot;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以用你喜欢的IDE来写markdown文件，直接就可以生成网站了。&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;运行Hugo服务器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;终于到来一键生成网站的时候了，虽然这里的一键是一行命令。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后提示&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;浏览器打开&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;看看是不是成功了。&lt;/p&gt;
+&lt;p&gt;看上去就像是&lt;a href=&#34;https://li-hongmin.github.io/blog/&#34;&gt;这样子&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;总结&lt;/h1&gt;
+&lt;p&gt;简单易学，一行命令完事。&lt;/p&gt;
+&lt;p&gt;建站大坑，容我慢慢来填。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer</title>
