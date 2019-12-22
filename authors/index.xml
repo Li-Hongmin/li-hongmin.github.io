@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Hongmin Li</title>
+    <title>Authors | Li Hongmin</title>
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
@@ -65,7 +65,7 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Hongmin Li is a PhD student of Computer Science at Mathematical Modeling &amp;amp; Algorithms Laboratory in University of Tsukuba.
+      <description>&lt;p&gt;Li Hongmin is a PhD student of Computer Science at Mathematical Modeling &amp;amp; Algorithms Laboratory in University of Tsukuba.
 His research interests include Spectral clustering, Machine learning,
 Precision Medicine.&lt;/p&gt;
 &lt;!-- He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. --&gt;
