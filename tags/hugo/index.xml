@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo | Li Hongmin</title>
+    <title>Hugo | Li Hongmin</title>
     <link>/tags/hugo/</link>
       <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <description>hugo</description>
+    <description>Hugo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 23:53:20 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>/tags/hugo/</link>
     </image>
     

@@ -91,15 +91,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154946251-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KZFZVFC');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-154946251-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -124,7 +152,7 @@
   
   <meta property="og:site_name" content="Li Hongmin">
   <meta property="og:url" content="/tags/hugo/">
-  <meta property="og:title" content="hugo | Li Hongmin">
+  <meta property="og:title" content="Hugo | Li Hongmin">
   <meta property="og:description" content="PhD Student of Computer Science"><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -145,7 +173,7 @@
 
 
 
-  <title>hugo | Li Hongmin</title>
+  <title>Hugo | Li Hongmin</title>
 
 </head>
 
@@ -408,7 +436,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>hugo</h1>
+  <h1>Hugo</h1>
 
   
 
