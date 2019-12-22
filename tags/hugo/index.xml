@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo | Li Hongmin</title>
+    <title>hugo | Li Hongmin</title>
     <link>/tags/hugo/</link>
       <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hugo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 23:53:20 +0900</lastBuildDate>
+    <description>hugo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2019 01:13:10 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>/tags/hugo/</link>
     </image>
+    
+    <item>
+      <title>【学习笔记】Hugo 建站</title>
+      <link>/project/hugo/</link>
+      <pubDate>Mon, 23 Dec 2019 01:13:10 +0900</pubDate>
+      <guid>/project/hugo/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;学习笔记集合：&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;介绍了简单的Hugo应用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;跳转到&lt;a href=&#34;/post/191217_hugo/&#34;&gt;Day1&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;介绍了github pages和部署。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;跳转到&lt;a href=&#34;/post/191222_hugo/&#34;&gt;Day2&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day2</title>
@@ -107,8 +124,8 @@ cd ..
 &lt;p&gt;然后记得&lt;code&gt;chmod +x deploy.sh&lt;/code&gt;赋予权限。&lt;/p&gt;
 &lt;p&gt;只要运行 &lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt;就可以提交更改了。&lt;/p&gt;
 &lt;h2 id=&#34;heading-5&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;流水线作业，总是不够详细。
-另外本网站的制作是根据academic模版，依照其&lt;a href=&#34;https://sourcethemes.com/academic/zh/docs/deployment/&#34;&gt;官网&lt;/a&gt;而部署，也很简单。&lt;/p&gt;
+&lt;p&gt;流水线作业，总是不够详细。&lt;/p&gt;
+&lt;p&gt;另外本网站的制作是根据academic模版，依照其&lt;a href=&#34;https://sourcethemes.com/academic/zh/docs/deployment/&#34;&gt;官网&lt;/a&gt;而部署，也很简单。&lt;/p&gt;
 </description>
     </item>
     

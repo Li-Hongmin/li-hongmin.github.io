@@ -107,8 +107,8 @@ cd ..
 &lt;p&gt;然后记得&lt;code&gt;chmod +x deploy.sh&lt;/code&gt;赋予权限。&lt;/p&gt;
 &lt;p&gt;只要运行 &lt;code&gt;./deploy.sh &amp;quot;Your optional commit message&amp;quot;&lt;/code&gt;就可以提交更改了。&lt;/p&gt;
 &lt;h2 id=&#34;heading-5&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;流水线作业，总是不够详细。
-另外本网站的制作是根据academic模版，依照其&lt;a href=&#34;https://sourcethemes.com/academic/zh/docs/deployment/&#34;&gt;官网&lt;/a&gt;而部署，也很简单。&lt;/p&gt;
+&lt;p&gt;流水线作业，总是不够详细。&lt;/p&gt;
+&lt;p&gt;另外本网站的制作是根据academic模版，依照其&lt;a href=&#34;https://sourcethemes.com/academic/zh/docs/deployment/&#34;&gt;官网&lt;/a&gt;而部署，也很简单。&lt;/p&gt;
 </description>
     </item>
     
