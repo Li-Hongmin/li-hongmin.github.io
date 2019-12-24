@@ -5,12 +5,133 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Li Hongmin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2019 01:13:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Dec 2019 16:04:40 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Li Hongmin</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Literature Review #1: Combining multiple clustering using evidence accumulation </title>
+      <link>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</link>
+      <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
+      <guid>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</guid>
+      <description>&lt;p&gt;This excellent &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/1432715&#34;&gt;paper&lt;/a&gt; was punished by Ana L. N. Fred and Anil K. Jain in 2005 IEEE Transactions on Pattern Analysis and Machine Intelligence.
+It proposed &lt;strong&gt;An clustering ensemble is based on a voting strategy for various partitions.&lt;/strong&gt;
+Outline of evidence accumulation clustering algorithm is below:
+&lt;img src=&#34;1432715-table-1-source-large.gif&#34; alt=&#34;Outline of evidence accumulation clustering algorithm&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Here are literature review. All methods are old enough. I guess we can skim it.&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;A list of clustering application&lt;/summary&gt;
+&lt;p&gt;
+&lt;p&gt;A number of application areas use clustering techniques for organizing or discovering structure in data, such as data mining [1], [2], information retrieval [3], [4], [5], image segmentation [6], and machine learning.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;A list of clustering methods&lt;/summary&gt;
+&lt;p&gt;
+&lt;p&gt;Examples of model-based techniques include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;parametric density approaches, such as mixture decomposition techniques [23], [24], [25], [26];&lt;/li&gt;
+&lt;li&gt;prototype-based methods, such as central clustering [14], square-error clustering [27], K-means [28], [8], or K-medoids clustering [9];&lt;/li&gt;
+&lt;li&gt;and shape fitting approaches [15], [6], [16].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Most of the above techniques utilize an optimization procedure tuned to a particular cluster shape, or emphasize cluster compactness.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Fisher et al. [31] proposed an optimization-based clustering algorithm, based on a pairwise clustering cost function, emphasizing cluster connectedness.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nonparametric density-based clustering methods attempt to identify high density clusters separated by low density regions [5], [32], [33].&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Graph-theoretical approaches [34] have mostly been explored in &lt;strong&gt;hierarchical methods&lt;/strong&gt; that can be represented graphically as a tree or dendrogram [7], [8]. Both agglomerative [28], [35] and divisive approaches [36] (such as those based on the minimum spanning tree—MST [28]) have been proposed; different algorithms are obtained depending on the definition of similarity measures between patterns and between clusters [37]. The single-link (SL) and the complete-link (CL) hierarchical methods [7], [8] are the best known techniques in this class, emphasizing, respectively, connectedness and compactness of patterns in a cluster. Prototype-based hierarchical methods, which define similarity between clusters based on cluster representatives, such as the centroid, emphasize compactness. Variations of the prototype-based hierarchical clustering include the use of multiple prototypes per cluster, as in the CURE algorithm [38]. Other hierarchical agglomerative clustering algorithms follow a split and merge technique, the data being initially split into a large number of small clusters, merging being based on intercluster similarity; a final partition is selected among the clustering hierarchy by thresholding techniques are based or measures of cluster validity [39], [5], [40], [41], [42], [43].&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Treating the clustering problem as a graph partitioning problem, a recent approach, known as spectral clustering, applies spectral graph theory for clustering [44], [45], [46].&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;the-characteristic-of-k-means-algorithm&#34;&gt;The characteristic of K-means algorithm&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;minimizes the squared-error criteria, is one of the simplest clustering algorithm.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It is computationally efficient and does not require the user to specify many parameters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Its major limitation, however, is the inability to identify clusters with arbitrary shapes, ultimately imposing hyperspherical shaped clusters on the data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extensions of the basic K-means algorithm include: use of Mahalanobis distance to identify hyperellipsoidal clusters [28], introducing fuzzy set theory to obtain nonexclusive partitions [20], and adaptations to straight line fitting [47].&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;problem-description&#34;&gt;Problem description&lt;/h3&gt;
+&lt;p&gt;While hundreds of clustering algorithms exist, it is difficult to find a single clustering algorithm that can handle all types of cluster shapes and sizes or even decide which algorithm would be the best one for a particular data set [48], [49].&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1432715-fig-1-source-large.gif&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figure 1 Results of clusterings using different algorithms (K-means, single-link—SL, and complete-link—CL) with different parameters. Each cluster identified is shown in a different color/pattern.(a) Input data.(b) K-means clustering, k=8.(c) Clustering with the SL method, threshold at 0.55, resulting in 27 clusters.(d) Clustering with the SL method, forcing eight clusters.(e) Clustering with the CL method, threshold at 2.6, resulting in 22 clusters.(f) Clustering with the CL method, forcing eight clusters.&lt;/em&gt;&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt; Related Work and why use k-means as basic partition method &lt;/summary&gt;
+&lt;p&gt;
+&lt;p&gt;Inspired by the work in sensor fusion and classifier combination [50], [51], [52], a clustering combination approach has been proposed [53], [54], [55]. Fred and Jain introduce the concept of evidence accumulation clustering that maps the individual data partitions in a clustering ensemble into a new similarity measure between patterns, summarizing interpattern structure perceived from these clusterings. The final data partition is obtained by applying the single-link method to this new similarity matrix. The results of this method show that, the combination of “weak” clustering algorithms such as &lt;strong&gt;the K-means, which impose a simple structure on the data, can lead to the identification of true underlying clusters with arbitrary shapes, sizes and densities.&lt;/strong&gt; Strehl and Ghosh [56] explore the concept of consensus between data partitions and propose three different combination mechanisms. The first step of the consensus functions is to transform the data partitions into a hypergraph representation. The hypergraph-partitioning algorithm (HGPA) obtains the combined partition by partitioning the hypergraph into k unconnected components of approximately the same size, by cutting a minimum number of hyperedges. The metaclustering algorithm (MCLA) applies a graph-based clustering to hyperedges in the hypergraph representation. Finally, CSPA uses a pairwise similarity, as defined by Fred and Jain [55], and the final data partition is obtained by applying the &lt;strong&gt;METIS&lt;/strong&gt; algorithm of Karypis and Kumar to the induced similarity measure between patterns.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;2-problem-formulation&#34;&gt;2. Problem Formulation&lt;/h2&gt;
+&lt;p&gt;Consider $N$ partitions of the data $X$ and let $(\mathrm{F})$ represent the set of $N$ partitions, which we
+define as a clustering ensemble:&lt;/p&gt;
+&lt;div&gt;$$\mathrm{P}=\left\{P^{1}, P^{2}, \ldots, P^{N}\right\}$$&lt;/div&gt;
+&lt;div&gt;
+$$
+\begin{aligned} P^{1} &amp;=\left\{C_{1}^{1}, C_{2}^{1}, \ldots, C_{k_{1}}^{1}\right\} \\ &amp; \vdots \\ P^{N} &amp;=\left\{C_{1}^{N}, C_{2}^{N}, \ldots, C_{k_{N}}^{N}\right\} \end{aligned}
+$$
+&lt;/div&gt;
+&lt;p&gt;where $C_{j}^{i}$ is the $j$ th cluster in data partition $P^{i},$ which has $k_{i}$ clusters and $n_{j}^{i}$ is the
+cardinality of $C_{j}^{i},$ with $\sum_{j=1}^{k_{i}} n_{j}^{i}=n, \quad i=1, \ldots, N$&lt;/p&gt;
+&lt;p&gt;The problem is to find an &amp;ldquo;optimal&amp;rdquo; data partition, $P^{&lt;em&gt;},$ using the information available in
+$N$ different data partitions in $\mathrm{FP}=\left{P^{1}, P^{2}, \ldots, P^{N}\right} .$ We define $k^{&lt;/em&gt;}$ as the number of
+clusters in $P^{&lt;em&gt;} .$ Ideally, $P^{&lt;/em&gt;}$ should satisfy the following properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Consistency with the clustering ensemble $\mathrm{F}$;&lt;/li&gt;
+&lt;li&gt;Robustness to small variations in $\mathrm{F}$;&lt;/li&gt;
+&lt;li&gt;Goodness of fit with ground truth information (true cluster labels of patterns), if available.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;3-evidence-accumulation-clustering&#34;&gt;3. Evidence accumulation clustering&lt;/h2&gt;
+&lt;h3 id=&#34;31-producing-clustering-ensembles&#34;&gt;3.1 Producing Clustering Ensembles&lt;/h3&gt;
+&lt;p&gt;Clustering ensembles can be generated by following two approaches:&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;1) choice of data representation&lt;/summary&gt;
+&lt;p&gt;In the first approach, different partitions of the objects under analysis may be produced by:&lt;/p&gt;
+&lt;p&gt;a) employing different preprocessing and/or feature extraction mechanisms, which ultimately lead to different pattern representations (vectors, strings, graphs, etc.) or different feature spaces&lt;/p&gt;
+&lt;p&gt;b) exploring subspaces of the same data representation, such as using subsets of features&lt;/p&gt;
+&lt;p&gt;c) perturbing the data, such as in bootstrapping techniques (like bagging), or sampling approaches, as, for instance, using a set of prototype samples to represent huge data sets.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;2) choice of clustering algorithms or algorithmic parameters. &lt;/summary&gt;
+&lt;p&gt;
+&lt;p&gt;In the second approach, we can generate clustering ensembles by:&lt;/p&gt;
+&lt;p&gt;i) applying different clustering algorithms,&lt;/p&gt;
+&lt;p&gt;ii) using the same clustering algorithm with different parameters or initializations,&lt;/p&gt;
+&lt;p&gt;iii) exploring different dissimilarity measures for evaluating interpattern relationships, within a given clustering algorithm.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;32-combining-evidence-the-co-association-matrix&#34;&gt;3.2 Combining Evidence: The Co-Association Matrix&lt;/h3&gt;
+&lt;p&gt;Taking the co-occurrences of pairs of patterns in the same cluster as votes for their
+association, the $N$ data partitions of $n$ patterns are mapped into a $n \times n$ co-association
+matrix:
+$$
+\mathcal{C}(i, j)=\frac{n_{i j}}{N}
+$$&lt;/p&gt;
+&lt;p&gt;where $n_{i j}$ is the number of times the pattern pair $(i, j)$ is assigned to the same cluster
+among the $N$ partitions.&lt;/p&gt;
+&lt;p&gt;Authors give an illustration of proposed methods in figure below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1432715-fig-2-source-large.gif&#34; alt=&#34;figure2&#34;&gt;
+&lt;em&gt;Fig. 2. Individual clusterings and combination results on concentric clusters using the K-means algorithm. (a) Data set with concentric clusters. (b) First run of K-means, k=25. (c) Second run of K-means, k=11. (d) Plot of the interpattern similarity matrix for the data in (a). (e) Co-association matrix for the clustering in (b). (f) Co-association matrix for the clustering in (c). (g) Co-association matrix based on the combination of 30 clusterings. (h) Two-dimensional multidimensional scaling of the co-association matrix in (g). (i) Evidence accumulation data partition.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;33-recovering-natural-clusters&#34;&gt;3.3 Recovering Natural Clusters&lt;/h3&gt;
+&lt;p&gt;The core of the evidence accumulation clustering technique is the mapping of partitions into the co-association matrix, $C$.
+As figure shows, the clustering is obtained using the a hierarchical clustering with co-association matrix.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1432715-fig-3-source-large.gif&#34; alt=&#34;figure3&#34;&gt;
+&lt;em&gt;Fig. 3. Dendrogram produced by the SL method using the similarity matrix in Fig. 2g. Distances (1−similarity) are represented along the graph ordinate. From the dendrogram, the following cluster lifetimes are identified: 2-clusters: l2=0.18, 3-clusters: l3=0.36, 4-clusters: l4=0.14, 5-clusters: 0.02. The 3-cluster partition (shown in Fig. 2i), corresponding to the longest lifetime, is chosen (threshold on the dendrogram is between 0.4 and 0.76).&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>【学习笔记】Hugo 建站</title>

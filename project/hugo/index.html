@@ -487,10 +487,10 @@
 
 
 
-  
-  
-    
-  
+
+
+
+
 
 
 <div class="article-container pt-3">
@@ -547,14 +547,50 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 704px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4"
+  style="max-width: 720px; max-height: 704px;">
   <div style="position: relative">
     <img src="/project/hugo/featured_hubbf2b67e412c4d72a81d8e8c4db0d627_107992_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
 
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
 
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
 
   <div class="article-container">
 
@@ -767,19 +803,18 @@
 
 
 
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/191222_hugo/">【学习笔记】用Hugo建站来写个人博客 Day2</a></li>
-      
-      <li><a href="/post/191217hugo/">【学习笔记】用Hugo建站来写个人博客 Day1</a></li>
-      
-    </ul>
-  </div>
-  
+
+
+<div class="article-widget content-widget-hr">
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/191222_hugo/">【学习笔记】用Hugo建站来写个人博客 Day2</a></li>
+    
+    <li><a href="/post/191217hugo/">【学习笔记】用Hugo建站来写个人博客 Day1</a></li>
+    
+  </ul>
+</div>
 
 
 

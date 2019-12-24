@@ -5,12 +5,36 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2019 01:13:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Dec 2019 16:04:40 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>clustering ensemble</title>
+      <link>/tags/clustering-ensemble/</link>
+      <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
+      <guid>/tags/clustering-ensemble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consensus clustering</title>
+      <link>/tags/consensus-clustering/</link>
+      <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
+      <guid>/tags/consensus-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voting</title>
+      <link>/tags/voting/</link>
+      <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
+      <guid>/tags/voting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>
