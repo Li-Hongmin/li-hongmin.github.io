@@ -1,233 +1,187 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>/tags/clustering-ensemble/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/consensus-clustering/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2019-12-23T01:13:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2019-12-23T01:13:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/hugo/</loc>
-    <lastmod>2019-12-23T01:13:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/github-pages/</loc>
-    <lastmod>2019-12-22T23:53:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/personal-website/</loc>
-    <lastmod>2019-12-22T23:53:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/191222_hugo/</loc>
-    <lastmod>2019-12-22T23:53:20+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2019-12-22T23:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/191217hugo/</loc>
-    <lastmod>2019-12-22T23:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2019-12-22T23:38:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/class-imbalance/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ensemble-learning/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/hongmin-li/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/patient-heterogeneity/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/pei-wei-shueng/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/risk-factors/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/secondary-cancer/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/spectral-clustering/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/tetsuya-sakurai/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/xiucai-ye/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/akira-imakura/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/dimensionality-reduction-and-manifold-learning/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/feature-selection/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/learning-sparse-models/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/unsupervised-learning/</loc>
-    <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hubness/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/large-scale/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/lsch/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sparse-representation/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/spectral-clustering/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/zhi-liu/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-  </url>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://li-hongmin.github.io/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/post/191222_hugo/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/post/191217hugo/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/project/hugo/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/authors/xiucai-ye/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/authors/hongmin-li/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/authors/tetsuya-sakurai/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/authors/pei-wei-shueng/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/authors/akira-imakura/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/authors/zhi-liu/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/categories/spectral-clustering/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/publication/lsch/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/publication/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/clustering-ensemble/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/consensus-clustering/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/hugo/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/github-pages/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/personal-website/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/blog/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/secondary-cancer/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/risk-factors/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/class-imbalance/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/patient-heterogeneity/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/spectral-clustering/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/ensemble-learning/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/unsupervised-learning/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/feature-selection/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/learning-sparse-models/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/dimensionality-reduction-and-manifold-learning/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/hubness/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/large-scale/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://li-hongmin.github.io/tags/sparse-representation/</loc>
+  <lastmod>2019-12-25T02:04:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
