@@ -127,7 +127,7 @@ among the $N$ partitions.&lt;/p&gt;
 &lt;em&gt;Fig. 2. Individual clusterings and combination results on concentric clusters using the K-means algorithm. (a) Data set with concentric clusters. (b) First run of K-means, k=25. (c) Second run of K-means, k=11. (d) Plot of the interpattern similarity matrix for the data in (a). (e) Co-association matrix for the clustering in (b). (f) Co-association matrix for the clustering in (c). (g) Co-association matrix based on the combination of 30 clusterings. (h) Two-dimensional multidimensional scaling of the co-association matrix in (g). (i) Evidence accumulation data partition.&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;33-recovering-natural-clusters&#34;&gt;3.3 Recovering Natural Clusters&lt;/h3&gt;
 &lt;p&gt;The core of the evidence accumulation clustering technique is the mapping of partitions into the co-association matrix, $C$.
-As figure shows, the clustering is obtained using the a hierarchical clustering with co-association matrix.&lt;/p&gt;
+As figure shows, the clustering is obtained using the a MST-based clustering with co-association matrix.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;1432715-fig-3-source-large.gif&#34; alt=&#34;figure3&#34;&gt;
 &lt;em&gt;Fig. 3. Dendrogram produced by the SL method using the similarity matrix in Fig. 2g. Distances (1−similarity) are represented along the graph ordinate. From the dendrogram, the following cluster lifetimes are identified: 2-clusters: l2=0.18, 3-clusters: l3=0.36, 4-clusters: l4=0.14, 5-clusters: 0.02. The 3-cluster partition (shown in Fig. 2i), corresponding to the longest lifetime, is chosen (threshold on the dendrogram is between 0.4 and 0.76).&lt;/em&gt;&lt;/p&gt;
 </description>
