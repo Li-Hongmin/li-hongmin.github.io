@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</loc>
+    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/lr2_rsec/</loc>
+    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/tags/clustering-ensemble/</loc>
     <lastmod>2019-12-24T16:04:40+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,28 +52,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-12-24T16:04:40+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-12-24T16:04:40+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
