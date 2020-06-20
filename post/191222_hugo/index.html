@@ -648,7 +648,7 @@
     <div class="article-style">
       <p><strong>上次我们已经做个一个网站在本地了，这次要把它部署到Github pages上。</strong></p>
 <p><strong>本文主要参考<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hugo官方文档</a>,需要github和本地两别操作。</strong></p>
-<h1 id="heading">部署前的准备</h1>
+<h1 id="部署前的准备">部署前的准备</h1>
 <p>首先要确认三点：</p>
 <ol>
 <li>确认本地有无<a href="https://git-scm.com/downloads">git</a>:</li>
@@ -664,12 +664,12 @@
 <p>已经有一个可以发布的Hugo网站</p>
 </li>
 </ol>
-<h1 id="github-pages">两种GitHub Pages</h1>
+<h1 id="两种github-pages">两种GitHub Pages</h1>
 <ol>
 <li>User/Organization Pages (https://&lt;USERNAME|ORGANIZATION&gt;.github.io/)</li>
 <li>Project Pages (https://&lt;USERNAME|ORGANIZATION&gt;.github.io/<PROJECT>/)</li>
 </ol>
-<h1 id="heading-1">部署设置</h1>
+<h1 id="部署设置">部署设置</h1>
 <ol>
 <li>
 <p>在github创建新的pages repository，如果是第一种就把&lt;USERNAME|ORGANIZATION&gt;换成你的用户名或者组织名，则输入如下图：
@@ -721,8 +721,8 @@
 </li>
 </ol>
 <p>这个submodule就会同步到<code>&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io</code>，而整个本地目录会同步到<code>&lt;YOUR-PROJECT&gt;</code>这里。</p>
-<h1 id="heading-2">部署网站</h1>
-<h2 id="heading-3">生成网站并部署</h2>
+<h1 id="部署网站">部署网站</h1>
+<h2 id="生成网站并部署">生成网站并部署</h2>
 <pre><code class="language-terminal">hugo
 cd public
 git add .
@@ -731,11 +731,11 @@ git push origin master
 cd ..
 </code></pre>
 <p>这样应就可以了，浏览器打开<code>&lt;USERNAME&gt;.github.io</code>就可以看到了。</p>
-<h2 id="heading-4">自动部署脚本</h2>
+<h2 id="自动部署脚本">自动部署脚本</h2>
 <p>可以创建一个deploy.sh文件，好像<a href="https://github.com/Li-Hongmin/academic-kickstart/blob/master/deploy.sh">这样</a>.</p>
 <p>然后记得<code>chmod +x deploy.sh</code>赋予权限。</p>
 <p>只要运行 <code>./deploy.sh &quot;Your optional commit message&quot;</code>就可以提交更改了。</p>
-<h2 id="heading-5">总结</h2>
+<h2 id="总结">总结</h2>
 <p>流水线作业，总是不够详细。</p>
 <p>另外本网站的制作是根据academic模版，依照其<a href="https://sourcethemes.com/academic/zh/docs/deployment/">官网</a>而部署，也很简单。</p>
 
@@ -868,9 +868,6 @@ cd ..
   
   
   <div class="media author-card content-widget-hr">
-    
-      
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu8aa610340cf0433daa1260c2384b41cb_155221_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
@@ -1069,6 +1066,16 @@ cd ..
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
   
 
   <p class="powered-by">

@@ -161,7 +161,8 @@ cd quickstart # Download the theme git init git submodule add https://github.com
   
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Li Hongmin">
   <meta property="og:url" content="/post/191217hugo/">
@@ -177,8 +178,8 @@ cd quickstart # Download the theme git init git submodule add https://github.com
 hugo new site yourFolderName  这时Hugo会生成一个网站模版。命令中_yourFolderName_就是文件夹名，可以随便起。
 添加主题  主题是Hugo的一大优势，海量主题任你选。这里是主题库。
 我们这里就用官方教程里的Ananke。
-cd quickstart # Download the theme git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke # Note for non-git users: # - If you do not have git installed, you can download the archive of the latest # version of this theme from: # https://github."><meta property="og:image" content="/post/191217hugo/featured.png">
-  <meta property="twitter:image" content="/post/191217hugo/featured.png"><meta property="og:locale" content="en-us">
+cd quickstart # Download the theme git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke # Note for non-git users: # - If you do not have git installed, you can download the archive of the latest # version of this theme from: # https://github."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   
   <meta property="article:published_time" content="2019-12-22T23:38:25&#43;09:00">
@@ -214,10 +215,6 @@ cd quickstart # Download the theme git init git submodule add https://github.com
     "@id": "/post/191217hugo/"
   },
   "headline": "【学习笔记】用Hugo建站来写个人博客 Day1",
-  
-  "image": [
-    "/post/191217hugo/featured.png"
-  ],
   
   "datePublished": "2019-12-22T23:38:25+09:00",
   "dateModified": "2019-12-22T23:38:25+09:00",
@@ -514,15 +511,6 @@ cd quickstart # Download the theme git init git submodule add https://github.com
 
 
 
-
-
-
-
-
-
-
-
-
 <div class="article-container pt-3">
   <h1>【学习笔记】用Hugo建站来写个人博客 Day1</h1>
 
@@ -530,6 +518,7 @@ cd quickstart # Download the theme git init git submodule add https://github.com
   <p class="page-subtitle">Hugo的安装和简单使用</p>
   
 
+  
   
 
 
@@ -618,15 +607,7 @@ cd quickstart # Download the theme git init git submodule add https://github.com
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4"
-  style="max-width: 720px; max-height: 704px;">
-  <div style="position: relative">
-    <img src="/post/191217hugo/featured_hubbf2b67e412c4d72a81d8e8c4db0d627_107992_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    
-  </div>
+  
 </div>
 
 <script type="text/javascript" async
@@ -670,13 +651,13 @@ cd quickstart # Download the theme git init git submodule add https://github.com
 
     <div class="article-style">
       <p><strong>建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。</strong></p>
-<h1 id="heading">缘起</h1>
+<h1 id="缘起">缘起</h1>
 <p>我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。
 我于是开始尝试使用个人博客来记录学习过程整理思路，之后还能做一些页面展示研究成果。</p>
 <p>通过一番考察我选择先用<a href="gohugo.io">Hugo</a>建立一个网站。
 详细Hugo是什么请读者自行了解，我理解就是go语言写的快捷建站工具，并且只要用markdown语言就可以写页面了。
 同时在过程中把自己的心得分享出来供后来者参考。</p>
-<h1 id="heading-1">安装和一键建站</h1>
+<h1 id="安装和一键建站">安装和一键建站</h1>
 <p>这里我主要参考官网的<a href="https://gohugo.io/getting-started/quick-start/">Quick Start</a>。</p>
 <ol>
 <li>安装 Hugo
@@ -743,7 +724,7 @@ Press Ctrl+C to stop
 </code></pre>
 <p>浏览器打开<a href="http://localhost:1313/">http://localhost:1313/</a>看看是不是成功了。</p>
 <p>看上去就像是<a href="https://li-hongmin.github.io/blog/">这样子</a>。</p>
-<h1 id="heading-2">总结</h1>
+<h1 id="总结">总结</h1>
 <p>简单易学，一行命令完事。</p>
 <p>建站大坑，容我慢慢来填。</p>
 
@@ -876,9 +857,6 @@ Press Ctrl+C to stop
   
   
   <div class="media author-card content-widget-hr">
-    
-      
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu8aa610340cf0433daa1260c2384b41cb_155221_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
@@ -1068,6 +1046,16 @@ Press Ctrl+C to stop
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
   
 
   <p class="powered-by">
