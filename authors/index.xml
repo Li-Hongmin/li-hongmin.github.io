@@ -5,72 +5,12 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
-    
-    <item>
-      <title>Hongmin Li</title>
-      <link>/authors/hongmin-li/</link>
-      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/authors/hongmin-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pei-Wei Shueng</title>
-      <link>/authors/pei-wei-shueng/</link>
-      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/authors/pei-wei-shueng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tetsuya Sakurai</title>
-      <link>/authors/tetsuya-sakurai/</link>
-      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/authors/tetsuya-sakurai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiucai Ye</title>
-      <link>/authors/xiucai-ye/</link>
-      <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/authors/xiucai-ye/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Akira Imakura</title>
-      <link>/authors/akira-imakura/</link>
-      <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
-      <guid>/authors/akira-imakura/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhi Liu</title>
-      <link>/authors/zhi-liu/</link>
-      <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
-      <guid>/authors/zhi-liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Li Hongmin is a PhD student of Computer Science at Mathematical Modeling &amp;amp; Algorithms Laboratory in University of Tsukuba.
-His research interests include Spectral clustering, Machine learning,
-Precision Medicine.&lt;/p&gt;
-&lt;!-- He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. --&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

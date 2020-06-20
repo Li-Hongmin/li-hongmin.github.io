@@ -5,9 +5,9 @@
     <link>/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</link>
       <atom:link href="/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/index.xml" rel="self" type="application/rss+xml" />
     <description>Ensemble Clustering; Spectral Clustering; Co-association Matrix; Low-rank Representation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Dec 2019 17:43:32 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Fri, 27 Dec 2019 17:43:32 +0900</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ensemble Clustering; Spectral Clustering; Co-association Matrix; Low-rank Representation</title>
       <link>/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</link>
     </image>
@@ -17,8 +17,9 @@
       <link>/post/lr2_rsec/</link>
       <pubDate>Fri, 27 Dec 2019 17:43:32 +0900</pubDate>
       <guid>/post/lr2_rsec/</guid>
-      <description>&lt;p&gt;You can find this paper with its &lt;a href=&#34;https://dl.acm.org/citation.cfm?doid=2783258.2783287&#34;&gt;doi&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Let&#39;s try to read the abstract together.&lt;/p&gt;
+      <description>&lt;p&gt;You can find this paper with its 
+&lt;a href=&#34;https://dl.acm.org/citation.cfm?doid=2783258.2783287&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try to read the abstract together.&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;h3 id=&#34;definitions-of-ensemble-clustering-ec&#34;&gt;Definitions of Ensemble Clustering (EC)&lt;/h3&gt;
 &lt;p&gt;Ensemble Clustering (EC) aims to integrate multiple Basic Partitions (BPs) of the same dataset into a consensus one. It could be transformed as a graph partition problem on the &lt;strong&gt;co-association matrix&lt;/strong&gt; derived from BPs.&lt;/p&gt;
@@ -72,7 +73,7 @@ $$
 &lt;/div&gt;
 where λ &gt; 0 balances the rankness of Z and the sparseness of the error matrix E.
 &lt;p&gt;Since Eq.(1) is a NP-hard problem, we usually solve its convex relaxation by using nuclear norm to estimate the rank(Z) and l1 or l2, 1 norm to approximate ∥E∥0. Actually, since the minimizer of Eq.(1) also obtains a low-rank matrix XZ for X, LRR could be seen as a generalization for the Robust PCA [14]. It is worthy to note that, by utilizing X to express itself, Z is actu- ally a similarity matrix that reveals the membership between data points. Moreover, it has been proven that Z enjoys a nice block- diagonal property [14, 37], which can uncover the global structure of data and further facilitate the clustering task. Therefore, in this paper, we employ LRR to learn a robust representation for the co- association matrix, rather than directly recover it as a low-rank one.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Emmy, I guess this is important for this paper. I&#39;m not very clear what author said. It seems works.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Emmy, I guess this is important for this paper. I&amp;rsquo;m not very clear what author said. It seems works.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;3-robust-spectral-ensemble-clustering&#34;&gt;3. ROBUST SPECTRAL ENSEMBLE CLUSTERING&lt;/h2&gt;
 &lt;p&gt;Let X = {x1, x2, ··· , xn} be a set of n data points independently sampled from K clusters, represented as C = {C1 , · · · , Ck }.&lt;/p&gt;
 &lt;p&gt;Denote Π = {π1, π2, ··· , πr} as r input basic partitions (BPs), each of which divides X into Ki crisply partitions and maps X into a label set πi = {πi(x1), πi(x2), · · · , πi(xn)}, where Ki is the cluster number for the i-th BP, 1 ≤ πi(xj) ≤ Ki, and 1 ≤ i ≤ r, 1 ≤ j ≤ n.&lt;/p&gt;

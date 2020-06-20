@@ -5,9 +5,9 @@
     <link>/tags/clustering-ensemble/</link>
       <atom:link href="/tags/clustering-ensemble/index.xml" rel="self" type="application/rss+xml" />
     <description>clustering ensemble</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Dec 2019 16:04:40 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 24 Dec 2019 16:04:40 +0900</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>clustering ensemble</title>
       <link>/tags/clustering-ensemble/</link>
     </image>
@@ -17,7 +17,8 @@
       <link>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</link>
       <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
       <guid>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</guid>
-      <description>&lt;p&gt;This excellent &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/1432715&#34;&gt;paper&lt;/a&gt; was punished by Ana L. N. Fred and Anil K. Jain in 2005 IEEE Transactions on Pattern Analysis and Machine Intelligence.
+      <description>&lt;p&gt;This excellent 
+&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/1432715&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; was punished by Ana L. N. Fred and Anil K. Jain in 2005 IEEE Transactions on Pattern Analysis and Machine Intelligence.
 It proposed &lt;strong&gt;An clustering ensemble is based on a voting strategy for various partitions.&lt;/strong&gt;
 Outline of evidence accumulation clustering algorithm is below:
 &lt;img src=&#34;1432715-table-1-source-large.gif&#34; alt=&#34;Outline of evidence accumulation clustering algorithm&#34;&gt;&lt;/p&gt;

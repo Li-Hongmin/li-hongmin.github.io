@@ -5,9 +5,9 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2019 01:13:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Mon, 23 Dec 2019 01:13:10 +0900</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
@@ -17,15 +17,17 @@
       <link>/project/hugo/</link>
       <pubDate>Mon, 23 Dec 2019 01:13:10 +0900</pubDate>
       <guid>/project/hugo/</guid>
-      <description>&lt;h1 id=&#34;heading&#34;&gt;学习笔记集合：&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;学习笔记集合&#34;&gt;学习笔记集合：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;介绍了简单的Hugo应用。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;跳转到&lt;a href=&#34;/post/191217_hugo/&#34;&gt;Day1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;跳转到
+&lt;a href=&#34;/post/191217_hugo/&#34;&gt;Day1&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;介绍了github pages和部署。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;跳转到&lt;a href=&#34;/post/191222_hugo/&#34;&gt;Day2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;跳转到
+&lt;a href=&#34;/post/191222_hugo/&#34;&gt;Day2&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
