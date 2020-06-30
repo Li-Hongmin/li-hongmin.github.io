@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github | Li Hongmin</title>
+    <link>/tags/github/</link>
+      <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <description>github</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 30 Jun 2020 19:33:55 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>github</title>
+      <link>/tags/github/</link>
+    </image>
+    
+    <item>
+      <title>A matlab project template for clustering research</title>
+      <link>/post/200630_matlab_templete_clustering_project/</link>
+      <pubDate>Tue, 30 Jun 2020 19:33:55 +0900</pubDate>
+      <guid>/post/200630_matlab_templete_clustering_project/</guid>
+      <description>&lt;h1 id=&#34;a-matlab-project-template-for-clustering-research&#34;&gt;A matlab project template for clustering research&lt;/h1&gt;
+&lt;p&gt;After I finished a research paper on clustering, I found the project management is very important to ensure that the project can smoothly go.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why I need a project template so that I can repeatly use it to conduct experiments in a short period.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Here is a mindmap of this project.
+I create a clear structure to manage source code and the results.&lt;/p&gt;
+&lt;p&gt;In additon, the project can automatically generate latex tables to show the results.&lt;/p&gt;
+&lt;p&gt;The todolist is very usefull during conducting experiments, which lets you make sure which step you are working for.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/Li-Hongmin/Matlab_Project_Template_For_Research_Paper/raw/master/docs/experiment_framwork.png&#34; alt=&#34;Mindmap&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The githus link is
+&lt;a href=&#34;https://github.com/Li-Hongmin/Matlab_Project_Template_For_Research_Paper.git&#34;&gt;https://github.com/Li-Hongmin/Matlab_Project_Template_For_Research_Paper.git&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

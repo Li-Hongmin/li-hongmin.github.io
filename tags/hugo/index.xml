@@ -14,9 +14,9 @@
     
     <item>
       <title>【学习笔记】Hugo 建站</title>
-      <link>/project/hugo/</link>
+      <link>/project/hugo/hugo/</link>
       <pubDate>Mon, 23 Dec 2019 01:13:10 +0900</pubDate>
-      <guid>/project/hugo/</guid>
+      <guid>/project/hugo/hugo/</guid>
       <description>&lt;h1 id=&#34;学习笔记集合&#34;&gt;学习笔记集合：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;介绍了简单的Hugo应用。&lt;/li&gt;
@@ -144,9 +144,9 @@ cd ..
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day1</title>
-      <link>/post/191217hugo/</link>
+      <link>/post/191217_hugo/</link>
       <pubDate>Sun, 22 Dec 2019 23:38:25 +0900</pubDate>
-      <guid>/post/191217hugo/</guid>
+      <guid>/post/191217_hugo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;缘起&#34;&gt;缘起&lt;/h1&gt;
 &lt;p&gt;我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。

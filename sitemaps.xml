@@ -3,6 +3,104 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/hongmin-li/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/project/toolbox/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/toolbox/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tools/</loc>
+    <lastmod>2020-06-30T19:58:01+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/200630_matlab_templete_clustering_project/</loc>
+    <lastmod>2020-06-30T19:33:55+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/clustering/</loc>
+    <lastmod>2020-06-30T19:33:55+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2020-06-30T19:33:55+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/matlab/</loc>
+    <lastmod>2020-06-30T19:33:55+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-06-30T19:33:55+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</loc>
     <lastmod>2019-12-27T17:43:32+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,28 +108,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/lr2_rsec/</loc>
-    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-12-27T17:43:32+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-12-27T17:43:32+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -66,14 +143,7 @@
   </url>
   
   <url>
-    <loc>/project/</loc>
-    <lastmod>2019-12-23T01:13:10+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/project/hugo/</loc>
+    <loc>/project/hugo/hugo/</loc>
     <lastmod>2019-12-23T01:13:10+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -108,7 +178,7 @@
   </url>
   
   <url>
-    <loc>/post/191217hugo/</loc>
+    <loc>/post/191217_hugo/</loc>
     <lastmod>2019-12-22T23:38:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -123,13 +193,6 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -151,13 +214,6 @@
   
   <url>
     <loc>/tags/ensemble-learning/</loc>
-    <lastmod>2019-12-22T18:43:03+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/hongmin-li/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -271,13 +327,6 @@
   <url>
     <loc>/tags/unsupervised-learning/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

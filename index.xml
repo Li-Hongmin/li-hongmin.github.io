@@ -5,12 +5,44 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Li Hongmin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Fri, 27 Dec 2019 17:43:32 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 30 Jun 2020 19:58:01 +0900</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Li Hongmin</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>My Toolbox</title>
+      <link>/project/toolbox/</link>
+      <pubDate>Tue, 30 Jun 2020 19:58:01 +0900</pubDate>
+      <guid>/project/toolbox/</guid>
+      <description>&lt;h1 id=&#34;toolbox-list&#34;&gt;Toolbox list&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A matlab project template for clustering research</title>
+      <link>/post/200630_matlab_templete_clustering_project/</link>
+      <pubDate>Tue, 30 Jun 2020 19:33:55 +0900</pubDate>
+      <guid>/post/200630_matlab_templete_clustering_project/</guid>
+      <description>&lt;h1 id=&#34;a-matlab-project-template-for-clustering-research&#34;&gt;A matlab project template for clustering research&lt;/h1&gt;
+&lt;p&gt;After I finished a research paper on clustering, I found the project management is very important to ensure that the project can smoothly go.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why I need a project template so that I can repeatly use it to conduct experiments in a short period.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Here is a mindmap of this project.
+I create a clear structure to manage source code and the results.&lt;/p&gt;
+&lt;p&gt;In additon, the project can automatically generate latex tables to show the results.&lt;/p&gt;
+&lt;p&gt;The todolist is very usefull during conducting experiments, which lets you make sure which step you are working for.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/Li-Hongmin/Matlab_Project_Template_For_Research_Paper/raw/master/docs/experiment_framwork.png&#34; alt=&#34;Mindmap&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The githus link is
+&lt;a href=&#34;https://github.com/Li-Hongmin/Matlab_Project_Template_For_Research_Paper.git&#34;&gt;https://github.com/Li-Hongmin/Matlab_Project_Template_For_Research_Paper.git&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Literature Review #2: Robust Spectral Ensemble Clustering</title>
@@ -315,9 +347,9 @@ As figure shows, the clustering is obtained using the a MST-based clustering wit
     
     <item>
       <title>【学习笔记】Hugo 建站</title>
-      <link>/project/hugo/</link>
+      <link>/project/hugo/hugo/</link>
       <pubDate>Mon, 23 Dec 2019 01:13:10 +0900</pubDate>
-      <guid>/project/hugo/</guid>
+      <guid>/project/hugo/hugo/</guid>
       <description>&lt;h1 id=&#34;学习笔记集合&#34;&gt;学习笔记集合：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;介绍了简单的Hugo应用。&lt;/li&gt;
@@ -445,9 +477,9 @@ cd ..
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day1</title>
-      <link>/post/191217hugo/</link>
+      <link>/post/191217_hugo/</link>
       <pubDate>Sun, 22 Dec 2019 23:38:25 +0900</pubDate>
-      <guid>/post/191217hugo/</guid>
+      <guid>/post/191217_hugo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;缘起&#34;&gt;缘起&lt;/h1&gt;
 &lt;p&gt;我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。

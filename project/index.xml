@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Mon, 23 Dec 2019 01:13:10 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 30 Jun 2020 19:58:01 +0900</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,10 +13,23 @@
     </image>
     
     <item>
+      <title>My Toolbox</title>
+      <link>/project/toolbox/</link>
+      <pubDate>Tue, 30 Jun 2020 19:58:01 +0900</pubDate>
+      <guid>/project/toolbox/</guid>
+      <description>&lt;h1 id=&#34;toolbox-list&#34;&gt;Toolbox list&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>【学习笔记】Hugo 建站</title>
-      <link>/project/hugo/</link>
+      <link>/project/hugo/hugo/</link>
       <pubDate>Mon, 23 Dec 2019 01:13:10 +0900</pubDate>
-      <guid>/project/hugo/</guid>
+      <guid>/project/hugo/hugo/</guid>
       <description>&lt;h1 id=&#34;学习笔记集合&#34;&gt;学习笔记集合：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;介绍了简单的Hugo应用。&lt;/li&gt;
