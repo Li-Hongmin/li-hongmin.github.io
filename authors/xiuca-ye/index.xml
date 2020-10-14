@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiuca Ye | Li Hongmin</title>
+    <link>/authors/xiuca-ye/</link>
+      <atom:link href="/authors/xiuca-ye/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiuca Ye</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 14 Oct 2020 18:06:04 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Xiuca Ye</title>
+      <link>/authors/xiuca-ye/</link>
+    </image>
+    
+    <item>
+      <title>Ensemble Learning for Spectral Clustering (Accepted)</title>
+      <link>/publication/elsc/</link>
+      <pubDate>Wed, 14 Oct 2020 18:06:04 +0900</pubDate>
+      <guid>/publication/elsc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
