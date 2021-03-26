@@ -45,6 +45,13 @@
   </url>
   
   <url>
+    <loc>/publication/elsc/</loc>
+    <lastmod>2020-10-14T18:06:04+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/authors/akira-imakura/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -53,13 +60,6 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-10-14T18:06:04+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/elsc/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -101,6 +101,13 @@
   </url>
   
   <url>
+    <loc>/publication/hnsc/</loc>
+    <lastmod>2020-10-14T17:58:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/tags/approximation-error/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -116,13 +123,6 @@
   
   <url>
     <loc>/tags/computational-complexity/</loc>
-    <lastmod>2020-10-14T17:58:00+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/hnsc/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -381,14 +381,14 @@
   </url>
   
   <url>
-    <loc>/tags/dimensionality-reduction-and-manifold-learning/</loc>
+    <loc>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</loc>
+    <loc>/tags/dimensionality-reduction-and-manifold-learning/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
