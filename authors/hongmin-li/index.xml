@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hongmin Li | Li Hongmin</title>
-    <link>/authors/hongmin-li/</link>
-      <atom:link href="/authors/hongmin-li/index.xml" rel="self" type="application/rss+xml" />
+    <title>Hongmin Li | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/authors/hongmin-li/</link>
+      <atom:link href="https://li-hongmin.github.io/authors/hongmin-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Hongmin Li</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 14 Oct 2020 18:06:04 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Hongmin Li</title>
-      <link>/authors/hongmin-li/</link>
+      <link>https://li-hongmin.github.io/authors/hongmin-li/</link>
     </image>
     
     <item>
       <title>[ICMD 2020] Ensemble Learning for Spectral Clustering</title>
-      <link>/publication/elsc/</link>
+      <link>https://li-hongmin.github.io/publication/elsc/</link>
       <pubDate>Wed, 14 Oct 2020 18:06:04 +0900</pubDate>
-      <guid>/publication/elsc/</guid>
+      <guid>https://li-hongmin.github.io/publication/elsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[IJCANN 2020] Hubness-based Sampling Method for Nystrom Spectral Clustering </title>
-      <link>/publication/hnsc/</link>
+      <link>https://li-hongmin.github.io/publication/hnsc/</link>
       <pubDate>Wed, 14 Oct 2020 17:58:00 +0900</pubDate>
-      <guid>/publication/hnsc/</guid>
+      <guid>https://li-hongmin.github.io/publication/hnsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My Toolbox</title>
-      <link>/project/toolbox/</link>
+      <link>https://li-hongmin.github.io/project/toolbox/</link>
       <pubDate>Tue, 30 Jun 2020 19:58:01 +0900</pubDate>
-      <guid>/project/toolbox/</guid>
+      <guid>https://li-hongmin.github.io/project/toolbox/</guid>
       <description>&lt;h1 id=&#34;toolbox-list&#34;&gt;Toolbox list&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://li-hongmin.github.io/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer</title>
-      <link>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
+      <link>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
       <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
+      <guid>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[IJCAI 2019] Distributed collaborative feature selection based on intermediate representation</title>
-      <link>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</link>
+      <link>https://li-hongmin.github.io/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</link>
       <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
-      <guid>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</guid>
+      <guid>https://li-hongmin.github.io/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Scale Spectral Clustering Using Sparse Representation Based on Hubness</title>
-      <link>/publication/lsch/</link>
+      <link>https://li-hongmin.github.io/publication/lsch/</link>
       <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
-      <guid>/publication/lsch/</guid>
+      <guid>https://li-hongmin.github.io/publication/lsch/</guid>
       <description></description>
     </item>
     

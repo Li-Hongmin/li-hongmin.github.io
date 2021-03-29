@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Li Hongmin</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Li Hongmin</description>
+    <title>Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/</link>
+      <atom:link href="https://li-hongmin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Li Hongmin （李鸿敏）</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 14 Oct 2020 18:11:05 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Li Hongmin</title>
-      <link>/</link>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Li Hongmin （李鸿敏）</title>
+      <link>https://li-hongmin.github.io/</link>
     </image>
     
     <item>
       <title>Research Papers</title>
-      <link>/project/research_paper/</link>
+      <link>https://li-hongmin.github.io/project/research_paper/</link>
       <pubDate>Wed, 14 Oct 2020 18:11:05 +0900</pubDate>
-      <guid>/project/research_paper/</guid>
+      <guid>https://li-hongmin.github.io/project/research_paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[ICMD 2020] Ensemble Learning for Spectral Clustering</title>
-      <link>/publication/elsc/</link>
+      <link>https://li-hongmin.github.io/publication/elsc/</link>
       <pubDate>Wed, 14 Oct 2020 18:06:04 +0900</pubDate>
-      <guid>/publication/elsc/</guid>
+      <guid>https://li-hongmin.github.io/publication/elsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[IJCANN 2020] Hubness-based Sampling Method for Nystrom Spectral Clustering </title>
-      <link>/publication/hnsc/</link>
+      <link>https://li-hongmin.github.io/publication/hnsc/</link>
       <pubDate>Wed, 14 Oct 2020 17:58:00 +0900</pubDate>
-      <guid>/publication/hnsc/</guid>
+      <guid>https://li-hongmin.github.io/publication/hnsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My Toolbox</title>
-      <link>/project/toolbox/</link>
+      <link>https://li-hongmin.github.io/project/toolbox/</link>
       <pubDate>Tue, 30 Jun 2020 19:58:01 +0900</pubDate>
-      <guid>/project/toolbox/</guid>
+      <guid>https://li-hongmin.github.io/project/toolbox/</guid>
       <description>&lt;h1 id=&#34;toolbox-list&#34;&gt;Toolbox list&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://li-hongmin.github.io/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>A matlab project template for clustering research</title>
-      <link>/post/200630_matlab_templete_clustering_project/</link>
+      <link>https://li-hongmin.github.io/post/200630_matlab_templete_clustering_project/</link>
       <pubDate>Tue, 30 Jun 2020 19:33:55 +0900</pubDate>
-      <guid>/post/200630_matlab_templete_clustering_project/</guid>
+      <guid>https://li-hongmin.github.io/post/200630_matlab_templete_clustering_project/</guid>
       <description>&lt;h1 id=&#34;a-matlab-project-template-for-clustering-research&#34;&gt;A matlab project template for clustering research&lt;/h1&gt;
 &lt;p&gt;After I finished a research paper on clustering, I found the project management is very important to ensure that the project can smoothly go.&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s why I need a project template so that I can repeatly use it to conduct experiments in a short period.&lt;/p&gt;
@@ -70,9 +70,9 @@ I create a clear structure to manage source code and the results.&lt;/p&gt;
     
     <item>
       <title>Literature Review #2: Robust Spectral Ensemble Clustering</title>
-      <link>/post/lr2_rsec/</link>
+      <link>https://li-hongmin.github.io/post/lr2_rsec/</link>
       <pubDate>Fri, 27 Dec 2019 17:43:32 +0900</pubDate>
-      <guid>/post/lr2_rsec/</guid>
+      <guid>https://li-hongmin.github.io/post/lr2_rsec/</guid>
       <description>&lt;p&gt;You can find this paper with its 
 &lt;a href=&#34;https://dl.acm.org/citation.cfm?doid=2783258.2783287&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s try to read the abstract together.&lt;/p&gt;
@@ -249,9 +249,9 @@ taking the derivative of \(\mathcal{L}\) with respect to \(\mathbf{Z}\) gives \(
     
     <item>
       <title>Literature Review #1: Combining multiple clustering using evidence accumulation </title>
-      <link>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</link>
+      <link>https://li-hongmin.github.io/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</link>
       <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
-      <guid>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</guid>
+      <guid>https://li-hongmin.github.io/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</guid>
       <description>&lt;p&gt;This excellent 
 &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/1432715&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; was punished by Ana L. N. Fred and Anil K. Jain in 2005 IEEE Transactions on Pattern Analysis and Machine Intelligence.
 It proposed &lt;strong&gt;An clustering ensemble is based on a voting strategy for various partitions.&lt;/strong&gt;
@@ -371,28 +371,28 @@ As figure shows, the clustering is obtained using the a MST-based clustering wit
     
     <item>
       <title>【学习笔记】Hugo 建站</title>
-      <link>/project/hugo/hugo/</link>
+      <link>https://li-hongmin.github.io/project/hugo/hugo/</link>
       <pubDate>Mon, 23 Dec 2019 01:13:10 +0900</pubDate>
-      <guid>/project/hugo/hugo/</guid>
+      <guid>https://li-hongmin.github.io/project/hugo/hugo/</guid>
       <description>&lt;h1 id=&#34;学习笔记集合&#34;&gt;学习笔记集合：&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;介绍了简单的Hugo应用。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;跳转到
-&lt;a href=&#34;/post/191217_hugo/&#34;&gt;Day1&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://li-hongmin.github.io/post/191217_hugo/&#34;&gt;Day1&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;介绍了github pages和部署。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;跳转到
-&lt;a href=&#34;/post/191222_hugo/&#34;&gt;Day2&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://li-hongmin.github.io/post/191222_hugo/&#34;&gt;Day2&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day2</title>
-      <link>/post/191222_hugo/</link>
+      <link>https://li-hongmin.github.io/post/191222_hugo/</link>
       <pubDate>Sun, 22 Dec 2019 23:53:20 +0900</pubDate>
-      <guid>/post/191222_hugo/</guid>
+      <guid>https://li-hongmin.github.io/post/191222_hugo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;上次我们已经做个一个网站在本地了，这次要把它部署到Github pages上。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本文主要参考
 &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo官方文档&lt;/a&gt;,需要github和本地两别操作。&lt;/strong&gt;&lt;/p&gt;
@@ -501,9 +501,9 @@ cd ..
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day1</title>
-      <link>/post/191217_hugo/</link>
+      <link>https://li-hongmin.github.io/post/191217_hugo/</link>
       <pubDate>Sun, 22 Dec 2019 23:38:25 +0900</pubDate>
-      <guid>/post/191217_hugo/</guid>
+      <guid>https://li-hongmin.github.io/post/191217_hugo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;缘起&#34;&gt;缘起&lt;/h1&gt;
 &lt;p&gt;我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。
@@ -592,25 +592,25 @@ Press Ctrl+C to stop
     
     <item>
       <title>Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer</title>
-      <link>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
+      <link>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
       <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
+      <guid>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[IJCAI 2019] Distributed collaborative feature selection based on intermediate representation</title>
-      <link>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</link>
+      <link>https://li-hongmin.github.io/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</link>
       <pubDate>Sat, 21 Dec 2019 12:17:54 +0900</pubDate>
-      <guid>/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</guid>
+      <guid>https://li-hongmin.github.io/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Scale Spectral Clustering Using Sparse Representation Based on Hubness</title>
-      <link>/publication/lsch/</link>
+      <link>https://li-hongmin.github.io/publication/lsch/</link>
       <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
-      <guid>/publication/lsch/</guid>
+      <guid>https://li-hongmin.github.io/publication/lsch/</guid>
       <description></description>
     </item>
     

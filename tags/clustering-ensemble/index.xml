@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>clustering ensemble | Li Hongmin</title>
-    <link>/tags/clustering-ensemble/</link>
-      <atom:link href="/tags/clustering-ensemble/index.xml" rel="self" type="application/rss+xml" />
+    <title>clustering ensemble | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/clustering-ensemble/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/clustering-ensemble/index.xml" rel="self" type="application/rss+xml" />
     <description>clustering ensemble</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 24 Dec 2019 16:04:40 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>clustering ensemble</title>
-      <link>/tags/clustering-ensemble/</link>
+      <link>https://li-hongmin.github.io/tags/clustering-ensemble/</link>
     </image>
     
     <item>
       <title>Literature Review #1: Combining multiple clustering using evidence accumulation </title>
-      <link>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</link>
+      <link>https://li-hongmin.github.io/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</link>
       <pubDate>Tue, 24 Dec 2019 16:04:40 +0900</pubDate>
-      <guid>/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</guid>
+      <guid>https://li-hongmin.github.io/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</guid>
       <description>&lt;p&gt;This excellent 
 &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/1432715&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; was punished by Ana L. N. Fred and Anil K. Jain in 2005 IEEE Transactions on Pattern Analysis and Machine Intelligence.
 It proposed &lt;strong&gt;An clustering ensemble is based on a voting strategy for various partitions.&lt;/strong&gt;

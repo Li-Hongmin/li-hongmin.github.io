@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matrix decomposition | Li Hongmin</title>
-    <link>/tags/matrix-decomposition/</link>
-      <atom:link href="/tags/matrix-decomposition/index.xml" rel="self" type="application/rss+xml" />
+    <title>Matrix decomposition | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/matrix-decomposition/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/matrix-decomposition/index.xml" rel="self" type="application/rss+xml" />
     <description>Matrix decomposition</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 14 Oct 2020 17:58:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Matrix decomposition</title>
-      <link>/tags/matrix-decomposition/</link>
+      <link>https://li-hongmin.github.io/tags/matrix-decomposition/</link>
     </image>
     
     <item>
       <title>[IJCANN 2020] Hubness-based Sampling Method for Nystrom Spectral Clustering </title>
-      <link>/publication/hnsc/</link>
+      <link>https://li-hongmin.github.io/publication/hnsc/</link>
       <pubDate>Wed, 14 Oct 2020 17:58:00 +0900</pubDate>
-      <guid>/publication/hnsc/</guid>
+      <guid>https://li-hongmin.github.io/publication/hnsc/</guid>
       <description></description>
     </item>
     

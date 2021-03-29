@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>建站，博客 | Li Hongmin</title>
-    <link>/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</link>
-      <atom:link href="/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <title>建站，博客 | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <description>建站，博客</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Sun, 22 Dec 2019 23:38:25 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>建站，博客</title>
-      <link>/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://li-hongmin.github.io/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</link>
     </image>
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day1</title>
-      <link>/post/191217_hugo/</link>
+      <link>https://li-hongmin.github.io/post/191217_hugo/</link>
       <pubDate>Sun, 22 Dec 2019 23:38:25 +0900</pubDate>
-      <guid>/post/191217_hugo/</guid>
+      <guid>https://li-hongmin.github.io/post/191217_hugo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;建站一直是一个很复杂的工程，不过总有捷径。本文介绍一种快速建立静态网站的工具hugo。hugo是基于go语言新兴静态网站生成工具，非常快速轻便。我们只需要用markdown来写博客直接生成网页，可以让我们专注于内容。另外有超多主题可供选择，换个装潢模版也很容易。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;缘起&#34;&gt;缘起&lt;/h1&gt;
 &lt;p&gt;我目前在读Ph.D平时读论文时会做一些笔记，一直想把这些笔记整理分享出来。

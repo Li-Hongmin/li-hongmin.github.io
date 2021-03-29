@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>class imbalance | Li Hongmin</title>
-    <link>/tags/class-imbalance/</link>
-      <atom:link href="/tags/class-imbalance/index.xml" rel="self" type="application/rss+xml" />
+    <title>class imbalance | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/class-imbalance/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/class-imbalance/index.xml" rel="self" type="application/rss+xml" />
     <description>class imbalance</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>class imbalance</title>
-      <link>/tags/class-imbalance/</link>
+      <link>https://li-hongmin.github.io/tags/class-imbalance/</link>
     </image>
     
     <item>
       <title>Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer</title>
-      <link>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
+      <link>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</link>
       <pubDate>Sun, 22 Dec 2019 18:43:03 +0900</pubDate>
-      <guid>/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
+      <guid>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</guid>
       <description></description>
     </item>
     

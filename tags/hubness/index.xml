@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hubness | Li Hongmin</title>
-    <link>/tags/hubness/</link>
-      <atom:link href="/tags/hubness/index.xml" rel="self" type="application/rss+xml" />
+    <title>Hubness | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/hubness/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/hubness/index.xml" rel="self" type="application/rss+xml" />
     <description>Hubness</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Fri, 20 Dec 2019 22:50:24 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Hubness</title>
-      <link>/tags/hubness/</link>
+      <link>https://li-hongmin.github.io/tags/hubness/</link>
     </image>
     
     <item>
       <title>Large Scale Spectral Clustering Using Sparse Representation Based on Hubness</title>
-      <link>/publication/lsch/</link>
+      <link>https://li-hongmin.github.io/publication/lsch/</link>
       <pubDate>Fri, 20 Dec 2019 22:50:24 +0900</pubDate>
-      <guid>/publication/lsch/</guid>
+      <guid>https://li-hongmin.github.io/publication/lsch/</guid>
       <description></description>
     </item>
     

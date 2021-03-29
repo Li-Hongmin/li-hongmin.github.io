@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ensemble Clustering; Spectral Clustering; Co-association Matrix; Low-rank Representation | Li Hongmin</title>
-    <link>/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</link>
-      <atom:link href="/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ensemble Clustering; Spectral Clustering; Co-association Matrix; Low-rank Representation | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/index.xml" rel="self" type="application/rss+xml" />
     <description>Ensemble Clustering; Spectral Clustering; Co-association Matrix; Low-rank Representation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Fri, 27 Dec 2019 17:43:32 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ensemble Clustering; Spectral Clustering; Co-association Matrix; Low-rank Representation</title>
-      <link>/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</link>
+      <link>https://li-hongmin.github.io/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</link>
     </image>
     
     <item>
       <title>Literature Review #2: Robust Spectral Ensemble Clustering</title>
-      <link>/post/lr2_rsec/</link>
+      <link>https://li-hongmin.github.io/post/lr2_rsec/</link>
       <pubDate>Fri, 27 Dec 2019 17:43:32 +0900</pubDate>
-      <guid>/post/lr2_rsec/</guid>
+      <guid>https://li-hongmin.github.io/post/lr2_rsec/</guid>
       <description>&lt;p&gt;You can find this paper with its 
 &lt;a href=&#34;https://dl.acm.org/citation.cfm?doid=2783258.2783287&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s try to read the abstract together.&lt;/p&gt;

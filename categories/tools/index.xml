@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tools | Li Hongmin</title>
-    <link>/categories/tools/</link>
-      <atom:link href="/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <title>tools | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/categories/tools/</link>
+      <atom:link href="https://li-hongmin.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <description>tools</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 30 Jun 2020 19:58:01 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>tools</title>
-      <link>/categories/tools/</link>
+      <link>https://li-hongmin.github.io/categories/tools/</link>
     </image>
     
     <item>
       <title>My Toolbox</title>
-      <link>/project/toolbox/</link>
+      <link>https://li-hongmin.github.io/project/toolbox/</link>
       <pubDate>Tue, 30 Jun 2020 19:58:01 +0900</pubDate>
-      <guid>/project/toolbox/</guid>
+      <guid>https://li-hongmin.github.io/project/toolbox/</guid>
       <description>&lt;h1 id=&#34;toolbox-list&#34;&gt;Toolbox list&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;a href=&#34;/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://li-hongmin.github.io/post/200630_matlab_templete_clustering_project/&#34;&gt;A matlab project template for clustering research&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

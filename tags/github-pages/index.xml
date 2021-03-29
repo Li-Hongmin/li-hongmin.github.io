@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github pages | Li Hongmin</title>
-    <link>/tags/github-pages/</link>
-      <atom:link href="/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <title>github pages | Li Hongmin （李鸿敏）</title>
+    <link>https://li-hongmin.github.io/tags/github-pages/</link>
+      <atom:link href="https://li-hongmin.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <description>github pages</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Sun, 22 Dec 2019 23:53:20 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>github pages</title>
-      <link>/tags/github-pages/</link>
+      <link>https://li-hongmin.github.io/tags/github-pages/</link>
     </image>
     
     <item>
       <title>【学习笔记】用Hugo建站来写个人博客 Day2</title>
-      <link>/post/191222_hugo/</link>
+      <link>https://li-hongmin.github.io/post/191222_hugo/</link>
       <pubDate>Sun, 22 Dec 2019 23:53:20 +0900</pubDate>
-      <guid>/post/191222_hugo/</guid>
+      <guid>https://li-hongmin.github.io/post/191222_hugo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;上次我们已经做个一个网站在本地了，这次要把它部署到Github pages上。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本文主要参考
 &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo官方文档&lt;/a&gt;,需要github和本地两别操作。&lt;/strong&gt;&lt;/p&gt;
