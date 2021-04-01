@@ -1,472 +1,338 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://li-hongmin.github.io/project/</loc>
     <lastmod>2020-10-14T18:11:05+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/project/research_paper/</loc>
     <lastmod>2020-10-14T18:11:05+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/rp/</loc>
     <lastmod>2020-10-14T18:11:05+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/</loc>
     <lastmod>2020-10-14T18:11:05+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/</loc>
     <lastmod>2020-10-14T18:11:05+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication_types/1/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication/elsc/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/akira-imakura/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/hongmin-li/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication_types/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/tetsuya-sakurai/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/xiuca-ye/</loc>
     <lastmod>2020-10-14T18:06:04+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication/hnsc/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/approximation-error/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/clustering-methods/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/computational-complexity/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/mathematical-model/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/matrix-decomposition/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/sampling-methods/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/sparse-matrices/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/xiucai-ye/</loc>
     <lastmod>2020-10-14T17:58:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/categories/</loc>
     <lastmod>2020-06-30T19:58:01+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/project/toolbox/</loc>
     <lastmod>2020-06-30T19:58:01+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/toolbox/</loc>
     <lastmod>2020-06-30T19:58:01+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/categories/tools/</loc>
     <lastmod>2020-06-30T19:58:01+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/post/200630_matlab_templete_clustering_project/</loc>
     <lastmod>2020-06-30T19:33:55+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/clustering/</loc>
     <lastmod>2020-06-30T19:33:55+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/github/</loc>
     <lastmod>2020-06-30T19:33:55+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/matlab/</loc>
     <lastmod>2020-06-30T19:33:55+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/post/</loc>
     <lastmod>2020-06-30T19:33:55+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/ensemble-clustering-spectral-clustering-co-association-matrix-low-rank-representation/</loc>
     <lastmod>2019-12-27T17:43:32+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/post/lr2_rsec/</loc>
     <lastmod>2019-12-27T17:43:32+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/clustering-ensemble/</loc>
     <lastmod>2019-12-24T16:04:40+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/consensus-clustering/</loc>
     <lastmod>2019-12-24T16:04:40+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/post/notepaper_combining_multiple_clustering_using_evidence_accumulation/</loc>
     <lastmod>2019-12-24T16:04:40+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/hugo/</loc>
     <lastmod>2019-12-23T01:13:10+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/project/hugo/hugo/</loc>
     <lastmod>2019-12-23T01:13:10+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/github-pages/</loc>
     <lastmod>2019-12-22T23:53:20+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/personal-website/</loc>
     <lastmod>2019-12-22T23:53:20+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/post/191222_hugo/</loc>
     <lastmod>2019-12-22T23:53:20+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/blog/</loc>
     <lastmod>2019-12-22T23:38:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/post/191217_hugo/</loc>
     <lastmod>2019-12-22T23:38:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/%E5%BB%BA%E7%AB%99%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2019-12-22T23:38:25+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication_types/2/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/class-imbalance/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication/ensemble_feature_learning_to_identify_risk_factors_for_predicting_secondary_cancer/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/ensemble-learning/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/patient-heterogeneity/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/pei-wei-shueng/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/risk-factors/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/secondary-cancer/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/spectral-clustering/</loc>
     <lastmod>2019-12-22T18:43:03+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication/distributed_collaborative_feature_selection_based_on_intermediate_representation/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/dimensionality-reduction-and-manifold-learning/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/feature-selection/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/learning-sparse-models/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/unsupervised-learning/</loc>
     <lastmod>2019-12-21T12:17:54+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/hubness/</loc>
     <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/large-scale/</loc>
     <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/publication/lsch/</loc>
     <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/tags/sparse-representation/</loc>
     <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/categories/spectral-clustering/</loc>
     <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/zhi-liu/</loc>
     <lastmod>2019-12-20T22:50:24+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/authors/admin/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://li-hongmin.github.io/talk/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  
 </urlset>
