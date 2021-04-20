@@ -5,12 +5,20 @@
     <link>https://li-hongmin.github.io/publication_types/2/</link>
       <atom:link href="https://li-hongmin.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Sun, 22 Dec 2019 18:43:03 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 20 Feb 2020 15:39:33 +0900</lastBuildDate>
     <image>
       <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://li-hongmin.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps</title>
+      <link>https://li-hongmin.github.io/publication/oversampling/</link>
+      <pubDate>Thu, 20 Feb 2020 15:39:33 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/publication/oversampling/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer</title>
