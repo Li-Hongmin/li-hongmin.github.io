@@ -72,10 +72,11 @@
 &lt;a href=&#34;https://futureship.sec.tsukuba.ac.jp/alumni/mail/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;注册&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;google-drive&#34;&gt;google drive&lt;/h2&gt;
 &lt;p&gt;就是上面的
-&lt;a href=&#34;https://workspace.google.com/products/drive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;虚拟云端硬盘&lt;/a&gt;。这个有什么用，可以把你的所有资料全部放进去。这就不存在你的资料在你的另一台电脑里面，要是找一个文件，就要换电脑找这种问题了。&lt;/p&gt;
-&lt;p&gt;而且这个用起来就像随时插了一块移动硬盘一样，速度也很快。我写程序都在里面直接写，这样笔记本和台式机切换着用，文件内容也是一样的。非常方便。&lt;/p&gt;
-&lt;p&gt;而且所有文件都在云端，那么就算身边只有一台手机也能随时查看文件了。&lt;/p&gt;
-&lt;p&gt;具体使用方法，请自己学习。&lt;/p&gt;
+&lt;a href=&#34;https://workspace.google.com/products/drive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;虚拟云端硬盘&lt;/a&gt;。这个有什么用，可以把你的所有资料全部放进去。这就不存在你的资料在你的另一台电脑里面，要是找一个文件，就要换电脑找这种问题了。
+而且这个用起来就像随时插了一块移动硬盘一样，速度也很快。我写程序都在里面直接写，这样笔记本和台式机切换着用，文件内容也是一样的。非常方便。
+而且所有文件都在云端，那么就算身边只有一台手机也能随时查看文件了。还很容易可以共享文件。
+这样的好处是，换了电脑也不用换考虑文件怎么转移的问题。电脑坏了也不用担心文件丢失。&lt;/p&gt;
+&lt;p&gt;还有一种使用方法，是把工程文件存在里面，直接用Google Colab访问Google drive，运算和储存都在云端，非常方便，我跟进一些项目都是这样写的。&lt;/p&gt;
 &lt;h2 id=&#34;chrome-extensions&#34;&gt;Chrome extensions&lt;/h2&gt;
 &lt;p&gt;Q1: 要装这个浏览器吗？&lt;/p&gt;
 &lt;p&gt;A1: 推荐。因为能装插件。&lt;/p&gt;
