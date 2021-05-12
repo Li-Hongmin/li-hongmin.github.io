@@ -5,12 +5,135 @@
     <link>https://li-hongmin.github.io/post/</link>
       <atom:link href="https://li-hongmin.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Fri, 23 Apr 2021 19:14:32 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 12 May 2021 10:15:54 +0900</lastBuildDate>
     <image>
       <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://li-hongmin.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Simple Notes of My Attendance ICLR2021</title>
+      <link>https://li-hongmin.github.io/post/iclr2021/</link>
+      <pubDate>Wed, 12 May 2021 10:15:54 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/post/iclr2021/</guid>
+      <description>&lt;p&gt;In ICLR2021, I found some interesting papers and presentations and collect their posters with my ideas as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Tags&lt;/th&gt;
+&lt;th&gt;Summary&amp;amp;Idea&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sparse Quantized Spectral Clustering&lt;/td&gt;
+&lt;td&gt;spectral clustering&lt;/td&gt;
+&lt;td&gt;useful study&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Representation learning for sequence data with deep autoencoding predictive comments&lt;/td&gt;
+&lt;td&gt;autoencoder, deep learning&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Processes&lt;/td&gt;
+&lt;td&gt;kernel decomposition&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MiCE- Mixture of Contrastive Experts for Unsupervised Image Clustering&lt;/td&gt;
+&lt;td&gt;moco, unsupervised image clustering&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Simple Spectral Graph Convolution&lt;/td&gt;
+&lt;td&gt;MARKOV DIFFUSION KERNEL&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Deep Learning meets Projective Clustering&lt;/td&gt;
+&lt;td&gt;deep learning, svd&lt;/td&gt;
+&lt;td&gt;Model compression with decomposed SVD, but pre-cluster&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Evaluation of Similarity-based Explanations&lt;/td&gt;
+&lt;td&gt;criteria to evaluate&lt;/td&gt;
+&lt;td&gt;Evaluate with the closest sample, whether the closest sample is a category or not a category&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Self-supervised Learning from a Multi-view Perspective&lt;/td&gt;
+&lt;td&gt;multi-view&lt;/td&gt;
+&lt;td&gt;Define pre-order and post-order objective functions and then balance and optimize them&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Clustering-friendly Representation Learning via Instance Discrimination and Feature Decorrelation&lt;/td&gt;
+&lt;td&gt;deep learning, spectral clustering, unsupervised image clustering&lt;/td&gt;
+&lt;td&gt;This is a study at Toshiba Research Institute, related to spectral clustering. It&amp;rsquo;s interesting. I can do image clustering in the future.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Evaluation of Similarity-based Explanations&lt;/td&gt;
+&lt;td&gt;image, similarity&lt;/td&gt;
+&lt;td&gt;Can refer to him and see how he calculates the similairty of the image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SAFENet: A Secure, Accurate and Fast Neural Network Inference&lt;/td&gt;
+&lt;td&gt;privacy&lt;/td&gt;
+&lt;td&gt;Gradient Privacy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Do not Let Privacy Overbill Utility: Gradient Embedding Perturbation for Private Learning&lt;/td&gt;
+&lt;td&gt;privacy&lt;/td&gt;
+&lt;td&gt;Gradient Privacy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Information Laundering for Model Privacy&lt;/td&gt;
+&lt;td&gt;privacy&lt;/td&gt;
+&lt;td&gt;Model Privacy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;posters-archive&#34;&gt;Posters archive&lt;/h1&gt;
+&lt;h2 id=&#34;sparse-quantized-spectral-clustering&#34;&gt;Sparse Quantized Spectral Clustering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spectral clustering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;Sparse_Quantized_Spectral_Clustering.png&#34; alt=&#34;Sparse Quantized Spectral Clustering&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;representation-learning-for-sequence-data-with-deep-autoencoding-predictive-comments&#34;&gt;Representation learning for sequence data with deep autoencoding predictive comments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;autoencoder&lt;/li&gt;
+&lt;li&gt;deep learning&lt;/li&gt;
+&lt;li&gt;Representation reconstruction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;Representation_learning_for_sequence_data_with_deep_autoencoding_predictive_comments.png&#34; alt=&#34;Representation learning for sequence data with deep autoencoding predictive comments&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;scalable-learning-and-map-inference-for-nonsymmetric-determinantal-point-processes&#34;&gt;Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Processes&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Scalable%20Learning%20and%20MAP%20Inference%20for%20Nonsymmetric%20Determinantal%20Point%20Processes.png&#34; alt=&#34;Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Processes&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mice--mixture-of-contrastive-experts-for-unsupervised-image-clustering&#34;&gt;MiCE- Mixture of Contrastive Experts for Unsupervised Image Clustering&lt;/h2&gt;
+&lt;p&gt;![MiCE- Mixture of Contrastive Experts for Unsupervised Image Clustering](MiCE- Mixture of Contrastive Experts for Unsupervised Image Clustering.png)&lt;/p&gt;
+&lt;h2 id=&#34;simple-spectral-graph-convolution&#34;&gt;Simple Spectral Graph Convolution&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Simple%20Spectral%20Graph%20Convolution.png&#34; alt=&#34;Simple Spectral Graph Convolution&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;deep-learning-meets-projective-clustering&#34;&gt;Deep Learning meets Projective Clustering&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Deep%20Learning%20meets%20Projective%20Clustering.png&#34; alt=&#34;Deep Learning meets Projective Clustering&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;evaluation-of-similarity-based-explanations&#34;&gt;Evaluation of Similarity-based Explanations&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Evaluation%20of%20Similarity-based%20Explanations.png&#34; alt=&#34;Evaluation of Similarity-based Explanations&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;self-supervised-learning-from-a-multi-view-perspective&#34;&gt;Self-supervised Learning from a Multi-view Perspective&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Self-supervised%20Learning%20from%20a%20Multi-view%20Perspective.png&#34; alt=&#34;Self-supervised Learning from a Multi-view Perspective&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;clustering-friendly-representation-learning-via-instance-discrimination-and-feature-decorrelation&#34;&gt;Clustering-friendly Representation Learning via Instance Discrimination and Feature Decorrelation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Clustering-friendly%20Representation%20Learning%20via%20Instance%20Discrimination%20and%20Feature%20Decorrelation.png&#34; alt=&#34;Clustering-friendly Representation Learning via Instance Discrimination and Feature Decorrelation&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;evaluation-of-similarity-based-explanations-1&#34;&gt;Evaluation of Similarity-based Explanations&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Evaluation%20of%20Similarity-based%20Explanations.png&#34; alt=&#34;Evaluation of Similarity-based Explanations&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;self-supervised-learning-from-a-multi-view-perspective-1&#34;&gt;Self-supervised Learning from a Multi-view Perspective&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Self-supervised%20Learning%20from%20a%20Multi-view%20Perspective.png&#34; alt=&#34;Self-supervised Learning from a Multi-view Perspective&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;safenet-a-secure-accurate-and-fast-neural-network-inference&#34;&gt;SAFENet: A Secure, Accurate and Fast Neural Network Inference&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;SAFENet-%20A%20Secure,%20Accurate%20and%20Fast%20Neural%20Network%20Inference.png&#34; alt=&#34;SAFENet: A Secure, Accurate and Fast Neural Network Inference&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;do-not-let-privacy-overbill-utility-gradient-embedding-perturbation-for-private-learning&#34;&gt;Do not Let Privacy Overbill Utility: Gradient Embedding Perturbation for Private Learning&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Do%20not%20Let%20Privacy%20Overbill%20Utility-%20Gradient%20Embedding%20Perturbation%20for%20Private%20Learning.png&#34; alt=&#34;Do not Let Privacy Overbill Utility: Gradient Embedding Perturbation for Private Learning&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;information-laundering-for-model-privacy&#34;&gt;Information Laundering for Model Privacy&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Information%20Laundering%20for%20Model%20Privacy.png&#34; alt=&#34;Information Laundering for Model Privacy&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Researcher&#39;s Toolboxes</title>
