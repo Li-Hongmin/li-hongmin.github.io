@@ -5,12 +5,42 @@
     <link>https://li-hongmin.github.io/post/</link>
       <atom:link href="https://li-hongmin.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 02 Jun 2021 09:00:18 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 03 Jun 2021 16:16:05 +0900</lastBuildDate>
     <image>
       <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://li-hongmin.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>RNA-seq analysis on blood cells of mice suffering from cancer</title>
+      <link>https://li-hongmin.github.io/post/rna-seq/</link>
+      <pubDate>Thu, 03 Jun 2021 16:16:05 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/post/rna-seq/</guid>
+      <description>&lt;p&gt;We used Seurat, a library of bioinformatics in R language, to perform quality control, dimensionality reduction, visualization, and clustering on RNA-seq data from blood cells of mice suffering from cancer, successfully identified different kinds of cells and observed a significant increase of NK cells within cancer tissues.&lt;/p&gt;
+&lt;p&gt;Here is my 
+&lt;a href=&#34;AnalysisonWTandRTbySeurat.pdf&#34;&gt;report&lt;/a&gt;, where WT indicates data from normal mice and RT indicates the data from cancer mice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A new idea for &#39;Multiple models fitting&#39;</title>
+      <link>https://li-hongmin.github.io/post/multip_model_fit/</link>
+      <pubDate>Thu, 03 Jun 2021 16:00:37 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/post/multip_model_fit/</guid>
+      <description>&lt;p&gt;In our method, we use a k-means-like method to train two models and update subsets and models iteratively until the evaluation indicator converges. We created a demo to show how to find two regression models from different parts of toy data. Please find the demo here.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Li-Hongmin/ideas/blob/main/FindTwoModelsFromToyData.ipynb&#34;&gt;https://github.com/Li-Hongmin/ideas/blob/main/FindTwoModelsFromToyData.ipynb&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A new idea for &#39;causal analysis of controlled experiments&#39;</title>
+      <link>https://li-hongmin.github.io/post/causal_analysis/</link>
+      <pubDate>Thu, 03 Jun 2021 15:56:25 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/post/causal_analysis/</guid>
+      <description>&lt;p&gt;We designed a framework to conduct causal analysis of controlled experiments. In controlled experiments, we have controlled group (A) and experiment group (B). Usually, a certain change of variable (intervention) happed in group B. If the result shows a statistically significant difference between A and B, we say such intervention does matter. However, the intervention may cause good effects and bad effects for different people, which we have not known. Our goal is to find the subset of samples for which the intervention is effective.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Visualization of Specific Genes in Genome Data</title>

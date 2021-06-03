@@ -5,12 +5,20 @@
     <link>https://li-hongmin.github.io/project/</link>
       <atom:link href="https://li-hongmin.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 14 Oct 2020 18:11:05 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 03 Jun 2021 15:36:26 +0900</lastBuildDate>
     <image>
       <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://li-hongmin.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Exploration research</title>
+      <link>https://li-hongmin.github.io/project/ideas/</link>
+      <pubDate>Thu, 03 Jun 2021 15:36:26 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/project/ideas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Research Papers</title>
