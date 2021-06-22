@@ -5,12 +5,20 @@
     <link>https://li-hongmin.github.io/</link>
       <atom:link href="https://li-hongmin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>李鸿敏 (Li Hongmin)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 03 Jun 2021 16:16:05 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 22 Jun 2021 19:10:03 +0900</lastBuildDate>
     <image>
       <url>https://li-hongmin.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>李鸿敏 (Li Hongmin)</title>
       <link>https://li-hongmin.github.io/</link>
     </image>
+    
+    <item>
+      <title>Our new paper ‘LSEC: Large-scale spectral ensemble clustering&#39; is out on arXiv!</title>
+      <link>https://li-hongmin.github.io/publication/lsec/</link>
+      <pubDate>Tue, 22 Jun 2021 19:10:03 +0900</pubDate>
+      <guid>https://li-hongmin.github.io/publication/lsec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RNA-seq analysis on blood cells of mice suffering from cancer</title>
@@ -67,10 +75,10 @@
       <guid>https://li-hongmin.github.io/post/visualization-of-specific-genes-in-genome-data/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;We conduct dimensionality reduction for specific genes from 1000 genome data.&lt;/li&gt;
-&lt;li&gt;Our codes are available in my 
-&lt;a href=&#34;https://github.com/Li-Hongmin/Visualization-of-specific-genes-in-genome-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Our visualization results can be found 
 &lt;a href=&#34;dimentionReduction.html&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Our source codes are available in my 
+&lt;a href=&#34;https://github.com/Li-Hongmin/Visualization-of-specific-genes-in-genome-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
