@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 # title: ['李鸿敏(Li Hongmin)']
 description: [Welcome to Li Hongmin' homepage.] 
-show_downloads: ["false"]
+# show_downloads: ["false"]
 google_analytics: ["UA-154946251-1"]
