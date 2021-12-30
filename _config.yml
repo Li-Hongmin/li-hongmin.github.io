@@ -11,3 +11,6 @@ plugins:
 description: [Welcome to Li Hongmin' homepage.] 
 # show_downloads: ["false"]
 google_analytics: ["UA-154946251-1"]
+
+github:
+  is_project_page: false
