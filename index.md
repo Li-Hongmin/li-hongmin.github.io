@@ -1,4 +1,5 @@
-## Li Hongmin's Homepage
+# Li Hongmin's Homepage
+## Short Bio
 
 I am a PhD student of Computer Science at Mathematical Modeling & Algorithms Laboratory in University of Tsukuba. My research interests include Spectral clustering, Machine learning and related fields.
 
