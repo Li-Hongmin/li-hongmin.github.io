@@ -1,8 +1,3 @@
-theme: jekyll-theme-leap-day
-# title: ['李鸿敏(Li Hongmin)']
-description: [Welcome to Li Hongmin' homepage.] 
-# show_downloads: ["false"]
-google_analytics: ["UA-154946251-1"]
-
+theme: jekyll-theme-cayman
 github:
   is_project_page: false
