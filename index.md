@@ -1,4 +1,4 @@
-# 李鸿敏(Li Hongmin)
+# Li Hongmin
 
 I am a PhD student of Computer Science at Mathematical Modeling & Algorithms Laboratory in University of Tsukuba. My research interests include Spectral clustering, Machine learning and related fields.
 
