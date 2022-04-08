@@ -1,8 +1,7 @@
 # Li Hongmin
 
-I am a PhD student of Computer Science at Mathematical Modeling & Algorithms Laboratory in University of Tsukuba. My research interests include Spectral clustering, Machine learning and related fields.
-
-Currently, I am supported by JST under Support for Pioneering Research Initiated by the Next Generation.
+I am a post doctor of Asai Laboratory in University of Tokyo. 
+My research interests include Spectral clustering, Machine learning and related fields.
 
 ## News
 - 2022.03 I gave a presentation named "LSEC: large-scale spectral ensemble clustering" in Poster Session of SPRING Fellowship.
@@ -23,6 +22,7 @@ Currently, I am supported by JST under Support for Pioneering Research Initiated
 
 ## Awards
 
+- 2021.10 I was supported by JST under Support for Pioneering Research Initiated by the Next Generation.
 - 2020.10.18 I awarded second prize on AETA Earthquake Prediction AI Algorithm Competition 2019. [News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition/) and my [slide](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie).
 - 2019.10 I won the special award in the 3rd Analysys International Algorithm Competition -PV, UV Prediction Competition.
 - 2019.8 Our paper 'Large Scale Spectral Clustering Using Sparse Representation Based on Hubness' won best paper award of CBDCom 2018.
