@@ -4,7 +4,7 @@ I am a post-doctor of Asai Laboratory at the University of Tokyo.
 My research interests include Spectral clustering, Machine learning, and related fields.
 
 ## News
-- 2022.4 I start I’m starting a new position as a Researcher at The University of Tokyo!
+- 2022.4 I’m starting a new position as a Researcher at The University of Tokyo!
 - 2022.3 I graduated from University of Tsukuba and got the Ph.D. degree.
 
 ## Publications 
