@@ -1,10 +1,10 @@
 # Li Hongmin
 
-I am a post-doctor of Asai Laboratory at the University of Tokyo. 
+I am a post-doctor of [Asai Laboratory](http://asailab.cb.k.u-tokyo.ac.jp/) at the University of Tokyo. 
 My research interests include Spectral clustering, Machine learning, and related fields.
 
 ## News
-- 2022.4 I’m starting a new position as a Researcher at The University of Tokyo!
+- 2022.4 I’m starting a new position as a Researcher at The University of Tokyo [News](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)!
 - 2022.3 I graduated from University of Tsukuba and got the Ph.D. degree.
 
 ## Publications 
