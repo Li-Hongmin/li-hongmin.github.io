@@ -2,6 +2,7 @@
 
 I am a post-doctor of [Asai Laboratory](http://asailab.cb.k.u-tokyo.ac.jp/) at the University of Tokyo. 
 My research interests include Spectral clustering, Machine learning, and related fields.
+Currently, I am woking on developing machine learning algorithms for bioinformatics.
 
 ## News
 - 2022.6 Our journal paper ‘Divide-and-conquer based Large-Scale Spectral Clustering' is finally accepted	by Neurocomputing!
