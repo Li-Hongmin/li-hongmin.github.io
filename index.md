@@ -1,6 +1,6 @@
 # Li Hongmin
 
-I am a post-doctor of [Asai Laboratory](http://asailab.cb.k.u-tokyo.ac.jp/) at the University of Tokyo. 
+I am a post-doctor of [Asai Laboratory](https://sites.google.com/view/asailab/) at the University of Tokyo. 
 My research interests include Spectral clustering, Machine learning, and related fields.
 Currently, I am woking on developing machine learning algorithms for bioinformatics.
 
