@@ -5,6 +5,8 @@ My research interests include Spectral clustering, Machine learning, and related
 Currently, I am woking on developing machine learning algorithms for bioinformatics.
 
 ## News
+- 2023.5 I came back to University of Tokyo to continue my post-doctor as a Researcher.
+- 2022.10 I joined a self-driving company HAOMO.AI as a machine learning engineer in their "蓝色空间领航者" project.
 - 2022.8 I gave a presentation about fast dimensionality reduction for RNA in [RNAインフォマティクス道場2022](https://sites.google.com/edu.k.u-tokyo.ac.jp/rna-info2022)!
 - 2022.6 Our journal paper ‘Divide-and-conquer based Large-Scale Spectral Clustering' is finally accepted	by Neurocomputing!
 - 2022.4 I’m starting a new position as a Researcher at The University of Tokyo [News](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)!
