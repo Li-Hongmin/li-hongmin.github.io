@@ -7,6 +7,7 @@ Currently, I am woking on developing machine learning algorithms for bioinformat
 Email: lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## News
+- 2023.8 I gave a presentation about RNA-language pre-training modelin [RNAインフォマティクス道場2023](https://sites.google.com/view/rna-info/dojo/kobe2023)!
 - 2023.5 I came back to University of Tokyo to continue my post-doctor as a Researcher.
 - 2022.10 I joined a self-driving company HAOMO.AI as a machine learning engineer in their "蓝色空间领航者" project.
 - 2022.8 I gave a presentation about fast dimensionality reduction for RNA in [RNAインフォマティクス道場2022](https://sites.google.com/edu.k.u-tokyo.ac.jp/rna-info2022)!
