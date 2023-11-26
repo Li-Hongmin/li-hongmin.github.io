@@ -4,6 +4,8 @@ I am a post-doctor of [Asai Laboratory](https://sites.google.com/view/asailab/) 
 My research interests include Spectral clustering, Machine learning, and related fields.
 Currently, I am woking on developing machine learning algorithms for bioinformatics.
 
+My [CV](assets/css/CV_LI_HONGMIN.pdf).
+
 Email: lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## News
