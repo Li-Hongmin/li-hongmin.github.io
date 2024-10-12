@@ -8,8 +8,9 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 ## Recent Activities
 - **2024.10** - Presenting a poster on the FastUMAP model at [APBJC24](https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185).
 - **2024.8** - Gave a talk on the RNA-language model at [RNA Informatics Dojo 2023](https://sites.google.com/view/rna-info/dojo/sapporo2024/program?authuser=0).
-- **2024.6** - Attended [WCCI 24](https://2024.ieeewcci.org/) in Yokohama.
-- **2024.6** - Attended the [25th Annual Meeting of the RNA Society of Japan](https://www.rnaj.org/en/rna2024) at the Yasuda Auditorium, University of Tokyo.
+- **2024.8** - Participated in [IJCAI 24](https://ijcai24.org/) in Jeju 03.08.24 - 09.08.24.
+- **2024.6** - Participated in [WCCI 24](https://2024.ieeewcci.org/) in Yokohama.
+- **2024.6** - Participated in [25th Annual Meeting of the RNA Society of Japan](https://www.rnaj.org/en/rna2024) at the Yasuda Auditorium, University of Tokyo.
 - **2024.4** - Awarded a young researcher grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)).
 
 ## Professional Experience
