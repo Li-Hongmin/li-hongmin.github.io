@@ -13,6 +13,18 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 - **2024.6** - Participated in [25th Annual Meeting of the RNA Society of Japan](https://www.rnaj.org/en/rna2024) at the Yasuda Auditorium, University of Tokyo.
 - **2024.4** - Awarded a young researcher grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)).
 
+### Peer Review Activities
+
+- **2024.10** - *Knowledge and Information Systems*  
+- **2024.10** - *Neurocomputing*  
+- **2024.09** - *Knowledge and Information Systems*  
+- **2024.09** - *The Visual Computer*  
+- **2024.06** - *The Visual Computer*  
+- **2024.06** - *Knowledge and Information Systems*  
+- **2024.03** - *International Journal of Machine Learning and Cybernetics*  
+- **2022.11** - *Transactions on Pattern Analysis and Machine Intelligence*  
+- **2022.10** - *Briefings in Functional Genomics*  
+
 ## Professional Experience
 - **2023.5** - Resumed postdoctoral research at the University of Tokyo.
 - **2022.10** - Joined HAOMO.AI as a machine learning engineer for the "蓝色空间领航者" project.
