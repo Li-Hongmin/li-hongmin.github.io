@@ -13,18 +13,6 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 - **2024.6** - Participated in [25th Annual Meeting of the RNA Society of Japan](https://www.rnaj.org/en/rna2024) at the Yasuda Auditorium, University of Tokyo.
 - **2024.4** - Awarded a young researcher grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)).
 
-### Peer Review Activities
-
-- **2024.10** - *Knowledge and Information Systems*  
-- **2024.10** - *Neurocomputing*  
-- **2024.09** - *Knowledge and Information Systems*  
-- **2024.09** - *The Visual Computer*  
-- **2024.06** - *The Visual Computer*  
-- **2024.06** - *Knowledge and Information Systems*  
-- **2024.03** - *International Journal of Machine Learning and Cybernetics*  
-- **2022.11** - *Transactions on Pattern Analysis and Machine Intelligence*  
-- **2022.10** - *Briefings in Functional Genomics*  
-
 ## Professional Experience
 - **2023.5** - Resumed postdoctoral research at the University of Tokyo.
 - **2022.10** - Joined HAOMO.AI as a machine learning engineer for the "蓝色空间领航者" project.
@@ -41,6 +29,18 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 - **2020.2** - *"An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps"* published in *Neurocomputing*. [Link](http://dx.doi.org/10.1016/j.neucom.2020.02.081)
 - **2019.8** - *"Distributed Collaborative Feature Selection Based on Intermediate Representation"* published in *IJCAI 2019*. [Link](http://dx.doi.org/10.24963/ijcai.2019/575)
 - **2019.8** - *"Large Scale Spectral Clustering Using Sparse Representation Based on Hubness"* published in *CBDCom 2018*. [Link](http://dx.doi.org/10.1109/SmartWorld.2018.00293), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness)
+
+## Peer Review Activities
+
+- **2024.10** - *Knowledge and Information Systems*  
+- **2024.10** - *Neurocomputing*  
+- **2024.09** - *Knowledge and Information Systems*  
+- **2024.09** - *The Visual Computer*  
+- **2024.06** - *The Visual Computer*  
+- **2024.06** - *Knowledge and Information Systems*  
+- **2024.03** - *International Journal of Machine Learning and Cybernetics*  
+- **2022.11** - *Transactions on Pattern Analysis and Machine Intelligence*  
+- **2022.10** - *Briefings in Functional Genomics*  
 
 ## Presentations
 - **2023.8** - Presented on RNA-language pre-training at [RNA Informatics Dojo 2023](https://sites.google.com/view/rna-info/dojo/kobe2023).
