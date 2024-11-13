@@ -6,6 +6,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp  
 
 ## Recent Activities
+- **2024.11** - Presenting a poster on the our project at [2024年度 CREST「データ駆動・AI駆動を中心としたデジタルトランスフォーメーションによる生命科学研究の革新」領域 中間報告シンポジウム](https://www.jst.go.jp/kisoken/aip/result/event/biodx2024/index.html).
 - **2024.10** - Presenting a poster on the FastUMAP model at [APBJC24](https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185).
 - **2024.8** - Gave a talk on the RNA-language model at [RNA Informatics Dojo 2023](https://sites.google.com/view/rna-info/dojo/sapporo2024/program?authuser=0).
 - **2024.8** - Participated in [IJCAI 24](https://ijcai24.org/) in Jeju 03.08.24 - 09.08.24.
@@ -32,12 +33,10 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 
 ## Peer Review Activities
 
-- **2024.10** - *Knowledge and Information Systems*  
+- **2024.11** - *Pattern Analysis and Applications*  
+- **2024.11** - *Knowledge and Information Systems*  
 - **2024.10** - *Neurocomputing*  
-- **2024.09** - *Knowledge and Information Systems*  
 - **2024.09** - *The Visual Computer*  
-- **2024.06** - *The Visual Computer*  
-- **2024.06** - *Knowledge and Information Systems*  
 - **2024.03** - *International Journal of Machine Learning and Cybernetics*  
 - **2022.11** - *Transactions on Pattern Analysis and Machine Intelligence*  
 - **2022.10** - *Briefings in Functional Genomics*  
