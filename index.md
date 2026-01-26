@@ -35,6 +35,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 
 ## Peer Review Activities
 
+- **2026.01** - *The Journal of Supercomputing*
 - **2024.11** - *Pattern Analysis and Applications*  
 - **2024.11** - *Knowledge and Information Systems*  
 - **2024.10** - *Neurocomputing*  
