@@ -6,6 +6,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp  
 
 ## Recent Activities
+- **2025.10** - Published preprint *"Gradient-based Optimization for mRNA Sequence Design"* on [bioRxiv](https://doi.org/10.1101/2025.10.22.683691).
 - **2025.10** - Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization	$30,000
 - **2025.8** - Presented on Input Data Differentiable Designer at [RNA Informatics Dojo 2025](https://sites.google.com/view/rna-info/dojo/nagasaki2025).
 - **2024.11** - Presenting a poster on the our project at [2024年度 CREST「データ駆動・AI駆動を中心としたデジタルトランスフォーメーションによる生命科学研究の革新」領域 中間報告シンポジウム](https://www.jst.go.jp/kisoken/aip/result/event/biodx2024/index.html).
