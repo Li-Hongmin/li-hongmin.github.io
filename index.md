@@ -6,6 +6,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Recent Activities
+- **2025.12** - Published preprint *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"* on bioRxiv.
 - **2025.10** - Published preprint *"Gradient-based Optimization for mRNA Sequence Design"* on [bioRxiv](https://doi.org/10.1101/2025.10.22.683691).
 
 ## Professional Experience
@@ -15,6 +16,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 - **2022.3** - Received Ph.D. from the University of Tsukuba.
 
 ## Publications
+- **2025.12** - Co-authored *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"* in *bioRxiv*.
 - **2025.10** - Published *"Gradient-based Optimization for mRNA Sequence Design"* in *bioRxiv*. [Link](https://doi.org/10.1101/2025.10.22.683691)
 - **2023.9** - Co-authored *"An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China"* in *Engineering Geology*. [Link](http://dx.doi.org/10.2139/ssrn.4569745)
 - **2023.1** - Published *"LSEC: Large-scale spectral ensemble clustering"* in *Intelligent Data Analysis*. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
