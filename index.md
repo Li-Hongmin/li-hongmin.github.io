@@ -41,7 +41,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 
 ### Conference Activities
 - **2025.8** - Oral - Presented on Input Data Differentiable Designer at [RNA Informatics Dojo 2025](https://sites.google.com/view/rna-info/dojo/nagasaki2025)
-- **2024.11** - Poster - Presented a poster on the project at [2024 CREST Symposium](https://www.jst.go.jp/kisoken/aip/result/event/biodx2024/index.html)
+- **2024.11** - Poster - Presented a poster on the project at [2024 CREST Symposium](https://www.jst.go.jp/kisoken/aip/result/event/biodx2024/index.html) ([Poster](files/CREST_2024_poster.pdf))
 - **2024.10** - Poster - Presented a poster on the FastUMAP model at [APBJC24](https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185)
 - **2024.8** - Oral - Gave a talk on the RNA-language model at [RNA Informatics Dojo 2024](https://sites.google.com/view/rna-info/dojo/sapporo2024/program?authuser=0)
 - **2024.8** - Participation - Participated in [IJCAI 24](https://ijcai24.org/) in Jeju
