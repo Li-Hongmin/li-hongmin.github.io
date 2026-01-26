@@ -2,7 +2,7 @@
 
 I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com/view/asailab/) at the University of Tokyo. My research focuses on spectral clustering, machine learning, and bioinformatics. Currently, I am developing machine learning algorithms for bioinformatics applications.
 
-**[CV](assets/css/CV_LI_HONGMIN.pdf)**
+**[CV](cv.md)**
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Recent Activities
