@@ -17,7 +17,7 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 
 ## Publications
 - **2025.12** - Co-authored *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"* in *bioRxiv*. [Link](https://doi.org/10.64898/2025.12.22.695962)
-- **2025.10** - Published *"Gradient-based Optimization for mRNA Sequence Design"* in *bioRxiv*. [Link](https://doi.org/10.1101/2025.10.22.683691)
+- **2025.10** - Published *"Gradient-based Optimization for mRNA Sequence Design"* in *bioRxiv*. [Link](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
 - **2023.9** - Co-authored *"An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China"* in *Engineering Geology*. [Link](http://dx.doi.org/10.2139/ssrn.4569745)
 - **2023.1** - Published *"LSEC: Large-scale spectral ensemble clustering"* in *Intelligent Data Analysis*. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
 - **2022.7** - Published *"Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity"* in *Frontiers in Genetics*. [Code](https://github.com/linxi159/scGNGI)
