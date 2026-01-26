@@ -2,20 +2,11 @@
 
 I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com/view/asailab/) at the University of Tokyo. My research focuses on spectral clustering, machine learning, and bioinformatics. Currently, I am developing machine learning algorithms for bioinformatics applications.
 
-**[CV](assets/css/CV_LI_HONGMIN.pdf)**  
-**Email:** lihongmin[at]edu.k.u-tokyo.ac.jp  
+**[CV](assets/css/CV_LI_HONGMIN.pdf)**
+**Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Recent Activities
 - **2025.10** - Published preprint *"Gradient-based Optimization for mRNA Sequence Design"* on [bioRxiv](https://doi.org/10.1101/2025.10.22.683691).
-- **2025.10** - Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization	$30,000
-- **2025.8** - Presented on Input Data Differentiable Designer at [RNA Informatics Dojo 2025](https://sites.google.com/view/rna-info/dojo/nagasaki2025).
-- **2024.11** - Presenting a poster on the our project at [2024年度 CREST「データ駆動・AI駆動を中心としたデジタルトランスフォーメーションによる生命科学研究の革新」領域 中間報告シンポジウム](https://www.jst.go.jp/kisoken/aip/result/event/biodx2024/index.html).
-- **2024.10** - Presenting a poster on the FastUMAP model at [APBJC24](https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185).
-- **2024.8** - Gave a talk on the RNA-language model at [RNA Informatics Dojo 2023](https://sites.google.com/view/rna-info/dojo/sapporo2024/program?authuser=0).
-- **2024.8** - Participated in [IJCAI 24](https://ijcai24.org/) in Jeju 03.08.24 - 09.08.24.
-- **2024.6** - Participated in [WCCI 24](https://2024.ieeewcci.org/) in Yokohama.
-- **2024.6** - Participated in [25th Annual Meeting of the RNA Society of Japan](https://www.rnaj.org/en/rna2024) at the Yasuda Auditorium, University of Tokyo.
-- **2024.4** - Awarded a young researcher grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)).
 
 ## Professional Experience
 - **2023.5** - Resumed postdoctoral research at the University of Tokyo.
@@ -35,26 +26,43 @@ I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com
 - **2019.8** - *"Distributed Collaborative Feature Selection Based on Intermediate Representation"* published in *IJCAI 2019*. [Link](http://dx.doi.org/10.24963/ijcai.2019/575)
 - **2019.8** - *"Large Scale Spectral Clustering Using Sparse Representation Based on Hubness"* published in *CBDCom 2018*. [Link](http://dx.doi.org/10.1109/SmartWorld.2018.00293), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness)
 
+## Funding
+
+### Research Grants
+- **2025.10** - Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
+- **2024.4** - KAKENHI Young Researcher Grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
+
+### Scholarships
+- **2021.10** - JST SPRING Fellowship (Pioneering Research Initiated by the Next Generation)
+
+## Conferences
+
+### Conference Activities
+- **2025.8** - Oral - Presented on Input Data Differentiable Designer at [RNA Informatics Dojo 2025](https://sites.google.com/view/rna-info/dojo/nagasaki2025)
+- **2024.11** - Poster - Presented a poster on the project at [2024 CREST Symposium](https://www.jst.go.jp/kisoken/aip/result/event/biodx2024/index.html)
+- **2024.10** - Poster - Presented a poster on the FastUMAP model at [APBJC24](https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185)
+- **2024.8** - Oral - Gave a talk on the RNA-language model at [RNA Informatics Dojo 2024](https://sites.google.com/view/rna-info/dojo/sapporo2024/program?authuser=0)
+- **2024.8** - Participation - Participated in [IJCAI 24](https://ijcai24.org/) in Jeju
+- **2024.6** - Participation - Participated in [WCCI 24](https://2024.ieeewcci.org/) in Yokohama
+- **2024.6** - Participation - Participated in [25th Annual Meeting of the RNA Society of Japan](https://www.rnaj.org/en/rna2024) at the University of Tokyo
+- **2023.8** - Oral - Presented on RNA-language pre-training at [RNA Informatics Dojo 2023](https://sites.google.com/view/rna-info/dojo/kobe2023)
+- **2022.8** - Oral - Talk on fast dimensionality reduction for RNA at [RNA Informatics Dojo 2022](https://sites.google.com/edu.k.u-tokyo.ac.jp/rna-info2022)
+- **2022.3** - Oral - "LSEC: Large-scale spectral ensemble clustering" at SPRING Fellowship
+- **2021.12** - Oral - ["A novel large scale spectral clustering"](https://www.researchgate.net/publication/357116587_A_novel_large_scale_spectral_clustering) at CollaboTICS 2021
+- **2019.6** - Poster - "Large Scale Spectral Clustering Using Landmarks Based on Hubness" at the G20 Digital Science Now Symposium ([Poster](https://www.researchgate.net/publication/351578192_Large_scale_spectral_clustering_using_landmarks_based_on_hubness))
+
 ## Peer Review Activities
 
 - **2026.01** - *The Journal of Supercomputing*
-- **2024.11** - *Pattern Analysis and Applications*  
-- **2024.11** - *Knowledge and Information Systems*  
-- **2024.10** - *Neurocomputing*  
-- **2024.09** - *The Visual Computer*  
-- **2024.03** - *International Journal of Machine Learning and Cybernetics*  
-- **2022.11** - *Transactions on Pattern Analysis and Machine Intelligence*  
-- **2022.10** - *Briefings in Functional Genomics*  
-
-## Presentations
-- **2023.8** - Presented on RNA-language pre-training at [RNA Informatics Dojo 2023](https://sites.google.com/view/rna-info/dojo/kobe2023).
-- **2022.8** - Talk on fast dimensionality reduction for RNA at [RNA Informatics Dojo 2022](https://sites.google.com/edu.k.u-tokyo.ac.jp/rna-info2022).
-- **2022.03** - "LSEC: Large-scale spectral ensemble clustering," presented at SPRING Fellowship.
-- **2021.12** - Presented ["A novel large scale spectral clustering"](https://www.researchgate.net/publication/357116587_A_novel_large_scale_spectral_clustering) at CollaboTICS 2021.
-- **2019.6** - Poster presentation on “Large Scale Spectral Clustering Using Landmarks Based on Hubness” at the G20 Digital Science Now Symposium. [Poster](https://www.researchgate.net/publication/351578192_Large_scale_spectral_clustering_using_landmarks_based_on_hubness)
+- **2024.11** - *Pattern Analysis and Applications*
+- **2024.11** - *Knowledge and Information Systems*
+- **2024.10** - *Neurocomputing*
+- **2024.09** - *The Visual Computer*
+- **2024.03** - *International Journal of Machine Learning and Cybernetics*
+- **2022.11** - *Transactions on Pattern Analysis and Machine Intelligence*
+- **2022.10** - *Briefings in Functional Genomics*
 
 ## Awards
-- **2021.10** - JST award for Pioneering Research Initiated by the Next Generation.
-- **2020.10.18** - Second prize, AETA Earthquake Prediction AI Algorithm Competition 2019. [News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slide](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie)
-- **2019.10** - Special award, 3rd Analysys International Algorithm Competition - PV, UV Prediction Competition.
+- **2020.10** - Second prize, AETA Earthquake Prediction AI Algorithm Competition 2019 ([News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slide](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie))
+- **2019.10** - Special award, 3rd Analysys International Algorithm Competition - PV, UV Prediction Competition
 - **2019.8** - Best Paper Award at *CBDCom 2018* for "Large Scale Spectral Clustering Using Sparse Representation Based on Hubness"
