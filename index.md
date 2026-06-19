@@ -6,6 +6,7 @@ I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://w
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Recent Activities
+- **2026.06** - Received Google Cloud TPU Builders Awards totaling USD 5,500 in GCP credits to support TPU-based AI and scientific workflow experiments.
 - **2026.05** - Posted *"Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol"* on arXiv, proposing an audit-constrained protocol for evaluating LLM reasoning under controlled prompt variation.
 - **2026.05** - Posted *"Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model"* on arXiv, analyzing how shortcut learning, shortcut-rule transition, and cross-family OOD failure can separate.
 - **2026.05** - Posted *"A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup"* on arXiv, showing a boundary case where proxy-based structure explanations fail to track task-relevant OOD performance.
@@ -43,6 +44,7 @@ I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://w
 ## Funding
 
 ### Research Grants
+- **2026.06** - Google Cloud TPU Builders Award - USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments
 - **2026.04** - KAKENHI Grant-in-Aid for Early-Career Scientists: Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design - ¥4,550,000 ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
 - **2025.10** - Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
 - **2024.4** - KAKENHI Young Researcher Grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
@@ -78,6 +80,7 @@ I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://w
 - **2022.10** - *Briefings in Functional Genomics*
 
 ## Awards
+- **2026.06** - Google Cloud TPU Builders Award - USD 5,500 in GCP credits
 - **2020.10** - Second prize, AETA Earthquake Prediction AI Algorithm Competition 2019 ([News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slide](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie))
 - **2019.10** - Special award, 3rd Analysys International Algorithm Competition - PV, UV Prediction Competition
 - **2019.8** - Best Paper Award at *CBDCom 2018* for "Large Scale Spectral Clustering Using Sparse Representation Based on Hubness"

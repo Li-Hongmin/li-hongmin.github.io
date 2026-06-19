@@ -37,6 +37,7 @@
 ## Funding
 
 ### Research Grants
+- **2026.06** | Google Cloud TPU Builders Award - USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments
 - **2026.04** | KAKENHI Grant-in-Aid for Early-Career Scientists: Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design - ¥4,550,000 ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
 - **2025.10** | Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
 - **2024.4** | KAKENHI Young Researcher Grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
@@ -115,6 +116,7 @@
 
 ## Awards
 
+- **2026.06** | Google Cloud TPU Builders Award - USD 5,500 in GCP credits
 - **2021.10** | JST SPRING Fellowship (Pioneering Research Initiated by the Next Generation)
 - **2020.10** | Second Prize, AETA Earthquake Prediction AI Algorithm Competition 2019
 - **2019.10** | Special Award, 3rd Analysys International Algorithm Competition
@@ -139,4 +141,4 @@
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: June 2026*
