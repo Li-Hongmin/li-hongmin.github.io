@@ -8,10 +8,11 @@
 
 ## Research Interests
 
-- Machine Learning for Bioinformatics
-- Spectral Clustering
-- RNA Sequence Design and Optimization
-- Large Language Models for Biological Sequences
+- AI-Automated Scientific Workflows
+- AI for Science and Scientific Discovery
+- AI Research and Evaluation
+- Bioinformatics and Biological Sequence Analysis
+- Biomolecular Sequence Design and Optimization
 
 ---
 
@@ -36,6 +37,7 @@
 ## Funding
 
 ### Research Grants
+- **2026.04** | KAKENHI Grant-in-Aid for Early-Career Scientists: Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design - ¥4,550,000 ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
 - **2025.10** | Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
 - **2024.4** | KAKENHI Young Researcher Grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
 

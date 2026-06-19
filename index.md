@@ -1,12 +1,16 @@
 # Li Hongmin
 
-I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo. I am also a guest researcher at the [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo. My research focuses on machine learning, bioinformatics, spectral clustering, and computational methods for biological sequence analysis.
+I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo. I am also a guest researcher at the [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo. My current research interests center on AI-automated scientific workflows, AI research, bioinformatics, and AI for Science, with a focus on building computational systems that support scientific discovery and biological sequence analysis.
 
 **[CV](cv.md)**
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Recent Activities
-- **2026.05** - Posted four arXiv preprints on LLM reasoning audits, OOD failure analysis, proxy-based explanations, and scalable dimensionality reduction.
+- **2026.05** - Posted *"Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol"* on arXiv, proposing an audit-constrained protocol for evaluating LLM reasoning under controlled prompt variation.
+- **2026.05** - Posted *"Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model"* on arXiv, analyzing how shortcut learning, shortcut-rule transition, and cross-family OOD failure can separate.
+- **2026.05** - Posted *"A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup"* on arXiv, showing a boundary case where proxy-based structure explanations fail to track task-relevant OOD performance.
+- **2026.05** - Posted *"FastUMAP: Scalable Dimensionality Reduction via Bipartite Landmark Sampling"* on arXiv, introducing a fast landmark-based dimensionality reduction method for repeated exploratory embedding.
+- **2026.04** - Awarded a KAKENHI Grant-in-Aid for Early-Career Scientists for the ID3 project on input-data differentiable integrated frameworks for biomolecular sequence design.
 - **2026.04** - Joined the Sato Laboratory for Biomedical Data Science at the Institute of Science Tokyo as a researcher; also started as a guest researcher at the Frith Lab, University of Tokyo.
 - **2025.12** - Published preprint *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"* on [bioRxiv](https://doi.org/10.64898/2025.12.22.695962).
 - **2025.10** - Published preprint *"Gradient-based Optimization for mRNA Sequence Design"* on [bioRxiv](https://doi.org/10.1101/2025.10.22.683691).
@@ -39,6 +43,7 @@ I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://w
 ## Funding
 
 ### Research Grants
+- **2026.04** - KAKENHI Grant-in-Aid for Early-Career Scientists: Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design - ¥4,550,000 ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
 - **2025.10** - Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
 - **2024.4** - KAKENHI Young Researcher Grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
 
