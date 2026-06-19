@@ -1,21 +1,29 @@
 # Li Hongmin
 
-I am a postdoctoral researcher at the [Asai Laboratory](https://sites.google.com/view/asailab/) at the University of Tokyo. My research focuses on spectral clustering, machine learning, and bioinformatics. Currently, I am developing machine learning algorithms for bioinformatics applications.
+I am a researcher at the [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo. I am also a guest researcher at the [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo. My research focuses on machine learning, bioinformatics, spectral clustering, and computational methods for biological sequence analysis.
 
 **[CV](cv.md)**
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Recent Activities
+- **2026.05** - Posted four arXiv preprints on LLM reasoning audits, OOD failure analysis, proxy-based explanations, and scalable dimensionality reduction.
+- **2026.04** - Joined the Sato Laboratory for Biomedical Data Science at the Institute of Science Tokyo as a researcher; also started as a guest researcher at the Frith Lab, University of Tokyo.
 - **2025.12** - Published preprint *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"* on [bioRxiv](https://doi.org/10.64898/2025.12.22.695962).
 - **2025.10** - Published preprint *"Gradient-based Optimization for mRNA Sequence Design"* on [bioRxiv](https://doi.org/10.1101/2025.10.22.683691).
 
 ## Professional Experience
-- **2023.5** - Resumed postdoctoral research at the University of Tokyo.
+- **2026.4 - Present** - Researcher, [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo.
+- **2026.4 - Present** - Guest Researcher, [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo.
+- **2023.5 - 2026.3** - Postdoctoral Researcher, University of Tokyo.
 - **2022.10** - Joined HAOMO.AI as a machine learning engineer for the "蓝色空间领航者" project.
 - **2022.4** - Appointed as a researcher at the University of Tokyo ([Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)).
 - **2022.3** - Received Ph.D. from the University of Tsukuba.
 
 ## Publications
+- **2026.05** - Published *"Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol"* as an arXiv preprint. [arXiv:2605.11599 [cs.LG]](https://arxiv.org/abs/2605.11599)
+- **2026.05** - Published *"Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model"* as an arXiv preprint. [arXiv:2605.12945 [cs.LG]](https://arxiv.org/abs/2605.12945)
+- **2026.05** - Published *"A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup"* as an arXiv preprint. [arXiv:2605.11554 [cs.LG]](https://arxiv.org/abs/2605.11554)
+- **2026.05** - Published *"FastUMAP: Scalable Dimensionality Reduction via Bipartite Landmark Sampling"* as an arXiv preprint. [arXiv:2605.11428 [cs.LG]](https://arxiv.org/abs/2605.11428)
 - **2025.12** - Co-authored *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"* in *bioRxiv*. [Link](https://doi.org/10.64898/2025.12.22.695962)
 - **2025.10** - Published *"Gradient-based Optimization for mRNA Sequence Design"* in *bioRxiv*. [Link](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
 - **2023.9** - Co-authored *"An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China"* in *Engineering Geology*. [Link](http://dx.doi.org/10.2139/ssrn.4569745)

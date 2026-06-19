@@ -1,7 +1,8 @@
 # Curriculum Vitae - Li Hongmin
 
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
-**Affiliation:** [Asai Laboratory](https://sites.google.com/view/asailab/), The University of Tokyo
+**Primary Affiliation:** [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo
+**Guest Affiliation:** [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo
 
 ---
 
@@ -24,7 +25,9 @@
 
 ## Professional Experience
 
-- **2023.5 - Present** | Postdoctoral Researcher, The University of Tokyo
+- **2026.4 - Present** | Researcher, [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo
+- **2026.4 - Present** | Guest Researcher, [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo
+- **2023.5 - 2026.3** | Postdoctoral Researcher, The University of Tokyo
 - **2022.10 - 2023.5** | Machine Learning Engineer, HAOMO.AI (蓝色空间领航者 project)
 - **2022.4 - 2022.10** | Researcher, The University of Tokyo ([Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/))
 
@@ -44,6 +47,14 @@
 ## Publications
 
 ### Preprints
+- **2026.05** | **Hongmin Li**. *"Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol"*. arXiv preprint, arXiv:2605.11599 [cs.LG]. [Link](https://arxiv.org/abs/2605.11599)
+
+- **2026.05** | **Hongmin Li**. *"Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model"*. arXiv preprint, arXiv:2605.12945 [cs.LG]. [Link](https://arxiv.org/abs/2605.12945)
+
+- **2026.05** | **Hongmin Li**. *"A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup"*. arXiv preprint, arXiv:2605.11554 [cs.LG]. [Link](https://arxiv.org/abs/2605.11554)
+
+- **2026.05** | **Hongmin Li**. *"FastUMAP: Scalable Dimensionality Reduction via Bipartite Landmark Sampling"*. arXiv preprint, arXiv:2605.11428 [cs.LG]. [Link](https://arxiv.org/abs/2605.11428)
+
 - **2025.12** | Bian Bian, Yiming Zhang, **Hongmin Li**, Jiuzhou Zhong, Yutaka Saito. *"Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT"*. bioRxiv. [Link](https://doi.org/10.64898/2025.12.22.695962)
 
 - **2025.10** | **Hongmin Li**, Goro Terai, Takumi Otagaki, Kiyoshi Asai. *"Gradient-based Optimization for mRNA Sequence Design"*. bioRxiv. [Link](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
