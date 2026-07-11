@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "compatibility_date": "2026-05-22",
+  "main": "./sites/worker.js",
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+}
