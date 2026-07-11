@@ -1,0 +1,166 @@
+export type ExternalLink = { label: string; href: string };
+export type ResearchArea = { id: string; title: string; description: string };
+export type SelectedWork = {
+  id: string;
+  title: string;
+  eyebrow: string;
+  year: number;
+  description: string;
+  links: ExternalLink[];
+};
+export type Publication = {
+  id: string;
+  date: string;
+  title: string;
+  venue: string;
+  links: ExternalLink[];
+  featured: boolean;
+};
+export type TimelineItem = {
+  id: string;
+  date: string;
+  title: string;
+  organization?: string;
+  detail?: string;
+  links?: ExternalLink[];
+};
+
+const researchAreas: ResearchArea[] = [
+  {
+    id: "automated-workflows",
+    title: "AI-Automated Scientific Workflows",
+    description: "Computational systems that support scientific discovery through testable, reproducible workflows.",
+  },
+  {
+    id: "biomolecular-design",
+    title: "Biomolecular Sequence Design and Optimization",
+    description: "Machine-learning methods for biological sequence analysis, generation, and optimization.",
+  },
+  {
+    id: "reliable-evaluation",
+    title: "Reliable AI Research and Evaluation",
+    description: "Controlled evaluation of AI systems and the evidence used to explain their behavior.",
+  },
+];
+
+const selectedWork: SelectedWork[] = [
+  {
+    id: "id3",
+    title: "ID3",
+    eyebrow: "Biomolecular design",
+    year: 2025,
+    description: "A differentiable framework for biomolecular sequence design.",
+    links: [
+      { label: "Preprint", href: "https://doi.org/10.1101/2025.10.22.683691" },
+      { label: "Code", href: "https://github.com/Li-Hongmin/ID3" },
+    ],
+  },
+  {
+    id: "mrna-gpt",
+    title: "mRNA-GPT",
+    eyebrow: "RNA language models",
+    year: 2025,
+    description: "A generative mRNA language foundation model for coding sequence design.",
+    links: [{ label: "Preprint", href: "https://doi.org/10.64898/2025.12.22.695962" }],
+  },
+  {
+    id: "fastumap",
+    title: "FastUMAP",
+    eyebrow: "Scalable representation learning",
+    year: 2026,
+    description: "Scalable dimensionality reduction through bipartite landmark sampling.",
+    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11428" }],
+  },
+  {
+    id: "targeted-tests",
+    title: "Targeted Tests for LLM Reasoning",
+    eyebrow: "Reliable AI evaluation",
+    year: 2026,
+    description: "An audit-constrained protocol for controlled LLM reasoning evaluation.",
+    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11599" }],
+  },
+];
+
+const publications: Publication[] = [
+  { id: "targeted-tests-for-llm-reasoning", date: "2026.05", title: "Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol", venue: "arXiv preprint · 2605.11599 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11599" }], featured: true },
+  { id: "separating-shortcut-transition", date: "2026.05", title: "Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model", venue: "arXiv preprint · 2605.12945 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.12945" }], featured: true },
+  { id: "controlled-counterexample", date: "2026.05", title: "A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup", venue: "arXiv preprint · 2605.11554 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11554" }], featured: true },
+  { id: "fastumap", date: "2026.05", title: "FastUMAP: Scalable Dimensionality Reduction via Bipartite Landmark Sampling", venue: "arXiv preprint · 2605.11428 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11428" }], featured: true },
+  { id: "mrna-gpt", date: "2025.12", title: "Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT", venue: "bioRxiv", links: [{ label: "Preprint", href: "https://doi.org/10.64898/2025.12.22.695962" }], featured: true },
+  { id: "gradient-based-optimization", date: "2025.10", title: "Gradient-based Optimization for mRNA Sequence Design", venue: "bioRxiv", links: [{ label: "Preprint", href: "https://doi.org/10.1101/2025.10.22.683691" }, { label: "Code", href: "https://github.com/Li-Hongmin/ID3" }], featured: true },
+  { id: "earthquake-landslide-susceptibility", date: "2023.9", title: "An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China", venue: "Engineering Geology", links: [{ label: "Link", href: "http://dx.doi.org/10.2139/ssrn.4569745" }], featured: false },
+  { id: "lsec", date: "2023.1", title: "LSEC: Large-scale spectral ensemble clustering", venue: "Intelligent Data Analysis", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2106.09852" }, { label: "Code", href: "https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering" }], featured: false },
+  { id: "missing-value-imputation", date: "2022.7", title: "Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity", venue: "Frontiers in Genetics", links: [{ label: "Code", href: "https://github.com/linxi159/scGNGI" }], featured: false },
+  { id: "divide-and-conquer-spectral-clustering", date: "2022.6", title: "Divide-and-conquer based Large-Scale Spectral Clustering", venue: "Neurocomputing", links: [{ label: "Preprint", href: "http://dx.doi.org/10.13140/RG.2.2.15207.37281" }, { label: "Code", href: "https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Large-scale_spectral_ensemble_clustering" }], featured: false },
+  { id: "ensemble-learning-spectral-clustering", date: "2020.11", title: "Ensemble Learning for Spectral Clustering", venue: "ICDM 2020", links: [{ label: "PDF", href: "https://www.researchgate.net/publication/351374294_Ensemble_Learning_for_Spectral_Clustering_in_ICDM_2020" }, { label: "Code", href: "https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Ensemble-Learning-for-Spectral-Clustering" }], featured: false },
+  { id: "hubness-based-nystrom", date: "2020.11", title: "Hubness-based Sampling Method for Nyström Spectral Clustering", venue: "IJCNN 2020", links: [{ label: "Link", href: "http://dx.doi.org/10.1109/IJCNN48605.2020.9207089" }], featured: false },
+  { id: "oversampling-laplacian-eigenmaps", date: "2020.2", title: "An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps", venue: "Neurocomputing", links: [{ label: "Link", href: "http://dx.doi.org/10.1016/j.neucom.2020.02.081" }], featured: false },
+  { id: "distributed-collaborative-feature-selection", date: "2019.8", title: "Distributed Collaborative Feature Selection Based on Intermediate Representation", venue: "IJCAI 2019", links: [{ label: "Link", href: "http://dx.doi.org/10.24963/ijcai.2019/575" }], featured: false },
+  { id: "large-scale-spectral-hubness", date: "2019.8", title: "Large Scale Spectral Clustering Using Sparse Representation Based on Hubness", venue: "CBDCom 2018", links: [{ label: "Link", href: "http://dx.doi.org/10.1109/SmartWorld.2018.00293" }, { label: "Code", href: "https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness" }], featured: false },
+];
+
+const experience: TimelineItem[] = [
+  { id: "science-tokyo-researcher", date: "2026.4 — Present", title: "Researcher", organization: "Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo", links: [{ label: "Laboratory", href: "https://www.sato-lab.org/en/people/" }] },
+  { id: "utokyo-guest-researcher", date: "2026.4 — Present", title: "Guest Researcher", organization: "Frith Lab, The University of Tokyo", links: [{ label: "Laboratory", href: "https://sites.google.com/site/frithbioinfo/home?authuser=0" }] },
+  { id: "utokyo-postdoc", date: "2023.5 — 2026.3", title: "Postdoctoral Researcher", organization: "The University of Tokyo" },
+  { id: "haomo-engineer", date: "2022.10 — 2023.5", title: "Machine Learning Engineer", organization: "HAOMO.AI", detail: "蓝色空间领航者 project" },
+  { id: "utokyo-researcher", date: "2022.4 — 2022.10", title: "Researcher", organization: "The University of Tokyo", links: [{ label: "Details", href: "http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/" }] },
+];
+
+const grants: TimelineItem[] = [
+  { id: "kakenhi-2026", date: "2026.04", title: "KAKENHI Grant-in-Aid for Early-Career Scientists", detail: "Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/" }] },
+  { id: "google-grant-2025", date: "2025.10", title: "Google Grant", detail: "Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization · $30,000" },
+  { id: "kakenhi-2024", date: "2024.4", title: "KAKENHI Young Researcher Grant", detail: "Developing a large-scale language model integrating RNA sequences and text", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/" }] },
+];
+
+const activities: TimelineItem[] = [
+  { id: "crest-2025", date: "2025.11", title: "Poster · CREST バイオDX領域 2025年度中間報告シンポジウム", links: [{ label: "Event", href: "https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html" }, { label: "CREST 2025 poster", href: "/files/CREST_2025_poster.pdf" }] },
+  { id: "rna-dojo-2025", date: "2025.8", title: "Oral · Input Data Differentiable Designer", organization: "RNA Informatics Dojo 2025", links: [{ label: "Event", href: "https://sites.google.com/view/rna-info/dojo/nagasaki2025" }] },
+  { id: "apbjc24", date: "2024.10", title: "Poster · FastUMAP model", organization: "APBJC24", links: [{ label: "Event", href: "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185" }] },
+];
+
+const awards: TimelineItem[] = [
+  { id: "jst-spring", date: "2021.10", title: "JST SPRING Fellowship", detail: "Pioneering Research Initiated by the Next Generation" },
+  { id: "aeta-second-prize", date: "2020.10", title: "Second Prize", organization: "AETA Earthquake Prediction AI Algorithm Competition 2019", links: [{ label: "News", href: "https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition" }, { label: "Slides", href: "https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie" }] },
+  { id: "analysys-special-award", date: "2019.10", title: "Special Award", organization: "3rd Analysys International Algorithm Competition" },
+  { id: "cbdcom-best-paper", date: "2019.8", title: "Best Paper Award", organization: "CBDCom 2018" },
+];
+
+const education: TimelineItem[] = [
+  { id: "phd", date: "March 2022", title: "Ph.D. in Computer Science", organization: "University of Tsukuba" },
+  { id: "masters", date: "", title: "Master's in Computer Science", organization: "University of Tsukuba" },
+  { id: "bachelors", date: "", title: "Bachelor's in Computer Science" },
+];
+
+const peerReview: TimelineItem[] = [
+  { id: "journal-supercomputing", date: "2026.01", title: "The Journal of Supercomputing" },
+  { id: "pattern-analysis-applications", date: "2024.11", title: "Pattern Analysis and Applications" },
+  { id: "knowledge-information-systems", date: "2024.11", title: "Knowledge and Information Systems" },
+  { id: "neurocomputing-review", date: "2024.10", title: "Neurocomputing" },
+  { id: "visual-computer", date: "2024.09", title: "The Visual Computer" },
+  { id: "machine-learning-cybernetics", date: "2024.03", title: "International Journal of Machine Learning and Cybernetics" },
+  { id: "tpami", date: "2022.11", title: "Transactions on Pattern Analysis and Machine Intelligence" },
+  { id: "briefings-functional-genomics", date: "2022.10", title: "Briefings in Functional Genomics" },
+];
+
+export const profile = {
+  name: "Hongmin Li",
+  displayName: "HONGMIN LI",
+  email: "lihongmin@edu.k.u-tokyo.ac.jp",
+  github: "https://github.com/Li-Hongmin",
+  statement: "I build computational systems that turn scientific questions into testable, reproducible discoveries.",
+  vision: "Scientific AI should turn ambitious questions into evidence others can test.",
+  affiliation: "Researcher at the Institute of Science Tokyo and Guest Researcher at The University of Tokyo.",
+  researchAreas,
+  selectedWork,
+  publications,
+  experience,
+  grants,
+  activities,
+  awards,
+  education,
+  peerReview,
+  lastUpdated: "July 2026",
+} as const;
+
+export type Profile = typeof profile;
