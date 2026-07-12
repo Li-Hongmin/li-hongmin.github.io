@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
 const css = readFileSync("src/styles/globals.css", "utf8");
+const shell = readFileSync("src/styles/app-shell.css", "utf8");
 
 describe("approved visual contract", () => {
   it("contains the cinematic hero, responsive breakpoint and reduced motion", () => {
@@ -15,7 +16,7 @@ describe("approved visual contract", () => {
   it("keeps the approved palette and local hero shade", () => {
     expect(css).toContain("--paper: #f2f0eb");
     expect(css).toContain("max-width: 42.5rem");
-    expect(css).toContain("height: 6.25rem");
+    expect(css).not.toContain(".hero-transition");
   });
 
   it("keeps the hero name in a system sans single line from 768px upward", () => {
@@ -28,6 +29,12 @@ describe("approved visual contract", () => {
   it("gives mobile hero navigation links a 44px minimum tap target", () => {
     const mobileRules = css.split("@media (max-width: 767px) {")[1].split("@media (max-width: 599px)")[0];
     expect(mobileRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*44px/s);
+  });
+
+  it("keeps horizontal padding on mobile research rows", () => {
+    const mobileRules = css.split("@media (max-width: 899px) {")[1].split("@media (max-width: 767px)")[0];
+    expect(mobileRules).toMatch(/\.research-list li\s*\{[^}]*padding:\s*1\.25rem;/s);
+    expect(mobileRules).not.toContain("padding: 1.25rem 0");
   });
 
   it("uses the approved compact navigation gap on narrow mobile screens", () => {
@@ -60,5 +67,57 @@ describe("approved visual contract", () => {
     for (const rejected of ["orbit", "dot-grid", "coordinates", "magnet", "metric-strip"]) {
       expect(css).not.toContain(rejected);
     }
+  });
+});
+
+describe("glass app styles", () => {
+  it("applies launch progress to the non-motion hero parent", () => {
+    const heroRules = shell.match(/\.app-scroller > \.hero\s*\{([^}]*)\}/)?.[1] ?? "";
+    const reducedMotionRules = shell.split("@media (prefers-reduced-motion:reduce) {")[1] ?? "";
+
+    expect(heroRules).toContain("opacity:calc(1 - var(--launch-progress))");
+    expect(heroRules).toContain("transform:translateY(calc(var(--launch-progress) * -1.5rem))");
+    expect(shell).not.toContain(".app-viewport .hero-header");
+    expect(shell).not.toContain(".app-viewport .hero-content");
+    expect(reducedMotionRules).toMatch(/\.app-scroller > \.hero\s*\{[^}]*opacity:1;[^}]*transform:none;[^}]*transition:none;/s);
+  });
+
+  it("locks the document and provides a native internal scroller", () => {
+    expect(shell).toContain(".app-viewport");
+    expect(shell).toContain("height:100dvh");
+    expect(shell).toContain(".app-scroller");
+    expect(shell).toContain("overflow-y:auto");
+    expect(shell).toContain("overscroll-behavior:contain");
+  });
+
+  it("keeps a slim overlay-style scrollbar without reserving a gutter", () => {
+    expect(shell).not.toContain("scrollbar-gutter");
+    expect(shell).toContain("scrollbar-width:thin");
+    expect(shell).toMatch(/\.app-scroller::-webkit-scrollbar-track\s*\{[^}]*background:transparent;/s);
+    expect(shell).toMatch(/\.app-scroller::-webkit-scrollbar-thumb\s*\{[^}]*border-radius:999px;[^}]*background:rgba\(/s);
+  });
+
+  it("places opaque no-blur fallbacks after responsive glass backgrounds", () => {
+    const fallbackIndex = shell.indexOf("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
+    const mobileBackgroundIndex = shell.indexOf("@media (max-width:899px)");
+    const narrowRulesIndex = shell.indexOf("@media (max-width:599px)");
+    const fallbackRules = shell.slice(fallbackIndex);
+
+    expect(fallbackIndex).toBeGreaterThan(mobileBackgroundIndex);
+    expect(fallbackIndex).toBeGreaterThan(narrowRulesIndex);
+    expect(fallbackRules).toContain(".glass-app-surface { background:rgba(249,247,242,.94); }");
+    expect(fallbackRules).toContain(".app-toolbar { background:rgba(249,247,242,.96); }");
+  });
+
+  it("offsets section anchors by the toolbar and top safe area", () => {
+    expect(shell).toContain(".app-content > section { scroll-margin-top:calc(6rem + env(safe-area-inset-top)); }");
+    expect(shell).not.toContain(".app-content > section { scroll-margin-top:6rem; }");
+  });
+
+  it("provides dynamic glass, safe-area, and no-blur fallbacks", () => {
+    expect(shell).toContain("backdrop-filter:blur(26px)");
+    expect(shell).toContain("env(safe-area-inset-top)");
+    expect(shell).toContain("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
+    expect(css).not.toContain(".hero-transition");
   });
 });

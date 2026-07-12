@@ -31,4 +31,14 @@ describe("portfolio page", () => {
     expect(screen.getByLabelText("Featured publications").querySelectorAll("article")).toHaveLength(6);
     expect(screen.getByLabelText("Complete publication record").querySelectorAll("article")).toHaveLength(15);
   });
+
+  it("presents the portfolio as one internal glass application", () => {
+    render(<App />);
+    const app = screen.getByRole("main", { name: "Hongmin Li research app" });
+    expect(app).toHaveClass("app-scroller");
+    expect(document.querySelector(".glass-app-surface")).toBeInTheDocument();
+    expect(document.querySelector(".hero-transition")).not.toBeInTheDocument();
+    const nav = screen.getByRole("navigation", { name: "App navigation" });
+    expect(within(nav).getByRole("link", { name: "Overview" })).toHaveAttribute("href", "#about");
+  });
 });

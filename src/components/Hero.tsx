@@ -1,7 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { useState } from "react";
 import type { Profile } from "../data/profile";
-import { useHeroMedia } from "../hooks/useHeroMedia";
 
 type HeroProps = { profile: Profile };
 
@@ -13,9 +11,7 @@ const navItems = [
 ] as const;
 
 export default function Hero({ profile }: HeroProps) {
-  const { shouldLoadVideo } = useHeroMedia();
   const reduceMotion = useReducedMotion();
-  const [videoFailed, setVideoFailed] = useState(false);
 
   const entrance = reduceMotion
     ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
@@ -27,20 +23,6 @@ export default function Hero({ profile }: HeroProps) {
 
   return (
     <section className="hero" id="top" aria-labelledby="page-title">
-      <div className="hero-poster" aria-hidden="true" />
-      <video
-        className={`hero-video${videoFailed ? " hero-video--failed" : ""}`}
-        src={shouldLoadVideo && !videoFailed ? "/media/hero.mp4" : undefined}
-        poster="/media/hero-poster.webp"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="metadata"
-        aria-hidden="true"
-        tabIndex={-1}
-        onError={() => setVideoFailed(true)}
-      />
       <div className="hero-copy-shade" aria-hidden="true" />
       <motion.header className="hero-header" {...entrance}>
         <a className="monogram" href="#top" aria-label="Hongmin Li, home">H/L</a>
