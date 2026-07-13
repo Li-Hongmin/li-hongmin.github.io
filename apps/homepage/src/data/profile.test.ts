@@ -78,18 +78,33 @@ describe("profile data", () => {
     expect(profile.awards.some((award) => award.id === "google-cloud-tpu-builders-2026")).toBe(false);
   });
 
-  it("uses official funding categories, project scopes, and amounts", () => {
+  it("keeps the 2024 and 2026 KAKENHI projects distinct under one grant name", () => {
+    const grants = profile.grants.filter((grant) => grant.id.startsWith("kakenhi-"));
+    const grant2024 = grants.find((grant) => grant.id === "kakenhi-2024");
+    const grant2026 = grants.find((grant) => grant.id === "kakenhi-2026");
+
+    expect(grants).toHaveLength(2);
+    expect(grant2024?.id).not.toBe(grant2026?.id);
+    expect(grant2024?.date).not.toBe(grant2026?.date);
+    expect(grant2024?.title).toBe(grant2026?.title);
+    expect(grant2024).toEqual({
+      id: "kakenhi-2024",
+      date: "2024.4",
+      title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
+      detail: "Development of a Large-Scale Language Model Integrating RNA Sequences and Text · ¥4,420,000",
+      links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/" }],
+    });
+    expect(grant2026).toEqual({
+      id: "kakenhi-2026",
+      date: "2026.04",
+      title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
+      detail: "Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000",
+      links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/" }],
+    });
+  });
+
+  it("uses official categories, project scopes, and amounts for other funding", () => {
     expect(profile.grants).toEqual(expect.arrayContaining([
-      expect.objectContaining({
-        id: "kakenhi-2024",
-        title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
-        detail: "Development of a Large-Scale Language Model Integrating RNA Sequences and Text · Total budget: JPY 4.42 million",
-      }),
-      expect.objectContaining({
-        id: "kakenhi-2026",
-        title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
-        detail: "Input Data Differentiable Designer for biomolecular sequence design · JPY 4.55 million",
-      }),
       expect.objectContaining({
         id: "google-grant-2025",
         title: "Google research support",

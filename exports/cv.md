@@ -39,9 +39,9 @@
 ## Research funding & computing support
 
 - **2026.06** | **Google Cloud TPU Builders Award** — Cloud computing support · USD 5,500 in Google Cloud computing credits
-- **2026.04** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Input Data Differentiable Designer for biomolecular sequence design · JPY 4.55 million; [Project info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/)
+- **2026.04** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000; [Project info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/)
 - **2025.10** | **Google research support** — Biological sequence optimization · USD 30,000
-- **2024.4** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of a Large-Scale Language Model Integrating RNA Sequences and Text · Total budget: JPY 4.42 million; [Project info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)
+- **2024.4** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of a Large-Scale Language Model Integrating RNA Sequences and Text · ¥4,420,000; [Project info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)
 
 ---
 

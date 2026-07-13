@@ -16,8 +16,10 @@ describe("generated public record", () => {
     expect(cv).toContain("Google Cloud TPU Builders Award");
     expect(cv.match(/Google Cloud TPU Builders Award/g)).toHaveLength(1);
     expect(cv).toContain("USD 5,500 in Google Cloud computing credits");
-    expect(cv).toContain("Development of a Large-Scale Language Model Integrating RNA Sequences and Text");
-    expect(cv).toContain("JPY 4.42 million");
+    expect(cv).toContain("Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000");
+    expect(cv).toContain("https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/");
+    expect(cv).toContain("Development of a Large-Scale Language Model Integrating RNA Sequences and Text · ¥4,420,000");
+    expect(cv).toContain("https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/");
     expect(cv).toContain("Google research support");
     expect(cv).toContain("Biological sequence optimization");
     expect(cv).toContain("Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者");
