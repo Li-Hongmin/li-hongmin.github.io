@@ -102,15 +102,12 @@ describe("cinematic scroll styles", () => {
     expect(shell).toMatch(/\.app-scroller::-webkit-scrollbar-thumb\s*\{[^}]*border-radius:999px;[^}]*background:rgba\(/s);
   });
 
-  it("uses separate restrained editorial panels instead of one glass sheet", () => {
-    const fallbackIndex = shell.indexOf("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
-    const fallbackRules = shell.slice(fallbackIndex);
-
+  it("uses white editorial typography directly over the cinematic background", () => {
     expect(shell).not.toContain(".glass-app-surface");
     expect(shell).not.toContain(".glass-grabber");
-    expect(shell).not.toContain("blur(26px)");
-    expect(shell).toMatch(/\.app-content > section\s*\{[^}]*border-radius:[^}]*background:rgba\(/s);
-    expect(fallbackRules).toContain(".app-content > section { background:rgba(242,240,235,.97); }");
+    expect(shell).not.toContain("backdrop-filter:");
+    expect(shell).toMatch(/\.app-content > section\s*\{[^}]*--ink:#f7f4ed;[^}]*background:transparent;[^}]*box-shadow:none;/s);
+    expect(shell).toMatch(/\.app-content :is\(\.research-list,[^}]*background:transparent;[^}]*box-shadow:none;/s);
   });
 
   it("offsets section anchors by the panel spacing and top safe area", () => {
@@ -118,10 +115,10 @@ describe("cinematic scroll styles", () => {
     expect(shell).not.toContain(".app-content > section { scroll-margin-top:6rem; }");
   });
 
-  it("provides safe-area and no-blur fallbacks", () => {
-    expect(shell).toContain("backdrop-filter:blur(8px)");
+  it("provides safe-area support without glass fallbacks", () => {
+    expect(shell).not.toContain("backdrop-filter");
     expect(shell).toContain("env(safe-area-inset-top)");
-    expect(shell).toContain("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
+    expect(shell).not.toContain("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
     expect(css).not.toContain(".hero-transition");
   });
 });
