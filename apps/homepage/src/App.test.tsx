@@ -36,21 +36,17 @@ describe("portfolio page", () => {
     expect(screen.getByRole("link", { name: "Email Hongmin Li" })).toHaveAttribute("href", "mailto:lihongmin@edu.k.u-tokyo.ac.jp");
   });
 
-  it("shows data-driven recent and complete publication counts without retired public labels", () => {
-    render(<App />);
-    expect(screen.getByLabelText("Recent publications").querySelectorAll("article")).toHaveLength(
-      profile.publications.filter((publication) => publication.featured).length,
-    );
-    expect(screen.queryByLabelText("Featured publications")).not.toBeInTheDocument();
+  it("shows one nine-item publication grid with a data-driven expansion count", () => {
+    const { container } = render(<App />);
+    expect(screen.getByLabelText("Publications list").querySelectorAll("article")).toHaveLength(9);
+    expect(screen.getByRole("button", { name: `View ${profile.publications.length - 9} more publications` })).toBeInTheDocument();
+    expect(container.querySelectorAll("#publications .publication-list")).toHaveLength(1);
+    expect(container.querySelector("#publications details")).toBeNull();
     expect(screen.getAllByRole("heading", { name: "Academic & industry appointments" })).toHaveLength(2);
     expect(screen.getAllByRole("heading", { name: "Research funding & computing support" })).toHaveLength(2);
     expect(screen.getByRole("heading", { name: "Conference presentations" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Honors & fellowships" })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Research grants" })).not.toBeInTheDocument();
-    expect(screen.getByLabelText("Complete publication record").querySelectorAll("article")).toHaveLength(
-      profile.publications.length,
-    );
-    expect(screen.getByText(`${profile.publications.length} entries`)).toBeInTheDocument();
   });
 
   it("presents separate editorial panels over a fixed cinematic backdrop", () => {

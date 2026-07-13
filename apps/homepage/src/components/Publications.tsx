@@ -1,9 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
+import { useState } from "react";
 import type { Publication } from "../data/profile";
 
 function PublicationRow({ publication }: { publication: Publication }) {
   return (
-    <article className="publication-row">
+    <article className="publication-row" data-publication-id={publication.id}>
       <time>{publication.date}</time>
       <div className="publication-copy"><h3>{publication.title}</h3><p>{publication.venue}</p></div>
       <div className="link-cluster">
@@ -17,23 +18,37 @@ function PublicationRow({ publication }: { publication: Publication }) {
   );
 }
 
+const INITIAL_PUBLICATION_COUNT = 9;
+const PUBLICATION_LIST_ID = "publication-list";
+
 export default function Publications({ publications }: { publications: readonly Publication[] }) {
-  const featured = publications.filter((publication) => publication.featured);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const hasMorePublications = publications.length > INITIAL_PUBLICATION_COUNT;
+  const visiblePublications = isExpanded || !hasMorePublications
+    ? publications
+    : publications.slice(0, INITIAL_PUBLICATION_COUNT);
+  const remainingCount = publications.length - INITIAL_PUBLICATION_COUNT;
+
   return (
     <section className="editorial-section section-shell" id="publications" aria-labelledby="publications-heading">
       <div className="section-heading-row">
         <p className="section-kicker">Research record</p>
         <h2 id="publications-heading">Publications</h2>
       </div>
-      <div className="publication-list" aria-label="Recent publications">
-        {featured.map((publication) => <PublicationRow key={publication.id} publication={publication} />)}
+      <div className="publication-list" id={PUBLICATION_LIST_ID} aria-label="Publications list">
+        {visiblePublications.map((publication) => <PublicationRow key={publication.id} publication={publication} />)}
       </div>
-      <details className="record-details publication-details">
-        <summary>Complete publication record <span aria-hidden="true">{publications.length} entries</span></summary>
-        <div className="publication-list" aria-label="Complete publication record">
-          {publications.map((publication) => <PublicationRow key={publication.id} publication={publication} />)}
-        </div>
-      </details>
+      {hasMorePublications && (
+        <button
+          className="publication-toggle"
+          type="button"
+          aria-expanded={isExpanded}
+          aria-controls={PUBLICATION_LIST_ID}
+          onClick={() => setIsExpanded((expanded) => !expanded)}
+        >
+          {isExpanded ? "Show fewer publications" : `View ${remainingCount} more publications`}
+        </button>
+      )}
     </section>
   );
 }

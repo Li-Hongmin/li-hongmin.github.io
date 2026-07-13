@@ -72,6 +72,12 @@ describe("approved visual contract", () => {
     expect(css).toMatch(/@media \(max-width: 699px\)[\s\S]*?\.publication-list\s*\{[^}]*grid-template-columns:\s*1fr/s);
   });
 
+  it("provides a full-height publication toggle without legacy publication details styles", () => {
+    expect(css).toMatch(/\.publication-toggle\s*\{[^}]*min-height:\s*44px;/s);
+    expect(css).not.toContain(".publication-details");
+    expect(css).not.toContain(".record-details");
+  });
+
   it("lets undated compact-record content span both grid columns", () => {
     expect(css).toMatch(/\.compact-record__item--undated\s*>\s*div\s*\{[^}]*grid-column:\s*1\s*\/\s*-1/s);
   });
