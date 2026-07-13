@@ -12,7 +12,7 @@ describe("profile data", () => {
     expect(profile.publications).toHaveLength(16);
     expect(profile.experience).toHaveLength(5);
     expect(profile.grants).toHaveLength(4);
-    expect(profile.activities).toHaveLength(4);
+    expect(profile.activities).toHaveLength(13);
     expect(profile.awards).toHaveLength(4);
     expect(profile.education).toHaveLength(3);
     expect(profile.peerReview).toHaveLength(8);
@@ -54,6 +54,7 @@ describe("profile data", () => {
       detail: "Input Data Differentiable Designer",
     }));
     expect(profile.activities[3].title).toBe("Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024");
+    expect(profile.activities.find((item) => item.id === "spring-fellowship-2022")?.title).toBe("Presentation — JST SPRING recipients event");
   });
 
   it("keeps education limited to the facts stated in the CV", () => {
@@ -106,12 +107,13 @@ describe("profile data", () => {
     ]);
   });
 
-  it("does not add an unverified HAOMO project or research field", () => {
+  it("describes the HAOMO role and project without inventing seniority", () => {
     expect(profile.experience.find((item) => item.id === "haomo-engineer")).toEqual({
       id: "haomo-engineer",
       date: "2022.10 — 2023.5",
       title: "Machine Learning Engineer",
       organization: "HAOMO.AI",
+      detail: "Autonomous-driving project · 蓝色空间领航者",
     });
   });
 });

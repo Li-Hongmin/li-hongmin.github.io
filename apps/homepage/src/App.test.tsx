@@ -44,7 +44,7 @@ describe("portfolio page", () => {
     expect(container.querySelector("#publications details")).toBeNull();
     expect(screen.getAllByRole("heading", { name: "Academic & industry appointments" })).toHaveLength(2);
     expect(screen.getAllByRole("heading", { name: "Research funding & computing support" })).toHaveLength(2);
-    expect(screen.getByRole("heading", { name: "Conference presentations" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Conference participation & presentations" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Honors & fellowships" })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Research grants" })).not.toBeInTheDocument();
   });

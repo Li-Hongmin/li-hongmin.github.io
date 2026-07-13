@@ -294,6 +294,7 @@ time { color: var(--muted); font-size: .72rem; letter-spacing: .07em; }
 .timeline-group h4 { margin: 0; font-size: .94rem; font-weight: 600; line-height: 1.35; }
 .timeline-group p { margin: .2rem 0 0; color: var(--muted); font-size: .8rem; line-height: 1.45; }
 .timeline-group a { margin-top: .5rem; font-size: .65rem; }
+.timeline-toggle { display: flex; min-height: 44px; width: 100%; align-items: center; justify-content: center; margin-top: .65rem; padding: .5rem .75rem; border: 1px solid var(--rule); color: var(--ink); background: transparent; cursor: pointer; font: inherit; font-size: .65rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
 
 .contact-section { padding-top: clamp(3rem, 7vw, 6rem); background: transparent; color: var(--ink); border-top: 1px solid rgba(23, 23, 22, .12); }
 .contact-inner { padding-bottom: clamp(4rem, 8vw, 8rem); }

@@ -1,12 +1,29 @@
 import { ArrowUpRight } from "lucide-react";
+import { useState } from "react";
 import type { Profile, TimelineItem } from "../data/profile";
 
-function Timeline({ items, label }: { items: readonly TimelineItem[]; label: string }) {
+const INITIAL_TIMELINE_COUNT = 4;
+
+type TimelineProps = {
+  items: readonly TimelineItem[];
+  label: string;
+  listId: string;
+  itemName: string;
+  itemNamePlural: string;
+};
+
+function Timeline({ items, label, listId, itemName, itemNamePlural }: TimelineProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const hasMoreItems = items.length > INITIAL_TIMELINE_COUNT;
+  const visibleItems = isExpanded || !hasMoreItems ? items : items.slice(0, INITIAL_TIMELINE_COUNT);
+  const remainingCount = items.length - INITIAL_TIMELINE_COUNT;
+  const remainingItemName = remainingCount === 1 ? itemName : itemNamePlural;
+
   return (
     <div className="timeline-group">
       <h3>{label}</h3>
-      <ol>
-        {items.map((item) => (
+      <ol id={listId}>
+        {visibleItems.map((item) => (
           <li key={item.id}>
             <time>{item.date}</time>
             <div>
@@ -21,6 +38,17 @@ function Timeline({ items, label }: { items: readonly TimelineItem[]; label: str
           </li>
         ))}
       </ol>
+      {hasMoreItems && (
+        <button
+          className="timeline-toggle"
+          type="button"
+          aria-expanded={isExpanded}
+          aria-controls={listId}
+          onClick={() => setIsExpanded((expanded) => !expanded)}
+        >
+          {isExpanded ? `Show fewer ${itemNamePlural}` : `View ${remainingCount} more ${remainingItemName}`}
+        </button>
+      )}
     </div>
   );
 }
@@ -33,9 +61,27 @@ export default function Recognition({ profile }: { profile: Profile }) {
         <h2 id="recognition-heading">Experience &amp; recognition</h2>
       </div>
       <div className="recognition-grid">
-        <Timeline label="Academic & industry appointments" items={profile.experience.slice(0, 4)} />
-        <Timeline label="Research funding & computing support" items={profile.grants} />
-        <Timeline label="Conference presentations" items={profile.activities} />
+        <Timeline
+          label="Academic & industry appointments"
+          items={profile.experience}
+          listId="recognition-appointments-list"
+          itemName="appointment"
+          itemNamePlural="appointments"
+        />
+        <Timeline
+          label="Research funding & computing support"
+          items={profile.grants}
+          listId="recognition-funding-list"
+          itemName="funding record"
+          itemNamePlural="funding records"
+        />
+        <Timeline
+          label="Conference participation & presentations"
+          items={profile.activities}
+          listId="recognition-activities-list"
+          itemName="activity"
+          itemNamePlural="activities"
+        />
       </div>
     </section>
   );

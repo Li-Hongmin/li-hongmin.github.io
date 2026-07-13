@@ -20,7 +20,21 @@ test("generator emits every derived artifact and preserves homepage data exactly
     "exports/researchmap.md",
   ]);
   const homepage = JSON.parse(artifacts.get("apps/homepage/src/generated/profile.json"));
-  assert.equal(homepage.activities.length, 4);
+  assert.equal(homepage.activities.length, 13);
+  assert.deepEqual(
+    homepage.experience.find((item) => item.id === "haomo-engineer"),
+    {
+      id: "haomo-engineer",
+      date: "2022.10 — 2023.5",
+      title: "Machine Learning Engineer",
+      organization: "HAOMO.AI",
+      detail: "Autonomous-driving project · 蓝色空间领航者",
+    },
+  );
+  assert.equal(
+    homepage.activities.find((item) => item.id === "spring-fellowship-2022").title,
+    "Presentation — JST SPRING recipients event",
+  );
   assert.equal("researchInterests" in homepage, false);
   assert.equal("authors" in homepage.publications[0], false);
   assert.equal(homepage.publications[0].title, profile.publicProfile.publications[0].title);

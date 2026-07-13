@@ -20,7 +20,10 @@ describe("generated public record", () => {
     expect(cv).toContain("JPY 4.42 million");
     expect(cv).toContain("Google research support");
     expect(cv).toContain("Biological sequence optimization");
-    expect(cv).not.toContain("蓝色空间领航者");
+    expect(cv).toContain("Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者");
+    expect(cv).toContain("Presentation — JST SPRING recipients event");
+    expect(cv).not.toContain("Oral presentation — SPRING Fellowship");
+    expect(cv).not.toMatch(/Senior|Lead/);
     expect(cv).toContain("Last Updated: July 2026");
     expect(cv).toContain("Computer Science (Information Systems Engineering)");
     expect(cv).toContain("2017.04 — 2019.03");

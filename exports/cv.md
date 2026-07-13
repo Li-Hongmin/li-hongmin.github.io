@@ -31,7 +31,7 @@
 - **2026.4 — Present** | **Researcher** — Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo; [Laboratory](https://www.sato-lab.org/en/people/)
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
-- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI
+- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者
 - **2022.4 — 2022.10** | **Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 
 ---
@@ -99,7 +99,7 @@
 - **2024.6** | **Participation — 25th Annual Meeting of the RNA Society of Japan**
 - **2023.8** | **Oral presentation — RNA Informatics Dojo 2023**
 - **2022.8** | **Oral presentation — RNA Informatics Dojo 2022**
-- **2022.3** | **Oral presentation — SPRING Fellowship**
+- **2022.3** | **Presentation — JST SPRING recipients event**
 - **2021.12** | **Oral presentation — CollaboTICS 2021**
 - **2019.6** | **Poster presentation — G20 Digital Science Now Symposium**
 

@@ -78,6 +78,14 @@ describe("approved visual contract", () => {
     expect(css).not.toContain(".record-details");
   });
 
+  it("provides a compact 44px timeline toggle without adding another glass card", () => {
+    expect(css).toMatch(/\.timeline-toggle\s*\{[^}]*min-height:\s*44px;/s);
+    const timelineToggleRules = css.match(/\.timeline-toggle\s*\{([^}]*)\}/)?.[1] ?? "";
+    expect(timelineToggleRules).toContain("background: transparent");
+    expect(timelineToggleRules).not.toContain("box-shadow:");
+    expect(timelineToggleRules).not.toContain("backdrop-filter:");
+  });
+
   it("lets undated compact-record content span both grid columns", () => {
     expect(css).toMatch(/\.compact-record__item--undated\s*>\s*div\s*\{[^}]*grid-column:\s*1\s*\/\s*-1/s);
   });

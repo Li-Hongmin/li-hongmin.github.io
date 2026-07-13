@@ -275,7 +275,8 @@
       "id": "haomo-engineer",
       "date": "2022.10 — 2023.5",
       "title": "Machine Learning Engineer",
-      "organization": "HAOMO.AI"
+      "organization": "HAOMO.AI",
+      "detail": "Autonomous-driving project · 蓝色空间领航者"
     },
     {
       "id": "utokyo-researcher",
@@ -373,6 +374,51 @@
           "href": "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185"
         }
       ]
+    },
+    {
+      "id": "rna-dojo-2024",
+      "date": "2024.8",
+      "title": "Oral presentation — RNA Informatics Dojo 2024"
+    },
+    {
+      "id": "ijcai-2024",
+      "date": "2024.8",
+      "title": "Participation — IJCAI 24 (Jeju)"
+    },
+    {
+      "id": "wcci-2024",
+      "date": "2024.6",
+      "title": "Participation — WCCI 24 (Yokohama)"
+    },
+    {
+      "id": "rna-society-japan-2024",
+      "date": "2024.6",
+      "title": "Participation — 25th Annual Meeting of the RNA Society of Japan"
+    },
+    {
+      "id": "rna-dojo-2023",
+      "date": "2023.8",
+      "title": "Oral presentation — RNA Informatics Dojo 2023"
+    },
+    {
+      "id": "rna-dojo-2022",
+      "date": "2022.8",
+      "title": "Oral presentation — RNA Informatics Dojo 2022"
+    },
+    {
+      "id": "spring-fellowship-2022",
+      "date": "2022.3",
+      "title": "Presentation — JST SPRING recipients event"
+    },
+    {
+      "id": "collabotics-2021",
+      "date": "2021.12",
+      "title": "Oral presentation — CollaboTICS 2021"
+    },
+    {
+      "id": "g20-digital-science-2019",
+      "date": "2019.6",
+      "title": "Poster presentation — G20 Digital Science Now Symposium"
     }
   ],
   "awards": [
