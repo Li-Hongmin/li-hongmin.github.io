@@ -1,0 +1,919 @@
+{
+  "schemaVersion": 1,
+  "publicProfile": {
+    "name": "Hongmin Li",
+    "displayName": "HONGMIN LI",
+    "email": "lihongmin@edu.k.u-tokyo.ac.jp",
+    "github": "https://github.com/Li-Hongmin",
+    "statement": "I build computational systems that turn scientific questions into testable, reproducible discoveries.",
+    "vision": "Scientific AI should turn ambitious questions into evidence others can test.",
+    "affiliation": "Researcher at the Institute of Science Tokyo and Guest Researcher at The University of Tokyo.",
+    "publications": [
+      {
+        "id": "calibration-turn-ai-assisted-research",
+        "date": "2026.06",
+        "title": "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims",
+        "venue": "arXiv preprint · 2606.31273 [cs.LG]",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2606.31273"
+          },
+          {
+            "label": "Code & artifacts",
+            "href": "https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li"
+        ]
+      },
+      {
+        "id": "targeted-tests-for-llm-reasoning",
+        "date": "2026.05",
+        "title": "Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol",
+        "venue": "arXiv preprint · 2605.11599 [cs.LG]",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2605.11599"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li"
+        ]
+      },
+      {
+        "id": "separating-shortcut-transition",
+        "date": "2026.05",
+        "title": "Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model",
+        "venue": "arXiv preprint · 2605.12945 [cs.LG]",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2605.12945"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li"
+        ]
+      },
+      {
+        "id": "controlled-counterexample",
+        "date": "2026.05",
+        "title": "A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup",
+        "venue": "arXiv preprint · 2605.11554 [cs.LG]",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2605.11554"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li"
+        ]
+      },
+      {
+        "id": "fastumap",
+        "date": "2026.05",
+        "title": "FastUMAP: Scalable Dimensionality Reduction via Bipartite Landmark Sampling",
+        "venue": "arXiv preprint · 2605.11428 [cs.LG]",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2605.11428"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li"
+        ]
+      },
+      {
+        "id": "mrna-gpt",
+        "date": "2025.12",
+        "title": "Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT",
+        "venue": "bioRxiv",
+        "links": [
+          {
+            "label": "Preprint",
+            "href": "https://doi.org/10.64898/2025.12.22.695962"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Bian Bian",
+          "Yiming Zhang",
+          "Hongmin Li",
+          "Jiuzhou Zhong",
+          "Yutaka Saito"
+        ]
+      },
+      {
+        "id": "gradient-based-optimization",
+        "date": "2025.10",
+        "title": "Gradient-based Optimization for mRNA Sequence Design",
+        "venue": "bioRxiv",
+        "links": [
+          {
+            "label": "Preprint",
+            "href": "https://doi.org/10.1101/2025.10.22.683691"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/Li-Hongmin/ID3"
+          }
+        ],
+        "featured": true,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li",
+          "Goro Terai",
+          "Takumi Otagaki",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "earthquake-landslide-susceptibility",
+        "date": "2023.9",
+        "title": "An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China",
+        "venue": "Engineering Geology",
+        "links": [
+          {
+            "label": "Link",
+            "href": "http://dx.doi.org/10.2139/ssrn.4569745"
+          }
+        ],
+        "featured": false,
+        "category": "journal",
+        "authors": [
+          "Co-authored"
+        ]
+      },
+      {
+        "id": "lsec",
+        "date": "2023.1",
+        "title": "LSEC: Large-scale spectral ensemble clustering",
+        "venue": "Intelligent Data Analysis",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2106.09852"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering"
+          }
+        ],
+        "featured": false,
+        "category": "journal",
+        "authors": [
+          "Hongmin Li",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "missing-value-imputation",
+        "date": "2022.7",
+        "title": "Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity",
+        "venue": "Frontiers in Genetics",
+        "links": [
+          {
+            "label": "Code",
+            "href": "https://github.com/linxi159/scGNGI"
+          }
+        ],
+        "featured": false,
+        "category": "journal",
+        "authors": [
+          "Xinyi Lin",
+          "Hongmin Li",
+          "Mingfeng Li",
+          "Yuhang Liu",
+          "Jie Gao",
+          "Qi Tian"
+        ]
+      },
+      {
+        "id": "divide-and-conquer-spectral-clustering",
+        "date": "2022.6",
+        "title": "Divide-and-conquer based Large-Scale Spectral Clustering",
+        "venue": "Neurocomputing",
+        "links": [
+          {
+            "label": "Preprint",
+            "href": "http://dx.doi.org/10.13140/RG.2.2.15207.37281"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Large-scale_spectral_ensemble_clustering"
+          }
+        ],
+        "featured": false,
+        "category": "journal",
+        "authors": [
+          "Hongmin Li",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "ensemble-learning-spectral-clustering",
+        "date": "2020.11",
+        "title": "Ensemble Learning for Spectral Clustering",
+        "venue": "ICDM 2020",
+        "links": [
+          {
+            "label": "PDF",
+            "href": "https://www.researchgate.net/publication/351374294_Ensemble_Learning_for_Spectral_Clustering_in_ICDM_2020"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Ensemble-Learning-for-Spectral-Clustering"
+          }
+        ],
+        "featured": false,
+        "category": "conference",
+        "authors": [
+          "Hongmin Li",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "hubness-based-nystrom",
+        "date": "2020.11",
+        "title": "Hubness-based Sampling Method for Nyström Spectral Clustering",
+        "venue": "IJCNN 2020",
+        "links": [
+          {
+            "label": "Link",
+            "href": "http://dx.doi.org/10.1109/IJCNN48605.2020.9207089"
+          }
+        ],
+        "featured": false,
+        "category": "conference",
+        "authors": [
+          "Hongmin Li",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "oversampling-laplacian-eigenmaps",
+        "date": "2020.2",
+        "title": "An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps",
+        "venue": "Neurocomputing",
+        "links": [
+          {
+            "label": "Link",
+            "href": "http://dx.doi.org/10.1016/j.neucom.2020.02.081"
+          }
+        ],
+        "featured": false,
+        "category": "journal",
+        "authors": [
+          "Hongmin Li",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "distributed-collaborative-feature-selection",
+        "date": "2019.8",
+        "title": "Distributed Collaborative Feature Selection Based on Intermediate Representation",
+        "venue": "IJCAI 2019",
+        "links": [
+          {
+            "label": "Link",
+            "href": "http://dx.doi.org/10.24963/ijcai.2019/575"
+          }
+        ],
+        "featured": false,
+        "category": "conference",
+        "authors": [
+          "Hongmin Li",
+          "Tianyu Mu",
+          "Songcan Chen",
+          "Kiyoshi Asai"
+        ]
+      },
+      {
+        "id": "large-scale-spectral-hubness",
+        "date": "2019.8",
+        "title": "Large Scale Spectral Clustering Using Sparse Representation Based on Hubness",
+        "venue": "CBDCom 2018",
+        "links": [
+          {
+            "label": "Link",
+            "href": "http://dx.doi.org/10.1109/SmartWorld.2018.00293"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness"
+          }
+        ],
+        "featured": false,
+        "category": "conference",
+        "authors": [
+          "Hongmin Li",
+          "Kiyoshi Asai"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "id": "science-tokyo-researcher",
+        "date": "2026.4 — Present",
+        "title": "Researcher",
+        "organization": "Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo",
+        "links": [
+          {
+            "label": "Laboratory",
+            "href": "https://www.sato-lab.org/en/people/"
+          }
+        ]
+      },
+      {
+        "id": "utokyo-guest-researcher",
+        "date": "2026.4 — Present",
+        "title": "Guest Researcher",
+        "organization": "Frith Lab, The University of Tokyo",
+        "links": [
+          {
+            "label": "Laboratory",
+            "href": "https://sites.google.com/site/frithbioinfo/home?authuser=0"
+          }
+        ]
+      },
+      {
+        "id": "utokyo-postdoc",
+        "date": "2023.5 — 2026.3",
+        "title": "Postdoctoral Researcher",
+        "organization": "The University of Tokyo"
+      },
+      {
+        "id": "haomo-engineer",
+        "date": "2022.10 — 2023.5",
+        "title": "Machine Learning Engineer",
+        "organization": "HAOMO.AI"
+      },
+      {
+        "id": "utokyo-researcher",
+        "date": "2022.4 — 2022.10",
+        "title": "Researcher",
+        "organization": "The University of Tokyo",
+        "links": [
+          {
+            "label": "Details",
+            "href": "http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/"
+          }
+        ]
+      }
+    ],
+    "grants": [
+      {
+        "id": "google-cloud-tpu-builders-2026",
+        "date": "2026.06",
+        "title": "Google Cloud TPU Builders Award",
+        "detail": "Cloud computing support · USD 5,500 in Google Cloud computing credits"
+      },
+      {
+        "id": "kakenhi-2026",
+        "date": "2026.04",
+        "title": "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
+        "detail": "Input Data Differentiable Designer for biomolecular sequence design · JPY 4.55 million",
+        "links": [
+          {
+            "label": "Project info",
+            "href": "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/"
+          }
+        ]
+      },
+      {
+        "id": "google-grant-2025",
+        "date": "2025.10",
+        "title": "Google research support",
+        "detail": "Biological sequence optimization · USD 30,000"
+      },
+      {
+        "id": "kakenhi-2024",
+        "date": "2024.4",
+        "title": "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
+        "detail": "Development of a Large-Scale Language Model Integrating RNA Sequences and Text · Total budget: JPY 4.42 million",
+        "links": [
+          {
+            "label": "Project info",
+            "href": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/"
+          }
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "id": "crest-biodx-5th-meeting-2026",
+        "date": "2026.06.09",
+        "title": "Poster presentation — JST CREST BioDX Area Meeting",
+        "detail": "5th area meeting · Numazu, Japan"
+      },
+      {
+        "id": "crest-2025",
+        "date": "2025.11",
+        "title": "Poster presentation — JST CREST BioDX Interim Symposium",
+        "links": [
+          {
+            "label": "Event",
+            "href": "https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html"
+          },
+          {
+            "label": "CREST 2025 poster",
+            "href": "/files/CREST_2025_poster.pdf"
+          }
+        ]
+      },
+      {
+        "id": "rna-dojo-2025",
+        "date": "2025.8",
+        "title": "Oral presentation — RNA Informatics Dojo 2025",
+        "detail": "Input Data Differentiable Designer",
+        "links": [
+          {
+            "label": "Event",
+            "href": "https://sites.google.com/view/rna-info/dojo/nagasaki2025"
+          }
+        ]
+      },
+      {
+        "id": "apbjc24",
+        "date": "2024.10",
+        "title": "Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024",
+        "detail": "FastUMAP model",
+        "links": [
+          {
+            "label": "Event",
+            "href": "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185"
+          }
+        ]
+      },
+      {
+        "id": "rna-dojo-2024",
+        "date": "2024.8",
+        "title": "Oral presentation — RNA Informatics Dojo 2024",
+        "homepage": false
+      },
+      {
+        "id": "ijcai-2024",
+        "date": "2024.8",
+        "title": "Participation — IJCAI 24 (Jeju)",
+        "homepage": false
+      },
+      {
+        "id": "wcci-2024",
+        "date": "2024.6",
+        "title": "Participation — WCCI 24 (Yokohama)",
+        "homepage": false
+      },
+      {
+        "id": "rna-society-japan-2024",
+        "date": "2024.6",
+        "title": "Participation — 25th Annual Meeting of the RNA Society of Japan",
+        "homepage": false
+      },
+      {
+        "id": "rna-dojo-2023",
+        "date": "2023.8",
+        "title": "Oral presentation — RNA Informatics Dojo 2023",
+        "homepage": false
+      },
+      {
+        "id": "rna-dojo-2022",
+        "date": "2022.8",
+        "title": "Oral presentation — RNA Informatics Dojo 2022",
+        "homepage": false
+      },
+      {
+        "id": "spring-fellowship-2022",
+        "date": "2022.3",
+        "title": "Oral presentation — SPRING Fellowship",
+        "homepage": false
+      },
+      {
+        "id": "collabotics-2021",
+        "date": "2021.12",
+        "title": "Oral presentation — CollaboTICS 2021",
+        "homepage": false
+      },
+      {
+        "id": "g20-digital-science-2019",
+        "date": "2019.6",
+        "title": "Poster presentation — G20 Digital Science Now Symposium",
+        "homepage": false
+      }
+    ],
+    "awards": [
+      {
+        "id": "jst-spring",
+        "date": "2021.10",
+        "title": "Doctoral research support — JST SPRING",
+        "detail": "Support for Pioneering Research Initiated by the Next Generation"
+      },
+      {
+        "id": "aeta-second-prize",
+        "date": "2020.10",
+        "title": "Second Prize — AETA Earthquake Prediction AI Competition",
+        "detail": "2019 competition · awarded in 2020",
+        "links": [
+          {
+            "label": "News",
+            "href": "https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition"
+          },
+          {
+            "label": "Slides",
+            "href": "https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie"
+          }
+        ]
+      },
+      {
+        "id": "analysys-special-award",
+        "date": "2019.10",
+        "title": "Special Award — 3rd Analysys International Algorithm Competition"
+      },
+      {
+        "id": "cbdcom-best-paper",
+        "date": "2019.8",
+        "title": "Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)",
+        "detail": "For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”"
+      }
+    ],
+    "education": [
+      {
+        "id": "phd",
+        "date": "2019.04 — 2022.03",
+        "title": "Ph.D. in Computer Science (Information Systems Engineering)",
+        "organization": "University of Tsukuba"
+      },
+      {
+        "id": "masters",
+        "date": "2017.04 — 2019.03",
+        "title": "Master's in Computer Science (Information Systems Engineering)",
+        "organization": "University of Tsukuba"
+      },
+      {
+        "id": "bachelors",
+        "date": "2011.09 — 2015.07",
+        "title": "Bachelor's in Electronic Information Engineering",
+        "organization": "Ningxia University"
+      }
+    ],
+    "peerReview": [
+      {
+        "id": "journal-supercomputing",
+        "date": "2026.01",
+        "title": "The Journal of Supercomputing"
+      },
+      {
+        "id": "pattern-analysis-applications",
+        "date": "2024.11",
+        "title": "Pattern Analysis and Applications"
+      },
+      {
+        "id": "knowledge-information-systems",
+        "date": "2024.11",
+        "title": "Knowledge and Information Systems"
+      },
+      {
+        "id": "neurocomputing-review",
+        "date": "2024.10",
+        "title": "Neurocomputing"
+      },
+      {
+        "id": "visual-computer",
+        "date": "2024.09",
+        "title": "The Visual Computer"
+      },
+      {
+        "id": "machine-learning-cybernetics",
+        "date": "2024.03",
+        "title": "International Journal of Machine Learning and Cybernetics"
+      },
+      {
+        "id": "tpami",
+        "date": "2022.11",
+        "title": "Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "id": "briefings-functional-genomics",
+        "date": "2022.10",
+        "title": "Briefings in Functional Genomics"
+      }
+    ],
+    "lastUpdated": "July 2026",
+    "researchInterests": [
+      "AI-Automated Scientific Workflows",
+      "AI for Science and Scientific Discovery",
+      "AI Research and Evaluation",
+      "Bioinformatics and Biological Sequence Analysis",
+      "Biomolecular Sequence Design and Optimization"
+    ],
+    "skills": {
+      "Programming Languages": [
+        "Python, R, MATLAB, C/C++, Java"
+      ],
+      "Machine Learning & Deep Learning": [
+        "PyTorch, TensorFlow, scikit-learn",
+        "Spectral Clustering, Large Language Models",
+        "Bioinformatics Applications"
+      ],
+      "Computational Biology": [
+        "RNA Sequence Analysis",
+        "mRNA Design and Optimization",
+        "Single-cell RNA-seq Data Analysis"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "current-cv",
+      "type": "current-cv",
+      "title": "Current public CV before profile-hub migration",
+      "url": "https://li-hongmin.github.io/cv.html",
+      "capturedAt": "2026-07-13",
+      "authority": "self-published"
+    },
+    {
+      "id": "researchmap-public-2026-07-13",
+      "type": "public-snapshot",
+      "title": "researchmap public snapshot, 2026-07-13",
+      "url": "https://researchmap.jp/hongmin",
+      "path": "profile/sources/researchmap-public-2026-07-13.md",
+      "capturedAt": "2026-07-13",
+      "authority": "public-platform-snapshot"
+    },
+    {
+      "id": "jst-biodx-2025",
+      "type": "official-url",
+      "title": "JST CREST BioDX 2025 event",
+      "url": "https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html",
+      "authority": "official"
+    },
+    {
+      "id": "kaken-24K20890",
+      "type": "official-url",
+      "title": "KAKENHI 24K20890",
+      "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/",
+      "authority": "official"
+    },
+    {
+      "id": "kaken-26K21370",
+      "type": "official-url",
+      "title": "KAKENHI 26K21370",
+      "url": "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/",
+      "authority": "official"
+    },
+    {
+      "id": "arxiv-2606.31273",
+      "type": "official-url",
+      "title": "Calibration Turn arXiv record",
+      "url": "https://arxiv.org/abs/2606.31273",
+      "authority": "official"
+    },
+    {
+      "id": "arxiv-2605.11599",
+      "type": "official-url",
+      "title": "Targeted Tests arXiv record",
+      "url": "https://arxiv.org/abs/2605.11599",
+      "authority": "official"
+    },
+    {
+      "id": "arxiv-2605.12945",
+      "type": "official-url",
+      "title": "Shortcut Transition arXiv record",
+      "url": "https://arxiv.org/abs/2605.12945",
+      "authority": "official"
+    },
+    {
+      "id": "arxiv-2605.11554",
+      "type": "official-url",
+      "title": "Controlled Counterexample arXiv record",
+      "url": "https://arxiv.org/abs/2605.11554",
+      "authority": "official"
+    },
+    {
+      "id": "arxiv-2605.11428",
+      "type": "official-url",
+      "title": "FastUMAP arXiv record",
+      "url": "https://arxiv.org/abs/2605.11428",
+      "authority": "official"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "conflict-haomo-dates",
+      "field": "experience.haomo-engineer.date",
+      "canonicalValue": "2022.10 — 2023.5",
+      "researchmapValue": "2022.11 — 2023.4",
+      "status": "pending",
+      "autoSync": false,
+      "evidence": [
+        "current-cv",
+        "researchmap-public-2026-07-13"
+      ]
+    },
+    {
+      "id": "conflict-aeta-date",
+      "field": "awards.aeta-second-prize.date",
+      "canonicalValue": "2020.10",
+      "researchmapValue": "2020.11",
+      "status": "pending",
+      "autoSync": false,
+      "evidence": [
+        "current-cv",
+        "researchmap-public-2026-07-13"
+      ]
+    },
+    {
+      "id": "conflict-cbdcom-date",
+      "field": "awards.cbdcom-best-paper.date",
+      "canonicalValue": "2019.8",
+      "researchmapValue": "2018.10",
+      "status": "pending",
+      "autoSync": false,
+      "evidence": [
+        "current-cv",
+        "researchmap-public-2026-07-13"
+      ]
+    }
+  ],
+  "platforms": {
+    "homepage": {
+      "mode": "generated",
+      "path": "apps/homepage/src/generated/profile.json",
+      "externalUpdateGate": false
+    },
+    "cv": {
+      "mode": "generated",
+      "path": "exports/cv.md",
+      "externalUpdateGate": false
+    },
+    "researchmap": {
+      "mode": "proposal-only",
+      "profileUrl": "https://researchmap.jp/hongmin",
+      "profileUrlStatus": "confirmed-public",
+      "externalUpdateGate": true
+    },
+    "linkedin": {
+      "mode": "proposal-only",
+      "profileUrl": null,
+      "profileUrlStatus": "pending-confirmation",
+      "externalUpdateGate": true
+    }
+  },
+  "assertions": [
+    {
+      "id": "researchmap-tsukuba-non-degree-2016",
+      "field": "education",
+      "value": "University of Tsukuba, 2016.10–2017.3 (public researchmap entry; exact category requires login-side confirmation)",
+      "date": "2016.10 — 2017.3",
+      "status": "verified-public-snapshot",
+      "destinations": [
+        "researchmap"
+      ],
+      "evidence": [
+        "researchmap-public-2026-07-13"
+      ],
+      "homepage": "omit",
+      "linkedin": "omit"
+    },
+    {
+      "id": "researchmap-high-school-2008",
+      "field": "education",
+      "value": "High school, 2008.9–2011.5 (public researchmap entry; institution wording requires confirmation)",
+      "date": "2008.9 — 2011.5",
+      "status": "verified-public-snapshot",
+      "destinations": [
+        "researchmap"
+      ],
+      "evidence": [
+        "researchmap-public-2026-07-13"
+      ],
+      "homepage": "omit",
+      "linkedin": "omit"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence-tpu-credits",
+      "targetId": "google-cloud-tpu-builders-2026",
+      "fields": [
+        "date",
+        "amount"
+      ],
+      "sources": [
+        "current-cv"
+      ],
+      "note": "Non-cash Google Cloud computing credits."
+    },
+    {
+      "id": "evidence-kaken-2026",
+      "targetId": "kakenhi-2026",
+      "fields": [
+        "date",
+        "amount"
+      ],
+      "sources": [
+        "kaken-26K21370"
+      ]
+    },
+    {
+      "id": "evidence-google-2025",
+      "targetId": "google-grant-2025",
+      "fields": [
+        "date",
+        "amount"
+      ],
+      "sources": [
+        "current-cv"
+      ],
+      "note": "External platform update requires account-side confirmation."
+    },
+    {
+      "id": "evidence-kaken-2024",
+      "targetId": "kakenhi-2024",
+      "fields": [
+        "date",
+        "amount"
+      ],
+      "sources": [
+        "kaken-24K20890"
+      ]
+    }
+  ],
+  "exports": {
+    "cv": {
+      "title": "Curriculum Vitae - Li Hongmin"
+    },
+    "researchmap": {
+      "keywords": [
+        "AI for Science",
+        "Bioinformatics",
+        "Biomolecular sequence design",
+        "Machine learning"
+      ],
+      "summaryEnglish": "Hongmin Li develops computational systems for AI-assisted scientific discovery, with a focus on evidence-calibrated research workflows, bioinformatics, and biomolecular sequence design. He is a Researcher at the Institute of Science Tokyo and a Guest Researcher at The University of Tokyo.",
+      "summaryJapanese": "李鴻敏は、エビデンスに基づくAI支援型科学研究ワークフロー、バイオインフォマティクス、生体分子配列設計を中心に、科学的発見を支える計算システムを研究しています。東京科学大学の研究員および東京大学の客員研究員です。",
+      "syncChecklist": [
+        "Use the confirmed public profile at https://researchmap.jp/hongmin; sign in only through the external update gate when an approved edit is ready.",
+        "Resolve all pending date conflicts with primary evidence before changing either platform.",
+        "Add Calibration Turn only after verifying author, category, date, and URL in the edit UI.",
+        "Verify every proposed publication, presentation, and project against the authenticated record before saving.",
+        "Preview public output and compare it with the snapshot before publishing."
+      ],
+      "differences": [
+        "The public introduction already mentions AlphaScience and the May 2026 preprints.",
+        "No Calibration Turn entry was page-visible in the 2026-07-13 snapshot.",
+        "The public page shows four keywords.",
+        "Experience includes both current positions.",
+        "Education shows five entries, including the 2016.10–2017.3 Tsukuba entry and 2008.9–2011.5 high school.",
+        "Awards show three entries with dates TPU 2026.6, AETA 2020.11, and CBDCom 2018.10.",
+        "Public counts observed: 15 publications, 2 presentations, and 3 research projects."
+      ],
+      "loginChecks": [
+        "Publication metadata and full author order",
+        "Presentation details and visibility",
+        "Research-project roles, periods, and funding details",
+        "Authenticated award dates and evidence",
+        "Whether hidden/draft records explain public-count differences"
+      ],
+      "calibrationTurn": "Proposed addition: The Calibration Turn in AI-Assisted Research (arXiv:2606.31273, June 2026). Do not publish until the authenticated record is checked."
+    },
+    "linkedin": {
+      "headline": "AI for Science Researcher | Biomolecular Sequence Design | Evidence-Calibrated AI-Assisted Research",
+      "about": "I build computational systems that turn scientific questions into testable, reproducible discoveries. My work spans AI-assisted research and evaluation, bioinformatics, and biomolecular sequence design. I am currently a Researcher at the Institute of Science Tokyo and a Guest Researcher at The University of Tokyo.",
+      "featured": [
+        {
+          "title": "The Calibration Turn in AI-Assisted Research",
+          "url": "https://arxiv.org/abs/2606.31273"
+        },
+        {
+          "title": "Calibration Turn — code and artifacts",
+          "url": "https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research"
+        },
+        {
+          "title": "Gradient-based Optimization for mRNA Sequence Design",
+          "url": "https://doi.org/10.1101/2025.10.22.683691"
+        },
+        {
+          "title": "FastUMAP: Scalable Dimensionality Reduction",
+          "url": "https://arxiv.org/abs/2605.11428"
+        }
+      ],
+      "postDraft": "AI-assisted research needs more than fluent answers: it needs claims calibrated to the evidence actually available. In “The Calibration Turn in AI-Assisted Research,” I propose a conceptual and methodological framework for evidence-licensed claims, with code and artifacts available for inspection. I would value feedback from researchers working on AI evaluation, scientific workflows, and reproducibility.\n\nPaper: https://arxiv.org/abs/2606.31273\nArtifacts: https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research"
+    }
+  }
+}

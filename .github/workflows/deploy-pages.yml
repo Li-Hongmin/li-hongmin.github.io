@@ -24,21 +24,24 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run profile:validate
+      - run: npm run profile:check
       - run: npm run test:run
+      - run: npm run typecheck
       - run: npm run build
       - name: Verify static deployment artifacts
         run: |
-          test -f dist/index.html
-          test -f dist/cv.html
-          test -f dist/files/CREST_2025_poster.pdf
-          test -f dist/media/hero.mp4
-          test -f dist/media/hero-poster.webp
-          test -f dist/og.png
-          grep -Fq '/#full-cv' dist/cv.html
+          test -f apps/homepage/dist/index.html
+          test -f apps/homepage/dist/cv.html
+          test -f apps/homepage/dist/files/CREST_2025_poster.pdf
+          test -f apps/homepage/dist/media/hero.mp4
+          test -f apps/homepage/dist/media/hero-poster.webp
+          test -f apps/homepage/dist/og.png
+          grep -Fq '/#full-cv' apps/homepage/dist/cv.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: apps/homepage/dist
 
   deploy:
     environment:

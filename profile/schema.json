@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://li-hongmin.github.io/profile/schema.json",
+  "title": "Hongmin Li profile hub",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "publicProfile", "sources", "conflicts", "platforms", "assertions", "evidence", "exports"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "publicProfile": {
+      "type": "object",
+      "required": ["name", "displayName", "email", "github", "statement", "vision", "affiliation", "publications", "experience", "grants", "activities", "awards", "education", "peerReview", "researchInterests", "skills", "lastUpdated"],
+      "properties": {
+        "publications": { "type": "array", "items": { "$ref": "#/$defs/publication" } },
+        "experience": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
+        "grants": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
+        "activities": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
+        "awards": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
+        "education": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
+        "peerReview": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
+        "researchInterests": { "type": "array", "items": { "type": "string" } },
+        "skills": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } }
+      }
+    },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" }, "minItems": 1 },
+    "conflicts": { "type": "array", "items": { "$ref": "#/$defs/conflict" } },
+    "platforms": { "type": "object", "required": ["homepage", "cv", "researchmap", "linkedin"] },
+    "assertions": { "type": "array", "items": { "$ref": "#/$defs/assertion" } },
+    "evidence": { "type": "array", "items": { "type": "object", "required": ["id", "targetId", "fields", "sources"] } },
+    "exports": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cv", "researchmap", "linkedin"],
+      "properties": {
+        "cv": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title"],
+          "properties": { "title": { "type": "string" } }
+        },
+        "researchmap": { "type": "object" },
+        "linkedin": { "type": "object" }
+      }
+    }
+  },
+  "$defs": {
+    "link": {
+      "type": "object",
+      "required": ["label", "href"],
+      "properties": { "label": { "type": "string" }, "href": { "type": "string" } }
+    },
+    "publication": {
+      "type": "object",
+      "required": ["id", "date", "title", "venue", "links", "featured", "category", "authors"],
+      "properties": {
+        "category": { "enum": ["preprint", "journal", "conference"] },
+        "authors": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "links": { "type": "array", "items": { "$ref": "#/$defs/link" } }
+      }
+    },
+    "timelineItem": {
+      "type": "object",
+      "required": ["id", "date", "title"],
+      "properties": {
+        "homepage": { "type": "boolean" },
+        "links": { "type": "array", "items": { "$ref": "#/$defs/link" } }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "type", "title", "url", "authority"],
+      "properties": { "id": { "type": "string" }, "url": { "type": "string", "format": "uri", "pattern": "^https?://" } }
+    },
+    "conflict": {
+      "type": "object",
+      "required": ["id", "field", "canonicalValue", "researchmapValue", "status", "autoSync", "evidence"],
+      "properties": { "status": { "const": "pending" }, "autoSync": { "const": false } }
+    },
+    "assertion": {
+      "type": "object",
+      "required": ["id", "field", "value", "status", "destinations", "evidence"],
+      "properties": { "destinations": { "type": "array", "items": { "enum": ["homepage", "cv", "researchmap", "linkedin"] } } }
+    }
+  }
+}
