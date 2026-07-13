@@ -66,6 +66,21 @@ test("CV includes every structured record and link", async () => {
   }
 });
 
+test("APBJC 2024 poster links to the single FastUMAP publication", async () => {
+  const profile = await loadProfile();
+  const poster = profile.publicProfile.activities.find((record) => record.id === "apbjc24");
+  const publications = profile.publicProfile.publications.filter((record) => record.id === "fastumap");
+
+  assert.equal(poster.title, "Poster presentation — FastUMAP at the Asia-Pacific Bioinformatics Joint Conference 2024");
+  assert.equal(poster.detail, "Early conference presentation of the work later developed into the FastUMAP preprint");
+  assert.deepEqual(poster.links.map(({ label }) => label), ["Event", "Paper"]);
+  assert.equal(
+    poster.links.find(({ label }) => label === "Paper").href,
+    publications[0].links.find(({ label }) => label === "arXiv").href,
+  );
+  assert.equal(publications.length, 1);
+});
+
 test("workspace lifecycle hooks generate for dev and reject stale data before checked commands", async () => {
   const packageJson = JSON.parse(await readFile(new URL("package.json", root), "utf8"));
   assert.equal(packageJson.scripts.predev, "npm run profile:generate");

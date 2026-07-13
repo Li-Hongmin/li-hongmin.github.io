@@ -366,12 +366,16 @@
     {
       "id": "apbjc24",
       "date": "2024.10",
-      "title": "Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024",
-      "detail": "FastUMAP model",
+      "title": "Poster presentation — FastUMAP at the Asia-Pacific Bioinformatics Joint Conference 2024",
+      "detail": "Early conference presentation of the work later developed into the FastUMAP preprint",
       "links": [
         {
           "label": "Event",
           "href": "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185"
+        },
+        {
+          "label": "Paper",
+          "href": "https://arxiv.org/abs/2605.11428"
         }
       ]
     },

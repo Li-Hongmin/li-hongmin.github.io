@@ -53,7 +53,10 @@ describe("profile data", () => {
       title: "Oral presentation — RNA Informatics Dojo 2025",
       detail: "Input Data Differentiable Designer",
     }));
-    expect(profile.activities[3].title).toBe("Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024");
+    expect(profile.activities[3]).toEqual(expect.objectContaining({
+      title: "Poster presentation — FastUMAP at the Asia-Pacific Bioinformatics Joint Conference 2024",
+      detail: "Early conference presentation of the work later developed into the FastUMAP preprint",
+    }));
     expect(profile.activities.find((item) => item.id === "spring-fellowship-2022")?.title).toBe("Presentation — JST SPRING recipients event");
   });
 
