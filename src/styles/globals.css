@@ -215,7 +215,31 @@ a:focus-visible, summary:focus-visible {
 }
 .hero-overview p { margin: 0; font-size: clamp(.9rem, 1.2vw, 1.05rem); line-height: 1.55; }
 .hero-overview nav { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-top: 1.25rem; }
+.hero-overview-link { position: relative; }
 .hero-overview a { padding-bottom: .25rem; border-bottom: 1px solid rgba(247, 244, 237, .72); font-size: .7rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+.hero-overview-preview {
+  position: absolute;
+  top: calc(100% + .7rem);
+  left: 0;
+  z-index: 1;
+  width: min(18rem, calc(100vw - (2 * var(--page-gutter))));
+  margin: 0;
+  padding: 0;
+  color: rgba(247, 244, 237, .88);
+  font-size: .72rem;
+  line-height: 1.45;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-.25rem);
+  transition: opacity .2s ease, transform .2s ease, visibility .2s;
+}
+.hero-overview-preview li + li { margin-top: .35rem; }
+.hero-overview-link:hover .hero-overview-preview, .hero-overview-link:focus-within .hero-overview-preview {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
 .hero--lifted .hero-copy-shade { top: 0; bottom: auto; transform: scaleY(-1); }
 
 .section-shell { width: min(100%, 78rem); margin-inline: auto; padding-inline: var(--page-gutter); }

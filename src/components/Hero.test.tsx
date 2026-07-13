@@ -40,11 +40,16 @@ describe("Hero", () => {
     rerender(<Hero profile={profile} copyLifted />);
 
     expect(container.querySelector(".hero-content")).toHaveStyle({ opacity: "1" });
-    expect(screen.getByText(/AI-automated scientific workflows/i)).toHaveTextContent(/biomolecular sequence design/i);
-    expect(screen.getByText(/AI-automated scientific workflows/i)).toHaveTextContent(/reliable AI evaluation/i);
     const overview = screen.getByLabelText("Research overview");
+    const overviewCopy = within(overview).getByText(/My research develops AI-automated scientific workflows/i);
+    expect(overviewCopy).toHaveTextContent(/biomolecular sequence design/i);
+    expect(overviewCopy).toHaveTextContent(/reliable AI evaluation/i);
     expect(within(overview).getByRole("link", { name: "Research" })).toHaveAttribute("href", "#research");
     expect(within(overview).getByRole("link", { name: "Selected work" })).toHaveAttribute("href", "#selected-work");
     expect(within(overview).getByRole("link", { name: "Publications" })).toHaveAttribute("href", "#publications");
+    expect(within(overview).getByLabelText("Research preview")).toHaveTextContent(profile.publications[0].title);
+    expect(within(overview).getByLabelText("Research preview")).toHaveTextContent("No claim without license.");
+    expect(within(overview).getByLabelText("Selected work preview")).toHaveTextContent("ID3 · 2025");
+    expect(within(overview).getByLabelText("Publications preview")).toHaveTextContent(`2026.06 · ${profile.publications[0].title}`);
   });
 });

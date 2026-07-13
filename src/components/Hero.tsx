@@ -89,12 +89,38 @@ export default function Hero({ profile, copyLifted = false }: HeroProps) {
             grounded in reliable AI evaluation and reproducible evidence.
           </p>
           <nav aria-label="Research overview links">
-            <a href="#research">Research</a>
-            <a href="#selected-work">Selected work</a>
-            <a href="#publications">Publications</a>
+            <OverviewLink
+              href="#research"
+              label="Research"
+              preview={[
+                `${profile.publications[0].date} · ${profile.publications[0].title}`,
+                "No claim without license.",
+              ]}
+            />
+            <OverviewLink
+              href="#selected-work"
+              label="Selected work"
+              preview={profile.selectedWork.slice(0, 3).map((item) => `${item.title} · ${item.year}`)}
+            />
+            <OverviewLink
+              href="#publications"
+              label="Publications"
+              preview={profile.publications.slice(0, 3).map((item) => `${item.date} · ${item.title}`)}
+            />
           </nav>
         </motion.div>
       )}
     </section>
+  );
+}
+
+function OverviewLink({ href, label, preview }: { href: string; label: string; preview: readonly string[] }) {
+  return (
+    <div className="hero-overview-link">
+      <a href={href}>{label}</a>
+      <ul className="hero-overview-preview" aria-label={`${label} preview`}>
+        {preview.map((item) => <li key={item}>{item}</li>)}
+      </ul>
+    </div>
   );
 }

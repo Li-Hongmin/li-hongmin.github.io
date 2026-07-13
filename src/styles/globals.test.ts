@@ -99,6 +99,14 @@ describe("cinematic scroll styles", () => {
     expect(heroRules).not.toContain("transform:");
   });
 
+  it("keeps lifted-copy previews directly beneath their links without a panel treatment", () => {
+    expect(css).toMatch(/\.hero-overview-link\s*\{[^}]*position:\s*relative/s);
+    expect(css).toMatch(/\.hero-overview-preview\s*\{[^}]*position:\s*absolute[^}]*top:\s*calc\(100% \+ \.7rem\)/s);
+    expect(css).toMatch(/\.hero-overview-link:hover \.hero-overview-preview, \.hero-overview-link:focus-within \.hero-overview-preview/s);
+    const previewRules = css.match(/\.hero-overview-preview\s*\{([\s\S]*?)\n\}/)?.[1] ?? "";
+    expect(previewRules).not.toMatch(/background|box-shadow|border-radius/);
+  });
+
   it("locks the document and provides a native internal scroller", () => {
     expect(shell).toContain(".app-viewport");
     expect(shell).toContain("height:100dvh");
