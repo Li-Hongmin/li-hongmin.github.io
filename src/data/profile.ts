@@ -107,7 +107,15 @@ const experience: TimelineItem[] = [
   { id: "utokyo-researcher", date: "2022.4 — 2022.10", title: "Researcher", organization: "The University of Tokyo", links: [{ label: "Details", href: "http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/" }] },
 ];
 
+const googleCloudTpuBuildersAward: TimelineItem = {
+  id: "google-cloud-tpu-builders-2026",
+  date: "2026.06",
+  title: "Google Cloud TPU Builders Award",
+  detail: "USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments",
+};
+
 const grants: TimelineItem[] = [
+  googleCloudTpuBuildersAward,
   { id: "kakenhi-2026", date: "2026.04", title: "KAKENHI Grant-in-Aid for Early-Career Scientists", detail: "Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/" }] },
   { id: "google-grant-2025", date: "2025.10", title: "Google Grant", detail: "Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization · $30,000" },
   { id: "kakenhi-2024", date: "2024.4", title: "KAKENHI Young Researcher Grant", detail: "Developing a large-scale language model integrating RNA sequences and text", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/" }] },
@@ -120,6 +128,7 @@ const activities: TimelineItem[] = [
 ];
 
 const awards: TimelineItem[] = [
+  googleCloudTpuBuildersAward,
   { id: "jst-spring", date: "2021.10", title: "JST SPRING Fellowship", detail: "Pioneering Research Initiated by the Next Generation" },
   { id: "aeta-second-prize", date: "2020.10", title: "Second Prize", organization: "AETA Earthquake Prediction AI Algorithm Competition 2019", links: [{ label: "News", href: "https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition" }, { label: "Slides", href: "https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie" }] },
   { id: "analysys-special-award", date: "2019.10", title: "Special Award", organization: "3rd Analysys International Algorithm Competition" },

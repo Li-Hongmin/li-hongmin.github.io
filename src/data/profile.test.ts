@@ -13,9 +13,9 @@ describe("profile data", () => {
     expect(profile.selectedWork).toHaveLength(4);
     expect(profile.publications).toHaveLength(15);
     expect(profile.experience).toHaveLength(5);
-    expect(profile.grants).toHaveLength(3);
+    expect(profile.grants).toHaveLength(4);
     expect(profile.activities).toHaveLength(3);
-    expect(profile.awards).toHaveLength(4);
+    expect(profile.awards).toHaveLength(5);
     expect(profile.education).toHaveLength(3);
     expect(profile.peerReview).toHaveLength(8);
   });
@@ -42,5 +42,17 @@ describe("profile data", () => {
       { id: "fastumap", year: 2026 },
       { id: "targeted-tests", year: 2026 },
     ]);
+  });
+
+  it("includes the public Google Cloud TPU Builders Award in funding and awards", () => {
+    const expectedAward = expect.objectContaining({
+      id: "google-cloud-tpu-builders-2026",
+      date: "2026.06",
+      title: "Google Cloud TPU Builders Award",
+      detail: "USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments",
+    });
+
+    expect(profile.grants).toContainEqual(expectedAward);
+    expect(profile.awards).toContainEqual(expectedAward);
   });
 });
