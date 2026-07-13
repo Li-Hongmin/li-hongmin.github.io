@@ -31,6 +31,15 @@ describe("approved visual contract", () => {
     expect(mobileRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*44px/s);
   });
 
+  it("turns wide-screen hero navigation into a right-hand outline rail", () => {
+    const desktopRules = css.split("@media (min-width: 1100px) {")[1].split(".hero-content")[0];
+
+    expect(desktopRules).toMatch(/\.hero-header nav\s*\{[^}]*right:\s*var\(--page-gutter\)/s);
+    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*border-left:/s);
+    expect(desktopRules).toMatch(/\.hero-nav li::before\s*\{[^}]*border-radius:\s*50%/s);
+    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.35rem/s);
+  });
+
   it("keeps horizontal padding on mobile research rows", () => {
     const mobileRules = css.split("@media (max-width: 899px) {")[1].split("@media (max-width: 767px)")[0];
     expect(mobileRules).toMatch(/\.research-list li\s*\{[^}]*padding:\s*1\.25rem;/s);
