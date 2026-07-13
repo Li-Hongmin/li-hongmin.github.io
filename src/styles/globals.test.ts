@@ -84,6 +84,24 @@ describe("approved visual contract", () => {
     expect(shadeRules).not.toContain("linear-gradient(180deg");
   });
 
+  it("keeps research overview previews as white, line-led text directly over the hero", () => {
+    const overviewRules = css.slice(css.indexOf(".hero-overview {"), css.indexOf(".section-shell"));
+
+    expect(overviewRules).toMatch(/\.hero-overview__preview\s*\{[^}]*border-top:\s*1px solid[^}]*color:\s*#fff[^}]*text-shadow:/s);
+    expect(overviewRules).toMatch(/\.hero-overview__preview-list li\s*\{[^}]*border-top:\s*1px solid/s);
+    expect(overviewRules).not.toContain("background:");
+    expect(overviewRules).not.toContain("backdrop-filter:");
+    expect(overviewRules).not.toContain("border-radius:");
+  });
+
+  it("animates overview previews only when motion is allowed and keeps mobile overview hidden", () => {
+    const reducedMotionRules = css.split("@media (prefers-reduced-motion: reduce) {")[1];
+
+    expect(css).toMatch(/@media \(prefers-reduced-motion: no-preference\)\s*\{[\s\S]*?\.hero-overview__preview\s*\{[^}]*animation:\s*hero-overview-preview-in/s);
+    expect(reducedMotionRules).not.toContain(".hero-overview__preview");
+    expect(css).toMatch(/@media \(max-width: 899px\)\s*\{[\s\S]*?\.hero-overview\s*\{\s*display:\s*none;/s);
+  });
+
   it("does not reintroduce rejected decoration", () => {
     for (const rejected of ["orbit", "dot-grid", "coordinates", "magnet", "metric-strip"]) {
       expect(css).not.toContain(rejected);
@@ -97,14 +115,6 @@ describe("cinematic scroll styles", () => {
 
     expect(heroRules).not.toContain("opacity:");
     expect(heroRules).not.toContain("transform:");
-  });
-
-  it("keeps lifted-copy previews directly beneath their links without a panel treatment", () => {
-    expect(css).toMatch(/\.hero-overview-link\s*\{[^}]*position:\s*relative/s);
-    expect(css).toMatch(/\.hero-overview-preview\s*\{[^}]*position:\s*absolute[^}]*top:\s*calc\(100% \+ \.7rem\)/s);
-    expect(css).toMatch(/\.hero-overview-link:hover \.hero-overview-preview, \.hero-overview-link:focus-within \.hero-overview-preview/s);
-    const previewRules = css.match(/\.hero-overview-preview\s*\{([\s\S]*?)\n\}/)?.[1] ?? "";
-    expect(previewRules).not.toMatch(/background|box-shadow|border-radius/);
   });
 
   it("locks the document and provides a native internal scroller", () => {
