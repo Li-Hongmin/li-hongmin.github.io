@@ -13,7 +13,7 @@ describe("profile data", () => {
     expect(profile.experience).toHaveLength(5);
     expect(profile.grants).toHaveLength(4);
     expect(profile.activities).toHaveLength(4);
-    expect(profile.awards).toHaveLength(5);
+    expect(profile.awards).toHaveLength(4);
     expect(profile.education).toHaveLength(3);
     expect(profile.peerReview).toHaveLength(8);
   });
@@ -41,13 +41,19 @@ describe("profile data", () => {
     });
   });
 
-  it("places the June 2026 CREST BioDX fifth-area-meeting poster first without unverified links", () => {
+  it("describes conference presentations in clear English without changing APBJC to oral", () => {
     expect(profile.activities[0]).toEqual({
       id: "crest-biodx-5th-meeting-2026",
       date: "2026.06.09",
-      title: "Poster · CREST バイオDX第5回領域会議",
-      organization: "沼津",
+      title: "Poster presentation — JST CREST BioDX Area Meeting",
+      detail: "5th area meeting · Numazu, Japan",
     });
+    expect(profile.activities[1].title).toBe("Poster presentation — JST CREST BioDX Interim Symposium");
+    expect(profile.activities[2]).toEqual(expect.objectContaining({
+      title: "Oral presentation — RNA Informatics Dojo 2025",
+      detail: "Input Data Differentiable Designer",
+    }));
+    expect(profile.activities[3].title).toBe("Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024");
   });
 
   it("keeps education limited to the facts stated in the CV", () => {
@@ -58,15 +64,54 @@ describe("profile data", () => {
     ]);
   });
 
-  it("includes the public Google Cloud TPU Builders Award in funding and awards", () => {
-    const expectedAward = expect.objectContaining({
+  it("keeps TPU cloud credits only with funding and identifies them as non-cash support", () => {
+    const expectedSupport = expect.objectContaining({
       id: "google-cloud-tpu-builders-2026",
       date: "2026.06",
       title: "Google Cloud TPU Builders Award",
-      detail: "USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments",
+      detail: "Cloud computing support · USD 5,500 in Google Cloud computing credits",
     });
 
-    expect(profile.grants).toContainEqual(expectedAward);
-    expect(profile.awards).toContainEqual(expectedAward);
+    expect(profile.grants).toContainEqual(expectedSupport);
+    expect(profile.awards).not.toContainEqual(expectedSupport);
+    expect(profile.awards.some((award) => award.id === "google-cloud-tpu-builders-2026")).toBe(false);
+  });
+
+  it("uses official funding categories, project scopes, and amounts", () => {
+    expect(profile.grants).toEqual(expect.arrayContaining([
+      expect.objectContaining({
+        id: "kakenhi-2024",
+        title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
+        detail: "Development of a Large-Scale Language Model Integrating RNA Sequences and Text · Total budget: JPY 4.42 million",
+      }),
+      expect.objectContaining({
+        id: "kakenhi-2026",
+        title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)",
+        detail: "Input Data Differentiable Designer for biomolecular sequence design · JPY 4.55 million",
+      }),
+      expect.objectContaining({
+        id: "google-grant-2025",
+        title: "Google research support",
+        detail: "Biological sequence optimization · USD 30,000",
+      }),
+    ]));
+  });
+
+  it("presents honors in plain language with their necessary context", () => {
+    expect(profile.awards).toEqual([
+      expect.objectContaining({ id: "jst-spring", title: "Doctoral research support — JST SPRING", detail: "Support for Pioneering Research Initiated by the Next Generation" }),
+      expect.objectContaining({ id: "aeta-second-prize", title: "Second Prize — AETA Earthquake Prediction AI Competition", detail: "2019 competition · awarded in 2020" }),
+      expect.objectContaining({ id: "analysys-special-award", title: "Special Award — 3rd Analysys International Algorithm Competition" }),
+      expect.objectContaining({ id: "cbdcom-best-paper", title: "Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)", detail: "For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”" }),
+    ]);
+  });
+
+  it("does not add an unverified HAOMO project or research field", () => {
+    expect(profile.experience.find((item) => item.id === "haomo-engineer")).toEqual({
+      id: "haomo-engineer",
+      date: "2022.10 — 2023.5",
+      title: "Machine Learning Engineer",
+      organization: "HAOMO.AI",
+    });
   });
 });

@@ -49,7 +49,7 @@ const experience: TimelineItem[] = [
   { id: "science-tokyo-researcher", date: "2026.4 — Present", title: "Researcher", organization: "Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo", links: [{ label: "Laboratory", href: "https://www.sato-lab.org/en/people/" }] },
   { id: "utokyo-guest-researcher", date: "2026.4 — Present", title: "Guest Researcher", organization: "Frith Lab, The University of Tokyo", links: [{ label: "Laboratory", href: "https://sites.google.com/site/frithbioinfo/home?authuser=0" }] },
   { id: "utokyo-postdoc", date: "2023.5 — 2026.3", title: "Postdoctoral Researcher", organization: "The University of Tokyo" },
-  { id: "haomo-engineer", date: "2022.10 — 2023.5", title: "Machine Learning Engineer", organization: "HAOMO.AI", detail: "蓝色空间领航者 project" },
+  { id: "haomo-engineer", date: "2022.10 — 2023.5", title: "Machine Learning Engineer", organization: "HAOMO.AI" },
   { id: "utokyo-researcher", date: "2022.4 — 2022.10", title: "Researcher", organization: "The University of Tokyo", links: [{ label: "Details", href: "http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/" }] },
 ];
 
@@ -57,29 +57,28 @@ const googleCloudTpuBuildersAward: TimelineItem = {
   id: "google-cloud-tpu-builders-2026",
   date: "2026.06",
   title: "Google Cloud TPU Builders Award",
-  detail: "USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments",
+  detail: "Cloud computing support · USD 5,500 in Google Cloud computing credits",
 };
 
 const grants: TimelineItem[] = [
   googleCloudTpuBuildersAward,
-  { id: "kakenhi-2026", date: "2026.04", title: "KAKENHI Grant-in-Aid for Early-Career Scientists", detail: "Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/" }] },
-  { id: "google-grant-2025", date: "2025.10", title: "Google Grant", detail: "Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization · $30,000" },
-  { id: "kakenhi-2024", date: "2024.4", title: "KAKENHI Young Researcher Grant", detail: "Developing a large-scale language model integrating RNA sequences and text", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/" }] },
+  { id: "kakenhi-2026", date: "2026.04", title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)", detail: "Input Data Differentiable Designer for biomolecular sequence design · JPY 4.55 million", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/" }] },
+  { id: "google-grant-2025", date: "2025.10", title: "Google research support", detail: "Biological sequence optimization · USD 30,000" },
+  { id: "kakenhi-2024", date: "2024.4", title: "Grant-in-Aid for Early-Career Scientists (KAKENHI)", detail: "Development of a Large-Scale Language Model Integrating RNA Sequences and Text · Total budget: JPY 4.42 million", links: [{ label: "Project info", href: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/" }] },
 ];
 
 const activities: TimelineItem[] = [
-  { id: "crest-biodx-5th-meeting-2026", date: "2026.06.09", title: "Poster · CREST バイオDX第5回領域会議", organization: "沼津" },
-  { id: "crest-2025", date: "2025.11", title: "Poster · CREST バイオDX領域 2025年度中間報告シンポジウム", links: [{ label: "Event", href: "https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html" }, { label: "CREST 2025 poster", href: "/files/CREST_2025_poster.pdf" }] },
-  { id: "rna-dojo-2025", date: "2025.8", title: "Oral · Input Data Differentiable Designer", organization: "RNA Informatics Dojo 2025", links: [{ label: "Event", href: "https://sites.google.com/view/rna-info/dojo/nagasaki2025" }] },
-  { id: "apbjc24", date: "2024.10", title: "Poster · FastUMAP model", organization: "APBJC24", links: [{ label: "Event", href: "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185" }] },
+  { id: "crest-biodx-5th-meeting-2026", date: "2026.06.09", title: "Poster presentation — JST CREST BioDX Area Meeting", detail: "5th area meeting · Numazu, Japan" },
+  { id: "crest-2025", date: "2025.11", title: "Poster presentation — JST CREST BioDX Interim Symposium", links: [{ label: "Event", href: "https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html" }, { label: "CREST 2025 poster", href: "/files/CREST_2025_poster.pdf" }] },
+  { id: "rna-dojo-2025", date: "2025.8", title: "Oral presentation — RNA Informatics Dojo 2025", detail: "Input Data Differentiable Designer", links: [{ label: "Event", href: "https://sites.google.com/view/rna-info/dojo/nagasaki2025" }] },
+  { id: "apbjc24", date: "2024.10", title: "Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024", detail: "FastUMAP model", links: [{ label: "Event", href: "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185" }] },
 ];
 
 const awards: TimelineItem[] = [
-  googleCloudTpuBuildersAward,
-  { id: "jst-spring", date: "2021.10", title: "JST SPRING Fellowship", detail: "Pioneering Research Initiated by the Next Generation" },
-  { id: "aeta-second-prize", date: "2020.10", title: "Second Prize", organization: "AETA Earthquake Prediction AI Algorithm Competition 2019", links: [{ label: "News", href: "https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition" }, { label: "Slides", href: "https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie" }] },
-  { id: "analysys-special-award", date: "2019.10", title: "Special Award", organization: "3rd Analysys International Algorithm Competition" },
-  { id: "cbdcom-best-paper", date: "2019.8", title: "Best Paper Award", organization: "CBDCom 2018" },
+  { id: "jst-spring", date: "2021.10", title: "Doctoral research support — JST SPRING", detail: "Support for Pioneering Research Initiated by the Next Generation" },
+  { id: "aeta-second-prize", date: "2020.10", title: "Second Prize — AETA Earthquake Prediction AI Competition", detail: "2019 competition · awarded in 2020", links: [{ label: "News", href: "https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition" }, { label: "Slides", href: "https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie" }] },
+  { id: "analysys-special-award", date: "2019.10", title: "Special Award — 3rd Analysys International Algorithm Competition" },
+  { id: "cbdcom-best-paper", date: "2019.8", title: "Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)", detail: "For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”" },
 ];
 
 const education: TimelineItem[] = [

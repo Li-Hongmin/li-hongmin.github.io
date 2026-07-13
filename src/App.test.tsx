@@ -42,7 +42,10 @@ describe("portfolio page", () => {
       profile.publications.filter((publication) => publication.featured).length,
     );
     expect(screen.queryByLabelText("Featured publications")).not.toBeInTheDocument();
-    expect(screen.getAllByRole("heading", { name: "Funding & credits" })).toHaveLength(2);
+    expect(screen.getAllByRole("heading", { name: "Academic & industry appointments" })).toHaveLength(2);
+    expect(screen.getAllByRole("heading", { name: "Research funding & computing support" })).toHaveLength(2);
+    expect(screen.getByRole("heading", { name: "Conference presentations" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Honors & fellowships" })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Research grants" })).not.toBeInTheDocument();
     expect(screen.getByLabelText("Complete publication record").querySelectorAll("article")).toHaveLength(
       profile.publications.length,

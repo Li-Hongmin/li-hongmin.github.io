@@ -20,8 +20,8 @@ describe("Contact", () => {
 
     const expectedRecords = [
       ["education", "Education"],
-      ["grants", "Funding & credits"],
-      ["awards", "Awards & fellowship"],
+      ["grants", "Research funding & computing support"],
+      ["awards", "Honors & fellowships"],
       ["peer-review", "Peer review"],
     ] as const;
 

@@ -31,10 +31,10 @@ export default function Contact({ profile }: { profile: Profile }) {
         <div className="full-cv" id="full-cv" aria-labelledby="full-cv-heading">
           <h3 className="full-cv-heading" id="full-cv-heading">Full CV / Record</h3>
           <div className="full-cv-grid">
-            <CompactRecord title="Experience" items={profile.experience} />
+            <CompactRecord title="Academic & industry appointments" items={profile.experience} />
             <CompactRecord id="education" title="Education" items={profile.education} />
-            <CompactRecord id="grants" title="Funding & credits" items={profile.grants} />
-            <CompactRecord id="awards" title="Awards & fellowship" items={profile.awards} />
+            <CompactRecord id="grants" title="Research funding & computing support" items={profile.grants} />
+            <CompactRecord id="awards" title="Honors & fellowships" items={profile.awards} />
             <CompactRecord id="peer-review" title="Peer review" items={profile.peerReview} />
           </div>
         </div>

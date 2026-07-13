@@ -24,26 +24,22 @@
 
 ---
 
-## Professional Experience
+## Academic & industry appointments
 
 - **2026.4 - Present** | Researcher, [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo
 - **2026.4 - Present** | Guest Researcher, [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), The University of Tokyo
 - **2023.5 - 2026.3** | Postdoctoral Researcher, The University of Tokyo
-- **2022.10 - 2023.5** | Machine Learning Engineer, HAOMO.AI (蓝色空间领航者 project)
+- **2022.10 - 2023.5** | Machine Learning Engineer, HAOMO.AI
 - **2022.4 - 2022.10** | Researcher, The University of Tokyo ([Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/))
 
 ---
 
-## Funding & Support
+## Research funding & computing support
 
-### Funding & Credits
-- **2026.06** | Google Cloud TPU Builders Award - USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments
-- **2026.04** | KAKENHI Grant-in-Aid for Early-Career Scientists: Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design - ¥4,550,000 ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
-- **2025.10** | Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
-- **2024.4** | KAKENHI Young Researcher Grant for developing a large-scale language model integrating RNA sequences and text ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
-
-### Scholarships
-- **2021.10** | JST SPRING Fellowship (Pioneering Research Initiated by the Next Generation)
+- **2026.06** | **Google Cloud TPU Builders Award** — Cloud computing support; USD 5,500 in Google Cloud computing credits
+- **2026.04** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Input Data Differentiable Designer for biomolecular sequence design; JPY 4.55 million ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
+- **2025.10** | **Google research support** — Biological sequence optimization; USD 30,000
+- **2024.4** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of a Large-Scale Language Model Integrating RNA Sequences and Text; total budget: JPY 4.42 million ([Project Info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/))
 
 ---
 
@@ -86,12 +82,12 @@
 
 ---
 
-## Conference Activities
+## Conference presentations
 
-- **2026.06.09** | Poster - CREST バイオDX第5回領域会議 (Numazu / 沼津)
-- **2025.11** | Poster - CREST バイオDX領域 2025年度中間報告シンポジウム ([Poster](files/CREST_2025_poster.pdf))
-- **2025.8** | Oral - RNA Informatics Dojo 2025
-- **2024.10** | Poster - APBJC24
+- **2026.06.09** | Poster presentation — JST CREST BioDX Area Meeting (5th area meeting, Numazu, Japan)
+- **2025.11** | Poster presentation — JST CREST BioDX Interim Symposium ([Poster](files/CREST_2025_poster.pdf))
+- **2025.8** | Oral presentation — RNA Informatics Dojo 2025 — Input Data Differentiable Designer
+- **2024.10** | Poster presentation — Asia-Pacific Bioinformatics Joint Conference 2024 — FastUMAP model
 - **2024.8** | Oral - RNA Informatics Dojo 2024
 - **2024.8** | Participation - IJCAI 24 (Jeju)
 - **2024.6** | Participation - WCCI 24 (Yokohama)
@@ -117,13 +113,12 @@
 
 ---
 
-## Awards
+## Honors & fellowships
 
-- **2026.06** | Google Cloud TPU Builders Award - USD 5,500 in GCP credits
-- **2021.10** | JST SPRING Fellowship (Pioneering Research Initiated by the Next Generation)
-- **2020.10** | Second Prize, AETA Earthquake Prediction AI Algorithm Competition 2019
-- **2019.10** | Special Award, 3rd Analysys International Algorithm Competition
-- **2019.8** | Best Paper Award, CBDCom 2018
+- **2021.10** | **Doctoral research support — JST SPRING** — Support for Pioneering Research Initiated by the Next Generation
+- **2020.10** | **Second Prize — AETA Earthquake Prediction AI Competition** — 2019 competition; awarded in 2020
+- **2019.10** | **Special Award — 3rd Analysys International Algorithm Competition**
+- **2019.8** | **Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)** — For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”
 
 ---
 

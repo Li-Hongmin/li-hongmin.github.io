@@ -18,10 +18,10 @@ const desktopOutlineItems = [
   ["About", "#about"],
   ["Featured Paper", "#research"],
   ["Publications", "#publications"],
-  ["Experience", "#experience"],
+  ["Appointments", "#experience"],
   ["Education", "#education"],
-  ["Funding", "#grants"],
-  ["Awards", "#awards"],
+  ["Funding & compute", "#grants"],
+  ["Honors", "#awards"],
   ["Peer Review", "#peer-review"],
   ["Contact", "#contact"],
 ] as const;
