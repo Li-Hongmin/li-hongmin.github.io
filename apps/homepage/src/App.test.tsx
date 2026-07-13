@@ -25,10 +25,8 @@ describe("portfolio page", () => {
 
   it("exposes verified work, legacy assets and unique record anchors", () => {
     const { container } = render(<App />);
-    expect(screen.getByRole("heading", { name: "Full CV / Record" })).toBeInTheDocument();
-    expect(container.querySelector("details#full-cv")).toBeNull();
-    expect(container.querySelector("div#full-cv")).not.toBeNull();
-    expect(screen.queryByText("Expand")).not.toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "Full CV / Record" })).not.toBeInTheDocument();
+    expect(container.querySelector("#full-cv")).toBeNull();
     for (const id of ["about", "research", "publications", "experience", "education", "grants", "awards", "peer-review", "contact"]) {
       expect(container.querySelectorAll(`#${id}`)).toHaveLength(1);
     }
@@ -42,8 +40,8 @@ describe("portfolio page", () => {
     expect(screen.getByRole("button", { name: `View ${profile.publications.length - 9} more publications` })).toBeInTheDocument();
     expect(container.querySelectorAll("#publications .publication-list")).toHaveLength(1);
     expect(container.querySelector("#publications details")).toBeNull();
-    expect(screen.getAllByRole("heading", { name: "Academic & industry appointments" })).toHaveLength(2);
-    expect(screen.getAllByRole("heading", { name: "Research funding & computing support" })).toHaveLength(2);
+    expect(screen.getAllByRole("heading", { name: "Academic & industry appointments" })).toHaveLength(1);
+    expect(screen.getAllByRole("heading", { name: "Research funding & computing support" })).toHaveLength(1);
     expect(screen.getByRole("heading", { name: "Conference participation & presentations" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Honors & fellowships" })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Research grants" })).not.toBeInTheDocument();

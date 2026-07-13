@@ -21,34 +21,22 @@ describe("Recognition", () => {
     render(<Recognition profile={profile} />);
 
     expect(screen.getByRole("heading", { name: "Academic & industry appointments" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Education" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Research funding & computing support" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Honors & fellowships" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Conference participation & presentations" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Peer review" })).toBeInTheDocument();
   });
 
-  it("expands and collapses appointments independently in the original list", async () => {
-    const user = userEvent.setup();
+  it("shows every appointment without rendering a toggle", () => {
     render(<Recognition profile={profile} />);
 
     const appointments = getTimeline("Academic & industry appointments");
     const activities = getTimeline("Conference participation & presentations");
-    const list = appointments.getByRole("list");
-    const button = appointments.getByRole("button", { name: "View 1 more appointment" });
 
-    expect(appointments.getAllByRole("listitem")).toHaveLength(4);
-    expect(activities.getAllByRole("listitem")).toHaveLength(4);
-    expect(button).toHaveAttribute("aria-expanded", "false");
-    expect(button).toHaveAttribute("aria-controls", list.id);
-
-    await user.click(button);
     expect(appointments.getAllByRole("listitem")).toHaveLength(5);
     expect(activities.getAllByRole("listitem")).toHaveLength(4);
-    expect(appointments.getByRole("list")).toBe(list);
-    expect(button).toHaveAccessibleName("Show fewer appointments");
-    expect(button).toHaveAttribute("aria-expanded", "true");
-
-    await user.click(button);
-    expect(appointments.getAllByRole("listitem")).toHaveLength(4);
-    expect(button).toHaveAccessibleName("View 1 more appointment");
+    expect(appointments.queryByRole("button")).not.toBeInTheDocument();
   });
 
   it("expands and collapses all activities without affecting appointments", async () => {
@@ -63,7 +51,7 @@ describe("Recognition", () => {
     expect(activities.getAllByRole("listitem")).toHaveLength(4);
     await user.click(button);
     expect(activities.getAllByRole("listitem")).toHaveLength(13);
-    expect(appointments.getAllByRole("listitem")).toHaveLength(4);
+    expect(appointments.getAllByRole("listitem")).toHaveLength(5);
     expect(activities.getByRole("list")).toBe(list);
     expect(button).toHaveAccessibleName("Show fewer activities");
 
@@ -81,12 +69,16 @@ describe("Recognition", () => {
     expect(funding.queryByRole("button")).not.toBeInTheDocument();
   });
 
-  it("uses stable unique list ids for all three columns without duplicate DOM ids", () => {
+  it("uses stable unique anchors for the six record groups without duplicate DOM ids", () => {
     const { container } = render(<Recognition profile={profile} />);
 
     expect(getTimeline("Academic & industry appointments").getByRole("list")).toHaveAttribute("id", "recognition-appointments-list");
+    expect(screen.getByRole("heading", { name: "Education" }).closest(".timeline-group")).toHaveAttribute("id", "education");
     expect(getTimeline("Research funding & computing support").getByRole("list")).toHaveAttribute("id", "recognition-funding-list");
+    expect(screen.getByRole("heading", { name: "Research funding & computing support" }).closest(".timeline-group")).toHaveAttribute("id", "grants");
+    expect(screen.getByRole("heading", { name: "Honors & fellowships" }).closest(".timeline-group")).toHaveAttribute("id", "awards");
     expect(getTimeline("Conference participation & presentations").getByRole("list")).toHaveAttribute("id", "recognition-activities-list");
+    expect(screen.getByRole("heading", { name: "Peer review" }).closest(".timeline-group")).toHaveAttribute("id", "peer-review");
     const ids = [...container.querySelectorAll("[id]")].map((element) => element.id);
     expect(new Set(ids).size).toBe(ids.length);
   });

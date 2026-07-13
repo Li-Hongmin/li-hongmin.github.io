@@ -32,7 +32,7 @@
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
 - **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者
-- **2022.4 — 2022.10** | **Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
+- **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 
 ---
 

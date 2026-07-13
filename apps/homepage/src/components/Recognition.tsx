@@ -8,19 +8,21 @@ type TimelineProps = {
   items: readonly TimelineItem[];
   label: string;
   listId: string;
+  sectionId?: string;
   itemName: string;
   itemNamePlural: string;
+  collapsible?: boolean;
 };
 
-function Timeline({ items, label, listId, itemName, itemNamePlural }: TimelineProps) {
+function Timeline({ items, label, listId, sectionId, itemName, itemNamePlural, collapsible = true }: TimelineProps) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const hasMoreItems = items.length > INITIAL_TIMELINE_COUNT;
+  const hasMoreItems = collapsible && items.length > INITIAL_TIMELINE_COUNT;
   const visibleItems = isExpanded || !hasMoreItems ? items : items.slice(0, INITIAL_TIMELINE_COUNT);
   const remainingCount = items.length - INITIAL_TIMELINE_COUNT;
   const remainingItemName = remainingCount === 1 ? itemName : itemNamePlural;
 
   return (
-    <div className="timeline-group">
+    <div className="timeline-group" id={sectionId}>
       <h3>{label}</h3>
       <ol id={listId}>
         {visibleItems.map((item) => (
@@ -67,13 +69,31 @@ export default function Recognition({ profile }: { profile: Profile }) {
           listId="recognition-appointments-list"
           itemName="appointment"
           itemNamePlural="appointments"
+          collapsible={false}
+        />
+        <Timeline
+          label="Education"
+          items={profile.education}
+          listId="recognition-education-list"
+          sectionId="education"
+          itemName="education record"
+          itemNamePlural="education records"
         />
         <Timeline
           label="Research funding & computing support"
           items={profile.grants}
           listId="recognition-funding-list"
+          sectionId="grants"
           itemName="funding record"
           itemNamePlural="funding records"
+        />
+        <Timeline
+          label="Honors & fellowships"
+          items={profile.awards}
+          listId="recognition-awards-list"
+          sectionId="awards"
+          itemName="honor"
+          itemNamePlural="honors"
         />
         <Timeline
           label="Conference participation & presentations"
@@ -81,6 +101,14 @@ export default function Recognition({ profile }: { profile: Profile }) {
           listId="recognition-activities-list"
           itemName="activity"
           itemNamePlural="activities"
+        />
+        <Timeline
+          label="Peer review"
+          items={profile.peerReview}
+          listId="recognition-peer-review-list"
+          sectionId="peer-review"
+          itemName="review record"
+          itemNamePlural="review records"
         />
       </div>
     </section>

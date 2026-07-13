@@ -43,6 +43,26 @@ test("generator emits every derived artifact and preserves homepage data exactly
   assert.match(artifacts.get("exports/linkedin.md"), /pending confirmation/i);
 });
 
+test("canonical profile preserves the University of Tokyo postdoctoral appointment details", async () => {
+  const profile = await loadProfile();
+
+  assert.deepEqual(
+    profile.publicProfile.experience.find((item) => item.id === "utokyo-researcher"),
+    {
+      id: "utokyo-researcher",
+      date: "2022.4 — 2022.10",
+      title: "Postdoctoral Researcher",
+      organization: "The University of Tokyo",
+      links: [
+        {
+          label: "Details",
+          href: "http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/",
+        },
+      ],
+    },
+  );
+});
+
 test("CV is rendered from publicProfile records without a duplicate markdown fact store", async () => {
   const profile = await loadProfile();
   assert.equal("cvMarkdown" in profile.exports, false);

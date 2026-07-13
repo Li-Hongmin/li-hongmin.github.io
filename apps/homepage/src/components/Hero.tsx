@@ -1,5 +1,4 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { useState, type FocusEvent } from "react";
 import type { Profile } from "../data/profile";
 
 type HeroProps = {
@@ -26,62 +25,33 @@ const desktopOutlineItems = [
   ["Contact", "#contact"],
 ] as const;
 
-const overviewItems = [
-  ["research", "Research", "#research"],
-  ["publications", "Publications", "#publications"],
-] as const;
-
-type OverviewPreview = (typeof overviewItems)[number][0];
-
-function shortTitle(title: string) {
-  return title.split(":", 1)[0].trim();
-}
-
-function OverviewPreviewContent({ preview, profile }: { preview: OverviewPreview; profile: Profile }) {
-  const featuredPaper = profile.publications.find((publication) => publication.featured) ?? profile.publications[0];
-
-  if (!featuredPaper) return null;
-
-  if (preview === "research") {
-    return (
-      <div className="hero-overview__preview" id="research-overview-preview" role="status" aria-live="polite" aria-atomic="true">
-        <p className="hero-overview__preview-kicker">Featured paper · {featuredPaper.date}</p>
-        <dl className="hero-overview__preview-research">
-          <div>
-            <dt>Short title</dt>
-            <dd>{shortTitle(featuredPaper.title)}</dd>
-          </div>
-          <div>
-            <dt>Full title</dt>
-            <dd>{featuredPaper.title}</dd>
-          </div>
-          <div>
-            <dt>Principle</dt>
-            <dd>No claim without license.</dd>
-          </div>
-        </dl>
-      </div>
-    );
-  }
-
-  const records = profile.publications.slice(0, 3).map((publication) => ({
-    id: publication.id,
-    title: publication.title,
-    meta: publication.date,
-  }));
+function RecentNews({ profile }: { profile: Profile }) {
+  const news = [
+    { ...profile.publications[0], category: "Preprint", href: profile.publications[0]?.links[0]?.href ?? "#publications" },
+    { ...profile.grants[0], category: "Support", href: "#grants" },
+    { ...profile.activities[0], category: "Presentation", href: "#experience" },
+    ...profile.publications.slice(1, 5).map((item) => ({ ...item, category: "Preprint", href: item.links[0]?.href ?? "#publications" })),
+    { ...profile.experience[0], category: "Appointment", href: "#experience" },
+    { ...profile.experience[1], category: "Appointment", href: "#experience" },
+  ].filter((item) => item.id).slice(0, 9);
 
   return (
-    <div className="hero-overview__preview" id="research-overview-preview" role="status" aria-live="polite" aria-atomic="true">
-      <p className="hero-overview__preview-kicker">Publications</p>
-      <ol className="hero-overview__preview-list">
-        {records.map((record) => (
-          <li key={record.id}>
-            <span>{record.title}</span>
-            <span>{record.meta}</span>
-          </li>
-        ))}
+    <section className="hero-news" aria-labelledby="hero-news-heading">
+      <h2 id="hero-news-heading">Recent news</h2>
+      <ol>
+        {news.map((item) => {
+          const external = /^https?:/.test(item.href);
+          return (
+            <li key={item.id}>
+              <a href={item.href} target={external ? "_blank" : undefined} rel={external ? "noreferrer" : undefined}>
+                <span>{item.category} · {item.date}</span>
+                <strong>{item.title}</strong>
+              </a>
+            </li>
+          );
+        })}
       </ol>
-    </div>
+    </section>
   );
 }
 
@@ -102,13 +72,6 @@ export function HeroNavigation({ className = "mobile-navigation" }: { className?
 
 export default function Hero({ profile, copyLifted = false }: HeroProps) {
   const reduceMotion = useReducedMotion();
-  const [activeOverviewPreview, setActiveOverviewPreview] = useState<OverviewPreview | null>(null);
-
-  const clearOverviewPreviewAfterBlur = (event: FocusEvent<HTMLElement>) => {
-    if (!event.currentTarget.contains(event.relatedTarget as Node | null)) {
-      setActiveOverviewPreview(null);
-    }
-  };
 
   const headerEntrance = reduceMotion
     ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
@@ -149,9 +112,7 @@ export default function Hero({ profile, copyLifted = false }: HeroProps) {
       {copyLifted && (
         <motion.div
           className="hero-overview"
-          aria-label="Research overview"
-          onMouseLeave={() => setActiveOverviewPreview(null)}
-          onBlurCapture={clearOverviewPreviewAfterBlur}
+          aria-label="Recent news overview"
           initial={reduceMotion ? false : { opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: reduceMotion ? 0 : 1.05, duration: reduceMotion ? 0 : 0.65 }}
@@ -160,20 +121,7 @@ export default function Hero({ profile, copyLifted = false }: HeroProps) {
             My research develops AI-automated scientific workflows for biomolecular sequence design,
             grounded in reliable AI evaluation and reproducible evidence.
           </p>
-          <nav aria-label="Research overview links">
-            {overviewItems.map(([preview, label, href]) => (
-              <a
-                key={preview}
-                href={href}
-                aria-describedby={activeOverviewPreview === preview ? "research-overview-preview" : undefined}
-                onMouseEnter={() => setActiveOverviewPreview(preview)}
-                onFocus={() => setActiveOverviewPreview(preview)}
-              >
-                {label}
-              </a>
-            ))}
-          </nav>
-          {activeOverviewPreview && <OverviewPreviewContent preview={activeOverviewPreview} profile={profile} />}
+          <RecentNews profile={profile} />
         </motion.div>
       )}
     </section>

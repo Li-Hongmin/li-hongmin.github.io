@@ -45,13 +45,9 @@ describe("approved visual contract", () => {
     expect(nineItemRailHeight + railTopAndVisualInset).toBeLessThanOrEqual(768);
   });
 
-  it("keeps the permanent full CV text line-led and free of a glass panel", () => {
-    const fullCvRules = css.slice(css.indexOf(".full-cv {"), css.indexOf(".compact-record li"));
-
-    expect(fullCvRules).toMatch(/\.full-cv\s*\{[^}]*border-top:\s*1px solid/s);
-    expect(fullCvRules).not.toContain("background:");
-    expect(fullCvRules).not.toContain("box-shadow:");
-    expect(fullCvRules).not.toContain("border-radius:");
+  it("removes the duplicate full CV panel from the final contact section", () => {
+    expect(css).not.toContain(".full-cv");
+    expect(css).not.toContain(".compact-record");
   });
 
   it("uses a white, line-led featured-paper treatment without a panel", () => {
@@ -76,8 +72,11 @@ describe("approved visual contract", () => {
     expect(css).toMatch(/@media \(max-width: 1099px\)[\s\S]*?\.publication-list\s*\{[^}]*repeat\(2,/s);
     expect(css).toMatch(/@media \(max-width: 699px\)[\s\S]*?\.publication-list\s*\{[^}]*grid-template-columns:\s*1fr/s);
     expect(css).toMatch(/@media \(max-width: 699px\)[\s\S]*?\.publication-row\s*\{[^}]*min-height:\s*0;/s);
-    expect(publicationRowRules).toContain("min-height: 11.5rem");
-    expect(publicationRowRules).toContain("padding: clamp(.75rem, 1.2vw, 1rem)");
+    expect(publicationRowRules).toContain("min-height: 10.5rem");
+    expect(publicationRowRules).toContain("padding: .85rem 0");
+    expect(publicationRowRules).toContain("border-top: 1px solid var(--rule)");
+    expect(publicationRowRules).not.toContain("border-right");
+    expect(publicationRowRules).not.toContain("border-bottom");
     expect(publicationHeadingRules).toContain("margin: .55rem 0 0");
     expect(publicationCopyRules).toContain("margin: .35rem 0 0");
     expect(publicationLinksRules).toContain("margin-top: .7rem");
@@ -102,8 +101,9 @@ describe("approved visual contract", () => {
     expect(timelineToggleRules).not.toContain("backdrop-filter:");
   });
 
-  it("lets undated compact-record content span both grid columns", () => {
-    expect(css).toMatch(/\.compact-record__item--undated\s*>\s*div\s*\{[^}]*grid-column:\s*1\s*\/\s*-1/s);
+  it("keeps content-link hover underlines out of flex layout", () => {
+    expect(css).toMatch(/\.hero-nav a::after, \.link-cluster a::after, \.timeline-group a::after, \.contact-links a::after\s*\{[^}]*position:\s*absolute;[^}]*inset-inline:\s*0;/s);
+    expect(css).toMatch(/\.link-cluster a, \.timeline-group a\s*\{[^}]*white-space:\s*nowrap;/s);
   });
 
   it("uses the approved compact navigation gap on narrow mobile screens", () => {
@@ -113,8 +113,8 @@ describe("approved visual contract", () => {
 
   it("keeps hero navigation underlines out of layout at narrow mobile sizes", () => {
     const narrowMobileRules = css.split("@media (max-width: 599px) {")[1].split("@media (prefers-reduced-motion: reduce)")[0];
-    expect(css).toMatch(/\.hero-nav a\s*\{[^}]*position:\s*relative/s);
-    expect(css).toMatch(/\.hero-nav a::after\s*\{[^}]*position:\s*absolute/s);
+    expect(css).toMatch(/\.hero-nav a, \.link-cluster a, \.timeline-group a, \.contact-links a\s*\{[^}]*position:\s*relative/s);
+    expect(css).toMatch(/\.hero-nav a::after, \.link-cluster a::after, \.timeline-group a::after, \.contact-links a::after\s*\{[^}]*position:\s*absolute/s);
     expect(narrowMobileRules).toMatch(/\.hero-nav a\s*\{[^}]*font-size:\s*\.625rem/s);
   });
 
@@ -132,21 +132,21 @@ describe("approved visual contract", () => {
     expect(shadeRules).not.toContain("linear-gradient(180deg");
   });
 
-  it("keeps research overview previews as white, line-led text directly over the hero", () => {
+  it("keeps the three-column recent-news record directly over the hero", () => {
     const overviewRules = css.slice(css.indexOf(".hero-overview {"), css.indexOf(".section-shell"));
 
-    expect(overviewRules).toMatch(/\.hero-overview__preview\s*\{[^}]*border-top:\s*1px solid[^}]*color:\s*#fff[^}]*text-shadow:/s);
-    expect(overviewRules).toMatch(/\.hero-overview__preview-list li\s*\{[^}]*border-top:\s*1px solid/s);
-    expect(overviewRules).not.toContain("background:");
+    expect(overviewRules).toMatch(/\.hero-news ol\s*\{[^}]*grid-template-columns:\s*repeat\(3,/s);
+    expect(overviewRules).toMatch(/\.hero-news li\s*\{[^}]*border-bottom:\s*1px solid/s);
+    expect(overviewRules).not.toContain("backdrop-filter:");
     expect(overviewRules).not.toContain("backdrop-filter:");
     expect(overviewRules).not.toContain("border-radius:");
   });
 
-  it("animates overview previews only when motion is allowed and keeps mobile overview hidden", () => {
+  it("animates recent news only when motion is allowed and keeps mobile overview hidden", () => {
     const reducedMotionRules = css.split("@media (prefers-reduced-motion: reduce) {")[1];
 
-    expect(css).toMatch(/@media \(prefers-reduced-motion: no-preference\)\s*\{[\s\S]*?\.hero-overview__preview\s*\{[^}]*animation:\s*hero-overview-preview-in/s);
-    expect(reducedMotionRules).not.toContain(".hero-overview__preview");
+    expect(css).toMatch(/@media \(prefers-reduced-motion: no-preference\)\s*\{[\s\S]*?\.hero-news\s*\{[^}]*animation:\s*hero-news-in/s);
+    expect(reducedMotionRules).not.toContain(".hero-news");
     expect(css).toMatch(/@media \(max-width: 899px\)\s*\{[\s\S]*?\.hero-overview\s*\{\s*display:\s*none;/s);
   });
 
