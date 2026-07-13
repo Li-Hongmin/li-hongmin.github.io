@@ -66,14 +66,30 @@ describe("approved visual contract", () => {
     expect(css).not.toContain(".research-list");
   });
 
-  it("presents publications as a dense responsive three-column record", () => {
+  it("presents publications as a compact responsive three-column record", () => {
+    const publicationRowRules = css.match(/\.publication-row\s*\{([^}]*)\}/)?.[1] ?? "";
+    const publicationHeadingRules = css.match(/\.publication-copy h3\s*\{([^}]*)\}/)?.[1] ?? "";
+    const publicationCopyRules = css.match(/\.publication-copy p\s*\{([^}]*)\}/)?.[1] ?? "";
+    const publicationLinksRules = css.match(/\.publication-row \.link-cluster\s*\{([^}]*)\}/)?.[1] ?? "";
+
     expect(css).toMatch(/\.publication-list\s*\{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
     expect(css).toMatch(/@media \(max-width: 1099px\)[\s\S]*?\.publication-list\s*\{[^}]*repeat\(2,/s);
     expect(css).toMatch(/@media \(max-width: 699px\)[\s\S]*?\.publication-list\s*\{[^}]*grid-template-columns:\s*1fr/s);
+    expect(css).toMatch(/@media \(max-width: 699px\)[\s\S]*?\.publication-row\s*\{[^}]*min-height:\s*0;/s);
+    expect(publicationRowRules).toContain("min-height: 11.5rem");
+    expect(publicationRowRules).toContain("padding: clamp(.75rem, 1.2vw, 1rem)");
+    expect(publicationHeadingRules).toContain("margin: .55rem 0 0");
+    expect(publicationCopyRules).toContain("margin: .35rem 0 0");
+    expect(publicationLinksRules).toContain("margin-top: .7rem");
+    expect(publicationLinksRules).toContain("padding-top: 0");
+    expect(publicationLinksRules).not.toContain("margin-top: auto");
   });
 
-  it("provides a full-height publication toggle without legacy publication details styles", () => {
-    expect(css).toMatch(/\.publication-toggle\s*\{[^}]*min-height:\s*44px;/s);
+  it("provides a compact accessible publication toggle without legacy publication details styles", () => {
+    const publicationToggleRules = css.match(/\.publication-toggle\s*\{([^}]*)\}/)?.[1] ?? "";
+
+    expect(publicationToggleRules).toContain("min-height: 44px");
+    expect(publicationToggleRules).toContain("margin-top: .65rem");
     expect(css).not.toContain(".publication-details");
     expect(css).not.toContain(".record-details");
   });

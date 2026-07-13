@@ -271,13 +271,13 @@ a:focus-visible, summary:focus-visible {
 
 .timeline-group ol, .compact-record ol { margin: 0; padding: 0; list-style: none; }
 time { color: var(--muted); font-size: .72rem; letter-spacing: .07em; }
-.publication-copy h3 { margin: .85rem 0 0; font-size: clamp(1rem, 1.35vw, 1.25rem); font-weight: 550; line-height: 1.18; }
-.publication-copy p { margin: .55rem 0 0; color: var(--muted); font-size: .78rem; line-height: 1.45; }
+.publication-copy h3 { margin: .55rem 0 0; font-size: clamp(1rem, 1.35vw, 1.25rem); font-weight: 550; line-height: 1.18; }
+.publication-copy p { margin: .35rem 0 0; color: var(--muted); font-size: .78rem; line-height: 1.45; }
 
 .publication-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid rgba(255, 255, 255, .52); border-left: 1px solid var(--rule); }
-.publication-row { display: flex; min-width: 0; min-height: 14rem; flex-direction: column; padding: clamp(1rem, 1.7vw, 1.4rem); border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
-.publication-row .link-cluster { margin-top: auto; padding-top: 1.25rem; }
-.publication-toggle { display: flex; min-height: 44px; width: 100%; align-items: center; justify-content: center; margin-top: 1rem; padding: .75rem 1rem; border: 1px solid var(--rule); color: var(--ink); background: transparent; cursor: pointer; font: inherit; font-size: .72rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+.publication-row { display: flex; min-width: 0; min-height: 11.5rem; flex-direction: column; padding: clamp(.75rem, 1.2vw, 1rem); border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.publication-row .link-cluster { margin-top: .7rem; padding-top: 0; }
+.publication-toggle { display: flex; min-height: 44px; width: 100%; align-items: center; justify-content: center; margin-top: .65rem; padding: .75rem 1rem; border: 1px solid var(--rule); color: var(--ink); background: transparent; cursor: pointer; font: inherit; font-size: .72rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
 .link-cluster { display: flex; flex-wrap: wrap; align-content: start; justify-content: flex-start; gap: .55rem 1rem; }
 .link-cluster a { font-size: .69rem; }
 
