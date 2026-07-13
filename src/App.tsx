@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import Contact from "./components/Contact";
 import GlassAppShell from "./components/GlassAppShell";
-import Hero from "./components/Hero";
+import Hero, { HeroNavigation } from "./components/Hero";
 import HeroBackdrop from "./components/HeroBackdrop";
 import Publications from "./components/Publications";
 import Recognition from "./components/Recognition";
@@ -18,6 +18,7 @@ export default function App() {
     <GlassAppShell
       backdrop={<HeroBackdrop onVideoEnded={liftHeroCopy} />}
       hero={<Hero profile={profile} copyLifted={heroCopyLifted} />}
+      navigation={<HeroNavigation className="desktop-outline" />}
     >
       <ResearchVision vision={profile.vision} affiliation={profile.affiliation} />
       <ResearchAreas areas={profile.researchAreas} />

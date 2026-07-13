@@ -34,7 +34,7 @@ describe("approved visual contract", () => {
   it("turns wide-screen hero navigation into a right-hand outline rail", () => {
     const desktopRules = css.split("@media (min-width: 1100px) {")[1].split(".hero-content")[0];
 
-    expect(desktopRules).toMatch(/\.hero-header nav\s*\{[^}]*right:\s*var\(--page-gutter\)/s);
+    expect(desktopRules).toMatch(/\.desktop-outline\s*\{[^}]*position:\s*fixed[^}]*z-index:\s*30[^}]*right:\s*var\(--page-gutter\)/s);
     expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*border-left:/s);
     expect(desktopRules).toMatch(/\.hero-nav li::before\s*\{[^}]*border-radius:\s*50%/s);
     expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.35rem/s);
@@ -79,16 +79,12 @@ describe("approved visual contract", () => {
   });
 });
 
-describe("glass app styles", () => {
-  it("applies launch progress to the non-motion hero parent", () => {
+describe("cinematic scroll styles", () => {
+  it("keeps the hero in the scroll flow without fading the fixed outline navigation", () => {
     const heroRules = shell.match(/\.app-scroller > \.hero\s*\{([^}]*)\}/)?.[1] ?? "";
-    const reducedMotionRules = shell.split("@media (prefers-reduced-motion:reduce) {")[1] ?? "";
 
-    expect(heroRules).toContain("opacity:calc(1 - var(--launch-progress))");
-    expect(heroRules).toContain("transform:translateY(calc(var(--launch-progress) * -1.5rem))");
-    expect(shell).not.toContain(".app-viewport .hero-header");
-    expect(shell).not.toContain(".app-viewport .hero-content");
-    expect(reducedMotionRules).toMatch(/\.app-scroller > \.hero\s*\{[^}]*opacity:1;[^}]*transform:none;[^}]*transition:none;/s);
+    expect(heroRules).not.toContain("opacity:");
+    expect(heroRules).not.toContain("transform:");
   });
 
   it("locks the document and provides a native internal scroller", () => {
@@ -106,25 +102,24 @@ describe("glass app styles", () => {
     expect(shell).toMatch(/\.app-scroller::-webkit-scrollbar-thumb\s*\{[^}]*border-radius:999px;[^}]*background:rgba\(/s);
   });
 
-  it("places opaque no-blur fallbacks after responsive glass backgrounds", () => {
+  it("uses separate restrained editorial panels instead of one glass sheet", () => {
     const fallbackIndex = shell.indexOf("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
-    const mobileBackgroundIndex = shell.indexOf("@media (max-width:899px)");
-    const narrowRulesIndex = shell.indexOf("@media (max-width:599px)");
     const fallbackRules = shell.slice(fallbackIndex);
 
-    expect(fallbackIndex).toBeGreaterThan(mobileBackgroundIndex);
-    expect(fallbackIndex).toBeGreaterThan(narrowRulesIndex);
-    expect(fallbackRules).toContain(".glass-app-surface { background:rgba(249,247,242,.94); }");
-    expect(fallbackRules).toContain(".app-toolbar { background:rgba(249,247,242,.96); }");
+    expect(shell).not.toContain(".glass-app-surface");
+    expect(shell).not.toContain(".glass-grabber");
+    expect(shell).not.toContain("blur(26px)");
+    expect(shell).toMatch(/\.app-content > section\s*\{[^}]*border-radius:[^}]*background:rgba\(/s);
+    expect(fallbackRules).toContain(".app-content > section { background:rgba(242,240,235,.97); }");
   });
 
-  it("offsets section anchors by the toolbar and top safe area", () => {
-    expect(shell).toContain(".app-content > section { scroll-margin-top:calc(6rem + env(safe-area-inset-top)); }");
+  it("offsets section anchors by the panel spacing and top safe area", () => {
+    expect(shell).toContain("scroll-margin-top:calc(2rem + env(safe-area-inset-top))");
     expect(shell).not.toContain(".app-content > section { scroll-margin-top:6rem; }");
   });
 
-  it("provides dynamic glass, safe-area, and no-blur fallbacks", () => {
-    expect(shell).toContain("backdrop-filter:blur(26px)");
+  it("provides safe-area and no-blur fallbacks", () => {
+    expect(shell).toContain("backdrop-filter:blur(8px)");
     expect(shell).toContain("env(safe-area-inset-top)");
     expect(shell).toContain("@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)))");
     expect(css).not.toContain(".hero-transition");

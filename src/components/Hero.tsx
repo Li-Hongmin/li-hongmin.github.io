@@ -13,6 +13,18 @@ const navItems = [
   ["Contact", "#contact"],
 ] as const;
 
+export function HeroNavigation({ className = "mobile-navigation" }: { className?: string }) {
+  return (
+    <nav className={className} aria-label={className === "desktop-outline" ? "Desktop outline navigation" : "Primary navigation"}>
+      <ul className="hero-nav">
+        {navItems.map(([label, href]) => (
+          <li key={href}><a href={href}>{label}</a></li>
+        ))}
+      </ul>
+    </nav>
+  );
+}
+
 export default function Hero({ profile, copyLifted = false }: HeroProps) {
   const reduceMotion = useReducedMotion();
 
@@ -40,27 +52,37 @@ export default function Hero({ profile, copyLifted = false }: HeroProps) {
       };
 
   return (
-    <section className="hero" id="top" aria-labelledby="page-title">
+    <section className={`hero${copyLifted ? " hero--lifted" : ""}`} id="top" aria-labelledby="page-title">
       <div className="hero-copy-shade" aria-hidden="true" />
       <motion.header className="hero-header" {...headerEntrance}>
         <a className="monogram" href="#top" aria-label="Hongmin Li, home">H/L</a>
-        <nav aria-label="Primary navigation">
-          <ul className="hero-nav">
-            {navItems.map(([label, href]) => (
-              <li key={href}><a href={href}>{label}</a></li>
-            ))}
-          </ul>
-        </nav>
+        <HeroNavigation />
       </motion.header>
       <motion.div className="hero-content" {...contentEntrance}>
         <h1 id="page-title" className="hero-name">{profile.displayName}</h1>
         <div className="hero-intro">
           <p>{profile.statement}</p>
-          <a className="hero-cta" href="#about" aria-label="Explore research">
-            Explore research <span aria-hidden="true">↘</span>
-          </a>
         </div>
       </motion.div>
+      {copyLifted && (
+        <motion.div
+          className="hero-overview"
+          aria-label="Research overview"
+          initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: reduceMotion ? 0 : 1.05, duration: reduceMotion ? 0 : 0.65 }}
+        >
+          <p>
+            My research develops AI-automated scientific workflows for biomolecular sequence design,
+            grounded in reliable AI evaluation and reproducible evidence.
+          </p>
+          <nav aria-label="Research overview links">
+            <a href="#research">Research</a>
+            <a href="#selected-work">Selected work</a>
+            <a href="#publications">Publications</a>
+          </nav>
+        </motion.div>
+      )}
     </section>
   );
 }

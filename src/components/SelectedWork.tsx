@@ -3,7 +3,7 @@ import type { SelectedWork as SelectedWorkItem } from "../data/profile";
 
 export default function SelectedWork({ work }: { work: readonly SelectedWorkItem[] }) {
   return (
-    <section className="editorial-section work-section section-shell" aria-labelledby="work-heading" aria-label="Selected work">
+    <section className="editorial-section work-section section-shell" id="selected-work" aria-labelledby="work-heading" aria-label="Selected work">
       <div className="section-heading-row">
         <p className="section-kicker">Projects</p>
         <h2 id="work-heading">Selected work</h2>

@@ -4,6 +4,11 @@ import { profile } from "../data/profile";
 import SelectedWork from "./SelectedWork";
 
 describe("SelectedWork", () => {
+  it("provides the selected work jump-link target", () => {
+    render(<SelectedWork work={profile.selectedWork} />);
+    expect(screen.getByLabelText("Selected work")).toHaveAttribute("id", "selected-work");
+  });
+
   it("renders the verified year for every selected work item", () => {
     render(<SelectedWork work={profile.selectedWork} />);
 

@@ -32,13 +32,13 @@ describe("portfolio page", () => {
     expect(screen.getByLabelText("Complete publication record").querySelectorAll("article")).toHaveLength(15);
   });
 
-  it("presents the portfolio as one internal glass application", () => {
+  it("presents separate editorial panels over a fixed cinematic backdrop", () => {
     render(<App />);
     const app = screen.getByRole("main", { name: "Hongmin Li research app" });
     expect(app).toHaveClass("app-scroller");
-    expect(document.querySelector(".glass-app-surface")).toBeInTheDocument();
+    expect(document.querySelector(".editorial-feed")).toBeInTheDocument();
+    expect(document.querySelector(".glass-app-surface")).not.toBeInTheDocument();
     expect(document.querySelector(".hero-transition")).not.toBeInTheDocument();
-    const nav = screen.getByRole("navigation", { name: "App navigation" });
-    expect(within(nav).getByRole("link", { name: "Overview" })).toHaveAttribute("href", "#about");
+    expect(screen.queryByRole("navigation", { name: "App navigation" })).not.toBeInTheDocument();
   });
 });
