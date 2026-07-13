@@ -152,6 +152,11 @@ describe("cinematic scroll styles", () => {
     expect(shell).toMatch(/\.app-content :is\(\.work-list,[^}]*background:transparent;[^}]*box-shadow:none;/s);
   });
 
+  it("gives the editorial content a wider desktop measure while reserving the outline rail", () => {
+    expect(css).toContain("width: min(100%, 88rem)");
+    expect(shell).toMatch(/\.app-content > section\s*\{[^}]*max-width:88rem;[^}]*margin-right:clamp\(11\.5rem,15vw,14rem\);/s);
+  });
+
   it("offsets section anchors by the panel spacing and top safe area", () => {
     expect(shell).toContain("scroll-margin-top:calc(2rem + env(safe-area-inset-top))");
     expect(shell).not.toContain(".app-content > section { scroll-margin-top:6rem; }");

@@ -73,9 +73,9 @@ body { background:#0c0d0c; }
   --muted:rgba(247,244,237,.72);
   --rule:rgba(247,244,237,.28);
   width:auto;
-  max-width:78rem;
+  max-width:88rem;
   margin-left:var(--page-gutter);
-  margin-right:clamp(14rem,19vw,20rem);
+  margin-right:clamp(11.5rem,15vw,14rem);
   overflow:visible;
   scroll-margin-top:calc(2rem + env(safe-area-inset-top));
   border:0;

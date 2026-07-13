@@ -235,7 +235,7 @@ a:focus-visible, summary:focus-visible {
   }
 }
 
-.section-shell { width: min(100%, 78rem); margin-inline: auto; padding-inline: var(--page-gutter); }
+.section-shell { width: min(100%, 88rem); margin-inline: auto; padding-inline: var(--page-gutter); }
 
 .vision-section { padding-top: clamp(3rem, 7vw, 6rem); padding-bottom: clamp(4rem, 8vw, 7rem); }
 .section-kicker { margin: 0 0 1.25rem; color: var(--muted); font-size: .7rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; }
