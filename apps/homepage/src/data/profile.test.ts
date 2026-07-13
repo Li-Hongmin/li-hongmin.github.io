@@ -116,13 +116,36 @@ describe("profile data", () => {
     ]));
   });
 
-  it("presents honors in plain language with their necessary context", () => {
-    expect(profile.awards).toEqual([
-      expect.objectContaining({ id: "jst-spring", title: "Doctoral research support — JST SPRING", detail: "Support for Pioneering Research Initiated by the Next Generation" }),
-      expect.objectContaining({ id: "aeta-second-prize", title: "Second Prize — AETA Earthquake Prediction AI Competition", detail: "2019 competition · awarded in 2020" }),
-      expect.objectContaining({ id: "analysys-special-award", title: "Special Award — 3rd Analysys International Algorithm Competition" }),
-      expect.objectContaining({ id: "cbdcom-best-paper", title: "Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)", detail: "For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”" }),
+  it("names legacy honors by competition or conference before award level", () => {
+    const legacyAwards = profile.awards.filter(({ id }) => [
+      "aeta-second-prize",
+      "analysys-special-award",
+      "cbdcom-best-paper",
+    ].includes(id));
+
+    expect(legacyAwards).toEqual([
+      expect.objectContaining({
+        id: "aeta-second-prize",
+        title: "AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize",
+        detail: "Second-place recognition for an AI model predicting earthquakes from real-time monitoring data · awarded in 2020",
+      }),
+      expect.objectContaining({
+        id: "analysys-special-award",
+        title: "3rd Analysys International Algorithm Competition — Special Award",
+        detail: "Special recognition in the website page-view and unique-visitor prediction task",
+      }),
+      expect.objectContaining({
+        id: "cbdcom-best-paper",
+        title: "IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award",
+        detail: "Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”",
+      }),
     ]);
+    expect(legacyAwards.map(({ title }) => title)).toEqual([
+      "AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize",
+      "3rd Analysys International Algorithm Competition — Special Award",
+      "IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award",
+    ]);
+    expect(legacyAwards.every(({ title }) => !/^(Second Prize|Special Award|Best Paper Award)\b/.test(title))).toBe(true);
   });
 
   it("describes the HAOMO role and project without inventing seniority", () => {

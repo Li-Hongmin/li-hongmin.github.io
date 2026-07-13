@@ -121,9 +121,9 @@
 ## Honors & fellowships
 
 - **2021.10** | **Doctoral research support — JST SPRING** — Support for Pioneering Research Initiated by the Next Generation
-- **2020.10** | **Second Prize — AETA Earthquake Prediction AI Competition** — 2019 competition · awarded in 2020; [News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slides](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie)
-- **2019.10** | **Special Award — 3rd Analysys International Algorithm Competition**
-- **2019.8** | **Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)** — For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”
+- **2020.10** | **AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize** — Second-place recognition for an AI model predicting earthquakes from real-time monitoring data · awarded in 2020; [News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slides](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie)
+- **2019.10** | **3rd Analysys International Algorithm Competition — Special Award** — Special recognition in the website page-view and unique-visitor prediction task
+- **2019.8** | **IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award** — Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”
 
 ---
 

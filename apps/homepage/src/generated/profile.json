@@ -443,8 +443,8 @@
     {
       "id": "aeta-second-prize",
       "date": "2020.10",
-      "title": "Second Prize — AETA Earthquake Prediction AI Competition",
-      "detail": "2019 competition · awarded in 2020",
+      "title": "AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize",
+      "detail": "Second-place recognition for an AI model predicting earthquakes from real-time monitoring data · awarded in 2020",
       "links": [
         {
           "label": "News",
@@ -459,13 +459,14 @@
     {
       "id": "analysys-special-award",
       "date": "2019.10",
-      "title": "Special Award — 3rd Analysys International Algorithm Competition"
+      "title": "3rd Analysys International Algorithm Competition — Special Award",
+      "detail": "Special recognition in the website page-view and unique-visitor prediction task"
     },
     {
       "id": "cbdcom-best-paper",
       "date": "2019.8",
-      "title": "Best Paper Award — Cloud and Big Data Computing (CBDCom 2018)",
-      "detail": "For “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”"
+      "title": "IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award",
+      "detail": "Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”"
     }
   ],
   "education": [
