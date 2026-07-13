@@ -40,10 +40,20 @@ describe("approved visual contract", () => {
     expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.35rem/s);
   });
 
-  it("keeps horizontal padding on mobile research rows", () => {
-    const mobileRules = css.split("@media (max-width: 899px) {")[1].split("@media (max-width: 767px)")[0];
-    expect(mobileRules).toMatch(/\.research-list li\s*\{[^}]*padding:\s*1\.25rem;/s);
-    expect(mobileRules).not.toContain("padding: 1.25rem 0");
+  it("uses a white, line-led featured-paper treatment without a panel", () => {
+    const featuredPaperRules = css.slice(css.indexOf(".featured-paper {"), css.indexOf(".work-list"));
+
+    expect(featuredPaperRules).toContain("--ink: #fff");
+    expect(featuredPaperRules).toContain("border-top: 1px solid var(--rule)");
+    expect(featuredPaperRules).toContain("text-shadow");
+    expect(featuredPaperRules).not.toMatch(/background\s*:/);
+    expect(featuredPaperRules).not.toMatch(/backdrop-filter\s*:/);
+    expect(featuredPaperRules).not.toMatch(/border-radius\s*:/);
+    expect(css).not.toContain(".research-list");
+  });
+
+  it("lets undated compact-record content span both grid columns", () => {
+    expect(css).toMatch(/\.compact-record__item--undated\s*>\s*div\s*\{[^}]*grid-column:\s*1\s*\/\s*-1/s);
   });
 
   it("uses the approved compact navigation gap on narrow mobile screens", () => {
@@ -107,7 +117,7 @@ describe("cinematic scroll styles", () => {
     expect(shell).not.toContain(".glass-grabber");
     expect(shell).not.toContain("backdrop-filter:");
     expect(shell).toMatch(/\.app-content > section\s*\{[^}]*--ink:#f7f4ed;[^}]*background:transparent;[^}]*box-shadow:none;/s);
-    expect(shell).toMatch(/\.app-content :is\(\.research-list,[^}]*background:transparent;[^}]*box-shadow:none;/s);
+    expect(shell).toMatch(/\.app-content :is\(\.work-list,[^}]*background:transparent;[^}]*box-shadow:none;/s);
   });
 
   it("offsets section anchors by the panel spacing and top safe area", () => {

@@ -9,9 +9,8 @@ describe("profile data", () => {
   it("preserves the verified identity and content counts", () => {
     expect(profile.name).toBe("Hongmin Li");
     expect(profile.email).toBe("lihongmin@edu.k.u-tokyo.ac.jp");
-    expect(profile.researchAreas).toHaveLength(3);
     expect(profile.selectedWork).toHaveLength(4);
-    expect(profile.publications).toHaveLength(15);
+    expect(profile.publications).toHaveLength(16);
     expect(profile.experience).toHaveLength(5);
     expect(profile.grants).toHaveLength(4);
     expect(profile.activities).toHaveLength(3);
@@ -27,6 +26,28 @@ describe("profile data", () => {
       expect(publication.links.length).toBeGreaterThan(0);
       for (const link of publication.links) expect(link.href).toMatch(/^https?:\/\//);
     }
+  });
+
+  it("places the Calibration Turn preprint first as a featured publication", () => {
+    expect(profile.publications[0]).toEqual({
+      id: "calibration-turn-ai-assisted-research",
+      date: "2026.06",
+      title: "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims",
+      venue: "arXiv preprint · 2606.31273 [cs.LG]",
+      links: [
+        { label: "arXiv", href: "https://arxiv.org/abs/2606.31273" },
+        { label: "Code & artifacts", href: "https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research" },
+      ],
+      featured: true,
+    });
+  });
+
+  it("keeps education limited to the facts stated in the CV", () => {
+    expect(profile.education).toEqual([
+      { id: "phd", date: "March 2022", title: "Ph.D. in Computer Science", organization: "University of Tsukuba" },
+      { id: "masters", date: "", title: "Master's in Computer Science", organization: "University of Tsukuba" },
+      { id: "bachelors", date: "", title: "Bachelor's in Computer Science" },
+    ]);
   });
 
   it("keeps the selected work claim-safe", () => {

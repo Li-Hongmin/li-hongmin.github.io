@@ -29,7 +29,7 @@ export default function Publications({ publications }: { publications: readonly 
         {featured.map((publication) => <PublicationRow key={publication.id} publication={publication} />)}
       </div>
       <details className="record-details publication-details">
-        <summary>Complete publication record <span aria-hidden="true">15 entries</span></summary>
+        <summary>Complete publication record <span aria-hidden="true">{publications.length} entries</span></summary>
         <div className="publication-list" aria-label="Complete publication record">
           {publications.map((publication) => <PublicationRow key={publication.id} publication={publication} />)}
         </div>

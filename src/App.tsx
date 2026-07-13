@@ -1,11 +1,11 @@
 import { useCallback, useState } from "react";
 import Contact from "./components/Contact";
+import FeaturedPaper from "./components/FeaturedPaper";
 import GlassAppShell from "./components/GlassAppShell";
 import Hero, { HeroNavigation } from "./components/Hero";
 import HeroBackdrop from "./components/HeroBackdrop";
 import Publications from "./components/Publications";
 import Recognition from "./components/Recognition";
-import ResearchAreas from "./components/ResearchAreas";
 import ResearchVision from "./components/ResearchVision";
 import SelectedWork from "./components/SelectedWork";
 import { profile } from "./data/profile";
@@ -21,7 +21,7 @@ export default function App() {
       navigation={<HeroNavigation className="desktop-outline" />}
     >
       <ResearchVision vision={profile.vision} affiliation={profile.affiliation} />
-      <ResearchAreas areas={profile.researchAreas} />
+      <FeaturedPaper publication={profile.publications[0]} />
       <SelectedWork work={profile.selectedWork} />
       <Publications publications={profile.publications} />
       <Recognition profile={profile} />

@@ -1,5 +1,4 @@
 export type ExternalLink = { label: string; href: string };
-export type ResearchArea = { id: string; title: string; description: string };
 export type SelectedWork = {
   id: string;
   title: string;
@@ -24,24 +23,6 @@ export type TimelineItem = {
   detail?: string;
   links?: ExternalLink[];
 };
-
-const researchAreas: ResearchArea[] = [
-  {
-    id: "automated-workflows",
-    title: "AI-Automated Scientific Workflows",
-    description: "Computational systems that support scientific discovery through testable, reproducible workflows.",
-  },
-  {
-    id: "biomolecular-design",
-    title: "Biomolecular Sequence Design and Optimization",
-    description: "Machine-learning methods for biological sequence analysis, generation, and optimization.",
-  },
-  {
-    id: "reliable-evaluation",
-    title: "Reliable AI Research and Evaluation",
-    description: "Controlled evaluation of AI systems and the evidence used to explain their behavior.",
-  },
-];
 
 const selectedWork: SelectedWork[] = [
   {
@@ -82,6 +63,17 @@ const selectedWork: SelectedWork[] = [
 ];
 
 const publications: Publication[] = [
+  {
+    id: "calibration-turn-ai-assisted-research",
+    date: "2026.06",
+    title: "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims",
+    venue: "arXiv preprint · 2606.31273 [cs.LG]",
+    links: [
+      { label: "arXiv", href: "https://arxiv.org/abs/2606.31273" },
+      { label: "Code & artifacts", href: "https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research" },
+    ],
+    featured: true,
+  },
   { id: "targeted-tests-for-llm-reasoning", date: "2026.05", title: "Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol", venue: "arXiv preprint · 2605.11599 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11599" }], featured: true },
   { id: "separating-shortcut-transition", date: "2026.05", title: "Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model", venue: "arXiv preprint · 2605.12945 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.12945" }], featured: true },
   { id: "controlled-counterexample", date: "2026.05", title: "A Controlled Counterexample to Strong Proxy-Based Explanations of OOD Performance: in a Fixed Pretraining-and-Probing Setup", venue: "arXiv preprint · 2605.11554 [cs.LG]", links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11554" }], featured: true },
@@ -160,7 +152,6 @@ export const profile = {
   statement: "I build computational systems that turn scientific questions into testable, reproducible discoveries.",
   vision: "Scientific AI should turn ambitious questions into evidence others can test.",
   affiliation: "Researcher at the Institute of Science Tokyo and Guest Researcher at The University of Tokyo.",
-  researchAreas,
   selectedWork,
   publications,
   experience,

@@ -7,7 +7,7 @@ function CompactRecord({ title, items }: { title: string; items: readonly Timeli
       <h3>{title}</h3>
       <ol>
         {items.map((item) => (
-          <li key={item.id}>
+          <li key={item.id} className={item.date ? undefined : "compact-record__item--undated"}>
             {item.date && <time>{item.date}</time>}
             <div><strong>{item.title}</strong>{item.organization && <span>{item.organization}</span>}{item.detail && <span>{item.detail}</span>}</div>
           </li>
