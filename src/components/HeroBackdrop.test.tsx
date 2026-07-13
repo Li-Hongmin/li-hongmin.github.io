@@ -31,4 +31,18 @@ describe("HeroBackdrop", () => {
     fireEvent.error(video);
     expect(video).toHaveClass("hero-video--failed");
   });
+
+  it("reveals the floating copy only after the video has settled", () => {
+    const onVideoSettled = vi.fn();
+    render(<HeroBackdrop onVideoSettled={onVideoSettled} />);
+    fireEvent.ended(document.querySelector("video")!);
+    expect(onVideoSettled).toHaveBeenCalledTimes(1);
+  });
+
+  it("reveals the copy immediately when the video is not used", () => {
+    mediaState.shouldLoadVideo = false;
+    const onVideoSettled = vi.fn();
+    render(<HeroBackdrop onVideoSettled={onVideoSettled} />);
+    expect(onVideoSettled).toHaveBeenCalledTimes(1);
+  });
 });

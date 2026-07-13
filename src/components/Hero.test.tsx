@@ -12,4 +12,10 @@ describe("Hero", () => {
     }
     expect(screen.getByRole("link", { name: "Explore research" })).toHaveAttribute("href", "#about");
   });
+
+  it("holds the floating copy until the video sequence settles", () => {
+    const { container } = render(<Hero profile={profile} copyReady={false} />);
+    expect(container.querySelector(".hero-header")).toHaveStyle({ opacity: "0" });
+    expect(container.querySelector(".hero-content")).toHaveStyle({ opacity: "0" });
+  });
 });

@@ -1,9 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useHeroMedia } from "../hooks/useHeroMedia";
 
-export default function HeroBackdrop() {
+type HeroBackdropProps = {
+  onVideoSettled?: () => void;
+};
+
+export default function HeroBackdrop({ onVideoSettled }: HeroBackdropProps) {
   const { shouldLoadVideo } = useHeroMedia();
   const [videoFailed, setVideoFailed] = useState(false);
+
+  useEffect(() => {
+    if (!shouldLoadVideo || videoFailed) onVideoSettled?.();
+  }, [onVideoSettled, shouldLoadVideo, videoFailed]);
 
   return (
     <div className="hero-backdrop" aria-hidden="true">
@@ -17,6 +25,7 @@ export default function HeroBackdrop() {
         playsInline
         preload="metadata"
         tabIndex={-1}
+        onEnded={onVideoSettled}
         onError={() => setVideoFailed(true)}
       />
     </div>

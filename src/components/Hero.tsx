@@ -1,7 +1,10 @@
 import { motion, useReducedMotion } from "framer-motion";
 import type { Profile } from "../data/profile";
 
-type HeroProps = { profile: Profile };
+type HeroProps = {
+  profile: Profile;
+  copyReady?: boolean;
+};
 
 const navItems = [
   ["About", "#about"],
@@ -10,21 +13,33 @@ const navItems = [
   ["Contact", "#contact"],
 ] as const;
 
-export default function Hero({ profile }: HeroProps) {
+export default function Hero({ profile, copyReady = true }: HeroProps) {
   const reduceMotion = useReducedMotion();
 
-  const entrance = reduceMotion
+  const headerEntrance = reduceMotion
     ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
+    : !copyReady
+      ? { initial: false as const, animate: { opacity: 0, y: 22 }, transition: { duration: 0 } }
     : {
         initial: { opacity: 0, y: 18 },
         animate: { opacity: 1, y: 0 },
-        transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] as const },
+        transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as const },
       };
+
+  const contentEntrance = reduceMotion
+    ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
+    : !copyReady
+      ? { initial: false as const, animate: { opacity: 0, y: 28 }, transition: { duration: 0 } }
+      : {
+          initial: { opacity: 0, y: 22 },
+          animate: { opacity: 1, y: 0 },
+          transition: { delay: 0.12, duration: 0.82, ease: [0.22, 1, 0.36, 1] as const },
+        };
 
   return (
     <section className="hero" id="top" aria-labelledby="page-title">
       <div className="hero-copy-shade" aria-hidden="true" />
-      <motion.header className="hero-header" {...entrance}>
+      <motion.header className="hero-header" {...headerEntrance}>
         <a className="monogram" href="#top" aria-label="Hongmin Li, home">H/L</a>
         <nav aria-label="Primary navigation">
           <ul className="hero-nav">
@@ -34,7 +49,7 @@ export default function Hero({ profile }: HeroProps) {
           </ul>
         </nav>
       </motion.header>
-      <motion.div className="hero-content" {...entrance}>
+      <motion.div className="hero-content" {...contentEntrance}>
         <h1 id="page-title" className="hero-name">{profile.displayName}</h1>
         <div className="hero-intro">
           <p>{profile.statement}</p>

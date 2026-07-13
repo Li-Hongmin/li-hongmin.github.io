@@ -10,8 +10,14 @@ import SelectedWork from "./components/SelectedWork";
 import { profile } from "./data/profile";
 
 export default function App() {
+  const [heroCopyReady, setHeroCopyReady] = useState(false);
+  const revealHeroCopy = useCallback(() => setHeroCopyReady(true), []);
+
   return (
-    <GlassAppShell backdrop={<HeroBackdrop />} hero={<Hero profile={profile} />}>
+    <GlassAppShell
+      backdrop={<HeroBackdrop onVideoSettled={revealHeroCopy} />}
+      hero={<Hero profile={profile} copyReady={heroCopyReady} />}
+    >
       <ResearchVision vision={profile.vision} affiliation={profile.affiliation} />
       <ResearchAreas areas={profile.researchAreas} />
       <SelectedWork work={profile.selectedWork} />
@@ -21,3 +27,4 @@ export default function App() {
     </GlassAppShell>
   );
 }
+import { useCallback, useState } from "react";
