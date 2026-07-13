@@ -128,8 +128,8 @@ a:focus-visible, summary:focus-visible {
     display: block;
     position: fixed;
     z-index: 30;
-    /* Keeps all six destinations inside a 768px-tall desktop viewport. */
-    top: min(11vh, 4.5rem);
+    /* Keeps all nine destinations inside a 768px-tall desktop viewport. */
+    top: min(6vh, 2.75rem);
     right: var(--page-gutter);
     isolation: isolate;
     color: var(--hero-ink);
@@ -137,20 +137,20 @@ a:focus-visible, summary:focus-visible {
   .desktop-outline::before {
     position: absolute;
     z-index: -1;
-    inset: -1.55rem -1.85rem;
+    inset: -1rem -1.35rem;
     content: "";
-    border-radius: 1.75rem;
+    border-radius: 1.25rem;
     background: radial-gradient(ellipse at center, rgba(7, 9, 10, .34), rgba(7, 9, 10, .13) 58%, transparent 78%);
-    box-shadow: 0 .9rem 3.25rem rgba(5, 7, 8, .22);
-    filter: blur(.18rem);
+    box-shadow: 0 .7rem 2.5rem rgba(5, 7, 8, .22);
+    filter: blur(.14rem);
   }
   .hero-nav {
     position: relative;
     flex-direction: column;
     align-items: stretch;
-    gap: .2rem;
-    min-width: 10.5rem;
-    padding: .2rem 0 .2rem 1.15rem;
+    gap: .05rem;
+    min-width: 9.75rem;
+    padding: .1rem 0 .1rem .95rem;
     border-left: 1px solid rgba(247, 244, 237, .48);
     text-shadow: 0 1px .85rem rgba(0, 0, 0, .82), 0 1px 2px rgba(0, 0, 0, .72);
   }
@@ -158,9 +158,9 @@ a:focus-visible, summary:focus-visible {
   .hero-nav li::before {
     position: absolute;
     top: 50%;
-    left: calc(-1.15rem - .24rem);
-    width: .48rem;
-    height: .48rem;
+    left: calc(-.95rem - .2rem);
+    width: .4rem;
+    height: .4rem;
     content: "";
     border: 1px solid rgba(247, 244, 237, .78);
     border-radius: 50%;
@@ -174,14 +174,14 @@ a:focus-visible, summary:focus-visible {
   }
   .hero-nav a {
     justify-content: flex-start;
-    min-height: 2.5rem;
+    min-height: 2rem;
     padding-inline: .15rem 0;
     color: rgba(247, 244, 237, .76);
-    font-size: .7rem;
-    letter-spacing: .12em;
+    font-size: .625rem;
+    letter-spacing: .1em;
     transition: color .2s ease;
   }
-  .hero-nav a::after { inset-inline: .15rem 0; bottom: .23rem; }
+  .hero-nav a::after { inset-inline: .15rem 0; bottom: .16rem; }
   .hero-nav a:hover, .hero-nav a:focus-visible { color: var(--hero-ink); }
 }
 
@@ -309,8 +309,9 @@ time { color: var(--muted); font-size: .72rem; letter-spacing: .07em; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 1.25rem 2rem; margin-top: 2rem; }
 .contact-links a { font-size: .72rem; }
 .contact-links a:first-child { white-space: nowrap; }
-.contact-section .record-details, .contact-section .record-details[open] summary { border-color: rgba(23, 23, 22, .14); }
-.full-cv-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; padding: 1.5rem 0 2rem; }
+.full-cv { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(23, 23, 22, .14); }
+.full-cv-heading { margin: 0; font-size: .78rem; font-weight: 650; letter-spacing: .06em; text-transform: uppercase; }
+.full-cv-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; padding: 1.5rem 0 0; }
 .compact-record li { display: grid; grid-template-columns: 5rem 1fr; gap: .75rem; padding: .65rem 0; border-top: 1px solid rgba(23, 23, 22, .14); }
 .compact-record__item--undated > div { grid-column: 1 / -1; }
 .compact-record strong, .compact-record span { display: block; font-size: .8rem; line-height: 1.4; }

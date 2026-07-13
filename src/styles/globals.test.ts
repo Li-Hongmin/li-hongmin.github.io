@@ -34,12 +34,24 @@ describe("approved visual contract", () => {
   it("turns wide-screen hero navigation into a right-hand outline rail", () => {
     const desktopRules = css.split("@media (min-width: 1100px) {")[1].split(".hero-content")[0];
 
-    expect(desktopRules).toMatch(/\.desktop-outline\s*\{[^}]*position:\s*fixed[^}]*z-index:\s*30[^}]*top:\s*min\(11vh,\s*4\.5rem\)[^}]*right:\s*var\(--page-gutter\)/s);
-    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*gap:\s*\.2rem[^}]*min-width:\s*10\.5rem/s);
-    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.5rem/s);
-    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*gap:\s*\.2rem[^}]*border-left:/s);
+    expect(desktopRules).toMatch(/\.desktop-outline\s*\{[^}]*position:\s*fixed[^}]*z-index:\s*30[^}]*top:\s*min\(6vh,\s*2\.75rem\)[^}]*right:\s*var\(--page-gutter\)/s);
+    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*gap:\s*\.05rem[^}]*min-width:\s*9\.75rem/s);
+    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2rem/s);
+    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*gap:\s*\.05rem[^}]*border-left:/s);
     expect(desktopRules).toMatch(/\.hero-nav li::before\s*\{[^}]*border-radius:\s*50%/s);
-    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.5rem[^}]*font-size:\s*\.7rem/s);
+    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2rem[^}]*font-size:\s*\.625rem/s);
+    const nineItemRailHeight = 9 * 2 * 16 + 8 * 0.05 * 16;
+    const railTopAndVisualInset = 2.75 * 16 + 2 * 16;
+    expect(nineItemRailHeight + railTopAndVisualInset).toBeLessThanOrEqual(768);
+  });
+
+  it("keeps the permanent full CV text line-led and free of a glass panel", () => {
+    const fullCvRules = css.slice(css.indexOf(".full-cv {"), css.indexOf(".compact-record li"));
+
+    expect(fullCvRules).toMatch(/\.full-cv\s*\{[^}]*border-top:\s*1px solid/s);
+    expect(fullCvRules).not.toContain("background:");
+    expect(fullCvRules).not.toContain("box-shadow:");
+    expect(fullCvRules).not.toContain("border-radius:");
   });
 
   it("uses a white, line-led featured-paper treatment without a panel", () => {

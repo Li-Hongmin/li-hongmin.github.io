@@ -23,13 +23,19 @@ describe("portfolio page", () => {
     expect(screen.getByRole("heading", { name: "Let's build testable science." })).toBeInTheDocument();
   });
 
-  it("exposes verified work, legacy assets and the full CV anchor", () => {
-    render(<App />);
+  it("exposes verified work, legacy assets and unique record anchors", () => {
+    const { container } = render(<App />);
     const work = screen.getByLabelText("Selected work");
     for (const title of ["ID3", "mRNA-GPT", "FastUMAP", "Targeted Tests for LLM Reasoning"]) {
       expect(within(work).getByText(title)).toBeInTheDocument();
     }
-    expect(screen.getByText("Full CV / Record").closest("details")).toHaveAttribute("id", "full-cv");
+    expect(screen.getByRole("heading", { name: "Full CV / Record" })).toBeInTheDocument();
+    expect(container.querySelector("details#full-cv")).toBeNull();
+    expect(container.querySelector("div#full-cv")).not.toBeNull();
+    expect(screen.queryByText("Expand")).not.toBeInTheDocument();
+    for (const id of ["about", "research", "publications", "experience", "education", "grants", "awards", "peer-review", "contact"]) {
+      expect(container.querySelectorAll(`#${id}`)).toHaveLength(1);
+    }
     expect(screen.getByRole("link", { name: "CREST 2025 poster" })).toHaveAttribute("href", "/files/CREST_2025_poster.pdf");
     expect(screen.getByRole("link", { name: "Email Hongmin Li" })).toHaveAttribute("href", "mailto:lihongmin@edu.k.u-tokyo.ac.jp");
   });

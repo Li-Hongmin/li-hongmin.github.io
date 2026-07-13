@@ -46,7 +46,7 @@ src/components/ResearchAreas.tsx     three core research themes
 src/components/SelectedWork.tsx      four featured projects
 src/components/Publications.tsx      selected and complete publication record
 src/components/Recognition.tsx       experience, funding and activities
-src/components/Contact.tsx           contact and expandable full CV
+src/components/Contact.tsx           contact and permanently visible full CV
 src/styles/globals.css               visual system and responsive behavior
 src/styles/globals.test.ts            static visual-contract test
 ```
@@ -818,7 +818,7 @@ describe("portfolio page", () => {
     for (const title of ["ID3", "mRNA-GPT", "FastUMAP", "Targeted Tests for LLM Reasoning"]) {
       expect(within(work).getByText(title)).toBeInTheDocument();
     }
-    expect(screen.getByText("Full CV / Record").closest("details")).toHaveAttribute("id", "full-cv");
+    expect(screen.getByRole("heading", { name: "Full CV / Record" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "CREST 2025 poster" })).toHaveAttribute(
       "href",
       "/files/CREST_2025_poster.pdf",
@@ -858,7 +858,7 @@ export default function ResearchVision({ vision, affiliation }: { vision: string
 }
 ```
 
-`ResearchAreas.tsx` renders an ordered list inside `<section id="research">`; `SelectedWork.tsx` renders four `<article>` elements and external links; `Publications.tsx` renders six featured rows followed by `<details>` containing all 15 rows; `Recognition.tsx` renders experience, grants and activities in three labeled lists; `Contact.tsx` renders the email/GitHub actions and `<details id="full-cv">` containing experience, education, grants, awards and peer-review activity.
+`ResearchAreas.tsx` renders an ordered list inside `<section id="research">`; `SelectedWork.tsx` renders four `<article>` elements and external links; `Publications.tsx` renders six featured rows followed by `<details>` containing all 15 rows; `Recognition.tsx` renders experience, grants and activities in three labeled lists; `Contact.tsx` renders the email/GitHub actions and a permanently visible `Full CV / Record` containing experience, education, grants, awards and peer-review activity.
 
 For external links, use `target="_blank" rel="noreferrer"`. Use the exact visible link label `CREST 2025 poster` for the local PDF.
 
@@ -1080,12 +1080,12 @@ Create `public/cv.html`:
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="0; url=/#full-cv">
-    <link rel="canonical" href="https://li-hongmin.github.io/#full-cv">
+    <meta http-equiv="refresh" content="0; url=/#contact">
+    <link rel="canonical" href="https://li-hongmin.github.io/#contact">
     <title>Hongmin Li — Full CV</title>
   </head>
   <body>
-    <p><a href="/#full-cv">Continue to Hongmin Li's full CV and research record.</a></p>
+    <p><a href="/#contact">Continue to Hongmin Li's full CV and research record.</a></p>
   </body>
 </html>
 ```
@@ -1098,7 +1098,7 @@ Run:
 ffprobe -v error -select_streams a -show_entries stream=index -of csv=p=0 public/media/hero.mp4
 ffprobe -v error -show_entries stream=width,height -of csv=p=0 public/media/hero-poster.webp
 test -s public/files/CREST_2025_poster.pdf
-rg -n '/#full-cv' public/cv.html
+rg -n '/#contact' public/cv.html
 ```
 
 Expected: the audio command prints nothing, poster dimensions print successfully, PDF is non-empty, and redirect target is present.
@@ -1311,7 +1311,7 @@ Run:
 rg -q 'HONGMIN LI' dist/assets
 rg -q 'Scientific AI should turn ambitious questions' dist/assets
 rg -q 'Targeted Tests for LLM Reasoning' dist/assets
-rg -n '/#full-cv' dist/cv.html
+rg -n '/#contact' dist/cv.html
 test -s dist/files/CREST_2025_poster.pdf
 ```
 
@@ -1357,7 +1357,7 @@ git diff --check  -> PASS
 hero.mp4           <= 7 MiB and contains no audio stream
 desktop hero       one-line HONGMIN LI, vivid video, 100svh
 mobile hero        poster only, no horizontal overflow
-legacy /cv.html    redirects to /#full-cv
+legacy /cv.html    redirects to /#contact
 legacy poster PDF  available at /files/CREST_2025_poster.pdf
 GitHub workflow    publishes dist/ from master
 Sites preview      loads with canonical still pointing to GitHub Pages

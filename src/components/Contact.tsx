@@ -1,9 +1,9 @@
 import { ArrowUpRight, Mail } from "lucide-react";
 import type { Profile, TimelineItem } from "../data/profile";
 
-function CompactRecord({ title, items }: { title: string; items: readonly TimelineItem[] }) {
+function CompactRecord({ title, items, id }: { title: string; items: readonly TimelineItem[]; id?: string }) {
   return (
-    <section className="compact-record">
+    <section className="compact-record" id={id}>
       <h3>{title}</h3>
       <ol>
         {items.map((item) => (
@@ -28,16 +28,16 @@ export default function Contact({ profile }: { profile: Profile }) {
           <a href={`mailto:${profile.email}`} aria-label="Email Hongmin Li"><Mail aria-hidden="true" size={18} />{profile.email}</a>
           <a href={profile.github} target="_blank" rel="noreferrer">GitHub<ArrowUpRight aria-hidden="true" size={16} /></a>
         </div>
-        <details className="record-details full-cv" id="full-cv">
-          <summary>Full CV / Record <span aria-hidden="true">Expand</span></summary>
+        <div className="full-cv" id="full-cv" aria-labelledby="full-cv-heading">
+          <h3 className="full-cv-heading" id="full-cv-heading">Full CV / Record</h3>
           <div className="full-cv-grid">
             <CompactRecord title="Experience" items={profile.experience} />
-            <CompactRecord title="Education" items={profile.education} />
-            <CompactRecord title="Research grants" items={profile.grants} />
-            <CompactRecord title="Awards & fellowship" items={profile.awards} />
-            <CompactRecord title="Peer review" items={profile.peerReview} />
+            <CompactRecord id="education" title="Education" items={profile.education} />
+            <CompactRecord id="grants" title="Research grants" items={profile.grants} />
+            <CompactRecord id="awards" title="Awards & fellowship" items={profile.awards} />
+            <CompactRecord id="peer-review" title="Peer review" items={profile.peerReview} />
           </div>
-        </details>
+        </div>
       </div>
       <footer className="site-footer section-shell">
         <p>{profile.name}</p><p>Institute of Science Tokyo · The University of Tokyo</p><p>Last updated {profile.lastUpdated}</p>

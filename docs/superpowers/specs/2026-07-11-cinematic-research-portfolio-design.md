@@ -59,10 +59,10 @@
 4. **Selected Work**：展示 ID3、mRNA-GPT、FastUMAP 和 Targeted Tests for LLM Reasoning；每项只包含项目名、简短贡献、年份以及论文或代码链接；
 5. **Publications**：默认展示 Targeted Tests for LLM Reasoning、Separating Shortcut Transition、A Controlled Counterexample、FastUMAP、mRNA-GPT 和 Gradient-based Optimization for mRNA Sequence Design；随后用原生 `<details>` 展开完整论文记录；
 6. **Experience & Recognition**：默认展示 Institute of Science Tokyo 研究员、The University of Tokyo 客座研究员、The University of Tokyo 博士后和 HAOMO.AI 机器学习工程师经历；资助展示 2026 KAKENHI、2025 Google Grant 和 2024 KAKENHI；精选学术活动展示 CREST 2025 poster、RNA Informatics Dojo 2025 oral 和 APBJC24 poster；
-7. **Contact**：电子邮件、GitHub、名为 `Full CV / Record` 的可展开完整履历入口和合作邀请；
+7. **Contact**：电子邮件、GitHub、名为 `Full CV / Record` 的常显完整履历，以及合作邀请；
 8. **Footer**：姓名、当前单位、更新时间和基础站点信息。
 
-页面所有主要内容无需登录、弹窗或客户端持久化。实现时把 `index.md` 与 `cv.md` 的真实内容一次性迁移到 `src/data/profile.ts`，之后运行时和后续站点更新均以 `profile.ts` 为唯一内容源；原 Markdown 文件保留为迁移记录，不在构建时解析，也不与 TypeScript 双向同步。完整履历通过页面中的可展开记录访问。
+页面所有主要内容无需登录、弹窗或客户端持久化。实现时把 `index.md` 与 `cv.md` 的真实内容一次性迁移到 `src/data/profile.ts`，之后运行时和后续站点更新均以 `profile.ts` 为唯一内容源；原 Markdown 文件保留为迁移记录，不在构建时解析，也不与 TypeScript 双向同步。完整履历在页面中始终可见。
 
 ## 4. 内容边界
 
@@ -125,7 +125,7 @@ public/
 - GitHub Pages 作为现有公开主页的主发布目标，使用 GitHub Actions 的 Pages artifact/deploy 工作流发布 `dist/`，不使用 `gh-pages` 分支；
 - Sites 托管用于本轮构建后的可访问预览与交付，不改变 canonical URL；
 - 发布配置不依赖服务器端渲染、重写规则或运行时环境变量。
-- 在 `public/cv.html` 提供轻量兼容页，将旧 `/cv.html` 访问者引导到 `/#full-cv`，同时保留无脚本可点击链接；
+- 在 `public/cv.html` 提供轻量兼容页，将旧 `/cv.html` 访问者引导到 `/#contact`，同时保留无脚本可点击链接；
 - 把现有 `files/CREST_2025_poster.pdf` 复制到 `public/files/`，保持公开 PDF 路径不变。
 
 ## 6. 视频、性能与降级
@@ -167,12 +167,12 @@ public/
 - 视频仅在合适设备加载，减少动态效果模式与移动端使用 poster；
 - 视频失败时姓名、主张、导航和 CTA 仍可正常使用；
 - 所有论文、代码、资助、单位和联系链接来自现有仓库且无明显断链；
-- 键盘导航、焦点状态、语义标题和 `<details>` 展开行为可用；
+- 键盘导航、焦点状态、语义标题和常显完整履历可用；
 - 首屏不包含轨道、点阵、坐标、节点、首屏指标栏或大型胶囊按钮；
 - 首屏背景保留鲜艳暖金与深蓝，左侧只做局部暗化；
 - Research Vision 在完整首屏之后出现，转场不产生突兀白色切断。
-- `/cv.html` 可访问并引导到 `/#full-cv`；
-- `/#full-cv` 可直接定位到完整履历；
+- `/cv.html` 可访问并引导到 `/#contact`；
+- `/#contact` 可直接定位到完整履历；
 - `/files/CREST_2025_poster.pdf` 保持可直接访问。
 
 ## 10. 非目标

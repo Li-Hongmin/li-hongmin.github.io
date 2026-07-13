@@ -18,7 +18,7 @@ describe("Hero", () => {
     expect(screen.queryByRole("link", { name: "Explore research" })).not.toBeInTheDocument();
   });
 
-  it("uses the five-item section outline only on wide screens", () => {
+  it("uses the nine-item section outline only on wide screens", () => {
     render(<HeroNavigation className="desktop-outline" />);
 
     const outline = screen.getByRole("navigation", { name: "Desktop outline navigation" });
@@ -27,6 +27,10 @@ describe("Hero", () => {
       ["Featured Paper", "#research"],
       ["Publications", "#publications"],
       ["Experience", "#experience"],
+      ["Education", "#education"],
+      ["Grants", "#grants"],
+      ["Awards", "#awards"],
+      ["Peer Review", "#peer-review"],
       ["Contact", "#contact"],
     ]);
   });
