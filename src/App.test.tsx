@@ -19,7 +19,7 @@ describe("portfolio page", () => {
     expect(screen.queryByText("Reliable AI Research and Evaluation")).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Selected work" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Publications" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Experience & recognition" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Experience & recognition" }).closest("section")).toHaveAttribute("id", "experience");
     expect(screen.getByRole("heading", { name: "Let's build testable science." })).toBeInTheDocument();
   });
 

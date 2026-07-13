@@ -6,18 +6,30 @@ type HeroProps = {
   copyLifted?: boolean;
 };
 
-const navItems = [
+const mobileNavItems = [
   ["About", "#about"],
-  ["Research", "#research"],
+  ["Paper", "#research"],
   ["Publications", "#publications"],
   ["Contact", "#contact"],
 ] as const;
 
+const desktopOutlineItems = [
+  ["About", "#about"],
+  ["Featured Paper", "#research"],
+  ["Selected Work", "#selected-work"],
+  ["Publications", "#publications"],
+  ["Experience", "#experience"],
+  ["Contact", "#contact"],
+] as const;
+
 export function HeroNavigation({ className = "mobile-navigation" }: { className?: string }) {
+  const isDesktopOutline = className === "desktop-outline";
+  const items = isDesktopOutline ? desktopOutlineItems : mobileNavItems;
+
   return (
-    <nav className={className} aria-label={className === "desktop-outline" ? "Desktop outline navigation" : "Primary navigation"}>
+    <nav className={className} aria-label={isDesktopOutline ? "Desktop outline navigation" : "Primary navigation"}>
       <ul className="hero-nav">
-        {navItems.map(([label, href]) => (
+        {items.map(([label, href]) => (
           <li key={href}><a href={href}>{label}</a></li>
         ))}
       </ul>

@@ -34,10 +34,12 @@ describe("approved visual contract", () => {
   it("turns wide-screen hero navigation into a right-hand outline rail", () => {
     const desktopRules = css.split("@media (min-width: 1100px) {")[1].split(".hero-content")[0];
 
-    expect(desktopRules).toMatch(/\.desktop-outline\s*\{[^}]*position:\s*fixed[^}]*z-index:\s*30[^}]*right:\s*var\(--page-gutter\)/s);
-    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*border-left:/s);
+    expect(desktopRules).toMatch(/\.desktop-outline\s*\{[^}]*position:\s*fixed[^}]*z-index:\s*30[^}]*top:\s*min\(11vh,\s*4\.5rem\)[^}]*right:\s*var\(--page-gutter\)/s);
+    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*gap:\s*\.2rem[^}]*min-width:\s*10\.5rem/s);
+    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.5rem/s);
+    expect(desktopRules).toMatch(/\.hero-nav\s*\{[^}]*flex-direction:\s*column[^}]*gap:\s*\.2rem[^}]*border-left:/s);
     expect(desktopRules).toMatch(/\.hero-nav li::before\s*\{[^}]*border-radius:\s*50%/s);
-    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.35rem/s);
+    expect(desktopRules).toMatch(/\.hero-nav a\s*\{[^}]*min-height:\s*2\.5rem[^}]*font-size:\s*\.7rem/s);
   });
 
   it("uses a white, line-led featured-paper treatment without a panel", () => {

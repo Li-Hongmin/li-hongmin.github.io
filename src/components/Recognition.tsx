@@ -27,7 +27,7 @@ function Timeline({ items, label }: { items: readonly TimelineItem[]; label: str
 
 export default function Recognition({ profile }: { profile: Profile }) {
   return (
-    <section className="editorial-section recognition-section section-shell" aria-labelledby="recognition-heading">
+    <section id="experience" className="editorial-section recognition-section section-shell" aria-labelledby="recognition-heading">
       <div className="section-heading-row">
         <p className="section-kicker">Selected record</p>
         <h2 id="recognition-heading">Experience &amp; recognition</h2>

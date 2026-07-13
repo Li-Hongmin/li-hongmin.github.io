@@ -1,16 +1,35 @@
 import { render, screen, within } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import { profile } from "../data/profile";
-import Hero from "./Hero";
+import Hero, { HeroNavigation } from "./Hero";
 
 describe("Hero", () => {
-  it("renders identity and navigation without the removed Explore research CTA", () => {
+  it("renders identity and the four-item mobile navigation without the removed Explore research CTA", () => {
     render(<Hero profile={profile} />);
     expect(screen.getByRole("heading", { level: 1, name: "HONGMIN LI" })).toBeInTheDocument();
-    for (const name of ["About", "Research", "Publications", "Contact"]) {
-      expect(screen.getByRole("link", { name })).toBeInTheDocument();
-    }
+    const navigation = screen.getByRole("navigation", { name: "Primary navigation" });
+    expect(within(navigation).getAllByRole("link").map((link) => [link.textContent, link.getAttribute("href")])).toEqual([
+      ["About", "#about"],
+      ["Paper", "#research"],
+      ["Publications", "#publications"],
+      ["Contact", "#contact"],
+    ]);
+    expect(screen.queryByRole("link", { name: "Research" })).not.toBeInTheDocument();
     expect(screen.queryByRole("link", { name: "Explore research" })).not.toBeInTheDocument();
+  });
+
+  it("uses the complete six-item section outline only on wide screens", () => {
+    render(<HeroNavigation className="desktop-outline" />);
+
+    const outline = screen.getByRole("navigation", { name: "Desktop outline navigation" });
+    expect(within(outline).getAllByRole("link").map((link) => [link.textContent, link.getAttribute("href")])).toEqual([
+      ["About", "#about"],
+      ["Featured Paper", "#research"],
+      ["Selected Work", "#selected-work"],
+      ["Publications", "#publications"],
+      ["Experience", "#experience"],
+      ["Contact", "#contact"],
+    ]);
   });
 
   it("reveals a research overview and three jump links only after lifting the copy", () => {
