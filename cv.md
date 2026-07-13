@@ -2,7 +2,7 @@
 
 **Email:** lihongmin[at]edu.k.u-tokyo.ac.jp
 **Primary Affiliation:** [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo
-**Guest Affiliation:** [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo
+**Guest Affiliation:** [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), The University of Tokyo
 
 ---
 
@@ -27,16 +27,16 @@
 ## Professional Experience
 
 - **2026.4 - Present** | Researcher, [Sato Laboratory for Biomedical Data Science](https://www.sato-lab.org/en/people/), Institute of Science Tokyo
-- **2026.4 - Present** | Guest Researcher, [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), University of Tokyo
+- **2026.4 - Present** | Guest Researcher, [Frith Lab](https://sites.google.com/site/frithbioinfo/home?authuser=0), The University of Tokyo
 - **2023.5 - 2026.3** | Postdoctoral Researcher, The University of Tokyo
 - **2022.10 - 2023.5** | Machine Learning Engineer, HAOMO.AI (蓝色空间领航者 project)
 - **2022.4 - 2022.10** | Researcher, The University of Tokyo ([Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/))
 
 ---
 
-## Funding
+## Funding & Support
 
-### Research Grants
+### Funding & Credits
 - **2026.06** | Google Cloud TPU Builders Award - USD 5,500 in GCP credits for TPU-based AI and scientific workflow experiments
 - **2026.04** | KAKENHI Grant-in-Aid for Early-Career Scientists: Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design - ¥4,550,000 ([Project Info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/))
 - **2025.10** | Google Grant: Input Data Differentiable Designer: A Novel ML Algorithm for Biological Sequence Optimization - $30,000
@@ -50,6 +50,8 @@
 ## Publications
 
 ### Preprints
+- **2026.06** | **Hongmin Li**. *"The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims"*. arXiv preprint, arXiv:2606.31273 [cs.LG]. [arXiv](https://arxiv.org/abs/2606.31273), [Code & artifacts](https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research)
+
 - **2026.05** | **Hongmin Li**. *"Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol"*. arXiv preprint, arXiv:2605.11599 [cs.LG]. [Link](https://arxiv.org/abs/2605.11599)
 
 - **2026.05** | **Hongmin Li**. *"Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model"*. arXiv preprint, arXiv:2605.12945 [cs.LG]. [Link](https://arxiv.org/abs/2605.12945)
@@ -142,4 +144,4 @@
 
 ---
 
-*Last Updated: June 2026*
+*Last Updated: July 2026*

@@ -25,7 +25,7 @@ export default function Publications({ publications }: { publications: readonly 
         <p className="section-kicker">Research record</p>
         <h2 id="publications-heading">Publications</h2>
       </div>
-      <div className="publication-list" aria-label="Featured publications">
+      <div className="publication-list" aria-label="Recent publications">
         {featured.map((publication) => <PublicationRow key={publication.id} publication={publication} />)}
       </div>
       <details className="record-details publication-details">

@@ -40,11 +40,14 @@ describe("portfolio page", () => {
     expect(screen.getByRole("link", { name: "Email Hongmin Li" })).toHaveAttribute("href", "mailto:lihongmin@edu.k.u-tokyo.ac.jp");
   });
 
-  it("shows data-driven featured and complete publication counts", () => {
+  it("shows data-driven recent and complete publication counts without retired public labels", () => {
     render(<App />);
-    expect(screen.getByLabelText("Featured publications").querySelectorAll("article")).toHaveLength(
+    expect(screen.getByLabelText("Recent publications").querySelectorAll("article")).toHaveLength(
       profile.publications.filter((publication) => publication.featured).length,
     );
+    expect(screen.queryByLabelText("Featured publications")).not.toBeInTheDocument();
+    expect(screen.getAllByRole("heading", { name: "Funding & credits" })).toHaveLength(2);
+    expect(screen.queryByRole("heading", { name: "Research grants" })).not.toBeInTheDocument();
     expect(screen.getByLabelText("Complete publication record").querySelectorAll("article")).toHaveLength(
       profile.publications.length,
     );

@@ -11,7 +11,8 @@ describe("FeaturedPaper", () => {
     expect(paper).toHaveAttribute("id", "research");
     expect(within(paper).getByRole("heading", { name: profile.publications[0].title })).toBeInTheDocument();
     expect(within(paper).getByText("No claim without license.")).toBeInTheDocument();
-    expect(within(paper).getByText(/Perspective-style framework/i)).toHaveTextContent(/five-stage calibration loop/i);
+    expect(within(paper).getByText("The paper asks a simple but consequential question: when AI systems generate hypotheses, derive consequences, seek external validation, and update beliefs, what are they actually entitled to claim? It answers with a five-operator framework in which claim calibration is the final scientific operation, not a stylistic afterthought.")).toBeInTheDocument();
+    expect(within(paper).queryByText(/Perspective-style framework/i)).not.toBeInTheDocument();
     expect(within(paper).getByText(/AISim-Cal is an illustrative synthetic dynamics exercise/i)).toHaveTextContent(/not an empirical forecast or benchmark/i);
   });
 

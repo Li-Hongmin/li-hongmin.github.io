@@ -28,7 +28,7 @@ describe("Hero", () => {
       ["Publications", "#publications"],
       ["Experience", "#experience"],
       ["Education", "#education"],
-      ["Grants", "#grants"],
+      ["Funding", "#grants"],
       ["Awards", "#awards"],
       ["Peer Review", "#peer-review"],
       ["Contact", "#contact"],

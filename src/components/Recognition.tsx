@@ -34,7 +34,7 @@ export default function Recognition({ profile }: { profile: Profile }) {
       </div>
       <div className="recognition-grid">
         <Timeline label="Experience" items={profile.experience.slice(0, 4)} />
-        <Timeline label="Research grants" items={profile.grants} />
+        <Timeline label="Funding & credits" items={profile.grants} />
         <Timeline label="Academic activities" items={profile.activities} />
       </div>
     </section>

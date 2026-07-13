@@ -12,8 +12,10 @@ export default function FeaturedPaper({ publication }: { publication: Publicatio
       <p className="featured-paper__principle">No claim without license.</p>
       <div className="featured-paper__copy">
         <p>
-          A Perspective-style framework for AI-assisted research on evidence-licensed claims, the claim–evidence gap,
-          epistemic debt, and a five-stage calibration loop.
+          The paper asks a simple but consequential question: when AI systems generate hypotheses, derive consequences,
+          seek external validation, and update beliefs, what are they actually entitled to claim? It answers with a
+          five-operator framework in which claim calibration is the final scientific operation, not a stylistic
+          afterthought.
         </p>
         <p>
           AISim-Cal is an illustrative synthetic dynamics exercise, not an empirical forecast or benchmark.

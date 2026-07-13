@@ -33,7 +33,7 @@ export default function Contact({ profile }: { profile: Profile }) {
           <div className="full-cv-grid">
             <CompactRecord title="Experience" items={profile.experience} />
             <CompactRecord id="education" title="Education" items={profile.education} />
-            <CompactRecord id="grants" title="Research grants" items={profile.grants} />
+            <CompactRecord id="grants" title="Funding & credits" items={profile.grants} />
             <CompactRecord id="awards" title="Awards & fellowship" items={profile.awards} />
             <CompactRecord id="peer-review" title="Peer review" items={profile.peerReview} />
           </div>

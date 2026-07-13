@@ -9,6 +9,8 @@ describe("Publications", () => {
     render(<Publications publications={publications} />);
 
     expect(screen.getByText("2 entries")).toBeInTheDocument();
+    expect(screen.getByLabelText("Recent publications")).toBeInTheDocument();
+    expect(screen.queryByLabelText("Featured publications")).not.toBeInTheDocument();
     expect(within(screen.getByLabelText("Complete publication record")).getAllByRole("article")).toHaveLength(2);
   });
 });
