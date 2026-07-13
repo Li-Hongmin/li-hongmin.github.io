@@ -81,6 +81,29 @@ test("APBJC 2024 poster links to the single FastUMAP publication", async () => {
   assert.equal(publications.length, 1);
 });
 
+test("RNA Informatics Dojo 2025 talk links to the single ID3 publication and code", async () => {
+  const profile = await loadProfile();
+  const talk = profile.publicProfile.activities.find((record) => record.id === "rna-dojo-2025");
+  const publications = profile.publicProfile.publications.filter((record) => record.id === "gradient-based-optimization");
+  const publication = publications[0];
+
+  assert.equal(talk.title, "Oral presentation — Input Data Differentiable Designer (ID3) at RNA Informatics Dojo 2025");
+  assert.equal(
+    talk.detail,
+    "Early presentation of the method later developed into the preprint “Gradient-based Optimization for mRNA Sequence Design”",
+  );
+  assert.deepEqual(talk.links.map(({ label }) => label), ["Event", "Paper", "Code"]);
+  assert.equal(
+    talk.links.find(({ label }) => label === "Paper").href,
+    publication.links.find(({ label }) => label === "Preprint").href,
+  );
+  assert.equal(
+    talk.links.find(({ label }) => label === "Code").href,
+    publication.links.find(({ label }) => label === "Code").href,
+  );
+  assert.equal(publications.length, 1);
+});
+
 test("workspace lifecycle hooks generate for dev and reject stale data before checked commands", async () => {
   const packageJson = JSON.parse(await readFile(new URL("package.json", root), "utf8"));
   assert.equal(packageJson.scripts.predev, "npm run profile:generate");

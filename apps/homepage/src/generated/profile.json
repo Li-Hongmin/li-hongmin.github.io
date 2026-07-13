@@ -354,12 +354,20 @@
     {
       "id": "rna-dojo-2025",
       "date": "2025.8",
-      "title": "Oral presentation — RNA Informatics Dojo 2025",
-      "detail": "Input Data Differentiable Designer",
+      "title": "Oral presentation — Input Data Differentiable Designer (ID3) at RNA Informatics Dojo 2025",
+      "detail": "Early presentation of the method later developed into the preprint “Gradient-based Optimization for mRNA Sequence Design”",
       "links": [
         {
           "label": "Event",
           "href": "https://sites.google.com/view/rna-info/dojo/nagasaki2025"
+        },
+        {
+          "label": "Paper",
+          "href": "https://doi.org/10.1101/2025.10.22.683691"
+        },
+        {
+          "label": "Code",
+          "href": "https://github.com/Li-Hongmin/ID3"
         }
       ]
     },

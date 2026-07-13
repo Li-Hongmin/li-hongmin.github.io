@@ -50,8 +50,8 @@ describe("profile data", () => {
     });
     expect(profile.activities[1].title).toBe("Poster presentation — JST CREST BioDX Interim Symposium");
     expect(profile.activities[2]).toEqual(expect.objectContaining({
-      title: "Oral presentation — RNA Informatics Dojo 2025",
-      detail: "Input Data Differentiable Designer",
+      title: "Oral presentation — Input Data Differentiable Designer (ID3) at RNA Informatics Dojo 2025",
+      detail: "Early presentation of the method later developed into the preprint “Gradient-based Optimization for mRNA Sequence Design”",
     }));
     expect(profile.activities[3]).toEqual(expect.objectContaining({
       title: "Poster presentation — FastUMAP at the Asia-Pacific Bioinformatics Joint Conference 2024",
