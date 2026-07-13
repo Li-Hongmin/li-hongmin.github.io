@@ -86,6 +86,7 @@
 
 ## Conference Activities
 
+- **2026.06.09** | Poster - CREST バイオDX第5回領域会議 (Numazu / 沼津)
 - **2025.11** | Poster - CREST バイオDX領域 2025年度中間報告シンポジウム ([Poster](files/CREST_2025_poster.pdf))
 - **2025.8** | Oral - RNA Informatics Dojo 2025
 - **2024.10** | Poster - APBJC24

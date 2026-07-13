@@ -13,7 +13,7 @@ describe("profile data", () => {
     expect(profile.publications).toHaveLength(16);
     expect(profile.experience).toHaveLength(5);
     expect(profile.grants).toHaveLength(4);
-    expect(profile.activities).toHaveLength(3);
+    expect(profile.activities).toHaveLength(4);
     expect(profile.awards).toHaveLength(5);
     expect(profile.education).toHaveLength(3);
     expect(profile.peerReview).toHaveLength(8);
@@ -39,6 +39,15 @@ describe("profile data", () => {
         { label: "Code & artifacts", href: "https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research" },
       ],
       featured: true,
+    });
+  });
+
+  it("places the June 2026 CREST BioDX fifth-area-meeting poster first without unverified links", () => {
+    expect(profile.activities[0]).toEqual({
+      id: "crest-biodx-5th-meeting-2026",
+      date: "2026.06.09",
+      title: "Poster · CREST バイオDX第5回領域会議",
+      organization: "沼津",
     });
   });
 

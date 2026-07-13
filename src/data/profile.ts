@@ -114,6 +114,7 @@ const grants: TimelineItem[] = [
 ];
 
 const activities: TimelineItem[] = [
+  { id: "crest-biodx-5th-meeting-2026", date: "2026.06.09", title: "Poster · CREST バイオDX第5回領域会議", organization: "沼津" },
   { id: "crest-2025", date: "2025.11", title: "Poster · CREST バイオDX領域 2025年度中間報告シンポジウム", links: [{ label: "Event", href: "https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html" }, { label: "CREST 2025 poster", href: "/files/CREST_2025_poster.pdf" }] },
   { id: "rna-dojo-2025", date: "2025.8", title: "Oral · Input Data Differentiable Designer", organization: "RNA Informatics Dojo 2025", links: [{ label: "Event", href: "https://sites.google.com/view/rna-info/dojo/nagasaki2025" }] },
   { id: "apbjc24", date: "2024.10", title: "Poster · FastUMAP model", organization: "APBJC24", links: [{ label: "Event", href: "https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185" }] },
