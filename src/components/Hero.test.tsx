@@ -13,9 +13,10 @@ describe("Hero", () => {
     expect(screen.getByRole("link", { name: "Explore research" })).toHaveAttribute("href", "#about");
   });
 
-  it("holds the floating copy until the video sequence settles", () => {
-    const { container } = render(<Hero profile={profile} copyReady={false} />);
-    expect(container.querySelector(".hero-header")).toHaveStyle({ opacity: "0" });
-    expect(container.querySelector(".hero-content")).toHaveStyle({ opacity: "0" });
+  it("keeps copy visible at the bottom before lifting it after playback", () => {
+    const { container, rerender } = render(<Hero profile={profile} copyLifted={false} />);
+    expect(container.querySelector(".hero-content")).not.toHaveStyle({ opacity: "0" });
+    rerender(<Hero profile={profile} copyLifted />);
+    expect(container.querySelector(".hero-content")).toHaveStyle({ opacity: "1" });
   });
 });

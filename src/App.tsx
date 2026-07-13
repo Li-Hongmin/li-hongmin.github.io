@@ -1,3 +1,4 @@
+import { useCallback, useState } from "react";
 import Contact from "./components/Contact";
 import GlassAppShell from "./components/GlassAppShell";
 import Hero from "./components/Hero";
@@ -10,13 +11,13 @@ import SelectedWork from "./components/SelectedWork";
 import { profile } from "./data/profile";
 
 export default function App() {
-  const [heroCopyReady, setHeroCopyReady] = useState(false);
-  const revealHeroCopy = useCallback(() => setHeroCopyReady(true), []);
+  const [heroCopyLifted, setHeroCopyLifted] = useState(false);
+  const liftHeroCopy = useCallback(() => setHeroCopyLifted(true), []);
 
   return (
     <GlassAppShell
-      backdrop={<HeroBackdrop onVideoSettled={revealHeroCopy} />}
-      hero={<Hero profile={profile} copyReady={heroCopyReady} />}
+      backdrop={<HeroBackdrop onVideoEnded={liftHeroCopy} />}
+      hero={<Hero profile={profile} copyLifted={heroCopyLifted} />}
     >
       <ResearchVision vision={profile.vision} affiliation={profile.affiliation} />
       <ResearchAreas areas={profile.researchAreas} />
@@ -27,4 +28,3 @@ export default function App() {
     </GlassAppShell>
   );
 }
-import { useCallback, useState } from "react";

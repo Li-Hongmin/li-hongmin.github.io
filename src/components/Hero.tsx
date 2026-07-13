@@ -3,7 +3,7 @@ import type { Profile } from "../data/profile";
 
 type HeroProps = {
   profile: Profile;
-  copyReady?: boolean;
+  copyLifted?: boolean;
 };
 
 const navItems = [
@@ -13,13 +13,11 @@ const navItems = [
   ["Contact", "#contact"],
 ] as const;
 
-export default function Hero({ profile, copyReady = true }: HeroProps) {
+export default function Hero({ profile, copyLifted = false }: HeroProps) {
   const reduceMotion = useReducedMotion();
 
   const headerEntrance = reduceMotion
     ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
-    : !copyReady
-      ? { initial: false as const, animate: { opacity: 0, y: 22 }, transition: { duration: 0 } }
     : {
         initial: { opacity: 0, y: 18 },
         animate: { opacity: 1, y: 0 },
@@ -28,13 +26,18 @@ export default function Hero({ profile, copyReady = true }: HeroProps) {
 
   const contentEntrance = reduceMotion
     ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
-    : !copyReady
-      ? { initial: false as const, animate: { opacity: 0, y: 28 }, transition: { duration: 0 } }
-      : {
-          initial: { opacity: 0, y: 22 },
-          animate: { opacity: 1, y: 0 },
-          transition: { delay: 0.12, duration: 0.82, ease: [0.22, 1, 0.36, 1] as const },
-        };
+    : {
+        initial: false as const,
+        animate: {
+          opacity: 1,
+          y: copyLifted ? "calc(-100svh + 26rem)" : 0,
+        },
+        transition: {
+          delay: copyLifted ? 0 : 0.12,
+          duration: copyLifted ? 1.15 : 0.82,
+          ease: [0.22, 1, 0.36, 1] as const,
+        },
+      };
 
   return (
     <section className="hero" id="top" aria-labelledby="page-title">
