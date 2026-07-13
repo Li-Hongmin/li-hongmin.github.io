@@ -9,7 +9,6 @@ describe("profile data", () => {
   it("preserves the verified identity and content counts", () => {
     expect(profile.name).toBe("Hongmin Li");
     expect(profile.email).toBe("lihongmin@edu.k.u-tokyo.ac.jp");
-    expect(profile.selectedWork).toHaveLength(4);
     expect(profile.publications).toHaveLength(16);
     expect(profile.experience).toHaveLength(5);
     expect(profile.grants).toHaveLength(4);
@@ -53,24 +52,9 @@ describe("profile data", () => {
 
   it("keeps education limited to the facts stated in the CV", () => {
     expect(profile.education).toEqual([
-      { id: "phd", date: "March 2022", title: "Ph.D. in Computer Science", organization: "University of Tsukuba" },
-      { id: "masters", date: "", title: "Master's in Computer Science", organization: "University of Tsukuba" },
-      { id: "bachelors", date: "", title: "Bachelor's in Computer Science" },
-    ]);
-  });
-
-  it("keeps the selected work claim-safe", () => {
-    expect(profile.selectedWork.map((work) => work.id)).toEqual([
-      "id3", "mrna-gpt", "fastumap", "targeted-tests",
-    ]);
-  });
-
-  it("records the verified year for each selected work item", () => {
-    expect(profile.selectedWork.map(({ id, year }) => ({ id, year }))).toEqual([
-      { id: "id3", year: 2025 },
-      { id: "mrna-gpt", year: 2025 },
-      { id: "fastumap", year: 2026 },
-      { id: "targeted-tests", year: 2026 },
+      { id: "phd", date: "2019.04 — 2022.03", title: "Ph.D. in Computer Science (Information Systems Engineering)", organization: "University of Tsukuba" },
+      { id: "masters", date: "2017.04 — 2019.03", title: "Master's in Computer Science (Information Systems Engineering)", organization: "University of Tsukuba" },
+      { id: "bachelors", date: "2011.09 — 2015.07", title: "Bachelor's in Electronic Information Engineering", organization: "Ningxia University" },
     ]);
   });
 

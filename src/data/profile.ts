@@ -1,12 +1,4 @@
 export type ExternalLink = { label: string; href: string };
-export type SelectedWork = {
-  id: string;
-  title: string;
-  eyebrow: string;
-  year: number;
-  description: string;
-  links: ExternalLink[];
-};
 export type Publication = {
   id: string;
   date: string;
@@ -23,44 +15,6 @@ export type TimelineItem = {
   detail?: string;
   links?: ExternalLink[];
 };
-
-const selectedWork: SelectedWork[] = [
-  {
-    id: "id3",
-    title: "ID3",
-    eyebrow: "Biomolecular design",
-    year: 2025,
-    description: "A differentiable framework for biomolecular sequence design.",
-    links: [
-      { label: "Preprint", href: "https://doi.org/10.1101/2025.10.22.683691" },
-      { label: "Code", href: "https://github.com/Li-Hongmin/ID3" },
-    ],
-  },
-  {
-    id: "mrna-gpt",
-    title: "mRNA-GPT",
-    eyebrow: "RNA language models",
-    year: 2025,
-    description: "A generative mRNA language foundation model for coding sequence design.",
-    links: [{ label: "Preprint", href: "https://doi.org/10.64898/2025.12.22.695962" }],
-  },
-  {
-    id: "fastumap",
-    title: "FastUMAP",
-    eyebrow: "Scalable representation learning",
-    year: 2026,
-    description: "Scalable dimensionality reduction through bipartite landmark sampling.",
-    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11428" }],
-  },
-  {
-    id: "targeted-tests",
-    title: "Targeted Tests for LLM Reasoning",
-    eyebrow: "Reliable AI evaluation",
-    year: 2026,
-    description: "An audit-constrained protocol for controlled LLM reasoning evaluation.",
-    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2605.11599" }],
-  },
-];
 
 const publications: Publication[] = [
   {
@@ -129,9 +83,9 @@ const awards: TimelineItem[] = [
 ];
 
 const education: TimelineItem[] = [
-  { id: "phd", date: "March 2022", title: "Ph.D. in Computer Science", organization: "University of Tsukuba" },
-  { id: "masters", date: "", title: "Master's in Computer Science", organization: "University of Tsukuba" },
-  { id: "bachelors", date: "", title: "Bachelor's in Computer Science" },
+  { id: "phd", date: "2019.04 — 2022.03", title: "Ph.D. in Computer Science (Information Systems Engineering)", organization: "University of Tsukuba" },
+  { id: "masters", date: "2017.04 — 2019.03", title: "Master's in Computer Science (Information Systems Engineering)", organization: "University of Tsukuba" },
+  { id: "bachelors", date: "2011.09 — 2015.07", title: "Bachelor's in Electronic Information Engineering", organization: "Ningxia University" },
 ];
 
 const peerReview: TimelineItem[] = [
@@ -153,7 +107,6 @@ export const profile = {
   statement: "I build computational systems that turn scientific questions into testable, reproducible discoveries.",
   vision: "Scientific AI should turn ambitious questions into evidence others can test.",
   affiliation: "Researcher at the Institute of Science Tokyo and Guest Researcher at The University of Tokyo.",
-  selectedWork,
   publications,
   experience,
   grants,

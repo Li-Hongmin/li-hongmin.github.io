@@ -22,13 +22,6 @@ Email: lihongmin[at]edu.k.u-tokyo.ac.jp
 
   The paper asks a simple but consequential question: when AI systems generate hypotheses, derive consequences, seek external validation, and update beliefs, what are they actually entitled to claim? It answers with a five-operator framework in which claim calibration is the final scientific operation, not a stylistic afterthought. *No claim without license.*
 
-## Selected Work
-
-- **ID3** (2025) — A differentiable framework for biomolecular sequence design. [Preprint](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
-- **mRNA-GPT** (2025) — A generative mRNA language foundation model for coding sequence design. [Preprint](https://doi.org/10.64898/2025.12.22.695962)
-- **FastUMAP** (2026) — Scalable dimensionality reduction through bipartite landmark sampling. [arXiv](https://arxiv.org/abs/2605.11428)
-- **Targeted Tests for LLM Reasoning** (2026) — An audit-constrained protocol for controlled LLM reasoning evaluation. [arXiv](https://arxiv.org/abs/2605.11599)
-
 ## Publications
 
 ### Preprints
@@ -66,9 +59,9 @@ Email: lihongmin[at]edu.k.u-tokyo.ac.jp
 
 ## Education
 
-- **Ph.D.** in Computer Science, University of Tsukuba (March 2022)
-- **Master's** in Computer Science, University of Tsukuba
-- **Bachelor's** in Computer Science
+- **Ph.D.** in Computer Science (Information Systems Engineering), University of Tsukuba (April 2019 - March 2022)
+- **Master's** in Computer Science (Information Systems Engineering), University of Tsukuba (April 2017 - March 2019)
+- **Bachelor's** in Electronic Information Engineering, Ningxia University (September 2011 - July 2015)
 
 ## Funding & Support
 

@@ -55,7 +55,7 @@ describe("approved visual contract", () => {
   });
 
   it("uses a white, line-led featured-paper treatment without a panel", () => {
-    const featuredPaperRules = css.slice(css.indexOf(".featured-paper {"), css.indexOf(".work-list"));
+    const featuredPaperRules = css.slice(css.indexOf(".featured-paper {"), css.indexOf(".publication-copy h3"));
 
     expect(featuredPaperRules).toContain("--ink: #fff");
     expect(featuredPaperRules).toContain("border-top: 1px solid var(--rule)");
@@ -64,6 +64,12 @@ describe("approved visual contract", () => {
     expect(featuredPaperRules).not.toMatch(/backdrop-filter\s*:/);
     expect(featuredPaperRules).not.toMatch(/border-radius\s*:/);
     expect(css).not.toContain(".research-list");
+  });
+
+  it("presents publications as a dense responsive three-column record", () => {
+    expect(css).toMatch(/\.publication-list\s*\{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
+    expect(css).toMatch(/@media \(max-width: 1099px\)[\s\S]*?\.publication-list\s*\{[^}]*repeat\(2,/s);
+    expect(css).toMatch(/@media \(max-width: 699px\)[\s\S]*?\.publication-list\s*\{[^}]*grid-template-columns:\s*1fr/s);
   });
 
   it("lets undated compact-record content span both grid columns", () => {
@@ -149,7 +155,7 @@ describe("cinematic scroll styles", () => {
     expect(shell).not.toContain(".glass-grabber");
     expect(shell).not.toContain("backdrop-filter:");
     expect(shell).toMatch(/\.app-content > section\s*\{[^}]*--ink:#f7f4ed;[^}]*background:transparent;[^}]*box-shadow:none;/s);
-    expect(shell).toMatch(/\.app-content :is\(\.work-list,[^}]*background:transparent;[^}]*box-shadow:none;/s);
+    expect(shell).toMatch(/\.app-content :is\(\.publication-list,[^}]*background:transparent;[^}]*box-shadow:none;/s);
   });
 
   it("gives the editorial content a wider desktop measure while reserving the outline rail", () => {

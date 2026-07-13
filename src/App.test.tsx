@@ -17,7 +17,7 @@ describe("portfolio page", () => {
     expect(screen.queryByText("AI-Automated Scientific Workflows")).not.toBeInTheDocument();
     expect(screen.queryByText("Biomolecular Sequence Design and Optimization")).not.toBeInTheDocument();
     expect(screen.queryByText("Reliable AI Research and Evaluation")).not.toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Selected work" })).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "Selected work" })).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Publications" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Experience & recognition" }).closest("section")).toHaveAttribute("id", "experience");
     expect(screen.getByRole("heading", { name: "Let's build testable science." })).toBeInTheDocument();
@@ -25,10 +25,6 @@ describe("portfolio page", () => {
 
   it("exposes verified work, legacy assets and unique record anchors", () => {
     const { container } = render(<App />);
-    const work = screen.getByLabelText("Selected work");
-    for (const title of ["ID3", "mRNA-GPT", "FastUMAP", "Targeted Tests for LLM Reasoning"]) {
-      expect(within(work).getByText(title)).toBeInTheDocument();
-    }
     expect(screen.getByRole("heading", { name: "Full CV / Record" })).toBeInTheDocument();
     expect(container.querySelector("details#full-cv")).toBeNull();
     expect(container.querySelector("div#full-cv")).not.toBeNull();

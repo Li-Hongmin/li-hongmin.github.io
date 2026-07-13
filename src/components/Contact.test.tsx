@@ -34,16 +34,16 @@ describe("Contact", () => {
     expect(container.querySelector("#experience")).toBeNull();
   });
 
-  it("marks undated education records so their content can span the date column", () => {
+  it("shows the complete dated education record", () => {
     render(<Contact profile={profile} />);
 
     const education = screen.getByRole("heading", { name: "Education" }).closest("section");
     expect(education).not.toBeNull();
 
-    for (const degree of ["Master's in Computer Science", "Bachelor's in Computer Science"]) {
-      const record = within(education!).getByText(degree).closest("li");
-      expect(record).toHaveClass("compact-record__item--undated");
-      expect(record!.querySelector("time")).toBeNull();
-    }
+    expect(within(education!).getByText("2017.04 — 2019.03")).toBeInTheDocument();
+    expect(within(education!).getByText("Master's in Computer Science (Information Systems Engineering)")).toBeInTheDocument();
+    expect(within(education!).getByText("2011.09 — 2015.07")).toBeInTheDocument();
+    expect(within(education!).getByText("Bachelor's in Electronic Information Engineering")).toBeInTheDocument();
+    expect(within(education!).getByText("Ningxia University")).toBeInTheDocument();
   });
 });

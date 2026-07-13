@@ -7,7 +7,6 @@ import HeroBackdrop from "./components/HeroBackdrop";
 import Publications from "./components/Publications";
 import Recognition from "./components/Recognition";
 import ResearchVision from "./components/ResearchVision";
-import SelectedWork from "./components/SelectedWork";
 import { profile } from "./data/profile";
 
 export default function App() {
@@ -22,7 +21,6 @@ export default function App() {
     >
       <ResearchVision vision={profile.vision} affiliation={profile.affiliation} />
       <FeaturedPaper publication={profile.publications[0]} />
-      <SelectedWork work={profile.selectedWork} />
       <Publications publications={profile.publications} />
       <Recognition profile={profile} />
       <Contact profile={profile} />

@@ -17,6 +17,10 @@ describe("public Markdown record", () => {
       expect(document).toContain("Google Cloud TPU Builders Award");
       expect(document).toContain("Last Updated: July 2026");
       expect(document).not.toContain("### Research Grants");
+      expect(document).toContain("Computer Science (Information Systems Engineering)");
+      expect(document).toContain("April 2017 - March 2019");
+      expect(document).toContain("Electronic Information Engineering");
+      expect(document).toContain("Ningxia University");
     }
   });
 
@@ -28,7 +32,6 @@ describe("public Markdown record", () => {
     for (const heading of [
       "## Research Interests",
       "## Featured Paper",
-      "## Selected Work",
       "## Publications",
       "## Professional Experience",
       "## Education",
@@ -41,5 +44,6 @@ describe("public Markdown record", () => {
     ]) {
       expect(index).toContain(heading);
     }
+    expect(index).not.toContain("## Selected Work");
   });
 });

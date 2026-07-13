@@ -18,9 +18,9 @@
 
 ## Education
 
-- **Ph.D.** in Computer Science, University of Tsukuba (March 2022)
-- **Master's** in Computer Science, University of Tsukuba
-- **Bachelor's** in Computer Science
+- **Ph.D.** in Computer Science (Information Systems Engineering), University of Tsukuba (April 2019 - March 2022)
+- **Master's** in Computer Science (Information Systems Engineering), University of Tsukuba (April 2017 - March 2019)
+- **Bachelor's** in Electronic Information Engineering, Ningxia University (September 2011 - July 2015)
 
 ---
 
