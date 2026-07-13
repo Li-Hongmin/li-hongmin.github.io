@@ -143,6 +143,10 @@ describe("cinematic scroll styles", () => {
     expect(shell).toContain("overscroll-behavior:contain");
   });
 
+  it("progressively darkens the cinematic background as editorial content rises", () => {
+    expect(shell).toMatch(/\.content-backdrop-shade\s*\{[^}]*position:fixed;[^}]*background:linear-gradient\([^}]*opacity:calc\(var\(--content-progress, 0\) \* \.92\)/s);
+  });
+
   it("keeps a slim overlay-style scrollbar without reserving a gutter", () => {
     expect(shell).not.toContain("scrollbar-gutter");
     expect(shell).toContain("scrollbar-width:thin");

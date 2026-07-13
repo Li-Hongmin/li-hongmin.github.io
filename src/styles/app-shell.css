@@ -20,6 +20,16 @@ body { background:#0c0d0c; }
 .hero-backdrop .hero-poster { z-index:0; }
 .hero-backdrop .hero-video { z-index:1; }
 
+.content-backdrop-shade {
+  position:fixed;
+  z-index:1;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(90deg,rgba(3,6,8,.76),rgba(3,6,8,.66) 58%,rgba(3,6,8,.58));
+  opacity:calc(var(--content-progress, 0) * .92);
+  transition:opacity 90ms linear;
+}
+
 .app-scroller > .hero {
   position:relative;
   z-index:1;
@@ -123,4 +133,5 @@ body { background:#0c0d0c; }
 
 @media (prefers-reduced-motion:reduce) {
   .app-scroller { scroll-behavior:auto; }
+  .content-backdrop-shade { transition:none; }
 }
