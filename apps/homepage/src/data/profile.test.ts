@@ -9,6 +9,7 @@ describe("profile data", () => {
   it("preserves the verified identity and content counts", () => {
     expect(profile.name).toBe("Hongmin Li");
     expect(profile.email).toBe("lihongmin@edu.k.u-tokyo.ac.jp");
+    expect(profile.x).toBe("https://x.com/lihongmin_lab");
     expect(profile.publications).toHaveLength(16);
     expect(profile.experience).toHaveLength(5);
     expect(profile.grants).toHaveLength(4);

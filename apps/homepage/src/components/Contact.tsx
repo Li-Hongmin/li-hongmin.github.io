@@ -11,6 +11,7 @@ export default function Contact({ profile }: { profile: Profile }) {
         <div className="contact-links">
           <a href={`mailto:${profile.email}`} aria-label="Email Hongmin Li"><Mail aria-hidden="true" size={18} />{profile.email}</a>
           <a href={profile.github} target="_blank" rel="noreferrer">GitHub<ArrowUpRight aria-hidden="true" size={16} /></a>
+          <a href={profile.x} target="_blank" rel="noreferrer">X<ArrowUpRight aria-hidden="true" size={16} /></a>
         </div>
       </div>
       <footer className="site-footer section-shell">

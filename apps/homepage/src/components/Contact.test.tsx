@@ -10,6 +10,7 @@ describe("Contact", () => {
     expect(screen.getByRole("heading", { name: "Let's build testable science." })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Email Hongmin Li" })).toHaveAttribute("href", `mailto:${profile.email}`);
     expect(screen.getByRole("link", { name: "GitHub" })).toHaveAttribute("href", profile.github);
+    expect(screen.getByRole("link", { name: "X" })).toHaveAttribute("href", profile.x);
     expect(screen.queryByRole("heading", { name: "Full CV / Record" })).not.toBeInTheDocument();
     expect(container.querySelector("#full-cv")).toBeNull();
   });

@@ -21,6 +21,8 @@ describe("site metadata", () => {
     expect(html).toContain('property="og:url" content="https://li-hongmin.github.io/"');
     expect(html).toContain('property="og:image" content="https://li-hongmin.github.io/og.png"');
     expect(html).toContain('name="twitter:card" content="summary_large_image"');
+    expect(html).toContain('name="twitter:site" content="@lihongmin_lab"');
+    expect(html).toContain('name="twitter:creator" content="@lihongmin_lab"');
     expect(html).toContain(
       'name="twitter:title" content="Hongmin Li — AI for Science &amp; Biomolecular Design"',
     );
