@@ -19,6 +19,17 @@ describe("approved visual contract", () => {
     expect(css).not.toContain(".hero-transition");
   });
 
+  it("carries the cinematic homepage palette into project and note pages", () => {
+    const editorialStart = css.indexOf(".editorial-page {");
+    const editorialRules = css.slice(editorialStart, css.indexOf("@media (max-width: 899px)", editorialStart));
+
+    expect(editorialRules).toContain("--ink: #f7f4ed");
+    expect(editorialRules).toContain("background: var(--night)");
+    expect(editorialRules).toContain('url("/media/hero-poster.webp")');
+    expect(editorialRules).toContain("background: rgba(5, 8, 10, .62)");
+    expect(editorialRules).not.toContain("color: #191a18");
+  });
+
   it("keeps the hero name in a system sans single line from 768px upward", () => {
     const tabletRules = css.split("@media (max-width: 899px) {")[1].split("@media (max-width: 767px)")[0];
     expect(css).toMatch(/\.hero-name\s*\{[^}]*font-family:\s*Inter, ui-sans-serif, system-ui[^}]*font-weight:\s*580[^}]*white-space:\s*nowrap/s);
