@@ -8,8 +8,6 @@ const navigation = [
   ["Home", "/"],
   ["Projects", "/projects/"],
   ["Notes", "/notes/"],
-  ["Publications", "/#publications"],
-  ["Contact", "/#contact"],
 ] as const;
 
 export default function EditorialPageShell({ children }: EditorialPageShellProps) {

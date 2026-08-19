@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import SiteRouter from "./SiteRouter";
 
@@ -31,5 +31,17 @@ describe("static site routes", () => {
     expect(screen.getByRole("heading", { level: 1, name: "Why an Evidence Ledger Comes Before a Manuscript" })).toBeInTheDocument();
     expect(screen.getByText(/not peer reviewed/i)).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Public sources" })).toBeInTheDocument();
+  });
+
+  it("keeps standalone-page navigation limited to real page destinations", () => {
+    window.history.pushState({}, "", "/notes/evidence-ledger-before-manuscript/");
+    render(<SiteRouter />);
+    const navigation = within(screen.getByRole("navigation", { name: "Site navigation" }));
+
+    expect(navigation.getByRole("link", { name: "Home" })).toHaveAttribute("href", "/");
+    expect(navigation.getByRole("link", { name: "Projects" })).toHaveAttribute("href", "/projects/");
+    expect(navigation.getByRole("link", { name: "Notes" })).toHaveAttribute("href", "/notes/");
+    expect(navigation.queryByRole("link", { name: "Publications" })).not.toBeInTheDocument();
+    expect(navigation.queryByRole("link", { name: "Contact" })).not.toBeInTheDocument();
   });
 });
