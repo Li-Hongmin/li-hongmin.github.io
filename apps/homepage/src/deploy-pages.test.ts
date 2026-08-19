@@ -12,6 +12,12 @@ describe("GitHub Pages deployment workflow", () => {
     expect(workflow).toContain("- run: npm run test:run");
     expect(workflow).toContain("- run: npm run typecheck");
     expect(workflow).toContain("test -f apps/homepage/dist/index.html");
+    expect(workflow).toContain("test -f apps/homepage/dist/projects/index.html");
+    expect(workflow).toContain("test -f apps/homepage/dist/projects/alphascience/index.html");
+    expect(workflow).toContain("test -f apps/homepage/dist/notes/index.html");
+    expect(workflow).toContain("test -f apps/homepage/dist/notes/evidence-ledger-before-manuscript/index.html");
+    expect(workflow).toContain("test -f apps/homepage/dist/notes/bounded-agent-execution/index.html");
+    expect(workflow).toContain("test -f apps/homepage/dist/notes/selection-is-part-of-the-procedure/index.html");
     expect(workflow).toContain("test -f apps/homepage/dist/cv.html");
     expect(workflow).toContain("test -f apps/homepage/dist/files/CREST_2025_poster.pdf");
     expect(workflow).toContain("test -f apps/homepage/dist/media/hero.mp4");

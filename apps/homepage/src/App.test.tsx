@@ -13,11 +13,13 @@ describe("portfolio page", () => {
     expect(featuredPaper).toHaveAttribute("id", "research");
     expect(within(featuredPaper).getByRole("heading", { name: "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims" })).toBeInTheDocument();
     expect(within(featuredPaper).getByText("No claim without license.")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Projects" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "AlphaScience" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Research notes" })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Research directions" })).not.toBeInTheDocument();
     expect(screen.queryByText("AI-Automated Scientific Workflows")).not.toBeInTheDocument();
     expect(screen.queryByText("Biomolecular Sequence Design and Optimization")).not.toBeInTheDocument();
     expect(screen.queryByText("Reliable AI Research and Evaluation")).not.toBeInTheDocument();
-    expect(screen.queryByRole("heading", { name: "Selected work" })).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Publications" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Experience & recognition" }).closest("section")).toHaveAttribute("id", "experience");
     expect(screen.getByRole("heading", { name: "Let's build testable science." })).toBeInTheDocument();
@@ -27,7 +29,7 @@ describe("portfolio page", () => {
     const { container } = render(<App />);
     expect(screen.queryByRole("heading", { name: "Full CV / Record" })).not.toBeInTheDocument();
     expect(container.querySelector("#full-cv")).toBeNull();
-    for (const id of ["about", "research", "publications", "experience", "education", "grants", "awards", "peer-review", "contact"]) {
+    for (const id of ["about", "projects", "notes", "research", "publications", "experience", "education", "grants", "awards", "peer-review", "contact"]) {
       expect(container.querySelectorAll(`#${id}`)).toHaveLength(1);
     }
     expect(screen.getByRole("link", { name: "CREST 2025 poster" })).toHaveAttribute("href", "/files/CREST_2025_poster.pdf");

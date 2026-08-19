@@ -7,21 +7,19 @@ type HeroProps = {
 };
 
 const mobileNavItems = [
-  ["About", "#about"],
-  ["Paper", "#research"],
-  ["Publications", "#publications"],
+  ["Projects", "#projects"],
+  ["Notes", "#notes"],
+  ["Papers", "#publications"],
   ["Contact", "#contact"],
 ] as const;
 
 const desktopOutlineItems = [
   ["About", "#about"],
+  ["Projects", "#projects"],
+  ["Research Notes", "#notes"],
   ["Featured Paper", "#research"],
   ["Publications", "#publications"],
-  ["Appointments", "#experience"],
-  ["Education", "#education"],
-  ["Funding & compute", "#grants"],
-  ["Honors", "#awards"],
-  ["Peer Review", "#peer-review"],
+  ["Experience", "#experience"],
   ["Contact", "#contact"],
 ] as const;
 
@@ -104,7 +102,9 @@ export default function Hero({ profile, copyLifted = false }: HeroProps) {
         <HeroNavigation />
       </motion.header>
       <motion.div className="hero-content" {...contentEntrance}>
-        <h1 id="page-title" className="hero-name">{profile.displayName}</h1>
+        <h1 id="page-title" className="hero-name">
+          <span>HONGMIN</span>{" "}<span>LI</span>
+        </h1>
         <div className="hero-intro">
           <p>{profile.statement}</p>
         </div>
@@ -118,8 +118,8 @@ export default function Hero({ profile, copyLifted = false }: HeroProps) {
           transition={{ delay: reduceMotion ? 0 : 1.05, duration: reduceMotion ? 0 : 0.65 }}
         >
           <p>
-            My research develops AI-automated scientific workflows for biomolecular sequence design,
-            grounded in reliable AI evaluation and reproducible evidence.
+            I build evidence-calibrated AI systems for scientific and mathematical research,
+            grounded in reproducible evaluation and concrete research cases.
           </p>
           <RecentNews profile={profile} />
         </motion.div>

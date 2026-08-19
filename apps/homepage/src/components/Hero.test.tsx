@@ -9,28 +9,26 @@ describe("Hero", () => {
     expect(screen.getByRole("heading", { level: 1, name: "HONGMIN LI" })).toBeInTheDocument();
     const navigation = screen.getByRole("navigation", { name: "Primary navigation" });
     expect(within(navigation).getAllByRole("link").map((link) => [link.textContent, link.getAttribute("href")])).toEqual([
-      ["About", "#about"],
-      ["Paper", "#research"],
-      ["Publications", "#publications"],
+      ["Projects", "#projects"],
+      ["Notes", "#notes"],
+      ["Papers", "#publications"],
       ["Contact", "#contact"],
     ]);
     expect(screen.queryByRole("link", { name: "Research" })).not.toBeInTheDocument();
     expect(screen.queryByRole("link", { name: "Explore research" })).not.toBeInTheDocument();
   });
 
-  it("uses the nine-item section outline only on wide screens", () => {
+  it("uses the seven-item section outline only on wide screens", () => {
     render(<HeroNavigation className="desktop-outline" />);
 
     const outline = screen.getByRole("navigation", { name: "Desktop outline navigation" });
     expect(within(outline).getAllByRole("link").map((link) => [link.textContent, link.getAttribute("href")])).toEqual([
       ["About", "#about"],
+      ["Projects", "#projects"],
+      ["Research Notes", "#notes"],
       ["Featured Paper", "#research"],
       ["Publications", "#publications"],
-      ["Appointments", "#experience"],
-      ["Education", "#education"],
-      ["Funding & compute", "#grants"],
-      ["Honors", "#awards"],
-      ["Peer Review", "#peer-review"],
+      ["Experience", "#experience"],
       ["Contact", "#contact"],
     ]);
   });
@@ -44,9 +42,9 @@ describe("Hero", () => {
 
     expect(container.querySelector(".hero-content")).toHaveStyle({ opacity: "1" });
     const overview = screen.getByLabelText("Recent news overview");
-    const overviewCopy = within(overview).getByText(/My research develops AI-automated scientific workflows/i);
-    expect(overviewCopy).toHaveTextContent(/biomolecular sequence design/i);
-    expect(overviewCopy).toHaveTextContent(/reliable AI evaluation/i);
+    const overviewCopy = within(overview).getByText(/I build evidence-calibrated AI systems/i);
+    expect(overviewCopy).toHaveTextContent(/scientific and mathematical research/i);
+    expect(overviewCopy).toHaveTextContent(/concrete research cases/i);
     expect(within(overview).getByRole("heading", { name: "Recent news" })).toBeInTheDocument();
     expect(within(overview).getAllByRole("listitem")).toHaveLength(9);
     expect(within(overview).queryByRole("link", { name: "Research" })).not.toBeInTheDocument();
