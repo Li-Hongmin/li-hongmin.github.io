@@ -17,6 +17,7 @@ export default defineConfig({
         evidenceLedger: page("./notes/evidence-ledger-before-manuscript/index.html"),
         boundedAgentExecution: page("./notes/bounded-agent-execution/index.html"),
         selectionProcedure: page("./notes/selection-is-part-of-the-procedure/index.html"),
+        cognitiveThreadLifetime: page("./notes/how-long-should-a-cognitive-thread-live/index.html"),
       },
     },
   },

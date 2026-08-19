@@ -38,6 +38,7 @@ jobs:
           test -f apps/homepage/dist/notes/evidence-ledger-before-manuscript/index.html
           test -f apps/homepage/dist/notes/bounded-agent-execution/index.html
           test -f apps/homepage/dist/notes/selection-is-part-of-the-procedure/index.html
+          test -f apps/homepage/dist/notes/how-long-should-a-cognitive-thread-live/index.html
           test -f apps/homepage/dist/cv.html
           test -f apps/homepage/dist/files/CREST_2025_poster.pdf
           test -f apps/homepage/dist/media/hero.mp4

@@ -13,8 +13,8 @@ describe("public projects and research notes", () => {
     }
   });
 
-  it("ships three substantial dated notes with explicit evidence status", () => {
-    expect(researchNotes).toHaveLength(3);
+  it("ships four substantial dated notes with explicit evidence status", () => {
+    expect(researchNotes).toHaveLength(4);
     expect(new Set(researchNotes.map((note) => note.slug)).size).toBe(researchNotes.length);
     for (const note of researchNotes) {
       expect(note.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);

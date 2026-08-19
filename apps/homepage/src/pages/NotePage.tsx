@@ -13,6 +13,9 @@ const publicLinks: Record<string, { label: string; href: string }[]> = {
   "selection-is-part-of-the-procedure": [
     { label: "Reproducibility repository", href: "https://github.com/Li-Hongmin/selection-aware-embedding-inference" },
   ],
+  "how-long-should-a-cognitive-thread-live": [
+    { label: "Sakana AI · Learning to Orchestrate Agents", href: "https://sakana.ai/learning-to-orchestrate/" },
+  ],
 };
 
 export default function NotePage({ note }: { note: ResearchNote }) {

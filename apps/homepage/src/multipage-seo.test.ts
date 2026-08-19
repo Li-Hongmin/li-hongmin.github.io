@@ -9,6 +9,7 @@ const pages = [
   ["notes/evidence-ledger-before-manuscript/index.html", "https://li-hongmin.github.io/notes/evidence-ledger-before-manuscript/"],
   ["notes/bounded-agent-execution/index.html", "https://li-hongmin.github.io/notes/bounded-agent-execution/"],
   ["notes/selection-is-part-of-the-procedure/index.html", "https://li-hongmin.github.io/notes/selection-is-part-of-the-procedure/"],
+  ["notes/how-long-should-a-cognitive-thread-live/index.html", "https://li-hongmin.github.io/notes/how-long-should-a-cognitive-thread-live/"],
 ] as const;
 
 describe("project and note metadata", () => {

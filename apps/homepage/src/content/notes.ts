@@ -149,6 +149,66 @@ export const researchNotes: readonly ResearchNote[] = [
       },
     ],
   },
+  {
+    slug: "how-long-should-a-cognitive-thread-live",
+    title: "How Long Should a Cognitive Thread Live?",
+    dek: "The first orchestration decision may not be how many agents to use, but which cognitive processes should persist and which should disappear after producing a verifiable artifact.",
+    date: "2026-08-19",
+    readingTime: "8 min read",
+    project: "AlphaScience · orchestration hypothesis",
+    projectHref: "/projects/alphascience/",
+    evidenceStatus: "Conceptual research note · not peer reviewed",
+    sections: [
+      {
+        heading: "Agent count is not the first decision",
+        paragraphs: [
+          "The usual orchestration question is whether a task needs one agent or many. A more consequential variable may be temporal: how long should a cognitive process remain alive? A difficult research program and a bounded literature retrieval task may both benefit from agents, but they should not inherit the same memory, authority or lifetime.",
+          "Recent work from Sakana AI makes agent composition dynamic. Its Conductor learns which agents to call, what subtasks to assign and which context to expose. That is a useful move beyond fixed planner–executor–verifier pipelines. The additional hypothesis here is that orchestration should also decide whether a task belongs to a persistent research thread or an ephemeral worker.",
+        ],
+      },
+      {
+        heading: "Two timescales of research work",
+        paragraphs: [
+          "A persistent research thread maintains epistemic continuity across weeks or months. It should preserve the research question, active and rejected hypotheses, critical assumptions, verified and unverified results, open objections, stopped paths and the reason the next experiment is worth doing. Mathematical proof, a paper's central argument and a long scientific discovery program are strongly coupled to this accumulated state.",
+          "Ephemeral workers handle tasks whose input can be specified compactly and whose output can be independently checked. A literature worker can establish whether a theorem has precedent; a proof worker can attack one lemma; a counterexample worker can search for the smallest failure; an experiment worker can run three registered baselines. Each receives bounded context and authority, submits an artifact, and then disappears.",
+        ],
+        points: [
+          "Persistent thread: protect decision history and live scientific uncertainty.",
+          "Research controller: decide the next uncertainty and allocate bounded work.",
+          "Ephemeral worker: produce a source, proof check, result, figure or testable failure.",
+          "Verifier: inspect the artifact before any core claim or project state changes.",
+        ],
+      },
+      {
+        heading: "Conversation is disposable; epistemic state is persistent",
+        paragraphs: [
+          "A persistent thread should not mean an indefinitely growing chat transcript. A three-month conversation accumulates stale assumptions, duplicated explanations and distinctions the model can no longer reliably make between what was once considered and what is still believed. Preserving every token is not the same as preserving a research program.",
+          "The durable object should be an externalized project state: the current question, frontier, hypotheses, evidence ledger, decision log, open objections and artifact locations. The thread periodically checkpoints this state. A later session resumes from the checkpoint, relevant artifacts and only the historical fragments needed for the current decision—not hundreds of thousands of tokens of conversational residue.",
+        ],
+      },
+      {
+        heading: "Workers should not edit the scientific core directly",
+        paragraphs: [
+          "A short-lived worker may retrieve a paper, calculate a statistic or produce a proof attempt. It should not silently promote that output into the project's accepted state. The worker submits evidence and exposes failure; a controller or independent verifier decides whether the result is accepted, rejected, repeated or allowed to change a claim.",
+          "This separation is an AlphaScience principle expressed as software architecture. The cognitive layer carries the long research thread; the orchestration layer assigns work; the worker layer performs bounded operations; the epistemic layer retains evidence and uncertainty; and a promotion layer controls what enters the durable project state.",
+        ],
+      },
+      {
+        heading: "Lifetime itself should be adaptive",
+        paragraphs: [
+          "The boundary is not fixed. An apparently small task can expose a deep, repeatedly coupled subproblem. A one-off stabilizer check in a Hodge project may become a persistent subthread with its own literature, hypotheses and decision log. In the other direction, a mature persistent thread should eventually freeze into a theorem, proof, codebase, evidence package and explicit limitations, then close.",
+          "This extends the orchestration space from agent, task and communication topology to a fourth variable: lifetime. The controller must be able to create, promote, checkpoint, freeze and retire cognitive processes rather than only decide who talks to whom.",
+        ],
+      },
+      {
+        heading: "What would make this more than an appealing architecture?",
+        paragraphs: [
+          "This is a research hypothesis, not evidence that persistent–ephemeral orchestration outperforms a strong single agent or a conventional multi-agent system. A meaningful evaluation would hold models, tools and compute budgets constant, then compare decision quality, recovery from interruption, stale-assumption errors, duplicated work and the calibration of final claims.",
+          "The decisive unit is not agent activity. It is whether lifetime-aware orchestration preserves decision-relevant state while reducing context pollution and unnecessary coordination. If a simpler checkpointed single-agent process performs equally well, the extra controller and worker structure should be removed.",
+        ],
+      },
+    ],
+  },
 ] as const;
 
 export function findResearchNote(slug: string) {
