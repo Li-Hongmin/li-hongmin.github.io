@@ -15,7 +15,10 @@ describe("portfolio page", () => {
     expect(within(featuredPaper).getByText("No claim without license.")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Projects" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "AlphaScience" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Research notes" })).toBeInTheDocument();
+    const insights = screen.getByRole("heading", { name: "Insights & recent notes" }).closest("section")!;
+    expect(within(insights).getAllByRole("article")).toHaveLength(3);
+    expect(within(insights).getByRole("heading", { name: "How Long Should a Cognitive Thread Live?" })).toBeInTheDocument();
+    expect(within(insights).getByRole("link", { name: /Browse all notes/i })).toHaveAttribute("href", "/notes/");
     expect(screen.queryByRole("heading", { name: "Research directions" })).not.toBeInTheDocument();
     expect(screen.queryByText("AI-Automated Scientific Workflows")).not.toBeInTheDocument();
     expect(screen.queryByText("Biomolecular Sequence Design and Optimization")).not.toBeInTheDocument();

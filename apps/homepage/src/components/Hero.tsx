@@ -8,7 +8,7 @@ type HeroProps = {
 
 const mobileNavItems = [
   ["Projects", "#projects"],
-  ["Notes", "#notes"],
+  ["Insights", "#notes"],
   ["Papers", "#publications"],
   ["Contact", "#contact"],
 ] as const;
@@ -16,7 +16,7 @@ const mobileNavItems = [
 const desktopOutlineItems = [
   ["About", "#about"],
   ["Projects", "#projects"],
-  ["Research Notes", "#notes"],
+  ["Insights", "#notes"],
   ["Featured Paper", "#research"],
   ["Publications", "#publications"],
   ["Experience", "#experience"],

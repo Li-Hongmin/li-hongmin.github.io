@@ -10,7 +10,7 @@ describe("Hero", () => {
     const navigation = screen.getByRole("navigation", { name: "Primary navigation" });
     expect(within(navigation).getAllByRole("link").map((link) => [link.textContent, link.getAttribute("href")])).toEqual([
       ["Projects", "#projects"],
-      ["Notes", "#notes"],
+      ["Insights", "#notes"],
       ["Papers", "#publications"],
       ["Contact", "#contact"],
     ]);
@@ -25,7 +25,7 @@ describe("Hero", () => {
     expect(within(outline).getAllByRole("link").map((link) => [link.textContent, link.getAttribute("href")])).toEqual([
       ["About", "#about"],
       ["Projects", "#projects"],
-      ["Research Notes", "#notes"],
+      ["Insights", "#notes"],
       ["Featured Paper", "#research"],
       ["Publications", "#publications"],
       ["Experience", "#experience"],
