@@ -68,10 +68,11 @@ test("CV is rendered from publicProfile records without a duplicate markdown fac
   assert.equal("cvMarkdown" in profile.exports, false);
 
   const changed = clone(profile);
+  const originalTitle = changed.publicProfile.publications[0].title;
   changed.publicProfile.publications[0].title = "Changed canonical publication title";
   const cv = generateProfileArtifacts(changed).get("exports/cv.md");
   assert.match(cv, /Changed canonical publication title/);
-  assert.doesNotMatch(cv, /The Calibration Turn in AI-Assisted Research:/);
+  assert.equal(cv.includes(originalTitle), false);
 });
 
 test("CV includes every structured record and link", async () => {

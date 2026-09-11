@@ -32,6 +32,24 @@
         ]
       },
       {
+        "id": "resolutions-linear-p-cyclic-quotient-singularities",
+        "date": "2026.09",
+        "title": "Resolutions of Linear p-Cyclic Quotient Singularities",
+        "venue": "arXiv preprint · 2609.07182 [math.AG]",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2609.07182"
+          }
+        ],
+        "featured": false,
+        "category": "preprint",
+        "authors": [
+          "Linghu Fan",
+          "Hongmin Li"
+        ]
+      },
+      {
         "id": "targeted-tests-for-llm-reasoning",
         "date": "2026.05",
         "title": "Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol",
@@ -680,6 +698,13 @@
       "type": "official-url",
       "title": "KAKENHI 26K21370",
       "url": "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/",
+      "authority": "official"
+    },
+    {
+      "id": "arxiv-2609.07182",
+      "type": "official-url",
+      "title": "Resolutions of linear p-cyclic quotient singularities arXiv record",
+      "url": "https://arxiv.org/abs/2609.07182",
       "authority": "official"
     },
     {

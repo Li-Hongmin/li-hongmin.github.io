@@ -26,6 +26,19 @@
       "featured": true
     },
     {
+      "id": "resolutions-linear-p-cyclic-quotient-singularities",
+      "date": "2026.09",
+      "title": "Resolutions of Linear p-Cyclic Quotient Singularities",
+      "venue": "arXiv preprint · 2609.07182 [math.AG]",
+      "links": [
+        {
+          "label": "arXiv",
+          "href": "https://arxiv.org/abs/2609.07182"
+        }
+      ],
+      "featured": false
+    },
+    {
       "id": "targeted-tests-for-llm-reasoning",
       "date": "2026.05",
       "title": "Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol",

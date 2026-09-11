@@ -51,6 +51,8 @@
 
 - **2026.06** | Hongmin Li. *“The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims”*. arXiv preprint · 2606.31273 [cs.LG]. [arXiv](https://arxiv.org/abs/2606.31273), [Code & artifacts](https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research)
 
+- **2026.09** | Linghu Fan, Hongmin Li. *“Resolutions of Linear p-Cyclic Quotient Singularities”*. arXiv preprint · 2609.07182 [math.AG]. [arXiv](https://arxiv.org/abs/2609.07182)
+
 - **2026.05** | Hongmin Li. *“Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol”*. arXiv preprint · 2605.11599 [cs.LG]. [arXiv](https://arxiv.org/abs/2605.11599)
 
 - **2026.05** | Hongmin Li. *“Separating Shortcut Transition from Cross-Family OOD Failure in a Minimal Model”*. arXiv preprint · 2605.12945 [cs.LG]. [arXiv](https://arxiv.org/abs/2605.12945)
