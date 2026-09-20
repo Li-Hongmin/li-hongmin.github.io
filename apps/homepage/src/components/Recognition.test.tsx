@@ -34,7 +34,7 @@ describe("Recognition", () => {
     const appointments = getTimeline("Academic & industry appointments");
     const activities = getTimeline("Conference participation & presentations");
 
-    expect(appointments.getAllByRole("listitem")).toHaveLength(5);
+    expect(appointments.getAllByRole("listitem")).toHaveLength(7);
     expect(activities.getAllByRole("listitem")).toHaveLength(4);
     expect(appointments.queryByRole("button")).not.toBeInTheDocument();
   });
@@ -51,7 +51,7 @@ describe("Recognition", () => {
     expect(activities.getAllByRole("listitem")).toHaveLength(4);
     await user.click(button);
     expect(activities.getAllByRole("listitem")).toHaveLength(13);
-    expect(appointments.getAllByRole("listitem")).toHaveLength(5);
+    expect(appointments.getAllByRole("listitem")).toHaveLength(7);
     expect(activities.getByRole("list")).toBe(list);
     expect(button).toHaveAccessibleName("Show fewer activities");
 

@@ -318,6 +318,26 @@
         ]
       },
       {
+        "id": "ensemble-feature-secondary-cancer",
+        "date": "2019",
+        "title": "Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer",
+        "venue": "International Journal of Medical Sciences",
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.7150/ijms.33820"
+          }
+        ],
+        "featured": false,
+        "category": "journal",
+        "authors": [
+          "Xiucai Ye",
+          "Hongmin Li",
+          "Tetsuya Sakurai",
+          "Pei-Wei Shueng"
+        ]
+      },
+      {
         "id": "distributed-collaborative-feature-selection",
         "date": "2019.8",
         "title": "Distributed Collaborative Feature Selection Based on Intermediate Representation",
@@ -388,6 +408,18 @@
         ]
       },
       {
+        "id": "alphascience-founder",
+        "date": "2026.6 — Present",
+        "title": "Founder",
+        "organization": "AlphaScience Lab",
+        "links": [
+          {
+            "label": "Website",
+            "href": "https://alphascience-lab.com"
+          }
+        ]
+      },
+      {
         "id": "utokyo-postdoc",
         "date": "2023.5 — 2026.3",
         "title": "Postdoctoral Researcher",
@@ -411,6 +443,12 @@
             "href": "http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/"
           }
         ]
+      },
+      {
+        "id": "haomo-intern",
+        "date": "2021.7 — 2021.9",
+        "title": "Machine Learning Engineer (Internship)",
+        "organization": "HAOMO.AI"
       }
     ],
     "grants": [
@@ -586,7 +624,7 @@
       },
       {
         "id": "cbdcom-best-paper",
-        "date": "2019.8",
+        "date": "2018.10",
         "title": "IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award",
         "detail": "Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”"
       }

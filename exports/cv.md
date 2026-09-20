@@ -30,9 +30,11 @@
 
 - **2026.4 — Present** | **Researcher** — Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo; [Laboratory](https://www.sato-lab.org/en/people/)
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
+- **2026.6 — Present** | **Founder** — AlphaScience Lab; [Website](https://alphascience-lab.com)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
 - **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者
 - **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
+- **2021.7 — 2021.9** | **Machine Learning Engineer (Internship)** — HAOMO.AI
 
 ---
 
@@ -76,6 +78,8 @@
 - **2022.8** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Divide-and-conquer based Large-Scale Spectral Clustering”*. Neurocomputing. [Preprint](http://dx.doi.org/10.13140/RG.2.2.15207.37281), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Divide-and-conquer-based-Large-Scale-Spectral-Clustering)
 
 - **2020.7** | Xiucai Ye, Hongmin Li, Akira Imakura, Tetsuya Sakurai. *“An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps”*. Neurocomputing. [Link](http://dx.doi.org/10.1016/j.neucom.2020.02.081)
+
+- **2019** | Xiucai Ye, Hongmin Li, Tetsuya Sakurai, Pei-Wei Shueng. *“Ensemble Feature Learning to Identify Risk Factors for Predicting Secondary Cancer”*. International Journal of Medical Sciences. [DOI](https://doi.org/10.7150/ijms.33820)
 
 ### Conference Papers
 
@@ -125,7 +129,7 @@
 - **2021.10** | **Doctoral research support — JST SPRING** — Support for Pioneering Research Initiated by the Next Generation
 - **2020.10** | **AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize** — Second-place recognition for an AI model predicting earthquakes from real-time monitoring data · awarded in 2020; [News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slides](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie)
 - **2019.10** | **3rd Analysys International Algorithm Competition — Special Award** — Special recognition in the website page-view and unique-visitor prediction task
-- **2019.8** | **IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award** — Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”
+- **2018.10** | **IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award** — Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”
 
 ---
 
