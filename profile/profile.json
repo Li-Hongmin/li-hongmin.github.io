@@ -176,7 +176,13 @@
         "featured": false,
         "category": "journal",
         "authors": [
-          "Co-authored"
+          "Hao Wu",
+          "Xiangjun Pei",
+          "Takashi Oguchi",
+          "Hongmin Li",
+          "Zifei Wang",
+          "Zhihao He",
+          "Runqiu Huang"
         ]
       },
       {
@@ -198,7 +204,9 @@
         "category": "journal",
         "authors": [
           "Hongmin Li",
-          "Kiyoshi Asai"
+          "Xiucai Ye",
+          "Akira Imakura",
+          "Tetsuya Sakurai"
         ]
       },
       {
@@ -215,17 +223,15 @@
         "featured": false,
         "category": "journal",
         "authors": [
-          "Xinyi Lin",
+          "Meng Huang",
+          "Xiucai Ye",
           "Hongmin Li",
-          "Mingfeng Li",
-          "Yuhang Liu",
-          "Jie Gao",
-          "Qi Tian"
+          "Tetsuya Sakurai"
         ]
       },
       {
         "id": "divide-and-conquer-spectral-clustering",
-        "date": "2022.6",
+        "date": "2022.8",
         "title": "Divide-and-conquer based Large-Scale Spectral Clustering",
         "venue": "Neurocomputing",
         "links": [
@@ -242,7 +248,9 @@
         "category": "journal",
         "authors": [
           "Hongmin Li",
-          "Kiyoshi Asai"
+          "Xiucai Ye",
+          "Akira Imakura",
+          "Tetsuya Sakurai"
         ]
       },
       {
@@ -264,12 +272,14 @@
         "category": "conference",
         "authors": [
           "Hongmin Li",
-          "Kiyoshi Asai"
+          "Xiucai Ye",
+          "Akira Imakura",
+          "Tetsuya Sakurai"
         ]
       },
       {
         "id": "hubness-based-nystrom",
-        "date": "2020.11",
+        "date": "2020.7",
         "title": "Hubness-based Sampling Method for Nyström Spectral Clustering",
         "venue": "IJCNN 2020",
         "links": [
@@ -282,12 +292,14 @@
         "category": "conference",
         "authors": [
           "Hongmin Li",
-          "Kiyoshi Asai"
+          "Xiucai Ye",
+          "Akira Imakura",
+          "Tetsuya Sakurai"
         ]
       },
       {
         "id": "oversampling-laplacian-eigenmaps",
-        "date": "2020.2",
+        "date": "2020.7",
         "title": "An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps",
         "venue": "Neurocomputing",
         "links": [
@@ -299,8 +311,10 @@
         "featured": false,
         "category": "journal",
         "authors": [
+          "Xiucai Ye",
           "Hongmin Li",
-          "Kiyoshi Asai"
+          "Akira Imakura",
+          "Tetsuya Sakurai"
         ]
       },
       {
@@ -317,15 +331,15 @@
         "featured": false,
         "category": "conference",
         "authors": [
+          "Xiucai Ye",
           "Hongmin Li",
-          "Tianyu Mu",
-          "Songcan Chen",
-          "Kiyoshi Asai"
+          "Akira Imakura",
+          "Tetsuya Sakurai"
         ]
       },
       {
         "id": "large-scale-spectral-hubness",
-        "date": "2019.8",
+        "date": "2018.10",
         "title": "Large Scale Spectral Clustering Using Sparse Representation Based on Hubness",
         "venue": "CBDCom 2018",
         "links": [
@@ -341,8 +355,10 @@
         "featured": false,
         "category": "conference",
         "authors": [
+          "Xiucai Ye",
           "Hongmin Li",
-          "Kiyoshi Asai"
+          "Tetsuya Sakurai",
+          "Zhi Liu"
         ]
       }
     ],

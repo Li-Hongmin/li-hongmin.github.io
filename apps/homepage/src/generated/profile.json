@@ -165,7 +165,7 @@
     },
     {
       "id": "divide-and-conquer-spectral-clustering",
-      "date": "2022.6",
+      "date": "2022.8",
       "title": "Divide-and-conquer based Large-Scale Spectral Clustering",
       "venue": "Neurocomputing",
       "links": [
@@ -199,7 +199,7 @@
     },
     {
       "id": "hubness-based-nystrom",
-      "date": "2020.11",
+      "date": "2020.7",
       "title": "Hubness-based Sampling Method for Nyström Spectral Clustering",
       "venue": "IJCNN 2020",
       "links": [
@@ -212,7 +212,7 @@
     },
     {
       "id": "oversampling-laplacian-eigenmaps",
-      "date": "2020.2",
+      "date": "2020.7",
       "title": "An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps",
       "venue": "Neurocomputing",
       "links": [
@@ -238,7 +238,7 @@
     },
     {
       "id": "large-scale-spectral-hubness",
-      "date": "2019.8",
+      "date": "2018.10",
       "title": "Large Scale Spectral Clustering Using Sparse Representation Based on Hubness",
       "venue": "CBDCom 2018",
       "links": [

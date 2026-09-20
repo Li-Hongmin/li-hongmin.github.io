@@ -67,25 +67,25 @@
 
 ### Journal Articles
 
-- **2023.9** | Co-authored. *“An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China”*. Engineering Geology. [Link](http://dx.doi.org/10.2139/ssrn.4569745)
+- **2023.9** | Hao Wu, Xiangjun Pei, Takashi Oguchi, Hongmin Li, Zifei Wang, Zhihao He, Runqiu Huang. *“An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China”*. Engineering Geology. [Link](http://dx.doi.org/10.2139/ssrn.4569745)
 
-- **2023.1** | Hongmin Li, Kiyoshi Asai. *“LSEC: Large-scale spectral ensemble clustering”*. Intelligent Data Analysis. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
+- **2023.1** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“LSEC: Large-scale spectral ensemble clustering”*. Intelligent Data Analysis. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
 
-- **2022.7** | Xinyi Lin, Hongmin Li, Mingfeng Li, Yuhang Liu, Jie Gao, Qi Tian. *“Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity”*. Frontiers in Genetics. [Code](https://github.com/linxi159/scGNGI)
+- **2022.7** | Meng Huang, Xiucai Ye, Hongmin Li, Tetsuya Sakurai. *“Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity”*. Frontiers in Genetics. [Code](https://github.com/linxi159/scGNGI)
 
-- **2022.6** | Hongmin Li, Kiyoshi Asai. *“Divide-and-conquer based Large-Scale Spectral Clustering”*. Neurocomputing. [Preprint](http://dx.doi.org/10.13140/RG.2.2.15207.37281), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Large-scale_spectral_ensemble_clustering)
+- **2022.8** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Divide-and-conquer based Large-Scale Spectral Clustering”*. Neurocomputing. [Preprint](http://dx.doi.org/10.13140/RG.2.2.15207.37281), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Large-scale_spectral_ensemble_clustering)
 
-- **2020.2** | Hongmin Li, Kiyoshi Asai. *“An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps”*. Neurocomputing. [Link](http://dx.doi.org/10.1016/j.neucom.2020.02.081)
+- **2020.7** | Xiucai Ye, Hongmin Li, Akira Imakura, Tetsuya Sakurai. *“An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps”*. Neurocomputing. [Link](http://dx.doi.org/10.1016/j.neucom.2020.02.081)
 
 ### Conference Papers
 
-- **2020.11** | Hongmin Li, Kiyoshi Asai. *“Ensemble Learning for Spectral Clustering”*. ICDM 2020. [PDF](https://www.researchgate.net/publication/351374294_Ensemble_Learning_for_Spectral_Clustering_in_ICDM_2020), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Ensemble-Learning-for-Spectral-Clustering)
+- **2020.11** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Ensemble Learning for Spectral Clustering”*. ICDM 2020. [PDF](https://www.researchgate.net/publication/351374294_Ensemble_Learning_for_Spectral_Clustering_in_ICDM_2020), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Ensemble-Learning-for-Spectral-Clustering)
 
-- **2020.11** | Hongmin Li, Kiyoshi Asai. *“Hubness-based Sampling Method for Nyström Spectral Clustering”*. IJCNN 2020. [Link](http://dx.doi.org/10.1109/IJCNN48605.2020.9207089)
+- **2020.7** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Hubness-based Sampling Method for Nyström Spectral Clustering”*. IJCNN 2020. [Link](http://dx.doi.org/10.1109/IJCNN48605.2020.9207089)
 
-- **2019.8** | Hongmin Li, Tianyu Mu, Songcan Chen, Kiyoshi Asai. *“Distributed Collaborative Feature Selection Based on Intermediate Representation”*. IJCAI 2019. [Link](http://dx.doi.org/10.24963/ijcai.2019/575)
+- **2019.8** | Xiucai Ye, Hongmin Li, Akira Imakura, Tetsuya Sakurai. *“Distributed Collaborative Feature Selection Based on Intermediate Representation”*. IJCAI 2019. [Link](http://dx.doi.org/10.24963/ijcai.2019/575)
 
-- **2019.8** | Hongmin Li, Kiyoshi Asai. *“Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”*. CBDCom 2018. [Link](http://dx.doi.org/10.1109/SmartWorld.2018.00293), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness)
+- **2018.10** | Xiucai Ye, Hongmin Li, Tetsuya Sakurai, Zhi Liu. *“Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”*. CBDCom 2018. [Link](http://dx.doi.org/10.1109/SmartWorld.2018.00293), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness)
 
 ---
 
