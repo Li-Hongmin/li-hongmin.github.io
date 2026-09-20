@@ -32,6 +32,23 @@
         ]
       },
       {
+        "id": "academic-collapse-book",
+        "date": "2026.08",
+        "title": "Academic Collapse Does Not Happen All at Once: A Conditional Theory of Epistemic Cascades, Expertise Cliffs, and Institutional Recoupling",
+        "venue": "Book · Independently published · 310 pp. · ISBN 979-8192323182",
+        "links": [
+          {
+            "label": "Amazon",
+            "href": "https://www.amazon.com/dp/B0HFB6RV3Q"
+          }
+        ],
+        "featured": false,
+        "category": "book",
+        "authors": [
+          "Hongmin Li"
+        ]
+      },
+      {
         "id": "resolutions-linear-p-cyclic-quotient-singularities",
         "date": "2026.09",
         "title": "Resolutions of Linear p-Cyclic Quotient Singularities",

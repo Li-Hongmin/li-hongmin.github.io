@@ -16,6 +16,7 @@ function renderTimeline(items) {
 
 function renderPublications(publications) {
   const categories = [
+    ["book", "Books"],
     ["preprint", "Preprints"],
     ["journal", "Journal Articles"],
     ["conference", "Conference Papers"],

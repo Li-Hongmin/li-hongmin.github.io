@@ -49,6 +49,10 @@
 
 ## Publications
 
+### Books
+
+- **2026.08** | Hongmin Li. *“Academic Collapse Does Not Happen All at Once: A Conditional Theory of Epistemic Cascades, Expertise Cliffs, and Institutional Recoupling”*. Book · Independently published · 310 pp. · ISBN 979-8192323182. [Amazon](https://www.amazon.com/dp/B0HFB6RV3Q)
+
 ### Preprints
 
 - **2026.06** | Hongmin Li. *“The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims”*. arXiv preprint · 2606.31273 [cs.LG]. [arXiv](https://arxiv.org/abs/2606.31273), [Code & artifacts](https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research)
