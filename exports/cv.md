@@ -65,15 +65,15 @@
 
 - **2025.10** | Hongmin Li, Goro Terai, Takumi Otagaki, Kiyoshi Asai. *“Gradient-based Optimization for mRNA Sequence Design”*. bioRxiv. [Preprint](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
 
-### Journal Articles
+- **2023.9** | Hao Wu, Xiangjun Pei, Takashi Oguchi, Hongmin Li, Zifei Wang, Zhihao He, Runqiu Huang. *“An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China”*. SSRN preprint. [SSRN](https://doi.org/10.2139/ssrn.4569745)
 
-- **2023.9** | Hao Wu, Xiangjun Pei, Takashi Oguchi, Hongmin Li, Zifei Wang, Zhihao He, Runqiu Huang. *“An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China”*. Engineering Geology. [Link](http://dx.doi.org/10.2139/ssrn.4569745)
+### Journal Articles
 
 - **2023.1** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“LSEC: Large-scale spectral ensemble clustering”*. Intelligent Data Analysis. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
 
-- **2022.7** | Meng Huang, Xiucai Ye, Hongmin Li, Tetsuya Sakurai. *“Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity”*. Frontiers in Genetics. [Code](https://github.com/linxi159/scGNGI)
+- **2022.7** | Meng Huang, Xiucai Ye, Hongmin Li, Tetsuya Sakurai. *“Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity”*. Frontiers in Genetics. [DOI](https://doi.org/10.3389/fgene.2022.952649)
 
-- **2022.8** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Divide-and-conquer based Large-Scale Spectral Clustering”*. Neurocomputing. [Preprint](http://dx.doi.org/10.13140/RG.2.2.15207.37281), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Large-scale_spectral_ensemble_clustering)
+- **2022.8** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Divide-and-conquer based Large-Scale Spectral Clustering”*. Neurocomputing. [Preprint](http://dx.doi.org/10.13140/RG.2.2.15207.37281), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Divide-and-conquer-based-Large-Scale-Spectral-Clustering)
 
 - **2020.7** | Xiucai Ye, Hongmin Li, Akira Imakura, Tetsuya Sakurai. *“An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps”*. Neurocomputing. [Link](http://dx.doi.org/10.1016/j.neucom.2020.02.081)
 

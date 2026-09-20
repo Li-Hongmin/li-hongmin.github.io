@@ -124,11 +124,11 @@
       "id": "earthquake-landslide-susceptibility",
       "date": "2023.9",
       "title": "An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China",
-      "venue": "Engineering Geology",
+      "venue": "SSRN preprint",
       "links": [
         {
-          "label": "Link",
-          "href": "http://dx.doi.org/10.2139/ssrn.4569745"
+          "label": "SSRN",
+          "href": "https://doi.org/10.2139/ssrn.4569745"
         }
       ],
       "featured": false
@@ -157,8 +157,8 @@
       "venue": "Frontiers in Genetics",
       "links": [
         {
-          "label": "Code",
-          "href": "https://github.com/linxi159/scGNGI"
+          "label": "DOI",
+          "href": "https://doi.org/10.3389/fgene.2022.952649"
         }
       ],
       "featured": false
@@ -175,7 +175,7 @@
         },
         {
           "label": "Code",
-          "href": "https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Large-scale_spectral_ensemble_clustering"
+          "href": "https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Divide-and-conquer-based-Large-Scale-Spectral-Clustering"
         }
       ],
       "featured": false
