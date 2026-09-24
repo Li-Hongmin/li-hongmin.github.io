@@ -28,11 +28,11 @@
 
 ## Academic & industry appointments
 
+- **2026.6 — Present** | **Founder** — AlphaScience Lab (Research community); [Website](https://alphascience-lab.com)
 - **2026.4 — Present** | **Researcher** — Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo; [Laboratory](https://www.sato-lab.org/en/people/)
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
-- **2026.6 — Present** | **Founder** — AlphaScience Lab; [Website](https://alphascience-lab.com)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
-- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者
+- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)
 - **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 - **2021.7 — 2021.9** | **Machine Learning Engineer (Internship)** — HAOMO.AI
 
@@ -40,7 +40,7 @@
 
 ## Research funding & computing support
 
-- **2026.06** | **Google Cloud TPU Builders Award** — Cloud computing support · USD 5,500 in Google Cloud computing credits
+- **2026.06** | **Google Cloud TPU Builders Award** — Cloud computing support · USD 7,500 in Google Cloud computing credits
 - **2026.04** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000; [Project info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/)
 - **2025.10** | **Google research support** — Biological sequence optimization · USD 30,000
 - **2024.4** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of a Large-Scale Language Model Integrating RNA Sequences and Text · ¥4,420,000; [Project info](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/)
