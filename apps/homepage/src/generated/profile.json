@@ -118,10 +118,14 @@
     },
     {
       "id": "gradient-based-optimization",
-      "date": "2025.10",
+      "date": "2026.09",
       "title": "Gradient-based Optimization for mRNA Sequence Design",
-      "venue": "bioRxiv",
+      "venue": "Bioinformatics",
       "links": [
+        {
+          "label": "Journal / DOI",
+          "href": "https://doi.org/10.1093/bioinformatics/btag667"
+        },
         {
           "label": "Preprint",
           "href": "https://doi.org/10.1101/2025.10.22.683691"

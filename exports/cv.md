@@ -69,11 +69,11 @@
 
 - **2025.12** | Bian Bian, Yiming Zhang, Hongmin Li, Jiuzhou Zhong, Yutaka Saito. *“Large generative mRNA language foundation model for efficient coding sequence generation and design with mRNA-GPT”*. bioRxiv. [Preprint](https://doi.org/10.64898/2025.12.22.695962)
 
-- **2025.10** | Hongmin Li, Goro Terai, Takumi Otagaki, Kiyoshi Asai. *“Gradient-based Optimization for mRNA Sequence Design”*. bioRxiv. [Preprint](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
-
 - **2023.9** | Hao Wu, Xiangjun Pei, Takashi Oguchi, Hongmin Li, Zifei Wang, Zhihao He, Runqiu Huang. *“An Integrated Physical Approach to Earthquake-Induced Landslide Susceptibility Incorporating Geological Structure: A Case Study of the Diexi Catchment, Sichuan, China”*. SSRN preprint. [SSRN](https://doi.org/10.2139/ssrn.4569745)
 
 ### Journal Articles
+
+- **2026.09** | Hongmin Li, Goro Terai, Takumi Otagaki, Kiyoshi Asai. *“Gradient-based Optimization for mRNA Sequence Design”*. Bioinformatics. [Journal / DOI](https://doi.org/10.1093/bioinformatics/btag667), [Preprint](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
 
 - **2023.1** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“LSEC: Large-scale spectral ensemble clustering”*. Intelligent Data Analysis. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
 
