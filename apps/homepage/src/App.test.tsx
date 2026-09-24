@@ -35,7 +35,7 @@ describe("portfolio page", () => {
     for (const id of ["about", "projects", "notes", "research", "publications", "experience", "education", "grants", "awards", "peer-review", "contact"]) {
       expect(container.querySelectorAll(`#${id}`)).toHaveLength(1);
     }
-    expect(screen.getByRole("link", { name: "CREST 2025 poster" })).toHaveAttribute("href", "/files/CREST_2025_poster.pdf");
+    expect(screen.queryByRole("link", { name: "CREST 2025 poster" })).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Email Hongmin Li" })).toHaveAttribute("href", "mailto:lihongmin@edu.k.u-tokyo.ac.jp");
   });
 

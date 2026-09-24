@@ -155,8 +155,7 @@ describe("profile data", () => {
       date: "2022.10 — 2023.5",
       title: "Machine Learning Engineer",
       organization: "HAOMO.AI",
-      detail: "Autonomous-driving project · 蓝色空间领航者计划",
-      links: [{ label: "Archive", href: "https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive" }],
+      detail: "Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)",
     });
   });
 });

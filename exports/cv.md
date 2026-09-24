@@ -32,7 +32,7 @@
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
 - **2026.6 — Present** | **Founder** — AlphaScience Lab (Research community); [Website](https://alphascience-lab.com)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
-- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者计划; [Archive](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive)
+- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)
 - **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 - **2021.7 — 2021.9** | **Machine Learning Engineer (Internship)** — HAOMO.AI
 
@@ -100,7 +100,7 @@
 ## Conference presentations
 
 - **2026.06.09** | **Poster presentation — JST CREST BioDX Area Meeting** — 5th area meeting · Numazu, Japan
-- **2025.11** | **Poster presentation — JST CREST BioDX Interim Symposium** — [Event](https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html), [CREST 2025 poster](/files/CREST_2025_poster.pdf)
+- **2025.11** | **Poster presentation — JST CREST BioDX Interim Symposium** — [Event](https://www.jst.go.jp/kisoken/aip/result/event/biodx2025/index.html)
 - **2025.8** | **Oral presentation — Input Data Differentiable Designer (ID3) at RNA Informatics Dojo 2025** — Early presentation of the method later developed into the preprint “Gradient-based Optimization for mRNA Sequence Design”; [Event](https://sites.google.com/view/rna-info/dojo/nagasaki2025), [Paper](https://doi.org/10.1101/2025.10.22.683691), [Code](https://github.com/Li-Hongmin/ID3)
 - **2024.10** | **Poster presentation — FastUMAP at the Asia-Pacific Bioinformatics Joint Conference 2024** — Early conference presentation of the work later developed into the FastUMAP preprint; [Event](https://iscb.junolive.co/ASIA/live/exhibitor/apbjc2024_poster_185), [Paper](https://arxiv.org/abs/2605.11428)
 - **2024.8** | **Oral presentation — RNA Informatics Dojo 2024**
