@@ -32,7 +32,7 @@
 - **2026.4 — Present** | **Researcher** — Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo; [Laboratory](https://www.sato-lab.org/en/people/)
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
-- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)
+- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者计划](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive)
 - **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 - **2021.7 — 2021.9** | **Machine Learning Engineer (Internship)** — HAOMO.AI
 
@@ -55,9 +55,9 @@
 
 ### Preprints
 
-- **2026.06** | Hongmin Li. *“The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims”*. arXiv preprint · 2606.31273 [cs.LG]. [arXiv](https://arxiv.org/abs/2606.31273), [Code & artifacts](https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research)
-
 - **2026.09** | Linghu Fan, Hongmin Li. *“Resolutions of Linear p-Cyclic Quotient Singularities”*. arXiv preprint · 2609.07182 [math.AG]. [arXiv](https://arxiv.org/abs/2609.07182)
+
+- **2026.06** | Hongmin Li. *“The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims”*. arXiv preprint · 2606.31273 [cs.LG]. [arXiv](https://arxiv.org/abs/2606.31273), [Code & artifacts](https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research)
 
 - **2026.05** | Hongmin Li. *“Targeted Tests for LLM Reasoning: An Audit-Constrained Protocol”*. arXiv preprint · 2605.11599 [cs.LG]. [arXiv](https://arxiv.org/abs/2605.11599)
 
@@ -77,9 +77,9 @@
 
 - **2023.1** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“LSEC: Large-scale spectral ensemble clustering”*. Intelligent Data Analysis. [arXiv](https://arxiv.org/abs/2106.09852), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale_spectral_ensemble_clustering)
 
-- **2022.7** | Meng Huang, Xiucai Ye, Hongmin Li, Tetsuya Sakurai. *“Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity”*. Frontiers in Genetics. [DOI](https://doi.org/10.3389/fgene.2022.952649)
-
 - **2022.8** | Hongmin Li, Xiucai Ye, Akira Imakura, Tetsuya Sakurai. *“Divide-and-conquer based Large-Scale Spectral Clustering”*. Neurocomputing. [Preprint](http://dx.doi.org/10.13140/RG.2.2.15207.37281), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/tree/main/Divide-and-conquer-based-Large-Scale-Spectral-Clustering)
+
+- **2022.7** | Meng Huang, Xiucai Ye, Hongmin Li, Tetsuya Sakurai. *“Missing Value Imputation With Low-Rank Matrix Completion in Single-Cell RNA-Seq Data by Considering Cell Heterogeneity”*. Frontiers in Genetics. [DOI](https://doi.org/10.3389/fgene.2022.952649)
 
 - **2020.7** | Xiucai Ye, Hongmin Li, Akira Imakura, Tetsuya Sakurai. *“An Oversampling Framework for Imbalanced Classification Based on Laplacian Eigenmaps”*. Neurocomputing. [Link](http://dx.doi.org/10.1016/j.neucom.2020.02.081)
 
@@ -131,7 +131,7 @@
 ## Honors & fellowships
 
 - **2021.10** | **Doctoral research support — JST SPRING** — Support for Pioneering Research Initiated by the Next Generation
-- **2020.10** | **AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize** — Second-place recognition for an AI model predicting earthquakes from real-time monitoring data · awarded in 2020; [News](https://web.pkusz.edu.cn/ims/aeta-ai-algorithm-competition), [Slides](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie)
+- **2020.10** | **AETA Earthquake Prediction AI Algorithm Competition 2019 — Second Prize** — Second-place recognition for an AI model predicting earthquakes from real-time monitoring data · awarded in 2020; [News](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/aeta-earthquake-ai-competition.webarchive), [Slides](https://www.researchgate.net/publication/351374384_AETAdezhenyuceAIsuanfadasai-cansaisuanfahemoxingjianjie)
 - **2019.10** | **3rd Analysys International Algorithm Competition — Special Award** — Special recognition in the website page-view and unique-visitor prediction task
 - **2018.10** | **IEEE International Conference on Cloud and Big Data Computing 2018 — Best Paper Award** — Awarded for “Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”
 
@@ -151,7 +151,3 @@
 - RNA Sequence Analysis
 - mRNA Design and Optimization
 - Single-cell RNA-seq Data Analysis
-
----
-
-*Last Updated: July 2026*

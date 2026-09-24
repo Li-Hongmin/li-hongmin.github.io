@@ -87,6 +87,19 @@ test("CV includes every structured record and link", async () => {
   }
 });
 
+test("CV publication sections use descending numeric dates", async () => {
+  const profile = await loadProfile();
+  const cv = generateProfileArtifacts(profile).get("exports/cv.md");
+  for (const category of ["preprint", "journal", "conference"]) {
+    const heading = { preprint: "Preprints", journal: "Journal Articles", conference: "Conference Papers" }[category];
+    const section = cv.split(`### ${heading}\n\n`)[1].split(/\n\n### |\n\n---/)[0];
+    const dates = [...section.matchAll(/^- \*\*(\d{4}(?:\.\d{1,2})?)\*\* \|/gm)].map((match) => match[1]);
+    const expected = profile.publicProfile.publications.filter((item) => item.category === category)
+      .map((item) => item.date).sort((a, b) => b.localeCompare(a, undefined, { numeric: true }));
+    assert.deepEqual(dates, expected, `${heading} is out of order`);
+  }
+});
+
 test("APBJC 2024 poster links to the single FastUMAP publication", async () => {
   const profile = await loadProfile();
   const poster = profile.publicProfile.activities.find((record) => record.id === "apbjc24");
