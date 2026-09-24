@@ -28,11 +28,11 @@
 
 ## Academic & industry appointments
 
-- **2026.6 — Present** | **Founder** — AlphaScience Lab (Research community); [Website](https://alphascience-lab.com)
 - **2026.4 — Present** | **Researcher** — Sato Laboratory for Biomedical Data Science, Institute of Science Tokyo; [Laboratory](https://www.sato-lab.org/en/people/)
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
+- **2026.6 — Present** | **Founder** — AlphaScience Lab (Research community); [Website](https://alphascience-lab.com)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
-- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者计划](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive)
+- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者计划; [Archive](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive)
 - **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 - **2021.7 — 2021.9** | **Machine Learning Engineer (Internship)** — HAOMO.AI
 

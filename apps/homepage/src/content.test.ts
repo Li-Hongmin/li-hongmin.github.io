@@ -22,7 +22,7 @@ describe("generated public record", () => {
     expect(cv).toContain("https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K20890/");
     expect(cv).toContain("Google research support");
     expect(cv).toContain("Biological sequence optimization");
-    expect(cv).toContain("Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者计划](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive)");
+    expect(cv).toContain("Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · 蓝色空间领航者计划; [Archive](https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive)");
     expect(cv).toContain("Presentation — JST SPRING recipients event");
     expect(cv).not.toContain("Oral presentation — SPRING Fellowship");
     expect(cv).not.toMatch(/Senior|Lead/);

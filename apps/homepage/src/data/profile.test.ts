@@ -74,7 +74,7 @@ describe("profile data", () => {
       id: "google-cloud-tpu-builders-2026",
       date: "2026.06",
       title: "Google Cloud TPU Builders Award",
-      detail: "Cloud computing support · USD 5,500 in Google Cloud computing credits",
+      detail: "Cloud computing support · USD 7,500 in Google Cloud computing credits",
     });
 
     expect(profile.grants).toContainEqual(expectedSupport);
@@ -155,7 +155,8 @@ describe("profile data", () => {
       date: "2022.10 — 2023.5",
       title: "Machine Learning Engineer",
       organization: "HAOMO.AI",
-      detail: "Autonomous-driving project · 蓝色空间领航者",
+      detail: "Autonomous-driving project · 蓝色空间领航者计划",
+      links: [{ label: "Archive", href: "https://github.com/Li-Hongmin/li-hongmin.github.io/blob/master/archives/webarchive/haomo-blue-space-navigator-2022-recruitment.webarchive" }],
     });
   });
 });
