@@ -553,6 +553,21 @@
   ],
   "peerReview": [
     {
+      "id": "neurips-2026-review",
+      "date": "2026.07",
+      "title": "Conference on Neural Information Processing Systems (NeurIPS)"
+    },
+    {
+      "id": "neurocomputing-2026-review",
+      "date": "2026.07",
+      "title": "Neurocomputing"
+    },
+    {
+      "id": "jksuci-2026-review",
+      "date": "2026.05",
+      "title": "Journal of King Saud University - Computer and Information Sciences"
+    },
+    {
       "id": "journal-supercomputing",
       "date": "2026.01",
       "title": "The Journal of Supercomputing"

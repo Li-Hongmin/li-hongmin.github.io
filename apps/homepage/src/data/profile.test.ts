@@ -16,7 +16,7 @@ describe("profile data", () => {
     expect(profile.activities).toHaveLength(13);
     expect(profile.awards).toHaveLength(4);
     expect(profile.education).toHaveLength(3);
-    expect(profile.peerReview).toHaveLength(8);
+    expect(profile.peerReview).toHaveLength(11);
   });
 
   it("uses unique ids and valid publication links", () => {

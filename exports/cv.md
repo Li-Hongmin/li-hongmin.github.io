@@ -117,6 +117,9 @@
 
 ## Peer Review Activities
 
+- **2026.07** | **Conference on Neural Information Processing Systems (NeurIPS)**
+- **2026.07** | **Neurocomputing**
+- **2026.05** | **Journal of King Saud University - Computer and Information Sciences**
 - **2026.01** | **The Journal of Supercomputing**
 - **2024.11** | **Pattern Analysis and Applications**
 - **2024.11** | **Knowledge and Information Systems**
