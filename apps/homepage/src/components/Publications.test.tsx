@@ -5,7 +5,7 @@ import { profile } from "../data/profile";
 import Publications from "./Publications";
 
 describe("Publications", () => {
-  it("shows the latest nine publications in input order with a dynamic remaining count", () => {
+  it("shows the latest nine publications in date order with a dynamic remaining count", () => {
     render(<Publications publications={profile.publications} />);
 
     const grid = screen.getByLabelText("Publications list");
@@ -14,7 +14,8 @@ describe("Publications", () => {
 
     expect(articles).toHaveLength(9);
     expect(articles.map((article) => within(article).getByRole("heading").textContent)).toEqual(
-      profile.publications.slice(0, 9).map((publication) => publication.title),
+      [...profile.publications].sort((a, b) => b.date.localeCompare(a.date, undefined, { numeric: true }))
+        .slice(0, 9).map((publication) => publication.title),
     );
     expect(button).toHaveAttribute("aria-expanded", "false");
     expect(button).toHaveAttribute("aria-controls", grid.id);

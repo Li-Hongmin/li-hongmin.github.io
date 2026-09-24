@@ -23,10 +23,13 @@ const PUBLICATION_LIST_ID = "publication-list";
 
 export default function Publications({ publications }: { publications: readonly Publication[] }) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const hasMorePublications = publications.length > INITIAL_PUBLICATION_COUNT;
+  const orderedPublications = [...publications].sort((a, b) =>
+    b.date.localeCompare(a.date, undefined, { numeric: true }),
+  );
+  const hasMorePublications = orderedPublications.length > INITIAL_PUBLICATION_COUNT;
   const visiblePublications = isExpanded || !hasMorePublications
-    ? publications
-    : publications.slice(0, INITIAL_PUBLICATION_COUNT);
+    ? orderedPublications
+    : orderedPublications.slice(0, INITIAL_PUBLICATION_COUNT);
   const remainingCount = publications.length - INITIAL_PUBLICATION_COUNT;
 
   return (

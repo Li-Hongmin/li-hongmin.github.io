@@ -28,7 +28,9 @@ function RecentNews({ profile }: { profile: Profile }) {
     { ...profile.publications[0], category: "Preprint", href: profile.publications[0]?.links[0]?.href ?? "#publications" },
     { ...profile.grants[0], category: "Support", href: "#grants" },
     { ...profile.activities[0], category: "Presentation", href: "#experience" },
-    ...profile.publications.slice(1, 5).map((item) => ({ ...item, category: "Preprint", href: item.links[0]?.href ?? "#publications" })),
+    ...[...profile.publications].sort((a, b) => b.date.localeCompare(a.date, undefined, { numeric: true }))
+      .filter((item) => item.id !== profile.publications[0].id).slice(0, 4)
+      .map((item) => ({ ...item, category: "Publication", href: item.links[0]?.href ?? "#publications" })),
     { ...profile.experience[0], category: "Appointment", href: "#experience" },
     { ...profile.experience[1], category: "Appointment", href: "#experience" },
   ].filter((item) => item.id).slice(0, 9);
