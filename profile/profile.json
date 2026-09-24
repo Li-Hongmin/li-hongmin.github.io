@@ -688,6 +688,11 @@
         "title": "The Journal of Supercomputing"
       },
       {
+        "id": "machine-learning-cybernetics-2025-review",
+        "date": "2025",
+        "title": "International Journal of Machine Learning and Cybernetics"
+      },
+      {
         "id": "pattern-analysis-applications",
         "date": "2024.11",
         "title": "Pattern Analysis and Applications"
@@ -721,6 +726,11 @@
         "id": "briefings-functional-genomics",
         "date": "2022.10",
         "title": "Briefings in Functional Genomics"
+      },
+      {
+        "id": "pattern-recognition-2021-2022-review",
+        "date": "2021–2022",
+        "title": "Pattern Recognition"
       }
     ],
     "lastUpdated": "July 2026",

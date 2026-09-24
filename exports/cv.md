@@ -121,6 +121,7 @@
 - **2026.07** | **Neurocomputing**
 - **2026.05** | **Journal of King Saud University - Computer and Information Sciences**
 - **2026.01** | **The Journal of Supercomputing**
+- **2025** | **International Journal of Machine Learning and Cybernetics**
 - **2024.11** | **Pattern Analysis and Applications**
 - **2024.11** | **Knowledge and Information Systems**
 - **2024.10** | **Neurocomputing**
@@ -128,6 +129,7 @@
 - **2024.03** | **International Journal of Machine Learning and Cybernetics**
 - **2022.11** | **Transactions on Pattern Analysis and Machine Intelligence**
 - **2022.10** | **Briefings in Functional Genomics**
+- **2021–2022** | **Pattern Recognition**
 
 ---
 
