@@ -55,6 +55,10 @@
 
 ### Preprints
 
+- **2026.09** | Hongmin Li. *“The Hodge Conjecture for Odd-Degree Fermat Fourfolds”*. ResearchGate preprint. [ResearchGate](https://www.researchgate.net/publication/414096650_The_Hodge_Conjecture_for_Odd-Degree_Fermat_Fourfolds)
+
+- **2026.09** | Hongmin Li. *“Low-t Coefficients of the Valley Delta Conjecture”*. ResearchGate preprint. [ResearchGate](https://www.researchgate.net/publication/414096843_Low-t_Coefficients_of_the_Valley_Delta_Conjecture)
+
 - **2026.09** | Linghu Fan, Hongmin Li. *“Resolutions of Linear p-Cyclic Quotient Singularities”*. arXiv preprint · 2609.07182 [math.AG]. [arXiv](https://arxiv.org/abs/2609.07182)
 
 - **2026.06** | Hongmin Li. *“The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims”*. arXiv preprint · 2606.31273 [cs.LG]. [arXiv](https://arxiv.org/abs/2606.31273), [Code & artifacts](https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research)

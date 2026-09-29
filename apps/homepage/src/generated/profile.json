@@ -39,6 +39,32 @@
       "featured": false
     },
     {
+      "id": "hodge-odd-degree-fermat-fourfolds",
+      "date": "2026.09",
+      "title": "The Hodge Conjecture for Odd-Degree Fermat Fourfolds",
+      "venue": "ResearchGate preprint",
+      "links": [
+        {
+          "label": "ResearchGate",
+          "href": "https://www.researchgate.net/publication/414096650_The_Hodge_Conjecture_for_Odd-Degree_Fermat_Fourfolds"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "low-t-coefficients-valley-delta",
+      "date": "2026.09",
+      "title": "Low-t Coefficients of the Valley Delta Conjecture",
+      "venue": "ResearchGate preprint",
+      "links": [
+        {
+          "label": "ResearchGate",
+          "href": "https://www.researchgate.net/publication/414096843_Low-t_Coefficients_of_the_Valley_Delta_Conjecture"
+        }
+      ],
+      "featured": false
+    },
+    {
       "id": "resolutions-linear-p-cyclic-quotient-singularities",
       "date": "2026.09",
       "title": "Resolutions of Linear p-Cyclic Quotient Singularities",

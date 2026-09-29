@@ -10,7 +10,7 @@ describe("Publications", () => {
 
     const grid = screen.getByLabelText("Publications list");
     const articles = within(grid).getAllByRole("article");
-    const button = screen.getByRole("button", { name: "View 10 more publications" });
+    const button = screen.getByRole("button", { name: "View 12 more publications" });
 
     expect(articles).toHaveLength(9);
     expect(articles.map((article) => within(article).getByRole("heading").textContent)).toEqual(
@@ -27,19 +27,19 @@ describe("Publications", () => {
     render(<Publications publications={profile.publications} />);
 
     const grid = screen.getByLabelText("Publications list");
-    const button = screen.getByRole("button", { name: "View 10 more publications" });
+    const button = screen.getByRole("button", { name: "View 12 more publications" });
     await user.click(button);
 
     const expandedArticles = within(grid).getAllByRole("article");
-    expect(expandedArticles).toHaveLength(19);
-    expect(new Set(expandedArticles.map((article) => article.dataset.publicationId)).size).toBe(19);
-    expect(new Set(expandedArticles.map((article) => within(article).getByRole("heading").textContent)).size).toBe(19);
+    expect(expandedArticles).toHaveLength(21);
+    expect(new Set(expandedArticles.map((article) => article.dataset.publicationId)).size).toBe(21);
+    expect(new Set(expandedArticles.map((article) => within(article).getByRole("heading").textContent)).size).toBe(21);
     expect(button).toHaveAccessibleName("Show fewer publications");
     expect(button).toHaveAttribute("aria-expanded", "true");
 
     await user.click(button);
     expect(within(grid).getAllByRole("article")).toHaveLength(9);
-    expect(button).toHaveAccessibleName("View 10 more publications");
+    expect(button).toHaveAccessibleName("View 12 more publications");
     expect(button).toHaveAttribute("aria-expanded", "false");
   });
 
