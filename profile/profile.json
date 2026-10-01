@@ -49,6 +49,24 @@
         ]
       },
       {
+        "id": "where-scientific-search-agents-fail",
+        "date": "2026.09",
+        "title": "Where Scientific Search Agents Fail: Decision-Checkpoint Auditing of Exposure and Inspection Attempts",
+        "venue": "arXiv preprint · 2609.38670",
+        "links": [
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2609.38670"
+          }
+        ],
+        "featured": false,
+        "category": "preprint",
+        "authors": [
+          "Hongmin Li",
+          "Wanli Zhao"
+        ]
+      },
+      {
         "id": "hodge-odd-degree-fermat-fourfolds",
         "date": "2026.09",
         "title": "The Hodge Conjecture for Odd-Degree Fermat Fourfolds",
@@ -61,7 +79,9 @@
         ],
         "featured": false,
         "category": "preprint",
-        "authors": ["Hongmin Li"]
+        "authors": [
+          "Hongmin Li"
+        ]
       },
       {
         "id": "low-t-coefficients-valley-delta",
@@ -76,7 +96,9 @@
         ],
         "featured": false,
         "category": "preprint",
-        "authors": ["Hongmin Li"]
+        "authors": [
+          "Hongmin Li"
+        ]
       },
       {
         "id": "resolutions-linear-p-cyclic-quotient-singularities",

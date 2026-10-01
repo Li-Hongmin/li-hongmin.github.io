@@ -55,6 +55,8 @@
 
 ### Preprints
 
+- **2026.09** | Hongmin Li, Wanli Zhao. *“Where Scientific Search Agents Fail: Decision-Checkpoint Auditing of Exposure and Inspection Attempts”*. arXiv preprint · 2609.38670. [arXiv](https://arxiv.org/abs/2609.38670)
+
 - **2026.09** | Hongmin Li. *“The Hodge Conjecture for Odd-Degree Fermat Fourfolds”*. ResearchGate preprint. [ResearchGate](https://www.researchgate.net/publication/414096650_The_Hodge_Conjecture_for_Odd-Degree_Fermat_Fourfolds)
 
 - **2026.09** | Hongmin Li. *“Low-t Coefficients of the Valley Delta Conjecture”*. ResearchGate preprint. [ResearchGate](https://www.researchgate.net/publication/414096843_Low-t_Coefficients_of_the_Valley_Delta_Conjecture)
