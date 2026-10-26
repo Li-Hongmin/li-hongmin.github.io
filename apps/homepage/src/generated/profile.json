@@ -545,5 +545,167 @@
       "title": "Briefings in Functional Genomics"
     }
   ],
-  "lastUpdated": "July 2026"
+  "lastUpdated": "July 2026",
+  "aiMathematics": {
+    "summary": "AI-generated mathematical manuscripts released for human verification on rStation, an online platform for research preprints with platform review.",
+    "disclosure": "Accepted on rStation means accepted after rStation platform review; it is not journal peer review. The manuscripts were generated with AI assistance and their proofs require independent human verification. None of these papers claims to resolve the Riemann Hypothesis, the Hodge conjecture or P versus NP.",
+    "profileHref": "https://rstation.ai",
+    "items": [
+      {
+        "id": "rstation-riemann-hypothesis-42",
+        "date": "2026.10.26",
+        "title": "A Positive Reciprocal-Product Criterion for the Riemann Hypothesis",
+        "board": "r/riemann_hypothesis",
+        "paperId": "riemann_hypothesis_42",
+        "version": "v2",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/riemann_hypothesis/papers/42/v2"
+          }
+        ]
+      },
+      {
+        "id": "rstation-riemann-hypothesis-45",
+        "date": "2026.10.23",
+        "title": "Cutoff-free positivity of localized Weil forms through the (log 11)/2 threshold",
+        "board": "r/riemann_hypothesis",
+        "paperId": "riemann_hypothesis_45",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/riemann_hypothesis/papers/45/v1"
+          }
+        ]
+      },
+      {
+        "id": "rstation-hodge-conjecture-20",
+        "date": "2026.10.19",
+        "title": "A small-diagonal transfer from a degree-33 Fermat character to the quartic-CM determinant of a Prym eightfold, and the Hodge conjecture for its powers under explicit quotient hypotheses",
+        "board": "r/hodge_conjecture",
+        "paperId": "hodge_conjecture_20",
+        "version": "v3",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/hodge_conjecture/papers/20/v3"
+          }
+        ],
+        "qualifier": "Conditional on explicit quotient hypotheses stated in the paper"
+      },
+      {
+        "id": "rstation-hodge-conjecture-38",
+        "date": "2026.10.22",
+        "title": "Balanced Cyclic Prym Families and the Generalized Hodge Conjecture for All Powers",
+        "board": "r/hodge_conjecture",
+        "paperId": "hodge_conjecture_38",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/hodge_conjecture/papers/38/v1"
+          }
+        ]
+      },
+      {
+        "id": "rstation-hodge-conjecture-39",
+        "date": "2026.10.26",
+        "title": "Generalized Thomas Sections and Density-Corrected Residue Selectors",
+        "board": "r/hodge_conjecture",
+        "paperId": "hodge_conjecture_39",
+        "version": "v2",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/hodge_conjecture/papers/39/v2"
+          }
+        ]
+      },
+      {
+        "id": "rstation-hodge-conjecture-41",
+        "date": "2026.10.22",
+        "title": "Moving Apolar Constraints on Hodge Cycles of the Fermat Sextic Fourfold",
+        "board": "r/hodge_conjecture",
+        "paperId": "hodge_conjecture_41",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/hodge_conjecture/papers/41/v1"
+          }
+        ]
+      },
+      {
+        "id": "rstation-p-vs-np-1",
+        "date": "2026.10.25",
+        "title": "Truth-Table Quotients Do Not Close One-Tape MCSP Magnification: Small Fibers, Exact Cosets, and a Defect-Inflation Dichotomy",
+        "board": "r/p_vs_np",
+        "paperId": "p_vs_np_1",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/p_vs_np/papers/1/v1"
+          }
+        ]
+      },
+      {
+        "id": "rstation-computer-science-1",
+        "date": "2026.10.26",
+        "title": "A Single Modular Character Is Complete for SYM∘LTF Counting",
+        "board": "r/computer_science",
+        "paperId": "computer_science_1",
+        "version": "v2",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/computer_science/papers/1/v2"
+          }
+        ]
+      },
+      {
+        "id": "rstation-computer-science-2",
+        "date": "2026.10.25",
+        "title": "Tight Ordered Width for Exponential-Threshold MCSP",
+        "board": "r/computer_science",
+        "paperId": "computer_science_2",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/computer_science/papers/2/v1"
+          }
+        ]
+      },
+      {
+        "id": "rstation-math-1",
+        "date": "2026.10.25",
+        "title": "Exponentially Many Barnette Graphs with the Global $H^{+-}$ Property",
+        "board": "r/math",
+        "paperId": "math_1",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/math/papers/1/v1"
+          }
+        ]
+      },
+      {
+        "id": "rstation-math-2",
+        "date": "2026.10.25",
+        "title": "Concentration of Random Tensor Sumsets",
+        "board": "r/math",
+        "paperId": "math_2",
+        "version": "v1",
+        "links": [
+          {
+            "label": "rStation",
+            "href": "https://rstation.ai/problems/math/papers/2/v1"
+          }
+        ]
+      }
+    ]
+  }
 }

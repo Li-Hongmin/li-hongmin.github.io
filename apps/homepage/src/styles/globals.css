@@ -603,3 +603,17 @@ time { color: var(--muted); font-size: .72rem; letter-spacing: .07em; }
   .project-layers li { grid-template-columns: 2.5rem minmax(0, 1fr); }
   .note-project-link { align-items: flex-start; flex-direction: column; }
 }
+
+.ai-math-summary,
+.ai-math-disclosure {
+  max-width: 72ch;
+  margin: 0 0 1rem;
+  line-height: 1.6;
+}
+
+.ai-math-disclosure {
+  font-size: 0.9em;
+  opacity: 0.75;
+  border-left: 2px solid currentColor;
+  padding-left: 0.75rem;
+}

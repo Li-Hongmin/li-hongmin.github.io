@@ -19,7 +19,21 @@
         "education": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
         "peerReview": { "type": "array", "items": { "$ref": "#/$defs/timelineItem" } },
         "researchInterests": { "type": "array", "items": { "type": "string" } },
-        "skills": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } }
+        "skills": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } },
+        "aiMathematics": {
+          "type": "object",
+          "required": ["summary", "disclosure", "profileHref", "items"],
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "date", "title", "board", "paperId", "version", "links"],
+                "properties": { "links": { "type": "array", "items": { "$ref": "#/$defs/link" } } }
+              }
+            }
+          }
+        }
       }
     },
     "sources": { "type": "array", "items": { "$ref": "#/$defs/source" }, "minItems": 1 },

@@ -18,5 +18,17 @@ export type TimelineItem = {
   links?: ExternalLink[];
 };
 
+export type AiMathematicsItem = {
+  id: string;
+  date: string;
+  title: string;
+  board: string;
+  paperId: string;
+  version: string;
+  qualifier?: string;
+  links: ExternalLink[];
+};
+export type AiMathematics = { summary: string; disclosure: string; profileHref: string; items: AiMathematicsItem[] };
+
 export const profile = generatedProfile;
 export type Profile = typeof profile;
