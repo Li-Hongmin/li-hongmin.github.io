@@ -1,4 +1,5 @@
 import { useCallback, useState } from "react";
+import AiMathematics from "./components/AiMathematics";
 import Contact from "./components/Contact";
 import FeaturedPaper from "./components/FeaturedPaper";
 import FeaturedProjects from "./components/FeaturedProjects";
@@ -9,7 +10,7 @@ import Publications from "./components/Publications";
 import RecentNotes from "./components/RecentNotes";
 import Recognition from "./components/Recognition";
 import ResearchVision from "./components/ResearchVision";
-import { profile } from "./data/profile";
+import { profile, type AiMathematics as AiMathematicsData } from "./data/profile";
 
 export default function App() {
   const [heroCopyLifted, setHeroCopyLifted] = useState(false);
@@ -26,6 +27,7 @@ export default function App() {
       <RecentNotes />
       <FeaturedPaper publication={profile.publications[0]} />
       <Publications publications={profile.publications} />
+      <AiMathematics data={profile.aiMathematics as AiMathematicsData} />
       <Recognition profile={profile} />
       <Contact profile={profile} />
     </GlassAppShell>
