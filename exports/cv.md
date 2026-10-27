@@ -32,7 +32,7 @@
 - **2026.4 — Present** | **Guest Researcher** — Frith Lab, The University of Tokyo; [Laboratory](https://sites.google.com/site/frithbioinfo/home?authuser=0)
 - **2026.6 — Present** | **Founder** — AlphaScience Lab (Research community); [Website](https://alphascience-lab.com)
 - **2023.5 — 2026.3** | **Postdoctoral Researcher** — The University of Tokyo
-- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)
+- **2022.10 — 2023.5** | **Machine Learning Engineer** — HAOMO.AI — Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)（类似华为天才少年计划）
 - **2022.4 — 2022.10** | **Postdoctoral Researcher** — The University of Tokyo; [Details](http://asailab.cb.k.u-tokyo.ac.jp/2022/04/05/new-postdoc/)
 - **2021.7 — 2021.9** | **Machine Learning Engineer (Internship)** — HAOMO.AI
 
@@ -100,6 +100,34 @@
 - **2019.8** | Xiucai Ye, Hongmin Li, Akira Imakura, Tetsuya Sakurai. *“Distributed Collaborative Feature Selection Based on Intermediate Representation”*. IJCAI 2019. [Link](http://dx.doi.org/10.24963/ijcai.2019/575)
 
 - **2018.10** | Xiucai Ye, Hongmin Li, Tetsuya Sakurai, Zhi Liu. *“Large Scale Spectral Clustering Using Sparse Representation Based on Hubness”*. CBDCom 2018. [Link](http://dx.doi.org/10.1109/SmartWorld.2018.00293), [Code](https://github.com/Li-Hongmin/MyPaperWithCode/blob/main/Large-scale-spectral-clustering-using-sparse-representation-based-on-hubness)
+
+---
+
+## AI-generated mathematics (rStation)
+
+AI-generated mathematical manuscripts released for human verification on rStation, an online platform for research preprints with platform review. Accepted on rStation means accepted after rStation platform review; it is not journal peer review. The manuscripts were generated with AI assistance and their proofs require independent human verification. None of these papers claims to resolve the Riemann Hypothesis, the Hodge conjecture or P versus NP.
+
+- **2026.10.27** | *“Exponentially Many Barnette Graphs with the Global $H^{+-}$ Property”*. rStation r/math, math_1 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/math/papers/1/v2)
+
+- **2026.10.26** | *“A Positive Reciprocal-Product Criterion for the Riemann Hypothesis”*. rStation r/riemann_hypothesis, riemann_hypothesis_42 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/riemann_hypothesis/papers/42/v2)
+
+- **2026.10.26** | *“Generalized Thomas Sections and Density-Corrected Residue Selectors”*. rStation r/hodge_conjecture, hodge_conjecture_39 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/hodge_conjecture/papers/39/v2)
+
+- **2026.10.26** | *“A Single Modular Character Is Complete for SYM∘LTF Counting”*. rStation r/computer_science, computer_science_1 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/computer_science/papers/1/v2)
+
+- **2026.10.25** | *“Truth-Table Quotients Do Not Close One-Tape MCSP Magnification: Small Fibers, Exact Cosets, and a Defect-Inflation Dichotomy”*. rStation r/p_vs_np, p_vs_np_1 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/p_vs_np/papers/1/v1)
+
+- **2026.10.25** | *“Tight Ordered Width for Exponential-Threshold MCSP”*. rStation r/computer_science, computer_science_2 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/computer_science/papers/2/v1)
+
+- **2026.10.25** | *“Concentration of Random Tensor Sumsets”*. rStation r/math, math_2 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/math/papers/2/v1)
+
+- **2026.10.23** | *“Cutoff-free positivity of localized Weil forms through the (log 11)/2 threshold”*. rStation r/riemann_hypothesis, riemann_hypothesis_45 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/riemann_hypothesis/papers/45/v1)
+
+- **2026.10.22** | *“Balanced Cyclic Prym Families and the Generalized Hodge Conjecture for All Powers”*. rStation r/hodge_conjecture, hodge_conjecture_38 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/hodge_conjecture/papers/38/v1)
+
+- **2026.10.22** | *“Moving Apolar Constraints on Hodge Cycles of the Fermat Sextic Fourfold”*. rStation r/hodge_conjecture, hodge_conjecture_41 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/hodge_conjecture/papers/41/v1)
+
+- **2026.10.19** | *“A small-diagonal transfer from a degree-33 Fermat character to the quartic-CM determinant of a Prym eightfold, and the Hodge conjecture for its powers under explicit quotient hypotheses”*. rStation r/hodge_conjecture, hodge_conjecture_20 v3 (accepted after platform review). Conditional on explicit quotient hypotheses stated in the paper. [rStation](https://rstation.ai/problems/hodge_conjecture/papers/20/v3)
 
 ---
 

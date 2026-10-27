@@ -34,6 +34,16 @@ function renderPublications(publications) {
   }).filter(Boolean).join("\n\n");
 }
 
+function renderAiMathematics(ai) {
+  if (!ai?.items?.length) return "";
+  const rows = [...ai.items].sort((a, b) => b.date.localeCompare(a.date, undefined, { numeric: true })).map((item) => {
+    const title = item.title;
+    const qualifier = item.qualifier ? ` ${item.qualifier}.` : "";
+    return `- **${item.date}** | *“${title}”*. rStation ${item.board}, ${item.paperId} ${item.version} (accepted after platform review).${qualifier} ${links(item.links)}`;
+  });
+  return `\n\n---\n\n## AI-generated mathematics (rStation)\n\n${ai.summary} ${ai.disclosure}\n\n${rows.join("\n\n")}`;
+}
+
 function renderCv(profile) {
   const data = profile.publicProfile;
   const cv = profile.exports.cv;
@@ -42,7 +52,7 @@ function renderCv(profile) {
   const affiliation = (item) => `${item.organization}${item.links?.[0] ? ` ([${item.links[0].label}](${item.links[0].href}))` : ""}`;
   const skillSections = Object.entries(data.skills).map(([heading, items]) => `### ${heading}\n${bulletList(items)}`).join("\n\n");
 
-  return `# ${cv.title}\n\n**Email:** ${data.email.replace("@", "[at]")}\n\n**Primary Affiliation:** ${affiliation(primary)}\n\n**Guest Affiliation:** ${affiliation(guest)}\n\n---\n\n## Research Interests\n\n${bulletList(data.researchInterests)}\n\n---\n\n## Education\n\n${renderTimeline(data.education)}\n\n---\n\n## Academic & industry appointments\n\n${renderTimeline(data.experience)}\n\n---\n\n## Research funding & computing support\n\n${renderTimeline(data.grants)}\n\n---\n\n## Publications\n\n${renderPublications(data.publications)}\n\n---\n\n## Conference presentations\n\n${renderTimeline(data.activities)}\n\n---\n\n## Peer Review Activities\n\n${renderTimeline(data.peerReview)}\n\n---\n\n## Honors & fellowships\n\n${renderTimeline(data.awards)}\n\n---\n\n## Skills\n\n${skillSections}\n`;
+  return `# ${cv.title}\n\n**Email:** ${data.email.replace("@", "[at]")}\n\n**Primary Affiliation:** ${affiliation(primary)}\n\n**Guest Affiliation:** ${affiliation(guest)}\n\n---\n\n## Research Interests\n\n${bulletList(data.researchInterests)}\n\n---\n\n## Education\n\n${renderTimeline(data.education)}\n\n---\n\n## Academic & industry appointments\n\n${renderTimeline(data.experience)}\n\n---\n\n## Research funding & computing support\n\n${renderTimeline(data.grants)}\n\n---\n\n## Publications\n\n${renderPublications(data.publications)}${renderAiMathematics(data.aiMathematics)}\n\n---\n\n## Conference presentations\n\n${renderTimeline(data.activities)}\n\n---\n\n## Peer Review Activities\n\n${renderTimeline(data.peerReview)}\n\n---\n\n## Honors & fellowships\n\n${renderTimeline(data.awards)}\n\n---\n\n## Skills\n\n${skillSections}\n`;
 }
 
 function renderHomepageProfile(publicProfile) {

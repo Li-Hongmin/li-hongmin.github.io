@@ -155,7 +155,7 @@ describe("profile data", () => {
       date: "2022.10 — 2023.5",
       title: "Machine Learning Engineer",
       organization: "HAOMO.AI",
-      detail: "Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)",
+      detail: "Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)（类似华为天才少年计划）",
     });
   });
 });

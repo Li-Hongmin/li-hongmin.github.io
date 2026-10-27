@@ -371,7 +371,7 @@
       "date": "2022.10 — 2023.5",
       "title": "Machine Learning Engineer",
       "organization": "HAOMO.AI",
-      "detail": "Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)"
+      "detail": "Autonomous-driving project · [蓝色空间领航者(A super high salary project)](https://zhuanlan.zhihu.com/p/398698463)（类似华为天才少年计划）"
     },
     {
       "id": "utokyo-researcher",
@@ -788,15 +788,15 @@
       },
       {
         "id": "rstation-math-1",
-        "date": "2026.10.25",
+        "date": "2026.10.27",
         "title": "Exponentially Many Barnette Graphs with the Global $H^{+-}$ Property",
         "board": "r/math",
         "paperId": "math_1",
-        "version": "v1",
+        "version": "v2",
         "links": [
           {
             "label": "rStation",
-            "href": "https://rstation.ai/problems/math/papers/1/v1"
+            "href": "https://rstation.ai/problems/math/papers/1/v2"
           }
         ]
       },
