@@ -105,29 +105,29 @@
 
 ## AI-generated mathematics (rStation)
 
-AI-generated mathematical manuscripts released for human verification on rStation, an online platform for research preprints with platform review. Accepted on rStation means accepted after rStation platform review; it is not journal peer review. The manuscripts were generated with AI assistance and their proofs require independent human verification. None of these papers claims to resolve the Riemann Hypothesis, the Hodge conjecture or P versus NP.
+Mathematical manuscripts generated with AI assistance and publicly posted on rStation.
 
-- **2026.10.27** | *“Exponentially Many Barnette Graphs with the Global $H^{+-}$ Property”*. rStation r/math, math_1 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/math/papers/1/v2)
+- **2026.10.27** | *“Exponentially Many Barnette Graphs with the Global $H^{+-}$ Property”*. rStation r/math, math_1 v2. <https://rstation.ai/problems/math/papers/1/v2>
 
-- **2026.10.26** | *“A Positive Reciprocal-Product Criterion for the Riemann Hypothesis”*. rStation r/riemann_hypothesis, riemann_hypothesis_42 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/riemann_hypothesis/papers/42/v2)
+- **2026.10.26** | *“A Positive Reciprocal-Product Criterion for the Riemann Hypothesis”*. rStation r/riemann_hypothesis, riemann_hypothesis_42 v2. <https://rstation.ai/problems/riemann_hypothesis/papers/42/v2>
 
-- **2026.10.26** | *“Generalized Thomas Sections and Density-Corrected Residue Selectors”*. rStation r/hodge_conjecture, hodge_conjecture_39 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/hodge_conjecture/papers/39/v2)
+- **2026.10.26** | *“Generalized Thomas Sections and Density-Corrected Residue Selectors”*. rStation r/hodge_conjecture, hodge_conjecture_39 v2. <https://rstation.ai/problems/hodge_conjecture/papers/39/v2>
 
-- **2026.10.26** | *“A Single Modular Character Is Complete for SYM∘LTF Counting”*. rStation r/computer_science, computer_science_1 v2 (accepted after platform review). [rStation](https://rstation.ai/problems/computer_science/papers/1/v2)
+- **2026.10.26** | *“A Single Modular Character Is Complete for SYM∘LTF Counting”*. rStation r/computer_science, computer_science_1 v2. <https://rstation.ai/problems/computer_science/papers/1/v2>
 
-- **2026.10.25** | *“Truth-Table Quotients Do Not Close One-Tape MCSP Magnification: Small Fibers, Exact Cosets, and a Defect-Inflation Dichotomy”*. rStation r/p_vs_np, p_vs_np_1 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/p_vs_np/papers/1/v1)
+- **2026.10.25** | *“Truth-Table Quotients Do Not Close One-Tape MCSP Magnification: Small Fibers, Exact Cosets, and a Defect-Inflation Dichotomy”*. rStation r/p_vs_np, p_vs_np_1 v1. <https://rstation.ai/problems/p_vs_np/papers/1/v1>
 
-- **2026.10.25** | *“Tight Ordered Width for Exponential-Threshold MCSP”*. rStation r/computer_science, computer_science_2 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/computer_science/papers/2/v1)
+- **2026.10.25** | *“Tight Ordered Width for Exponential-Threshold MCSP”*. rStation r/computer_science, computer_science_2 v1. <https://rstation.ai/problems/computer_science/papers/2/v1>
 
-- **2026.10.25** | *“Concentration of Random Tensor Sumsets”*. rStation r/math, math_2 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/math/papers/2/v1)
+- **2026.10.25** | *“Concentration of Random Tensor Sumsets”*. rStation r/math, math_2 v1. <https://rstation.ai/problems/math/papers/2/v1>
 
-- **2026.10.23** | *“Cutoff-free positivity of localized Weil forms through the (log 11)/2 threshold”*. rStation r/riemann_hypothesis, riemann_hypothesis_45 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/riemann_hypothesis/papers/45/v1)
+- **2026.10.23** | *“Cutoff-free positivity of localized Weil forms through the (log 11)/2 threshold”*. rStation r/riemann_hypothesis, riemann_hypothesis_45 v1. <https://rstation.ai/problems/riemann_hypothesis/papers/45/v1>
 
-- **2026.10.22** | *“Balanced Cyclic Prym Families and the Generalized Hodge Conjecture for All Powers”*. rStation r/hodge_conjecture, hodge_conjecture_38 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/hodge_conjecture/papers/38/v1)
+- **2026.10.22** | *“Balanced Cyclic Prym Families and the Generalized Hodge Conjecture for All Powers”*. rStation r/hodge_conjecture, hodge_conjecture_38 v1. <https://rstation.ai/problems/hodge_conjecture/papers/38/v1>
 
-- **2026.10.22** | *“Moving Apolar Constraints on Hodge Cycles of the Fermat Sextic Fourfold”*. rStation r/hodge_conjecture, hodge_conjecture_41 v1 (accepted after platform review). [rStation](https://rstation.ai/problems/hodge_conjecture/papers/41/v1)
+- **2026.10.22** | *“Moving Apolar Constraints on Hodge Cycles of the Fermat Sextic Fourfold”*. rStation r/hodge_conjecture, hodge_conjecture_41 v1. <https://rstation.ai/problems/hodge_conjecture/papers/41/v1>
 
-- **2026.10.19** | *“A small-diagonal transfer from a degree-33 Fermat character to the quartic-CM determinant of a Prym eightfold, and the Hodge conjecture for its powers under explicit quotient hypotheses”*. rStation r/hodge_conjecture, hodge_conjecture_20 v3 (accepted after platform review). Conditional on explicit quotient hypotheses stated in the paper. [rStation](https://rstation.ai/problems/hodge_conjecture/papers/20/v3)
+- **2026.10.19** | *“A small-diagonal transfer from a degree-33 Fermat character to the quartic-CM determinant of a Prym eightfold, and the Hodge conjecture for its powers under explicit quotient hypotheses”*. rStation r/hodge_conjecture, hodge_conjecture_20 v3. Conditional on explicit quotient hypotheses stated in the paper. <https://rstation.ai/problems/hodge_conjecture/papers/20/v3>
 
 ---
 

@@ -39,9 +39,9 @@ function renderAiMathematics(ai) {
   const rows = [...ai.items].sort((a, b) => b.date.localeCompare(a.date, undefined, { numeric: true })).map((item) => {
     const title = item.title;
     const qualifier = item.qualifier ? ` ${item.qualifier}.` : "";
-    return `- **${item.date}** | *“${title}”*. rStation ${item.board}, ${item.paperId} ${item.version} (accepted after platform review).${qualifier} ${links(item.links)}`;
+    return `- **${item.date}** | *“${title}”*. rStation ${item.board}, ${item.paperId} ${item.version}.${qualifier} ${item.links.map((l) => `<${l.href}>`).join(" ")}`;
   });
-  return `\n\n---\n\n## AI-generated mathematics (rStation)\n\n${ai.summary} ${ai.disclosure}\n\n${rows.join("\n\n")}`;
+  return `\n\n---\n\n## AI-generated mathematics (rStation)\n\nMathematical manuscripts generated with AI assistance and publicly posted on rStation.\n\n${rows.join("\n\n")}`;
 }
 
 function renderCv(profile) {
