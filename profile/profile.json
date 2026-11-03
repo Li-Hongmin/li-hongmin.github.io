@@ -526,6 +526,12 @@
     ],
     "grants": [
       {
+        "id": "google-antigravity-science-2026",
+        "date": "2026.11",
+        "title": "Google Antigravity for Science — Upgraded Access",
+        "detail": "Six months of upgraded Google Antigravity access (Gemini 4 Argon, highest usage limits) for non-commercial research · through 2027.05"
+      },
+      {
         "id": "google-cloud-tpu-builders-2026",
         "date": "2026.06",
         "title": "Google Cloud TPU Builders Award",
@@ -1156,6 +1162,13 @@
     }
   ],
   "evidence": [
+    {
+      "id": "evidence-antigravity-2026",
+      "targetId": "google-antigravity-science-2026",
+      "fields": ["date"],
+      "sources": ["current-cv"],
+      "note": "Notification email from antigravity-science-support@google.com, 2026-11-03: six-month upgraded access active until 2027-05-03. Non-cash service access."
+    },
     {
       "id": "evidence-tpu-credits",
       "targetId": "google-cloud-tpu-builders-2026",

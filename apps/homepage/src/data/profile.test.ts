@@ -12,7 +12,7 @@ describe("profile data", () => {
     expect(profile.x).toBe("https://x.com/lihongmin_lab");
     expect(profile.publications).toHaveLength(22);
     expect(profile.experience).toHaveLength(7);
-    expect(profile.grants).toHaveLength(4);
+    expect(profile.grants).toHaveLength(5);
     expect(profile.activities).toHaveLength(13);
     expect(profile.awards).toHaveLength(4);
     expect(profile.education).toHaveLength(3);

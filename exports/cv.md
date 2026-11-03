@@ -40,6 +40,7 @@
 
 ## Research funding & computing support
 
+- **2026.11** | **Google Antigravity for Science — Upgraded Access** — Six months of upgraded Google Antigravity access (Gemini 4 Argon, highest usage limits) for non-commercial research · through 2027.05
 - **2026.06** | **Google Cloud TPU Builders Award** — Cloud computing support · USD 7,500 in Google Cloud computing credits
 - **2026.04** | **Grant-in-Aid for Early-Career Scientists (KAKENHI)** — Development of an Input Data Differentiable Integrated Framework (ID3) for Biomolecular Sequence Design · ¥4,550,000; [Project info](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21370/)
 - **2025.10** | **Google research support** — Biological sequence optimization · USD 30,000

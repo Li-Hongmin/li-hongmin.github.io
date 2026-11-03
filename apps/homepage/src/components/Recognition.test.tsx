@@ -65,7 +65,7 @@ describe("Recognition", () => {
 
     expect(getTimeline("Conference participation & presentations").getByRole("button")).toHaveAccessibleName("View 1 more activity");
     const funding = getTimeline("Research funding & computing support");
-    expect(funding.getAllByRole("listitem")).toHaveLength(4);
+    expect(funding.getAllByRole("listitem")).toHaveLength(5);
     expect(funding.queryByRole("button")).not.toBeInTheDocument();
   });
 

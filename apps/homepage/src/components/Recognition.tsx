@@ -86,6 +86,7 @@ export default function Recognition({ profile }: { profile: Profile }) {
           sectionId="grants"
           itemName="funding record"
           itemNamePlural="funding records"
+          collapsible={false}
         />
         <Timeline
           label="Honors & fellowships"
